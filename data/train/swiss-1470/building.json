@@ -1,0 +1,6862 @@
+{
+ "building": {
+  "id": "swiss-1470",
+  "name": "Residential building 1470",
+  "source": "swiss_dwellings",
+  "source_ref": {
+   "building_id": "1470",
+   "site_id": "695"
+  },
+  "license": "CC-BY-4.0",
+  "attribution": "Swiss Dwellings, Archilyse AG / Standfest et al., https://zenodo.org/records/7070952 (CC BY 4.0)",
+  "split": "train",
+  "units": "m"
+ },
+ "floors": [
+  {
+   "id": "swiss-1470-F0",
+   "level": 0,
+   "name": "Ground floor",
+   "elevation_m": 0.0,
+   "height_m": 3.0
+  },
+  {
+   "id": "swiss-1470-F1",
+   "level": 1,
+   "name": "Floor 1",
+   "elevation_m": 3.0,
+   "height_m": 3.0
+  },
+  {
+   "id": "swiss-1470-F2",
+   "level": 2,
+   "name": "Floor 2",
+   "elevation_m": 6.0,
+   "height_m": 3.0
+  }
+ ],
+ "spaces": [
+  {
+   "id": "swiss-1470-F0-S001",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "bathroom",
+   "name": "Bathroom 0.01 (apartment 1)",
+   "ref": "0.01",
+   "polygon": [
+    [
+     -1.331,
+     5.8
+    ],
+    [
+     -1.267,
+     6.805
+    ],
+    [
+     -0.782,
+     6.774
+    ],
+    [
+     -0.773,
+     6.916
+    ],
+    [
+     -3.031,
+     7.06
+    ],
+    [
+     -2.915,
+     8.869
+    ],
+    [
+     0.029,
+     8.68
+    ],
+    [
+     -0.16,
+     5.725
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S002",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 0.02 (apartment 1)",
+   "ref": "0.02",
+   "polygon": [
+    [
+     2.215,
+     10.182
+    ],
+    [
+     2.401,
+     13.082
+    ],
+    [
+     6.781,
+     12.802
+    ],
+    [
+     6.595,
+     9.901
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S003",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "living_room",
+   "name": "Living room 0.03 (apartment 1)",
+   "ref": "0.03",
+   "polygon": [
+    [
+     -3.776,
+     13.449
+    ],
+    [
+     -4.011,
+     9.111
+    ],
+    [
+     -6.95,
+     9.299
+    ],
+    [
+     -6.672,
+     13.635
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S004",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 0.04 (apartment 1)",
+   "ref": "0.04",
+   "polygon": [
+    [
+     2.023,
+     7.191
+    ],
+    [
+     2.206,
+     10.043
+    ],
+    [
+     6.586,
+     9.762
+    ],
+    [
+     6.403,
+     6.91
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S005",
+   "floor_id": "swiss-1470-F0",
+   "type": "corridor",
+   "room_type": "corridor",
+   "name": "Corridor 0.05 (apartment 1)",
+   "ref": "0.05",
+   "polygon": [
+    [
+     -0.078,
+     5.72
+    ],
+    [
+     0.119,
+     8.846
+    ],
+    [
+     -0.882,
+     8.91
+    ],
+    [
+     -0.603,
+     13.262
+    ],
+    [
+     2.23,
+     13.094
+    ],
+    [
+     1.749,
+     5.603
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S006",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 0.06 (apartment 1)",
+   "ref": "0.06",
+   "polygon": [
+    [
+     1.795,
+     3.633
+    ],
+    [
+     2.014,
+     7.049
+    ],
+    [
+     6.394,
+     6.768
+    ],
+    [
+     6.173,
+     3.322
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S007",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 0.07 (apartment 1)",
+   "ref": "0.07",
+   "polygon": [
+    [
+     -9.979,
+     9.493
+    ],
+    [
+     -9.701,
+     13.829
+    ],
+    [
+     -6.853,
+     13.647
+    ],
+    [
+     -7.131,
+     9.311
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S008",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "kitchen",
+   "name": "Kitchen 0.08 (apartment 1)",
+   "ref": "0.08",
+   "polygon": [
+    [
+     -0.784,
+     13.273
+    ],
+    [
+     -1.063,
+     8.921
+    ],
+    [
+     -3.999,
+     9.11
+    ],
+    [
+     -3.764,
+     13.449
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S009",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "living_room",
+   "name": "Living room 0.09 (apartment 1)",
+   "ref": "0.09",
+   "polygon": [
+    [
+     -9.993,
+     9.323
+    ],
+    [
+     -3.097,
+     8.881
+    ],
+    [
+     -3.412,
+     3.968
+    ],
+    [
+     -10.308,
+     4.41
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S010",
+   "floor_id": "swiss-1470-F0",
+   "type": "outdoor",
+   "room_type": "balcony",
+   "name": "Balcony 0.10 (apartment 1)",
+   "ref": "0.10",
+   "polygon": [
+    [
+     -3.249,
+     3.665
+    ],
+    [
+     -3.248,
+     3.686
+    ],
+    [
+     -2.116,
+     3.613
+    ],
+    [
+     -2.42,
+     -1.115
+    ],
+    [
+     -4.23,
+     -0.999
+    ],
+    [
+     -4.082,
+     1.316
+    ],
+    [
+     -10.48,
+     1.727
+    ],
+    [
+     -10.326,
+     4.118
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S011",
+   "floor_id": "swiss-1470-F0",
+   "type": "corridor",
+   "room_type": "corridor",
+   "name": "Corridor 0.11 (apartment 1)",
+   "ref": "0.11",
+   "polygon": [
+    [
+     -3.229,
+     3.972
+    ],
+    [
+     -3.109,
+     5.842
+    ],
+    [
+     1.744,
+     5.531
+    ],
+    [
+     1.625,
+     3.661
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S012",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 0.12 (apartment 2)",
+   "ref": "0.12",
+   "polygon": [
+    [
+     2.778,
+     -4.624
+    ],
+    [
+     7.146,
+     -4.904
+    ],
+    [
+     6.958,
+     -7.831
+    ],
+    [
+     2.591,
+     -7.551
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S013",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 0.13 (apartment 2)",
+   "ref": "0.13",
+   "polygon": [
+    [
+     6.948,
+     -7.98
+    ],
+    [
+     6.761,
+     -10.906
+    ],
+    [
+     2.393,
+     -10.626
+    ],
+    [
+     2.581,
+     -7.7
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S014",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "bathroom",
+   "name": "Bathroom 0.14 (apartment 2)",
+   "ref": "0.14",
+   "polygon": [
+    [
+     -0.687,
+     -10.033
+    ],
+    [
+     0.308,
+     -10.097
+    ],
+    [
+     0.224,
+     -11.416
+    ],
+    [
+     -0.772,
+     -11.352
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S015",
+   "floor_id": "swiss-1470-F0",
+   "type": "corridor",
+   "room_type": "corridor",
+   "name": "Corridor 0.15 (apartment 2)",
+   "ref": "0.15",
+   "polygon": [
+    [
+     -0.211,
+     -1.386
+    ],
+    [
+     -0.399,
+     -4.313
+    ],
+    [
+     -2.194,
+     -4.197
+    ],
+    [
+     -2.007,
+     -1.271
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S016",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 0.16 (apartment 2)",
+   "ref": "0.16",
+   "polygon": [
+    [
+     3.021,
+     -0.842
+    ],
+    [
+     7.389,
+     -1.111
+    ],
+    [
+     7.154,
+     -4.776
+    ],
+    [
+     2.787,
+     -4.496
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S017",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 0.17 (apartment 2)",
+   "ref": "0.17",
+   "polygon": [
+    [
+     2.153,
+     -11.682
+    ],
+    [
+     1.844,
+     -16.511
+    ],
+    [
+     -2.964,
+     -16.202
+    ],
+    [
+     -2.549,
+     -9.721
+    ],
+    [
+     -0.777,
+     -9.835
+    ],
+    [
+     -0.883,
+     -11.487
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S018",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "storage",
+   "name": "Storage 0.18 (apartment 2)",
+   "ref": "0.18",
+   "polygon": [
+    [
+     -0.065,
+     -1.935
+    ],
+    [
+     2.767,
+     -2.116
+    ],
+    [
+     2.681,
+     -3.452
+    ],
+    [
+     -0.15,
+     -3.271
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S019",
+   "floor_id": "swiss-1470-F0",
+   "type": "outdoor",
+   "room_type": "balcony",
+   "name": "Balcony 0.19 (apartment 2)",
+   "ref": "0.19",
+   "polygon": [
+    [
+     -2.428,
+     -1.244
+    ],
+    [
+     -3.398,
+     -16.366
+    ],
+    [
+     -5.208,
+     -16.25
+    ],
+    [
+     -4.238,
+     -1.127
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S020",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "living_room",
+   "name": "Living room 0.20 (apartment 2)",
+   "ref": "0.20",
+   "polygon": [
+    [
+     2.231,
+     -13.164
+    ],
+    [
+     6.598,
+     -13.444
+    ],
+    [
+     6.385,
+     -16.802
+    ],
+    [
+     2.015,
+     -16.522
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S021",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "bathroom",
+   "name": "Bathroom 0.21 (apartment 2)",
+   "ref": "0.21",
+   "polygon": [
+    [
+     0.385,
+     -11.429
+    ],
+    [
+     0.572,
+     -8.513
+    ],
+    [
+     2.349,
+     -8.627
+    ],
+    [
+     2.162,
+     -11.543
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S022",
+   "floor_id": "swiss-1470-F0",
+   "type": "corridor",
+   "room_type": "corridor",
+   "name": "Corridor 0.22 (apartment 2)",
+   "ref": "0.22",
+   "polygon": [
+    [
+     -0.768,
+     -9.693
+    ],
+    [
+     -2.539,
+     -9.579
+    ],
+    [
+     -2.203,
+     -4.336
+    ],
+    [
+     -0.227,
+     -4.463
+    ],
+    [
+     -0.164,
+     -3.483
+    ],
+    [
+     2.668,
+     -3.665
+    ],
+    [
+     2.358,
+     -8.499
+    ],
+    [
+     -0.655,
+     -8.305
+    ],
+    [
+     -0.66,
+     -8.39
+    ],
+    [
+     -0.684,
+     -8.388
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S023",
+   "floor_id": "swiss-1470-F0",
+   "type": "room",
+   "room_type": "kitchen",
+   "name": "Kitchen 0.23 (apartment 2)",
+   "ref": "0.23",
+   "polygon": [
+    [
+     6.752,
+     -11.047
+    ],
+    [
+     6.599,
+     -13.432
+    ],
+    [
+     2.232,
+     -13.152
+    ],
+    [
+     2.384,
+     -10.767
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-S024",
+   "floor_id": "swiss-1470-F0",
+   "type": "corridor",
+   "room_type": "stairwell",
+   "name": "Landing 0.24",
+   "ref": "0.24",
+   "polygon": [
+    [
+     -1.793,
+     2.389
+    ],
+    [
+     -1.716,
+     3.588
+    ],
+    [
+     0.656,
+     3.436
+    ],
+    [
+     0.618,
+     3.197
+    ],
+    [
+     0.478,
+     2.874
+    ],
+    [
+     0.251,
+     2.605
+    ],
+    [
+     -0.045,
+     2.414
+    ],
+    [
+     -0.268,
+     2.338
+    ],
+    [
+     -0.501,
+     2.307
+    ]
+   ],
+   "synthetic": true
+  },
+  {
+   "id": "swiss-1470-F0-S025",
+   "floor_id": "swiss-1470-F0",
+   "type": "corridor",
+   "room_type": "stairwell",
+   "name": "Landing 0.25",
+   "ref": "0.25",
+   "polygon": [
+    [
+     -0.147,
+     -0.259
+    ],
+    [
+     0.098,
+     -0.512
+    ],
+    [
+     0.216,
+     -0.715
+    ],
+    [
+     0.292,
+     -0.938
+    ],
+    [
+     0.323,
+     -1.171
+    ],
+    [
+     0.313,
+     -1.422
+    ],
+    [
+     0.214,
+     -1.825
+    ],
+    [
+     -0.057,
+     -1.807
+    ],
+    [
+     -0.061,
+     -1.869
+    ],
+    [
+     0.026,
+     -0.499
+    ],
+    [
+     -0.153,
+     -0.488
+    ],
+    [
+     -0.202,
+     -1.258
+    ],
+    [
+     -2.019,
+     -1.142
+    ],
+    [
+     -1.943,
+     0.056
+    ],
+    [
+     -0.567,
+     -0.052
+    ],
+    [
+     -0.347,
+     -0.135
+    ]
+   ],
+   "synthetic": true
+  },
+  {
+   "id": "swiss-1470-F1-S001",
+   "floor_id": "swiss-1470-F1",
+   "type": "corridor",
+   "room_type": "corridor",
+   "name": "Corridor 1.01 (apartment 3)",
+   "ref": "1.01",
+   "polygon": [
+    [
+     -0.87,
+     -9.713
+    ],
+    [
+     -2.621,
+     -9.586
+    ],
+    [
+     -2.242,
+     -4.337
+    ],
+    [
+     -0.272,
+     -4.48
+    ],
+    [
+     -0.201,
+     -3.499
+    ],
+    [
+     2.664,
+     -3.706
+    ],
+    [
+     2.315,
+     -8.537
+    ],
+    [
+     -0.768,
+     -8.295
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S002",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "living_room",
+   "name": "Living room 1.02 (apartment 3)",
+   "ref": "1.02",
+   "polygon": [
+    [
+     6.507,
+     -13.467
+    ],
+    [
+     6.254,
+     -16.98
+    ],
+    [
+     1.922,
+     -16.668
+    ],
+    [
+     2.175,
+     -13.149
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S003",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 1.03 (apartment 3)",
+   "ref": "1.03",
+   "polygon": [
+    [
+     6.899,
+     -8.033
+    ],
+    [
+     6.689,
+     -10.943
+    ],
+    [
+     2.347,
+     -10.63
+    ],
+    [
+     2.557,
+     -7.72
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S004",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "bathroom",
+   "name": "Bathroom 1.04 (apartment 3)",
+   "ref": "1.04",
+   "polygon": [
+    [
+     2.305,
+     -8.679
+    ],
+    [
+     2.095,
+     -11.6
+    ],
+    [
+     0.287,
+     -11.469
+    ],
+    [
+     0.498,
+     -8.549
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S005",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 1.05 (apartment 3)",
+   "ref": "1.05",
+   "polygon": [
+    [
+     2.777,
+     -4.668
+    ],
+    [
+     7.119,
+     -4.982
+    ],
+    [
+     6.909,
+     -7.891
+    ],
+    [
+     2.567,
+     -7.578
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S006",
+   "floor_id": "swiss-1470-F1",
+   "type": "outdoor",
+   "room_type": "balcony",
+   "name": "Balcony 1.06 (apartment 3)",
+   "ref": "1.06",
+   "polygon": [
+    [
+     -2.468,
+     -1.324
+    ],
+    [
+     -3.561,
+     -16.476
+    ],
+    [
+     -5.444,
+     -16.34
+    ],
+    [
+     -4.288,
+     -1.193
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S007",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "storage",
+   "name": "Storage 1.07 (apartment 3)",
+   "ref": "1.07",
+   "polygon": [
+    [
+     -0.09,
+     -1.956
+    ],
+    [
+     2.775,
+     -2.163
+    ],
+    [
+     2.68,
+     -3.474
+    ],
+    [
+     -0.185,
+     -3.268
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S008",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "bathroom",
+   "name": "Bathroom 1.08 (apartment 3)",
+   "ref": "1.08",
+   "polygon": [
+    [
+     0.211,
+     -10.132
+    ],
+    [
+     0.116,
+     -11.457
+    ],
+    [
+     -0.887,
+     -11.385
+    ],
+    [
+     -0.792,
+     -10.059
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S009",
+   "floor_id": "swiss-1470-F1",
+   "type": "corridor",
+   "room_type": "corridor",
+   "name": "Corridor 1.09 (apartment 3)",
+   "ref": "1.09",
+   "polygon": [
+    [
+     -0.253,
+     -1.403
+    ],
+    [
+     -0.463,
+     -4.318
+    ],
+    [
+     -2.232,
+     -4.19
+    ],
+    [
+     -2.022,
+     -1.275
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S010",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 1.10 (apartment 3)",
+   "ref": "1.10",
+   "polygon": [
+    [
+     3.049,
+     -0.898
+    ],
+    [
+     7.391,
+     -1.211
+    ],
+    [
+     7.129,
+     -4.84
+    ],
+    [
+     2.787,
+     -4.527
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S011",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 1.11 (apartment 3)",
+   "ref": "1.11",
+   "polygon": [
+    [
+     2.163,
+     -13.148
+    ],
+    [
+     1.91,
+     -16.667
+    ],
+    [
+     -3.105,
+     -16.305
+    ],
+    [
+     -2.632,
+     -9.738
+    ],
+    [
+     -0.881,
+     -9.864
+    ],
+    [
+     -1.002,
+     -11.55
+    ],
+    [
+     -0.9,
+     -11.557
+    ],
+    [
+     -0.897,
+     -11.526
+    ],
+    [
+     2.084,
+     -11.741
+    ],
+    [
+     1.973,
+     -13.134
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S012",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "kitchen",
+   "name": "Kitchen 1.12 (apartment 3)",
+   "ref": "1.12",
+   "polygon": [
+    [
+     2.33,
+     -10.871
+    ],
+    [
+     6.672,
+     -11.184
+    ],
+    [
+     6.508,
+     -13.455
+    ],
+    [
+     2.166,
+     -13.136
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S013",
+   "floor_id": "swiss-1470-F1",
+   "type": "corridor",
+   "room_type": "corridor",
+   "name": "Corridor 1.13 (apartment 4)",
+   "ref": "1.13",
+   "polygon": [
+    [
+     -0.035,
+     5.719
+    ],
+    [
+     0.192,
+     8.869
+    ],
+    [
+     0.11,
+     8.875
+    ],
+    [
+     0.107,
+     8.833
+    ],
+    [
+     -0.824,
+     8.9
+    ],
+    [
+     -0.506,
+     13.307
+    ],
+    [
+     2.337,
+     13.102
+    ],
+    [
+     1.795,
+     5.587
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S014",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 1.14 (apartment 4)",
+   "ref": "1.14",
+   "polygon": [
+    [
+     1.836,
+     3.632
+    ],
+    [
+     2.081,
+     7.032
+    ],
+    [
+     6.468,
+     6.716
+    ],
+    [
+     6.223,
+     3.315
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S015",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 1.15 (apartment 4)",
+   "ref": "1.15",
+   "polygon": [
+    [
+     6.695,
+     9.863
+    ],
+    [
+     2.308,
+     10.179
+    ],
+    [
+     2.518,
+     13.089
+    ],
+    [
+     6.905,
+     12.772
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S016",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "bathroom",
+   "name": "Bathroom 1.16 (apartment 4)",
+   "ref": "1.16",
+   "polygon": [
+    [
+     -1.299,
+     5.81
+    ],
+    [
+     -1.227,
+     6.81
+    ],
+    [
+     -0.746,
+     6.776
+    ],
+    [
+     -0.735,
+     6.927
+    ],
+    [
+     -2.977,
+     7.089
+    ],
+    [
+     -2.847,
+     8.893
+    ],
+    [
+     0.096,
+     8.681
+    ],
+    [
+     -0.117,
+     5.725
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S017",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 1.17 (apartment 4)",
+   "ref": "1.17",
+   "polygon": [
+    [
+     2.092,
+     7.184
+    ],
+    [
+     2.297,
+     10.028
+    ],
+    [
+     6.684,
+     9.711
+    ],
+    [
+     6.479,
+     6.868
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S018",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 1.18 (apartment 4)",
+   "ref": "1.18",
+   "polygon": [
+    [
+     -9.605,
+     13.963
+    ],
+    [
+     -6.727,
+     13.755
+    ],
+    [
+     -7.045,
+     9.348
+    ],
+    [
+     -9.923,
+     9.556
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S019",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 1.19 (apartment 4)",
+   "ref": "1.19",
+   "polygon": [
+    [
+     -10.287,
+     4.506
+    ],
+    [
+     -9.934,
+     9.404
+    ],
+    [
+     -3.048,
+     8.908
+    ],
+    [
+     -3.402,
+     4.009
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S020",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "kitchen",
+   "name": "Kitchen 1.20 (apartment 4)",
+   "ref": "1.20",
+   "polygon": [
+    [
+     -0.708,
+     13.321
+    ],
+    [
+     -1.026,
+     8.914
+    ],
+    [
+     -3.947,
+     9.125
+    ],
+    [
+     -3.629,
+     13.532
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S021",
+   "floor_id": "swiss-1470-F1",
+   "type": "outdoor",
+   "room_type": "balcony",
+   "name": "Balcony 1.21 (apartment 4)",
+   "ref": "1.21",
+   "polygon": [
+    [
+     6.53,
+     2.98
+    ],
+    [
+     7.226,
+     12.749
+    ],
+    [
+     8.393,
+     12.665
+    ],
+    [
+     8.397,
+     12.72
+    ],
+    [
+     8.615,
+     12.704
+    ],
+    [
+     7.635,
+     -0.887
+    ],
+    [
+     4.854,
+     -0.686
+    ],
+    [
+     5.126,
+     3.082
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S022",
+   "floor_id": "swiss-1470-F1",
+   "type": "room",
+   "room_type": "living_room",
+   "name": "Living room 1.22 (apartment 4)",
+   "ref": "1.22",
+   "polygon": [
+    [
+     -6.535,
+     13.741
+    ],
+    [
+     -3.641,
+     13.533
+    ],
+    [
+     -3.959,
+     9.126
+    ],
+    [
+     -6.853,
+     9.334
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S023",
+   "floor_id": "swiss-1470-F1",
+   "type": "corridor",
+   "room_type": "corridor",
+   "name": "Corridor 1.23 (apartment 4)",
+   "ref": "1.23",
+   "polygon": [
+    [
+     1.789,
+     5.515
+    ],
+    [
+     1.655,
+     3.645
+    ],
+    [
+     -3.2,
+     3.995
+    ],
+    [
+     -3.065,
+     5.865
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S024",
+   "floor_id": "swiss-1470-F1",
+   "type": "outdoor",
+   "room_type": "balcony",
+   "name": "Balcony 1.24 (apartment 4)",
+   "ref": "1.24",
+   "polygon": [
+    [
+     -4.19,
+     1.409
+    ],
+    [
+     -10.714,
+     1.907
+    ],
+    [
+     -10.539,
+     4.211
+    ],
+    [
+     -2.113,
+     3.603
+    ],
+    [
+     -2.454,
+     -1.123
+    ],
+    [
+     -4.273,
+     -0.991
+    ],
+    [
+     -4.098,
+     1.301
+    ],
+    [
+     -4.197,
+     1.309
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-S025",
+   "floor_id": "swiss-1470-F1",
+   "type": "corridor",
+   "room_type": "stairwell",
+   "name": "Stair hall 1.25",
+   "ref": "1.25",
+   "polygon": [
+    [
+     -1.695,
+     3.274
+    ],
+    [
+     -1.664,
+     3.386
+    ],
+    [
+     -1.592,
+     3.479
+    ],
+    [
+     -1.49,
+     3.537
+    ],
+    [
+     -1.374,
+     3.551
+    ],
+    [
+     4.706,
+     3.113
+    ],
+    [
+     4.844,
+     3.067
+    ],
+    [
+     4.945,
+     2.962
+    ],
+    [
+     4.983,
+     2.792
+    ],
+    [
+     4.74,
+     -0.578
+    ],
+    [
+     4.695,
+     -0.716
+    ],
+    [
+     4.589,
+     -0.817
+    ],
+    [
+     4.449,
+     -0.856
+    ],
+    [
+     3.351,
+     -0.778
+    ],
+    [
+     3.16,
+     -0.691
+    ],
+    [
+     3.075,
+     -0.519
+    ],
+    [
+     2.896,
+     -0.506
+    ],
+    [
+     2.798,
+     -1.781
+    ],
+    [
+     2.705,
+     -1.929
+    ],
+    [
+     2.516,
+     -2.002
+    ],
+    [
+     0.218,
+     -1.837
+    ],
+    [
+     0.08,
+     -1.792
+    ],
+    [
+     -0.021,
+     -1.686
+    ],
+    [
+     -0.06,
+     -1.546
+    ],
+    [
+     0.012,
+     -0.52
+    ],
+    [
+     -0.187,
+     -0.505
+    ],
+    [
+     -0.231,
+     -1.026
+    ],
+    [
+     -0.302,
+     -1.153
+    ],
+    [
+     -0.425,
+     -1.232
+    ],
+    [
+     -0.541,
+     -1.246
+    ],
+    [
+     -1.714,
+     -1.162
+    ],
+    [
+     -1.852,
+     -1.116
+    ],
+    [
+     -1.966,
+     -0.984
+    ],
+    [
+     -1.991,
+     -0.841
+    ]
+   ],
+   "synthetic": true
+  },
+  {
+   "id": "swiss-1470-F2-S001",
+   "floor_id": "swiss-1470-F2",
+   "type": "room",
+   "room_type": "storage",
+   "name": "Storage 2.01 (apartment 5)",
+   "ref": "2.01",
+   "polygon": [
+    [
+     1.988,
+     7.961
+    ],
+    [
+     2.099,
+     10.36
+    ],
+    [
+     5.149,
+     10.218
+    ],
+    [
+     5.038,
+     7.814
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S002",
+   "floor_id": "swiss-1470-F2",
+   "type": "corridor",
+   "room_type": "corridor",
+   "name": "Corridor 2.02 (apartment 5)",
+   "ref": "2.02",
+   "polygon": [
+    [
+     0.29,
+     5.876
+    ],
+    [
+     -1.778,
+     5.972
+    ],
+    [
+     -1.668,
+     8.362
+    ],
+    [
+     1.746,
+     8.198
+    ],
+    [
+     1.63,
+     5.686
+    ],
+    [
+     0.284,
+     5.753
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S003",
+   "floor_id": "swiss-1470-F2",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 2.03 (apartment 5)",
+   "ref": "2.03",
+   "polygon": [
+    [
+     1.79,
+     3.687
+    ],
+    [
+     1.987,
+     7.949
+    ],
+    [
+     5.037,
+     7.802
+    ],
+    [
+     4.84,
+     3.545
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S004",
+   "floor_id": "swiss-1470-F2",
+   "type": "outdoor",
+   "room_type": "balcony",
+   "name": "Balcony 2.04 (apartment 5)",
+   "ref": "2.04",
+   "polygon": [
+    [
+     -7.342,
+     11.17
+    ],
+    [
+     -7.341,
+     11.19
+    ],
+    [
+     -7.723,
+     11.208
+    ],
+    [
+     -8.051,
+     4.119
+    ],
+    [
+     -2.197,
+     3.847
+    ],
+    [
+     -2.323,
+     1.126
+    ],
+    [
+     -10.83,
+     1.52
+    ],
+    [
+     -10.252,
+     13.975
+    ],
+    [
+     5.467,
+     13.246
+    ],
+    [
+     5.345,
+     10.61
+    ],
+    [
+     5.168,
+     10.618
+    ],
+    [
+     5.166,
+     10.59
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S005",
+   "floor_id": "swiss-1470-F2",
+   "type": "corridor",
+   "room_type": "corridor",
+   "name": "Corridor 2.05 (apartment 5)",
+   "ref": "2.05",
+   "polygon": [
+    [
+     0.183,
+     3.761
+    ],
+    [
+     0.284,
+     5.741
+    ],
+    [
+     1.629,
+     5.674
+    ],
+    [
+     1.538,
+     3.698
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S006",
+   "floor_id": "swiss-1470-F2",
+   "type": "room",
+   "room_type": "kitchen",
+   "name": "Kitchen 2.06 (apartment 5)",
+   "ref": "2.06",
+   "polygon": [
+    [
+     1.747,
+     8.21
+    ],
+    [
+     -1.667,
+     8.374
+    ],
+    [
+     -1.567,
+     10.53
+    ],
+    [
+     1.847,
+     10.372
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S007",
+   "floor_id": "swiss-1470-F2",
+   "type": "room",
+   "room_type": "bathroom",
+   "name": "Bathroom 2.07 (apartment 5)",
+   "ref": "2.07",
+   "polygon": [
+    [
+     -1.927,
+     2.721
+    ],
+    [
+     -1.789,
+     5.737
+    ],
+    [
+     0.109,
+     5.649
+    ],
+    [
+     -0.031,
+     2.633
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S008",
+   "floor_id": "swiss-1470-F2",
+   "type": "room",
+   "room_type": "living_room",
+   "name": "Living room 2.08 (apartment 5)",
+   "ref": "2.08",
+   "polygon": [
+    [
+     -2.022,
+     4.207
+    ],
+    [
+     -7.653,
+     4.469
+    ],
+    [
+     -7.359,
+     10.798
+    ],
+    [
+     -1.729,
+     10.537
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S009",
+   "floor_id": "swiss-1470-F2",
+   "type": "outdoor",
+   "room_type": "balcony",
+   "name": "Balcony 2.09 (apartment 6)",
+   "ref": "2.09",
+   "polygon": [
+    [
+     4.402,
+     -14.347
+    ],
+    [
+     5.019,
+     -1.05
+    ],
+    [
+     7.641,
+     -1.172
+    ],
+    [
+     6.904,
+     -17.072
+    ],
+    [
+     -4.997,
+     -16.52
+    ],
+    [
+     -4.184,
+     1.01
+    ],
+    [
+     -2.332,
+     0.924
+    ],
+    [
+     -2.429,
+     -1.036
+    ],
+    [
+     -1.644,
+     -1.072
+    ],
+    [
+     -1.859,
+     -5.71
+    ],
+    [
+     -2.656,
+     -5.673
+    ],
+    [
+     -2.87,
+     -10.304
+    ],
+    [
+     -2.061,
+     -10.33
+    ],
+    [
+     -2.233,
+     -14.029
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S010",
+   "floor_id": "swiss-1470-F2",
+   "type": "room",
+   "room_type": "bathroom",
+   "name": "Bathroom 2.10 (apartment 6)",
+   "ref": "2.10",
+   "polygon": [
+    [
+     -0.19,
+     -0.794
+    ],
+    [
+     -2.086,
+     -0.706
+    ],
+    [
+     -1.946,
+     2.299
+    ],
+    [
+     -0.051,
+     2.211
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S011",
+   "floor_id": "swiss-1470-F2",
+   "type": "room",
+   "room_type": "kitchen",
+   "name": "Kitchen 2.11 (apartment 6)",
+   "ref": "2.11",
+   "polygon": [
+    [
+     -1.874,
+     -6.022
+    ],
+    [
+     -0.46,
+     -6.088
+    ],
+    [
+     -0.645,
+     -10.083
+    ],
+    [
+     -2.521,
+     -9.996
+    ],
+    [
+     -2.327,
+     -5.801
+    ],
+    [
+     -1.865,
+     -5.823
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S012",
+   "floor_id": "swiss-1470-F2",
+   "type": "corridor",
+   "room_type": "corridor",
+   "name": "Corridor 2.12 (apartment 6)",
+   "ref": "2.12",
+   "polygon": [
+    [
+     -0.007,
+     -1.002
+    ],
+    [
+     0.003,
+     -0.802
+    ],
+    [
+     -0.028,
+     -0.801
+    ],
+    [
+     0.056,
+     1.024
+    ],
+    [
+     1.436,
+     0.96
+    ],
+    [
+     1.342,
+     -1.07
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S013",
+   "floor_id": "swiss-1470-F2",
+   "type": "corridor",
+   "room_type": "corridor",
+   "name": "Corridor 2.13 (apartment 6)",
+   "ref": "2.13",
+   "polygon": [
+    [
+     -1.248,
+     -0.98
+    ],
+    [
+     1.341,
+     -1.082
+    ],
+    [
+     1.044,
+     -7.496
+    ],
+    [
+     -0.3,
+     -7.433
+    ],
+    [
+     -0.229,
+     -5.896
+    ],
+    [
+     -1.473,
+     -5.839
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S014",
+   "floor_id": "swiss-1470-F2",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 2.14 (apartment 6)",
+   "ref": "2.14",
+   "polygon": [
+    [
+     4.713,
+     0.808
+    ],
+    [
+     4.526,
+     -3.221
+    ],
+    [
+     1.451,
+     -3.078
+    ],
+    [
+     1.638,
+     0.951
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S015",
+   "floor_id": "swiss-1470-F2",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 2.15 (apartment 6)",
+   "ref": "2.15",
+   "polygon": [
+    [
+     1.246,
+     -7.505
+    ],
+    [
+     1.44,
+     -3.313
+    ],
+    [
+     4.515,
+     -3.455
+    ],
+    [
+     4.321,
+     -7.648
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S016",
+   "floor_id": "swiss-1470-F2",
+   "type": "room",
+   "room_type": "living_room",
+   "name": "Living room 2.16 (apartment 6)",
+   "ref": "2.16",
+   "polygon": [
+    [
+     4.313,
+     -7.809
+    ],
+    [
+     4.028,
+     -13.962
+    ],
+    [
+     -1.771,
+     -13.693
+    ],
+    [
+     -1.609,
+     -10.196
+    ],
+    [
+     0.36,
+     -10.287
+    ],
+    [
+     0.358,
+     -10.32
+    ],
+    [
+     0.549,
+     -10.329
+    ],
+    [
+     0.582,
+     -9.607
+    ],
+    [
+     -0.4,
+     -9.584
+    ],
+    [
+     -0.308,
+     -7.595
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-S017",
+   "floor_id": "swiss-1470-F2",
+   "type": "corridor",
+   "room_type": "stairwell",
+   "name": "Stair hall 2.17",
+   "ref": "2.17",
+   "polygon": [
+    [
+     0.366,
+     1.244
+    ],
+    [
+     0.252,
+     1.272
+    ],
+    [
+     0.158,
+     1.341
+    ],
+    [
+     0.098,
+     1.442
+    ],
+    [
+     0.08,
+     1.557
+    ],
+    [
+     0.156,
+     3.158
+    ],
+    [
+     0.23,
+     3.315
+    ],
+    [
+     0.379,
+     3.405
+    ],
+    [
+     4.584,
+     3.217
+    ],
+    [
+     4.713,
+     3.149
+    ],
+    [
+     4.794,
+     3.028
+    ],
+    [
+     4.799,
+     2.647
+    ],
+    [
+     5.029,
+     2.6
+    ],
+    [
+     5.116,
+     2.522
+    ],
+    [
+     5.166,
+     2.416
+    ],
+    [
+     5.159,
+     1.989
+    ],
+    [
+     5.131,
+     1.875
+    ],
+    [
+     4.988,
+     1.732
+    ],
+    [
+     4.756,
+     1.707
+    ],
+    [
+     4.722,
+     1.255
+    ],
+    [
+     4.641,
+     1.133
+    ],
+    [
+     4.513,
+     1.064
+    ]
+   ],
+   "synthetic": true
+  }
+ ],
+ "openings": [
+  {
+   "id": "swiss-1470-F0-O0001",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S024",
+    "swiss-1470-F0-S025"
+   ],
+   "kind": "opening",
+   "position": [
+    -1.868,
+    1.222
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": true
+  },
+  {
+   "id": "swiss-1470-F0-O0002",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S010",
+    "swiss-1470-F0-S011"
+   ],
+   "kind": "door",
+   "position": [
+    -2.534,
+    3.784
+   ],
+   "width_m": 0.83,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0003",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S003",
+    "swiss-1470-F0-S007"
+   ],
+   "kind": "door",
+   "position": [
+    -6.976,
+    10.31
+   ],
+   "width_m": 0.855,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0004",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S001",
+    "swiss-1470-F0-S005"
+   ],
+   "kind": "door",
+   "position": [
+    0.022,
+    7.925
+   ],
+   "width_m": 0.86,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0005",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S005",
+    "swiss-1470-F0-S011"
+   ],
+   "kind": "door",
+   "position": [
+    1.101,
+    5.608
+   ],
+   "width_m": 0.92,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0006",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S005",
+    "swiss-1470-F0-S006"
+   ],
+   "kind": "door",
+   "position": [
+    1.865,
+    6.074
+   ],
+   "width_m": 0.86,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0007",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S001",
+    "swiss-1470-F0-S009"
+   ],
+   "kind": "door",
+   "position": [
+    -3.076,
+    7.781
+   ],
+   "width_m": 0.86,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0008",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S008",
+    "swiss-1470-F0-S009"
+   ],
+   "kind": "door",
+   "position": [
+    -3.535,
+    8.994
+   ],
+   "width_m": 0.8,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0009",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S003",
+    "swiss-1470-F0-S009"
+   ],
+   "kind": "door",
+   "position": [
+    -4.79,
+    9.075
+   ],
+   "width_m": 1.3,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0010",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S004",
+    "swiss-1470-F0-S005"
+   ],
+   "kind": "door",
+   "position": [
+    2.0,
+    8.169
+   ],
+   "width_m": 0.84,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0011",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S002",
+    "swiss-1470-F0-S005"
+   ],
+   "kind": "door",
+   "position": [
+    2.198,
+    11.256
+   ],
+   "width_m": 0.86,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0012",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S009",
+    "swiss-1470-F0-S011"
+   ],
+   "kind": "door",
+   "position": [
+    -3.275,
+    4.688
+   ],
+   "width_m": 0.86,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0013",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S011",
+    "swiss-1470-F0-S024"
+   ],
+   "kind": "door",
+   "position": [
+    -1.07,
+    3.69
+   ],
+   "width_m": 1.077,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0014",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S015",
+    "swiss-1470-F0-S025"
+   ],
+   "kind": "door",
+   "position": [
+    -1.418,
+    -1.244
+   ],
+   "width_m": 1.077,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0015",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S017",
+    "swiss-1470-F0-S023"
+   ],
+   "kind": "door",
+   "position": [
+    2.191,
+    -12.44
+   ],
+   "width_m": 1.16,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0016",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S017",
+    "swiss-1470-F0-S022"
+   ],
+   "kind": "door",
+   "position": [
+    -2.022,
+    -9.684
+   ],
+   "width_m": 0.96,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0017",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S013",
+    "swiss-1470-F0-S022"
+   ],
+   "kind": "door",
+   "position": [
+    2.465,
+    -8.163
+   ],
+   "width_m": 0.76,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0018",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S017",
+    "swiss-1470-F0-S019"
+   ],
+   "kind": "door",
+   "position": [
+    -2.94,
+    -12.529
+   ],
+   "width_m": 1.42,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0019",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S012",
+    "swiss-1470-F0-S022"
+   ],
+   "kind": "door",
+   "position": [
+    2.537,
+    -7.046
+   ],
+   "width_m": 0.86,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0020",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S018",
+    "swiss-1470-F0-S022"
+   ],
+   "kind": "door",
+   "position": [
+    1.88,
+    -3.508
+   ],
+   "width_m": 0.918,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0021",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S014",
+    "swiss-1470-F0-S017"
+   ],
+   "kind": "door",
+   "position": [
+    -0.797,
+    -10.954
+   ],
+   "width_m": 0.72,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0022",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S021",
+    "swiss-1470-F0-S022"
+   ],
+   "kind": "door",
+   "position": [
+    1.565,
+    -8.512
+   ],
+   "width_m": 0.95,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0023",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S016",
+    "swiss-1470-F0-S022"
+   ],
+   "kind": "door",
+   "position": [
+    2.729,
+    -4.043
+   ],
+   "width_m": 0.86,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0024",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S015",
+    "swiss-1470-F0-S022"
+   ],
+   "kind": "door",
+   "position": [
+    -0.283,
+    -3.924
+   ],
+   "width_m": 0.855,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0025",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S003",
+    "swiss-1470-F0-S008"
+   ],
+   "kind": "opening",
+   "position": [
+    -3.894,
+    11.277
+   ],
+   "width_m": 4.465,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0026",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S020",
+    "swiss-1470-F0-S023"
+   ],
+   "kind": "opening",
+   "position": [
+    4.414,
+    -13.304
+   ],
+   "width_m": 4.496,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0027",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S008",
+    "swiss-1470-F1-S011"
+   ],
+   "kind": "door",
+   "position": [
+    -0.904,
+    -10.909
+   ],
+   "width_m": 0.76,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0028",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S009",
+    "swiss-1470-F1-S025"
+   ],
+   "kind": "door",
+   "position": [
+    -1.438,
+    -1.249
+   ],
+   "width_m": 1.121,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0029",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S001",
+    "swiss-1470-F1-S005"
+   ],
+   "kind": "door",
+   "position": [
+    2.512,
+    -7.072
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0030",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S001",
+    "swiss-1470-F1-S009"
+   ],
+   "kind": "door",
+   "position": [
+    -0.333,
+    -3.924
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0031",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S001",
+    "swiss-1470-F1-S011"
+   ],
+   "kind": "door",
+   "position": [
+    -2.115,
+    -9.699
+   ],
+   "width_m": 0.99,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0032",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S001",
+    "swiss-1470-F1-S003"
+   ],
+   "kind": "door",
+   "position": [
+    2.432,
+    -8.189
+   ],
+   "width_m": 0.75,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0033",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S001",
+    "swiss-1470-F1-S010"
+   ],
+   "kind": "door",
+   "position": [
+    2.729,
+    -4.066
+   ],
+   "width_m": 0.75,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0034",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S006",
+    "swiss-1470-F1-S011"
+   ],
+   "kind": "door",
+   "position": [
+    -3.054,
+    -12.512
+   ],
+   "width_m": 1.48,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0035",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S011",
+    "swiss-1470-F1-S012"
+   ],
+   "kind": "door",
+   "position": [
+    2.123,
+    -12.474
+   ],
+   "width_m": 1.2,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0036",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S001",
+    "swiss-1470-F1-S007"
+   ],
+   "kind": "door",
+   "position": [
+    1.852,
+    -3.531
+   ],
+   "width_m": 0.96,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0037",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S001",
+    "swiss-1470-F1-S004"
+   ],
+   "kind": "door",
+   "position": [
+    1.496,
+    -8.549
+   ],
+   "width_m": 0.99,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0038",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S019",
+    "swiss-1470-F1-S022"
+   ],
+   "kind": "door",
+   "position": [
+    -4.931,
+    9.12
+   ],
+   "width_m": 1.67,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0039",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S015",
+    "swiss-1470-F1-S021"
+   ],
+   "kind": "door",
+   "position": [
+    6.986,
+    11.657
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0040",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S013",
+    "swiss-1470-F1-S015"
+   ],
+   "kind": "door",
+   "position": [
+    2.296,
+    11.267
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0041",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S014",
+    "swiss-1470-F1-S021"
+   ],
+   "kind": "door",
+   "position": [
+    6.551,
+    5.619
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0042",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S013",
+    "swiss-1470-F1-S023"
+   ],
+   "kind": "door",
+   "position": [
+    1.117,
+    5.6
+   ],
+   "width_m": 0.96,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0043",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S013",
+    "swiss-1470-F1-S014"
+   ],
+   "kind": "door",
+   "position": [
+    1.919,
+    6.05
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0044",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S019",
+    "swiss-1470-F1-S024"
+   ],
+   "kind": "door",
+   "position": [
+    -5.022,
+    3.97
+   ],
+   "width_m": 1.61,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0045",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S017",
+    "swiss-1470-F1-S021"
+   ],
+   "kind": "door",
+   "position": [
+    6.769,
+    8.643
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0046",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S016",
+    "swiss-1470-F1-S019"
+   ],
+   "kind": "door",
+   "position": [
+    -3.02,
+    7.895
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0047",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S023",
+    "swiss-1470-F1-S025"
+   ],
+   "kind": "door",
+   "position": [
+    -1.049,
+    3.683
+   ],
+   "width_m": 1.13,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0048",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S013",
+    "swiss-1470-F1-S016"
+   ],
+   "kind": "door",
+   "position": [
+    0.084,
+    7.944
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0049",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S013",
+    "swiss-1470-F1-S017"
+   ],
+   "kind": "door",
+   "position": [
+    2.072,
+    8.173
+   ],
+   "width_m": 0.88,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0050",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S018",
+    "swiss-1470-F1-S022"
+   ],
+   "kind": "door",
+   "position": [
+    -6.873,
+    10.389
+   ],
+   "width_m": 0.896,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0051",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S019",
+    "swiss-1470-F1-S023"
+   ],
+   "kind": "door",
+   "position": [
+    -3.248,
+    4.735
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0052",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S002",
+    "swiss-1470-F1-S012"
+   ],
+   "kind": "opening",
+   "position": [
+    4.339,
+    -13.308
+   ],
+   "width_m": 4.463,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0053",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S002",
+    "swiss-1470-F1-S011"
+   ],
+   "kind": "opening",
+   "position": [
+    2.048,
+    -14.908
+   ],
+   "width_m": 3.647,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F1-O0054",
+   "floor_id": "swiss-1470-F1",
+   "space_ids": [
+    "swiss-1470-F1-S020",
+    "swiss-1470-F1-S022"
+   ],
+   "kind": "opening",
+   "position": [
+    -3.788,
+    11.328
+   ],
+   "width_m": 4.538,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0055",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S005",
+    "swiss-1470-F2-S007"
+   ],
+   "kind": "door",
+   "position": [
+    0.146,
+    4.705
+   ],
+   "width_m": 1.05,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0056",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S004",
+    "swiss-1470-F2-S008"
+   ],
+   "kind": "door",
+   "position": [
+    -7.808,
+    5.244
+   ],
+   "width_m": 1.45,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0057",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S005",
+    "swiss-1470-F2-S017"
+   ],
+   "kind": "door",
+   "position": [
+    0.897,
+    3.561
+   ],
+   "width_m": 1.26,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0058",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S002",
+    "swiss-1470-F2-S008"
+   ],
+   "kind": "door",
+   "position": [
+    -1.785,
+    7.577
+   ],
+   "width_m": 1.53,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0059",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S002",
+    "swiss-1470-F2-S003"
+   ],
+   "kind": "door",
+   "position": [
+    1.829,
+    7.257
+   ],
+   "width_m": 1.2,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0060",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S011",
+    "swiss-1470-F2-S016"
+   ],
+   "kind": "door",
+   "position": [
+    -0.473,
+    -8.76
+   ],
+   "width_m": 1.53,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0061",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S009",
+    "swiss-1470-F2-S013"
+   ],
+   "kind": "door",
+   "position": [
+    -1.556,
+    -3.391
+   ],
+   "width_m": 3.0,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0062",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S012",
+    "swiss-1470-F2-S017"
+   ],
+   "kind": "door",
+   "position": [
+    0.811,
+    1.107
+   ],
+   "width_m": 1.17,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0063",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S013",
+    "swiss-1470-F2-S016"
+   ],
+   "kind": "door",
+   "position": [
+    0.377,
+    -7.546
+   ],
+   "width_m": 1.05,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0064",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S013",
+    "swiss-1470-F2-S014"
+   ],
+   "kind": "door",
+   "position": [
+    1.392,
+    -2.172
+   ],
+   "width_m": 1.28,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0065",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S009",
+    "swiss-1470-F2-S016"
+   ],
+   "kind": "door",
+   "position": [
+    -1.917,
+    -12.035
+   ],
+   "width_m": 3.0,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0066",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S010",
+    "swiss-1470-F2-S012"
+   ],
+   "kind": "door",
+   "position": [
+    -0.065,
+    0.155
+   ],
+   "width_m": 1.02,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0067",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S013",
+    "swiss-1470-F2-S015"
+   ],
+   "kind": "door",
+   "position": [
+    1.286,
+    -4.453
+   ],
+   "width_m": 1.35,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0068",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S001",
+    "swiss-1470-F2-S003"
+   ],
+   "kind": "opening",
+   "position": [
+    3.513,
+    7.887
+   ],
+   "width_m": 3.173,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0069",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S002",
+    "swiss-1470-F2-S005"
+   ],
+   "kind": "opening",
+   "position": [
+    0.957,
+    5.719
+   ],
+   "width_m": 1.467,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0070",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S002",
+    "swiss-1470-F2-S006"
+   ],
+   "kind": "opening",
+   "position": [
+    0.039,
+    8.28
+   ],
+   "width_m": 3.537,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F2-O0071",
+   "floor_id": "swiss-1470-F2",
+   "space_ids": [
+    "swiss-1470-F2-S012",
+    "swiss-1470-F2-S013"
+   ],
+   "kind": "opening",
+   "position": [
+    0.683,
+    -1.037
+   ],
+   "width_m": 1.47,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "swiss-1470-F0-O0072",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S024",
+    "outside"
+   ],
+   "kind": "entrance",
+   "position": [
+    -0.648,
+    3.52
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": true
+  },
+  {
+   "id": "swiss-1470-F0-O0073",
+   "floor_id": "swiss-1470-F0",
+   "space_ids": [
+    "swiss-1470-F0-S025",
+    "outside"
+   ],
+   "kind": "entrance",
+   "position": [
+    -0.852,
+    -0.03
+   ],
+   "width_m": 0.9,
+   "step_free": true,
+   "synthetic": true
+  }
+ ],
+ "vertical_connectors": [
+  {
+   "id": "swiss-1470-V01",
+   "kind": "stairs",
+   "name": "Main staircase",
+   "floor_ids": [
+    "swiss-1470-F0",
+    "swiss-1470-F1",
+    "swiss-1470-F2"
+   ],
+   "space_ids": [
+    "swiss-1470-F0-S024",
+    "swiss-1470-F1-S025",
+    "swiss-1470-F2-S017"
+   ],
+   "step_free": false,
+   "synthetic": true
+  }
+ ],
+ "assets": [
+  {
+   "id": "swiss-1470-A00001",
+   "name": "Toilet 0.01",
+   "category": "fixture",
+   "type": "toilet",
+   "space_id": "swiss-1470-F0-S001",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -0.893,
+    6.066
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.7,
+    "rotation_deg": 86.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00002",
+   "name": "Sink 0.01",
+   "category": "fixture",
+   "type": "sink",
+   "space_id": "swiss-1470-F0-S001",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -1.134,
+    8.459
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.45,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00003",
+   "name": "Washing machine 0.01",
+   "category": "equipment",
+   "type": "washing_machine",
+   "space_id": "swiss-1470-F0-S001",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -1.753,
+    8.424
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.6,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00004",
+   "name": "Single bed 0.02",
+   "category": "furniture",
+   "type": "single_bed",
+   "space_id": "swiss-1470-F0-S002",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    6.085,
+    11.006
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 2.0,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00005",
+   "name": "Wardrobe 0.02",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F0-S002",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    4.848,
+    10.384
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00006",
+   "name": "Nightstand 0.02-A",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F0-S002",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    2.887,
+    10.409
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00007",
+   "name": "Nightstand 0.02-B",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F0-S002",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    3.601,
+    10.364
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00008",
+   "name": "Desk 0.02",
+   "category": "furniture",
+   "type": "desk",
+   "space_id": "swiss-1470-F0-S002",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    4.657,
+    12.517
+   ],
+   "footprint": {
+    "width_m": 1.4,
+    "depth_m": 0.7,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00009",
+   "name": "Sofa 0.03",
+   "category": "furniture",
+   "type": "sofa",
+   "space_id": "swiss-1470-F0-S003",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -5.322,
+    13.027
+   ],
+   "footprint": {
+    "width_m": 2.0,
+    "depth_m": 0.9,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00010",
+   "name": "Coffee table 0.03",
+   "category": "furniture",
+   "type": "coffee_table",
+   "space_id": "swiss-1470-F0-S003",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -5.302,
+    11.21
+   ],
+   "footprint": {
+    "width_m": 1.0,
+    "depth_m": 0.6,
+    "rotation_deg": 86.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00011",
+   "name": "Dining chair 0.03-A",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "swiss-1470-F0-S003",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -6.085,
+    11.877
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00012",
+   "name": "Dining chair 0.03-B",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "swiss-1470-F0-S003",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -5.857,
+    9.825
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00013",
+   "name": "Bookshelf 0.03-A",
+   "category": "furniture",
+   "type": "bookshelf",
+   "space_id": "swiss-1470-F0-S003",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -4.06,
+    12.732
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.35,
+    "rotation_deg": 266.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00014",
+   "name": "Bookshelf 0.03-B",
+   "category": "furniture",
+   "type": "bookshelf",
+   "space_id": "swiss-1470-F0-S003",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -6.528,
+    12.048
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.35,
+    "rotation_deg": 86.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00015",
+   "name": "Plant 0.03",
+   "category": "furniture",
+   "type": "plant",
+   "space_id": "swiss-1470-F0-S003",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -4.229,
+    10.079
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.4,
+    "rotation_deg": 266.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00016",
+   "name": "Bed 0.04",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F0-S004",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    4.503,
+    8.823
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00017",
+   "name": "Wardrobe 0.04",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F0-S004",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    5.352,
+    7.348
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00018",
+   "name": "Nightstand 0.04-A",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F0-S004",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    3.523,
+    7.365
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00019",
+   "name": "Nightstand 0.04-B",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F0-S004",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    2.58,
+    9.748
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00020",
+   "name": "Bed 0.06",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F0-S006",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    5.035,
+    4.476
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00021",
+   "name": "Wardrobe 0.06",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F0-S006",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    4.969,
+    6.489
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00022",
+   "name": "Nightstand 0.06",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F0-S006",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    6.078,
+    6.054
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00023",
+   "name": "Desk 0.06",
+   "category": "furniture",
+   "type": "desk",
+   "space_id": "swiss-1470-F0-S006",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    3.03,
+    3.966
+   ],
+   "footprint": {
+    "width_m": 1.4,
+    "depth_m": 0.7,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00024",
+   "name": "Single bed 0.07",
+   "category": "furniture",
+   "type": "single_bed",
+   "space_id": "swiss-1470-F0-S007",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -8.752,
+    11.906
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 2.0,
+    "rotation_deg": 86.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00025",
+   "name": "Wardrobe 0.07",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F0-S007",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -9.305,
+    9.821
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00026",
+   "name": "Kitchen counter 0.08",
+   "category": "fixture",
+   "type": "kitchen_counter",
+   "space_id": "swiss-1470-F0-S008",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -2.404,
+    12.998
+   ],
+   "footprint": {
+    "width_m": 2.4,
+    "depth_m": 0.6,
+    "rotation_deg": 356.6
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00027",
+   "name": "Fridge 0.08",
+   "category": "equipment",
+   "type": "fridge",
+   "space_id": "swiss-1470-F0-S008",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -1.337,
+    10.815
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.65,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00028",
+   "name": "Stove 0.08",
+   "category": "equipment",
+   "type": "stove",
+   "space_id": "swiss-1470-F0-S008",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -1.374,
+    9.857
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.6,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00029",
+   "name": "Coffee machine 0.08",
+   "category": "equipment",
+   "type": "coffee_machine",
+   "space_id": "swiss-1470-F0-S008",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -3.666,
+    10.266
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.4,
+    "rotation_deg": 86.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00030",
+   "name": "Sofa 0.09",
+   "category": "furniture",
+   "type": "sofa",
+   "space_id": "swiss-1470-F0-S009",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -9.079,
+    4.852
+   ],
+   "footprint": {
+    "width_m": 2.0,
+    "depth_m": 0.9,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00031",
+   "name": "Coffee table 0.09",
+   "category": "furniture",
+   "type": "coffee_table",
+   "space_id": "swiss-1470-F0-S009",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -6.116,
+    7.018
+   ],
+   "footprint": {
+    "width_m": 1.0,
+    "depth_m": 0.6,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00032",
+   "name": "TV stand 0.09",
+   "category": "furniture",
+   "type": "tv_stand",
+   "space_id": "swiss-1470-F0-S009",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -9.816,
+    7.871
+   ],
+   "footprint": {
+    "width_m": 1.5,
+    "depth_m": 0.4,
+    "rotation_deg": 86.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00033",
+   "name": "Dining chair 0.09-A",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "swiss-1470-F0-S009",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -8.479,
+    7.65
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00034",
+   "name": "Dining chair 0.09-B",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "swiss-1470-F0-S009",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -3.814,
+    6.395
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00035",
+   "name": "Armchair 0.09",
+   "category": "furniture",
+   "type": "armchair",
+   "space_id": "swiss-1470-F0-S009",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -8.438,
+    8.697
+   ],
+   "footprint": {
+    "width_m": 0.8,
+    "depth_m": 0.8,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00036",
+   "name": "Outdoor table 0.10",
+   "category": "furniture",
+   "type": "outdoor_table",
+   "space_id": "swiss-1470-F0-S010",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -6.866,
+    2.516
+   ],
+   "footprint": {
+    "width_m": 0.8,
+    "depth_m": 0.8,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00037",
+   "name": "Bed 0.12",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F0-S012",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    4.546,
+    -6.604
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00038",
+   "name": "Wardrobe 0.12",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F0-S012",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    4.047,
+    -5.076
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00039",
+   "name": "Desk 0.12",
+   "category": "furniture",
+   "type": "desk",
+   "space_id": "swiss-1470-F0-S012",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    6.613,
+    -6.646
+   ],
+   "footprint": {
+    "width_m": 1.4,
+    "depth_m": 0.7,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00040",
+   "name": "Bed 0.13",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F0-S013",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    5.835,
+    -9.774
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00041",
+   "name": "Wardrobe 0.13",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F0-S013",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    5.404,
+    -8.252
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00042",
+   "name": "Desk 0.13",
+   "category": "furniture",
+   "type": "desk",
+   "space_id": "swiss-1470-F0-S013",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    2.873,
+    -9.71
+   ],
+   "footprint": {
+    "width_m": 1.4,
+    "depth_m": 0.7,
+    "rotation_deg": 86.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00043",
+   "name": "Single bed 0.16",
+   "category": "furniture",
+   "type": "single_bed",
+   "space_id": "swiss-1470-F0-S016",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    6.354,
+    -3.653
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 2.0,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00044",
+   "name": "Wardrobe 0.16",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F0-S016",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    6.974,
+    -1.797
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00045",
+   "name": "Nightstand 0.16",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F0-S016",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    3.772,
+    -4.289
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00046",
+   "name": "Desk 0.16",
+   "category": "furniture",
+   "type": "desk",
+   "space_id": "swiss-1470-F0-S016",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    3.358,
+    -2.158
+   ],
+   "footprint": {
+    "width_m": 1.4,
+    "depth_m": 0.7,
+    "rotation_deg": 86.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00047",
+   "name": "Single bed 0.17",
+   "category": "furniture",
+   "type": "single_bed",
+   "space_id": "swiss-1470-F0-S017",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    0.951,
+    -13.716
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 2.0,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00048",
+   "name": "Wardrobe 0.17",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F0-S017",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    1.53,
+    -15.621
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00049",
+   "name": "Nightstand 0.17",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F0-S017",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -2.575,
+    -15.956
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00050",
+   "name": "Shelf 0.18",
+   "category": "furniture",
+   "type": "shelf",
+   "space_id": "swiss-1470-F0-S018",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    1.387,
+    -2.298
+   ],
+   "footprint": {
+    "width_m": 1.0,
+    "depth_m": 0.4,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00051",
+   "name": "Outdoor chair 0.19",
+   "category": "furniture",
+   "type": "outdoor_chair",
+   "space_id": "swiss-1470-F0-S019",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -4.12,
+    -6.317
+   ],
+   "footprint": {
+    "width_m": 0.5,
+    "depth_m": 0.5,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00052",
+   "name": "Sofa 0.20",
+   "category": "furniture",
+   "type": "sofa",
+   "space_id": "swiss-1470-F0-S020",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    5.936,
+    -15.666
+   ],
+   "footprint": {
+    "width_m": 2.0,
+    "depth_m": 0.9,
+    "rotation_deg": 266.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00053",
+   "name": "Coffee table 0.20",
+   "category": "furniture",
+   "type": "coffee_table",
+   "space_id": "swiss-1470-F0-S020",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    3.715,
+    -15.104
+   ],
+   "footprint": {
+    "width_m": 1.0,
+    "depth_m": 0.6,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00054",
+   "name": "TV stand 0.20",
+   "category": "furniture",
+   "type": "tv_stand",
+   "space_id": "swiss-1470-F0-S020",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    2.432,
+    -14.247
+   ],
+   "footprint": {
+    "width_m": 1.5,
+    "depth_m": 0.4,
+    "rotation_deg": 86.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00055",
+   "name": "Dining chair 0.20-A",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "swiss-1470-F0-S020",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    2.621,
+    -15.36
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00056",
+   "name": "Dining chair 0.20-B",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "swiss-1470-F0-S020",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    2.915,
+    -15.926
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00057",
+   "name": "Dining chair 0.20-C",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "swiss-1470-F0-S020",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    3.001,
+    -13.919
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00058",
+   "name": "Bookshelf 0.20-A",
+   "category": "furniture",
+   "type": "bookshelf",
+   "space_id": "swiss-1470-F0-S020",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    2.898,
+    -16.333
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.35,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00059",
+   "name": "Bookshelf 0.20-B",
+   "category": "furniture",
+   "type": "bookshelf",
+   "space_id": "swiss-1470-F0-S020",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    6.321,
+    -13.937
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.35,
+    "rotation_deg": 266.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00060",
+   "name": "Armchair 0.20",
+   "category": "furniture",
+   "type": "armchair",
+   "space_id": "swiss-1470-F0-S020",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    4.349,
+    -16.071
+   ],
+   "footprint": {
+    "width_m": 0.8,
+    "depth_m": 0.8,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00061",
+   "name": "Toilet 0.21",
+   "category": "fixture",
+   "type": "toilet",
+   "space_id": "swiss-1470-F0-S021",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    1.778,
+    -10.969
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.7,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00062",
+   "name": "Sink 0.21",
+   "category": "fixture",
+   "type": "sink",
+   "space_id": "swiss-1470-F0-S021",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    0.829,
+    -11.162
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.45,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00063",
+   "name": "Shower 0.21",
+   "category": "fixture",
+   "type": "shower",
+   "space_id": "swiss-1470-F0-S021",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    1.751,
+    -9.827
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.9,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00064",
+   "name": "Fire extinguisher 0.22",
+   "category": "equipment",
+   "type": "fire_extinguisher",
+   "space_id": "swiss-1470-F0-S022",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    -1.443,
+    -4.605
+   ],
+   "footprint": {
+    "width_m": 0.3,
+    "depth_m": 0.3,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00065",
+   "name": "Kitchen counter 0.23",
+   "category": "fixture",
+   "type": "kitchen_counter",
+   "space_id": "swiss-1470-F0-S023",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    3.724,
+    -11.224
+   ],
+   "footprint": {
+    "width_m": 2.4,
+    "depth_m": 0.6,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00066",
+   "name": "Fridge 0.23",
+   "category": "equipment",
+   "type": "fridge",
+   "space_id": "swiss-1470-F0-S023",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    6.25,
+    -12.697
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.65,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00067",
+   "name": "Stove 0.23",
+   "category": "equipment",
+   "type": "stove",
+   "space_id": "swiss-1470-F0-S023",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    6.328,
+    -11.878
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.6,
+    "rotation_deg": 266.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00068",
+   "name": "Coffee machine 0.23",
+   "category": "equipment",
+   "type": "coffee_machine",
+   "space_id": "swiss-1470-F0-S023",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    3.267,
+    -12.948
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.4,
+    "rotation_deg": 176.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00069",
+   "name": "Dining table 0.23",
+   "category": "furniture",
+   "type": "dining_table",
+   "space_id": "swiss-1470-F0-S023",
+   "floor_id": "swiss-1470-F0",
+   "position": [
+    4.22,
+    -12.022
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 0.9,
+    "rotation_deg": 356.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00070",
+   "name": "Sofa 1.02",
+   "category": "furniture",
+   "type": "sofa",
+   "space_id": "swiss-1470-F1-S002",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    3.614,
+    -16.269
+   ],
+   "footprint": {
+    "width_m": 2.0,
+    "depth_m": 0.9,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00071",
+   "name": "Coffee table 1.02",
+   "category": "furniture",
+   "type": "coffee_table",
+   "space_id": "swiss-1470-F1-S002",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    4.674,
+    -15.001
+   ],
+   "footprint": {
+    "width_m": 1.0,
+    "depth_m": 0.6,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00072",
+   "name": "TV stand 1.02",
+   "category": "furniture",
+   "type": "tv_stand",
+   "space_id": "swiss-1470-F1-S002",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    6.064,
+    -15.857
+   ],
+   "footprint": {
+    "width_m": 1.5,
+    "depth_m": 0.4,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00073",
+   "name": "Bookshelf 1.02-A",
+   "category": "furniture",
+   "type": "bookshelf",
+   "space_id": "swiss-1470-F1-S002",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    5.348,
+    -16.669
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.35,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00074",
+   "name": "Bookshelf 1.02-B",
+   "category": "furniture",
+   "type": "bookshelf",
+   "space_id": "swiss-1470-F1-S002",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    6.225,
+    -13.971
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.35,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00075",
+   "name": "Bed 1.03",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F1-S003",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    4.776,
+    -9.732
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00076",
+   "name": "Wardrobe 1.03",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F1-S003",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    5.389,
+    -8.295
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00077",
+   "name": "Nightstand 1.03-A",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F1-S003",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    6.605,
+    -8.353
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00078",
+   "name": "Nightstand 1.03-B",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F1-S003",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    6.125,
+    -10.632
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00079",
+   "name": "Toilet 1.04",
+   "category": "fixture",
+   "type": "toilet",
+   "space_id": "swiss-1470-F1-S004",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    0.727,
+    -11.206
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.7,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00080",
+   "name": "Sink 1.04",
+   "category": "fixture",
+   "type": "sink",
+   "space_id": "swiss-1470-F1-S004",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    1.944,
+    -9.583
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.45,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00081",
+   "name": "Shower 1.04",
+   "category": "fixture",
+   "type": "shower",
+   "space_id": "swiss-1470-F1-S004",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    0.911,
+    -10.049
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.9,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00082",
+   "name": "Bed 1.05",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F1-S005",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    4.652,
+    -6.656
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00083",
+   "name": "Wardrobe 1.05",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F1-S005",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    5.462,
+    -5.233
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00084",
+   "name": "Nightstand 1.05",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F1-S005",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    6.787,
+    -5.229
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00085",
+   "name": "Outdoor table 1.06",
+   "category": "furniture",
+   "type": "outdoor_table",
+   "space_id": "swiss-1470-F1-S006",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -4.394,
+    -14.587
+   ],
+   "footprint": {
+    "width_m": 0.8,
+    "depth_m": 0.8,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00086",
+   "name": "Outdoor chair 1.06",
+   "category": "furniture",
+   "type": "outdoor_chair",
+   "space_id": "swiss-1470-F1-S006",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -4.403,
+    -12.012
+   ],
+   "footprint": {
+    "width_m": 0.5,
+    "depth_m": 0.5,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00087",
+   "name": "Plant 1.06",
+   "category": "furniture",
+   "type": "plant",
+   "space_id": "swiss-1470-F1-S006",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -4.895,
+    -12.697
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.4,
+    "rotation_deg": 85.6
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00088",
+   "name": "Shelf 1.07",
+   "category": "furniture",
+   "type": "shelf",
+   "space_id": "swiss-1470-F1-S007",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    1.099,
+    -2.313
+   ],
+   "footprint": {
+    "width_m": 1.0,
+    "depth_m": 0.4,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00089",
+   "name": "Bed 1.10",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F1-S010",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    6.147,
+    -3.589
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00090",
+   "name": "Wardrobe 1.10",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F1-S010",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    4.195,
+    -1.352
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00091",
+   "name": "Nightstand 1.10-A",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F1-S010",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    3.205,
+    -2.493
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00092",
+   "name": "Nightstand 1.10-B",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F1-S010",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    4.147,
+    -4.354
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00093",
+   "name": "Single bed 1.11",
+   "category": "furniture",
+   "type": "single_bed",
+   "space_id": "swiss-1470-F1-S011",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -1.769,
+    -15.329
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 2.0,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00094",
+   "name": "Wardrobe 1.11",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F1-S011",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -0.058,
+    -16.154
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00095",
+   "name": "Desk 1.11",
+   "category": "furniture",
+   "type": "desk",
+   "space_id": "swiss-1470-F1-S011",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -2.577,
+    -14.819
+   ],
+   "footprint": {
+    "width_m": 1.4,
+    "depth_m": 0.7,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00096",
+   "name": "Kitchen counter 1.12",
+   "category": "fixture",
+   "type": "kitchen_counter",
+   "space_id": "swiss-1470-F1-S012",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    4.366,
+    -11.389
+   ],
+   "footprint": {
+    "width_m": 2.4,
+    "depth_m": 0.6,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00097",
+   "name": "Fridge 1.12",
+   "category": "equipment",
+   "type": "fridge",
+   "space_id": "swiss-1470-F1-S012",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    6.277,
+    -11.552
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.65,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00098",
+   "name": "Stove 1.12",
+   "category": "equipment",
+   "type": "stove",
+   "space_id": "swiss-1470-F1-S012",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    6.193,
+    -12.682
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.6,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00099",
+   "name": "Coffee machine 1.12",
+   "category": "equipment",
+   "type": "coffee_machine",
+   "space_id": "swiss-1470-F1-S012",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    3.135,
+    -12.936
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.4,
+    "rotation_deg": 175.8
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00100",
+   "name": "Bed 1.14",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F1-S014",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    3.442,
+    4.589
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00101",
+   "name": "Wardrobe 1.14",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F1-S014",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    4.249,
+    6.505
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00102",
+   "name": "Nightstand 1.14-A",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F1-S014",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    2.977,
+    6.697
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00103",
+   "name": "Nightstand 1.14-B",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F1-S014",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    5.516,
+    3.637
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00104",
+   "name": "Bed 1.15",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F1-S015",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    5.21,
+    11.043
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00105",
+   "name": "Wardrobe 1.15",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F1-S015",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    3.63,
+    12.638
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00106",
+   "name": "Toilet 1.16",
+   "category": "fixture",
+   "type": "toilet",
+   "space_id": "swiss-1470-F1-S016",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -1.93,
+    7.434
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.7,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00107",
+   "name": "Sink 1.16",
+   "category": "fixture",
+   "type": "sink",
+   "space_id": "swiss-1470-F1-S016",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -1.605,
+    8.508
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.45,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00108",
+   "name": "Bed 1.17",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F1-S017",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    3.998,
+    8.119
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00109",
+   "name": "Wardrobe 1.17",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F1-S017",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    3.177,
+    9.593
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00110",
+   "name": "Bed 1.18",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F1-S018",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -8.519,
+    12.812
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00111",
+   "name": "Wardrobe 1.18",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F1-S018",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -9.5,
+    10.27
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00112",
+   "name": "Nightstand 1.18-A",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F1-S018",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -7.102,
+    12.303
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00113",
+   "name": "Nightstand 1.18-B",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F1-S018",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -8.385,
+    9.716
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00114",
+   "name": "Bed 1.19",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F1-S019",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -8.939,
+    8.323
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00115",
+   "name": "Wardrobe 1.19",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F1-S019",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -7.161,
+    4.651
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00116",
+   "name": "Desk 1.19",
+   "category": "furniture",
+   "type": "desk",
+   "space_id": "swiss-1470-F1-S019",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -9.746,
+    6.169
+   ],
+   "footprint": {
+    "width_m": 1.4,
+    "depth_m": 0.7,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00117",
+   "name": "Kitchen counter 1.20",
+   "category": "fixture",
+   "type": "kitchen_counter",
+   "space_id": "swiss-1470-F1-S020",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -2.331,
+    13.067
+   ],
+   "footprint": {
+    "width_m": 2.4,
+    "depth_m": 0.6,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00118",
+   "name": "Fridge 1.20",
+   "category": "equipment",
+   "type": "fridge",
+   "space_id": "swiss-1470-F1-S020",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -3.281,
+    9.473
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.65,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00119",
+   "name": "Stove 1.20",
+   "category": "equipment",
+   "type": "stove",
+   "space_id": "swiss-1470-F1-S020",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -1.925,
+    9.35
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.6,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00120",
+   "name": "Dishwasher 1.20",
+   "category": "equipment",
+   "type": "dishwasher",
+   "space_id": "swiss-1470-F1-S020",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -1.318,
+    10.007
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.6,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00121",
+   "name": "Microwave 1.20",
+   "category": "equipment",
+   "type": "microwave",
+   "space_id": "swiss-1470-F1-S020",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -1.177,
+    10.577
+   ],
+   "footprint": {
+    "width_m": 0.5,
+    "depth_m": 0.4,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00122",
+   "name": "Coffee machine 1.20",
+   "category": "equipment",
+   "type": "coffee_machine",
+   "space_id": "swiss-1470-F1-S020",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -1.064,
+    12.138
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.4,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00123",
+   "name": "Dining table 1.20",
+   "category": "furniture",
+   "type": "dining_table",
+   "space_id": "swiss-1470-F1-S020",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -2.224,
+    10.968
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 0.9,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00124",
+   "name": "Outdoor table 1.21",
+   "category": "furniture",
+   "type": "outdoor_table",
+   "space_id": "swiss-1470-F1-S021",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    7.341,
+    2.128
+   ],
+   "footprint": {
+    "width_m": 0.8,
+    "depth_m": 0.8,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00125",
+   "name": "Outdoor chair 1.21",
+   "category": "furniture",
+   "type": "outdoor_chair",
+   "space_id": "swiss-1470-F1-S021",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    7.452,
+    3.288
+   ],
+   "footprint": {
+    "width_m": 0.5,
+    "depth_m": 0.5,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00126",
+   "name": "Sofa 1.22",
+   "category": "furniture",
+   "type": "sofa",
+   "space_id": "swiss-1470-F1-S022",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -6.122,
+    12.246
+   ],
+   "footprint": {
+    "width_m": 2.0,
+    "depth_m": 0.9,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00127",
+   "name": "Coffee table 1.22",
+   "category": "furniture",
+   "type": "coffee_table",
+   "space_id": "swiss-1470-F1-S022",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -4.936,
+    11.893
+   ],
+   "footprint": {
+    "width_m": 1.0,
+    "depth_m": 0.6,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00128",
+   "name": "TV stand 1.22",
+   "category": "furniture",
+   "type": "tv_stand",
+   "space_id": "swiss-1470-F1-S022",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -4.753,
+    13.342
+   ],
+   "footprint": {
+    "width_m": 1.5,
+    "depth_m": 0.4,
+    "rotation_deg": 355.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00129",
+   "name": "Dining chair 1.22-A",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "swiss-1470-F1-S022",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -5.55,
+    10.569
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00130",
+   "name": "Dining chair 1.22-B",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "swiss-1470-F1-S022",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -4.395,
+    10.155
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00131",
+   "name": "Dining chair 1.22-C",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "swiss-1470-F1-S022",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -4.922,
+    10.706
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00132",
+   "name": "Dining chair 1.22-D",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "swiss-1470-F1-S022",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -5.111,
+    10.268
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 85.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00133",
+   "name": "Bookshelf 1.22",
+   "category": "furniture",
+   "type": "bookshelf",
+   "space_id": "swiss-1470-F1-S022",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -3.956,
+    12.568
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.35,
+    "rotation_deg": 265.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00134",
+   "name": "Plant 1.22",
+   "category": "furniture",
+   "type": "plant",
+   "space_id": "swiss-1470-F1-S022",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    -5.849,
+    9.533
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.4,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00135",
+   "name": "Fire extinguisher 1.25",
+   "category": "equipment",
+   "type": "fire_extinguisher",
+   "space_id": "swiss-1470-F1-S025",
+   "floor_id": "swiss-1470-F1",
+   "position": [
+    2.088,
+    -1.751
+   ],
+   "footprint": {
+    "width_m": 0.3,
+    "depth_m": 0.3,
+    "rotation_deg": 175.9
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00136",
+   "name": "Shelf 2.01-A",
+   "category": "furniture",
+   "type": "shelf",
+   "space_id": "swiss-1470-F2-S001",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    4.496,
+    9.978
+   ],
+   "footprint": {
+    "width_m": 1.0,
+    "depth_m": 0.4,
+    "rotation_deg": 357.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00137",
+   "name": "Shelf 2.01-B",
+   "category": "furniture",
+   "type": "shelf",
+   "space_id": "swiss-1470-F2-S001",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    4.828,
+    9.117
+   ],
+   "footprint": {
+    "width_m": 1.0,
+    "depth_m": 0.4,
+    "rotation_deg": 267.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00138",
+   "name": "Shoe cabinet 2.02",
+   "category": "furniture",
+   "type": "shoe_cabinet",
+   "space_id": "swiss-1470-F2-S002",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -0.15,
+    6.142
+   ],
+   "footprint": {
+    "width_m": 0.8,
+    "depth_m": 0.35,
+    "rotation_deg": 177.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00139",
+   "name": "Single bed 2.03",
+   "category": "furniture",
+   "type": "single_bed",
+   "space_id": "swiss-1470-F2-S003",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    3.803,
+    4.275
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 2.0,
+    "rotation_deg": 267.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00140",
+   "name": "Wardrobe 2.03",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F2-S003",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    4.563,
+    5.561
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 267.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00141",
+   "name": "Nightstand 2.03-A",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F2-S003",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    2.089,
+    4.316
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 87.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00142",
+   "name": "Nightstand 2.03-B",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F2-S003",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    2.169,
+    6.03
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 87.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00143",
+   "name": "Outdoor chair 2.04",
+   "category": "furniture",
+   "type": "outdoor_chair",
+   "space_id": "swiss-1470-F2-S004",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -9.25,
+    9.161
+   ],
+   "footprint": {
+    "width_m": 0.5,
+    "depth_m": 0.5,
+    "rotation_deg": 357.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00144",
+   "name": "Plant 2.04-A",
+   "category": "furniture",
+   "type": "plant",
+   "space_id": "swiss-1470-F2-S004",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -4.026,
+    11.287
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.4,
+    "rotation_deg": 177.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00145",
+   "name": "Plant 2.04-B",
+   "category": "furniture",
+   "type": "plant",
+   "space_id": "swiss-1470-F2-S004",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -4.877,
+    11.326
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.4,
+    "rotation_deg": 177.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00146",
+   "name": "Fire extinguisher 2.05",
+   "category": "equipment",
+   "type": "fire_extinguisher",
+   "space_id": "swiss-1470-F2-S005",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    1.359,
+    4.585
+   ],
+   "footprint": {
+    "width_m": 0.3,
+    "depth_m": 0.3,
+    "rotation_deg": 267.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00147",
+   "name": "Kitchen counter 2.06",
+   "category": "fixture",
+   "type": "kitchen_counter",
+   "space_id": "swiss-1470-F2-S006",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -0.277,
+    10.1
+   ],
+   "footprint": {
+    "width_m": 2.4,
+    "depth_m": 0.6,
+    "rotation_deg": 357.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00148",
+   "name": "Fridge 2.06",
+   "category": "equipment",
+   "type": "fridge",
+   "space_id": "swiss-1470-F2-S006",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    1.427,
+    9.847
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.65,
+    "rotation_deg": 267.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00149",
+   "name": "Stove 2.06",
+   "category": "equipment",
+   "type": "stove",
+   "space_id": "swiss-1470-F2-S006",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    1.396,
+    8.638
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.6,
+    "rotation_deg": 267.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00150",
+   "name": "Coffee machine 2.06",
+   "category": "equipment",
+   "type": "coffee_machine",
+   "space_id": "swiss-1470-F2-S006",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -1.136,
+    8.619
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.4,
+    "rotation_deg": 177.2
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00151",
+   "name": "Toilet 2.07",
+   "category": "fixture",
+   "type": "toilet",
+   "space_id": "swiss-1470-F2-S007",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -0.517,
+    3.076
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.7,
+    "rotation_deg": 177.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00152",
+   "name": "Sink 2.07",
+   "category": "fixture",
+   "type": "sink",
+   "space_id": "swiss-1470-F2-S007",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -1.566,
+    4.158
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.45,
+    "rotation_deg": 87.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00153",
+   "name": "Shower 2.07",
+   "category": "fixture",
+   "type": "shower",
+   "space_id": "swiss-1470-F2-S007",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -1.384,
+    3.218
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.9,
+    "rotation_deg": 87.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00154",
+   "name": "Sofa 2.08",
+   "category": "furniture",
+   "type": "sofa",
+   "space_id": "swiss-1470-F2-S008",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -6.067,
+    4.916
+   ],
+   "footprint": {
+    "width_m": 2.0,
+    "depth_m": 0.9,
+    "rotation_deg": 177.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00155",
+   "name": "Coffee table 2.08",
+   "category": "furniture",
+   "type": "coffee_table",
+   "space_id": "swiss-1470-F2-S008",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -4.909,
+    7.426
+   ],
+   "footprint": {
+    "width_m": 1.0,
+    "depth_m": 0.6,
+    "rotation_deg": 87.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00156",
+   "name": "TV stand 2.08",
+   "category": "furniture",
+   "type": "tv_stand",
+   "space_id": "swiss-1470-F2-S008",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -7.163,
+    9.196
+   ],
+   "footprint": {
+    "width_m": 1.5,
+    "depth_m": 0.4,
+    "rotation_deg": 87.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00157",
+   "name": "Bookshelf 2.08",
+   "category": "furniture",
+   "type": "bookshelf",
+   "space_id": "swiss-1470-F2-S008",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -2.003,
+    9.91
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.35,
+    "rotation_deg": 267.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00158",
+   "name": "Outdoor chair 2.09",
+   "category": "furniture",
+   "type": "outdoor_chair",
+   "space_id": "swiss-1470-F2-S009",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -3.908,
+    -3.513
+   ],
+   "footprint": {
+    "width_m": 0.5,
+    "depth_m": 0.5,
+    "rotation_deg": 177.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00159",
+   "name": "Toilet 2.10",
+   "category": "fixture",
+   "type": "toilet",
+   "space_id": "swiss-1470-F2-S010",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -0.925,
+    1.831
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.7,
+    "rotation_deg": 357.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00160",
+   "name": "Sink 2.10",
+   "category": "fixture",
+   "type": "sink",
+   "space_id": "swiss-1470-F2-S010",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -1.759,
+    -0.019
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.45,
+    "rotation_deg": 87.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00161",
+   "name": "Shower 2.10",
+   "category": "fixture",
+   "type": "shower",
+   "space_id": "swiss-1470-F2-S010",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -1.488,
+    0.961
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.9,
+    "rotation_deg": 87.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00162",
+   "name": "Kitchen counter 2.11",
+   "category": "fixture",
+   "type": "kitchen_counter",
+   "space_id": "swiss-1470-F2-S011",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -2.051,
+    -7.844
+   ],
+   "footprint": {
+    "width_m": 2.4,
+    "depth_m": 0.6,
+    "rotation_deg": 87.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00163",
+   "name": "Fridge 2.11",
+   "category": "equipment",
+   "type": "fridge",
+   "space_id": "swiss-1470-F2-S011",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -1.207,
+    -6.449
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.65,
+    "rotation_deg": 357.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00164",
+   "name": "Stove 2.11",
+   "category": "equipment",
+   "type": "stove",
+   "space_id": "swiss-1470-F2-S011",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -1.297,
+    -9.682
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.6,
+    "rotation_deg": 177.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00165",
+   "name": "Microwave 2.11",
+   "category": "equipment",
+   "type": "microwave",
+   "space_id": "swiss-1470-F2-S011",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -2.219,
+    -9.304
+   ],
+   "footprint": {
+    "width_m": 0.5,
+    "depth_m": 0.4,
+    "rotation_deg": 87.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00166",
+   "name": "Coffee machine 2.11",
+   "category": "equipment",
+   "type": "coffee_machine",
+   "space_id": "swiss-1470-F2-S011",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -0.802,
+    -7.641
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.4,
+    "rotation_deg": 267.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00167",
+   "name": "Single bed 2.14",
+   "category": "furniture",
+   "type": "single_bed",
+   "space_id": "swiss-1470-F2-S014",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    3.618,
+    0.294
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 2.0,
+    "rotation_deg": 267.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00168",
+   "name": "Wardrobe 2.14",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F2-S014",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    3.125,
+    -2.785
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 177.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00169",
+   "name": "Nightstand 2.14-A",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F2-S014",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    1.89,
+    0.561
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 87.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00170",
+   "name": "Nightstand 2.14-B",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F2-S014",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    4.282,
+    -2.645
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 267.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00171",
+   "name": "Bed 2.15",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "swiss-1470-F2-S015",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    2.17,
+    -6.477
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 177.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00172",
+   "name": "Wardrobe 2.15",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "swiss-1470-F2-S015",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    4.067,
+    -5.123
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 267.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00173",
+   "name": "Nightstand 2.15-A",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F2-S015",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    4.101,
+    -6.556
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 267.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00174",
+   "name": "Nightstand 2.15-B",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "swiss-1470-F2-S015",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    4.215,
+    -4.102
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 267.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00175",
+   "name": "Sofa 2.16",
+   "category": "furniture",
+   "type": "sofa",
+   "space_id": "swiss-1470-F2-S016",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    2.965,
+    -8.267
+   ],
+   "footprint": {
+    "width_m": 2.0,
+    "depth_m": 0.9,
+    "rotation_deg": 357.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00176",
+   "name": "Coffee table 2.16",
+   "category": "furniture",
+   "type": "coffee_table",
+   "space_id": "swiss-1470-F2-S016",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    0.802,
+    -12.937
+   ],
+   "footprint": {
+    "width_m": 1.0,
+    "depth_m": 0.6,
+    "rotation_deg": 357.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00177",
+   "name": "TV stand 2.16",
+   "category": "furniture",
+   "type": "tv_stand",
+   "space_id": "swiss-1470-F2-S016",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    3.846,
+    -12.053
+   ],
+   "footprint": {
+    "width_m": 1.5,
+    "depth_m": 0.4,
+    "rotation_deg": 267.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00178",
+   "name": "Bookshelf 2.16",
+   "category": "furniture",
+   "type": "bookshelf",
+   "space_id": "swiss-1470-F2-S016",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    1.357,
+    -13.593
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.35,
+    "rotation_deg": 177.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00179",
+   "name": "Armchair 2.16",
+   "category": "furniture",
+   "type": "armchair",
+   "space_id": "swiss-1470-F2-S016",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    1.442,
+    -9.368
+   ],
+   "footprint": {
+    "width_m": 0.8,
+    "depth_m": 0.8,
+    "rotation_deg": 357.3
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00180",
+   "name": "Plant 2.16",
+   "category": "furniture",
+   "type": "plant",
+   "space_id": "swiss-1470-F2-S016",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    -0.679,
+    -10.509
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.4,
+    "rotation_deg": 357.4
+   },
+   "source": "generated"
+  },
+  {
+   "id": "swiss-1470-A00181",
+   "name": "Fire extinguisher 2.17",
+   "category": "equipment",
+   "type": "fire_extinguisher",
+   "space_id": "swiss-1470-F2-S017",
+   "floor_id": "swiss-1470-F2",
+   "position": [
+    1.832,
+    3.12
+   ],
+   "footprint": {
+    "width_m": 0.3,
+    "depth_m": 0.3,
+    "rotation_deg": 357.4
+   },
+   "source": "generated"
+  }
+ ]
+}

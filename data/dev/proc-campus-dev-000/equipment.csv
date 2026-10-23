@@ -1,0 +1,945 @@
+asset_id,name,type,category,source,building_id,floor_level,floor_name,space_id,space_name,room_ref,room_type,x_m,y_m,width_m,depth_m,rotation_deg
+proc-campus-dev-000-A00001,Fire extinguisher 0.01,fire_extinguisher,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S001,Corridor 0.01,0.01,corridor,8.18,-34.143,0.3,0.3,270.0
+proc-campus-dev-000-A00002,Desk 0.02-A,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S002,Office 0.02,0.02,office,2.855,-0.42,1.4,0.7,0.0
+proc-campus-dev-000-A00003,Desk 0.02-B,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S002,Office 0.02,0.02,office,2.826,-3.75,1.4,0.7,180.0
+proc-campus-dev-000-A00004,Office chair 0.02-A,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S002,Office 0.02,0.02,office,3.88,-3.135,0.6,0.6,90.0
+proc-campus-dev-000-A00005,Office chair 0.02-B,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S002,Office 0.02,0.02,office,0.732,-0.682,0.6,0.6,180.0
+proc-campus-dev-000-A00006,Filing cabinet 0.02,filing_cabinet,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S002,Office 0.02,0.02,office,0.549,-3.8,0.5,0.6,180.0
+proc-campus-dev-000-A00007,Bookshelf 0.02,bookshelf,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S002,Office 0.02,0.02,office,0.245,-2.123,0.9,0.35,90.0
+proc-campus-dev-000-A00008,Plant 0.02,plant,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S002,Office 0.02,0.02,office,4.674,-3.9,0.4,0.4,180.0
+proc-campus-dev-000-A00009,Kitchen counter 0.03,kitchen_counter,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S003,Kitchen 0.03,0.03,kitchen,1.527,-7.98,2.4,0.6,180.0
+proc-campus-dev-000-A00010,Fridge 0.03,fridge,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S003,Kitchen 0.03,0.03,kitchen,2.728,-4.565,0.6,0.65,0.0
+proc-campus-dev-000-A00011,Stove 0.03,stove,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S003,Kitchen 0.03,0.03,kitchen,0.37,-7.15,0.6,0.6,90.0
+proc-campus-dev-000-A00012,Microwave 0.03,microwave,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S003,Kitchen 0.03,0.03,kitchen,0.27,-5.157,0.5,0.4,90.0
+proc-campus-dev-000-A00013,Coffee machine 0.03,coffee_machine,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S003,Kitchen 0.03,0.03,kitchen,4.976,-4.44,0.4,0.4,0.0
+proc-campus-dev-000-A00014,Dining table 0.03,dining_table,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S003,Kitchen 0.03,0.03,kitchen,2.213,-6.046,1.6,0.9,180.0
+proc-campus-dev-000-A00015,Fire extinguisher 0.04,fire_extinguisher,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S004,Staircase 1,0.04,stairwell,3.15,-8.57,0.3,0.3,0.0
+proc-campus-dev-000-A00016,Meeting table 0.06,meeting_table,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S006,Meeting room 0.06,0.06,meeting_room,3.263,-16.168,2.4,1.1,180.0
+proc-campus-dev-000-A00017,Chair 0.06-A,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S006,Meeting room 0.06,0.06,meeting_room,3.265,-17.472,0.5,0.5,180.0
+proc-campus-dev-000-A00018,Chair 0.06-B,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S006,Meeting room 0.06,0.06,meeting_room,0.606,-17.311,0.5,0.5,180.0
+proc-campus-dev-000-A00019,Chair 0.06-C,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S006,Meeting room 0.06,0.06,meeting_room,4.733,-17.246,0.5,0.5,90.0
+proc-campus-dev-000-A00020,Chair 0.06-D,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S006,Meeting room 0.06,0.06,meeting_room,0.388,-15.944,0.5,0.5,180.0
+proc-campus-dev-000-A00021,Chair 0.06-E,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S006,Meeting room 0.06,0.06,meeting_room,4.864,-16.42,0.5,0.5,90.0
+proc-campus-dev-000-A00022,Chair 0.06-F,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S006,Meeting room 0.06,0.06,meeting_room,5.608,-15.326,0.5,0.5,90.0
+proc-campus-dev-000-A00023,Chair 0.06-G,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S006,Meeting room 0.06,0.06,meeting_room,3.555,-15.276,0.5,0.5,180.0
+proc-campus-dev-000-A00024,Chair 0.06-H,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S006,Meeting room 0.06,0.06,meeting_room,1.126,-16.035,0.5,0.5,180.0
+proc-campus-dev-000-A00025,Chair 0.06-I,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S006,Meeting room 0.06,0.06,meeting_room,1.323,-17.685,0.5,0.5,180.0
+proc-campus-dev-000-A00026,Display screen 0.06,display_screen,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S006,Meeting room 0.06,0.06,meeting_room,3.534,-18.3,1.6,0.3,180.0
+proc-campus-dev-000-A00027,Desk 0.07-A,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S007,Office 0.07,0.07,office,5.012,-24.98,1.4,0.7,180.0
+proc-campus-dev-000-A00028,Desk 0.07-B,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S007,Office 0.07,0.07,office,1.366,-18.94,1.4,0.7,0.0
+proc-campus-dev-000-A00029,Desk 0.07-C,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S007,Office 0.07,0.07,office,0.42,-21.498,1.4,0.7,90.0
+proc-campus-dev-000-A00030,Office chair 0.07-A,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S007,Office 0.07,0.07,office,5.024,-20.262,0.6,0.6,90.0
+proc-campus-dev-000-A00031,Office chair 0.07-B,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S007,Office 0.07,0.07,office,0.459,-19.647,0.6,0.6,180.0
+proc-campus-dev-000-A00032,Office chair 0.07-C,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S007,Office 0.07,0.07,office,3.225,-19.509,0.6,0.6,90.0
+proc-campus-dev-000-A00033,Filing cabinet 0.07,filing_cabinet,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S007,Office 0.07,0.07,office,0.37,-23.432,0.5,0.6,90.0
+proc-campus-dev-000-A00034,Bookshelf 0.07,bookshelf,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S007,Office 0.07,0.07,office,5.755,-20.376,0.9,0.35,270.0
+proc-campus-dev-000-A00035,Plant 0.07,plant,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S007,Office 0.07,0.07,office,0.393,-25.13,0.4,0.4,180.0
+proc-campus-dev-000-A00036,3D printer 0.08-A,3d_printer,machine,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S008,Makerspace 0.08,0.08,makerspace,3.635,-31.18,0.6,0.6,180.0
+proc-campus-dev-000-A00037,3D printer 0.08-B,3d_printer,machine,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S008,Makerspace 0.08,0.08,makerspace,0.37,-27.398,0.6,0.6,90.0
+proc-campus-dev-000-A00038,3D printer 0.08-C,3d_printer,machine,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S008,Makerspace 0.08,0.08,makerspace,0.37,-26.594,0.6,0.6,90.0
+proc-campus-dev-000-A00039,3D printer 0.08-D,3d_printer,machine,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S008,Makerspace 0.08,0.08,makerspace,4.695,-31.18,0.6,0.6,180.0
+proc-campus-dev-000-A00040,3D printer 0.08-E,3d_printer,machine,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S008,Makerspace 0.08,0.08,makerspace,5.522,-25.77,0.6,0.6,0.0
+proc-campus-dev-000-A00041,Laser cutter 0.08,laser_cutter,machine,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S008,Makerspace 0.08,0.08,makerspace,0.52,-30.241,1.4,0.9,90.0
+proc-campus-dev-000-A00042,Soldering station 0.08-A,soldering_station,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S008,Makerspace 0.08,0.08,makerspace,2.643,-25.77,1.2,0.6,0.0
+proc-campus-dev-000-A00043,Soldering station 0.08-B,soldering_station,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S008,Makerspace 0.08,0.08,makerspace,0.719,-25.77,1.2,0.6,0.0
+proc-campus-dev-000-A00044,Workbench 0.08-A,workbench,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S008,Makerspace 0.08,0.08,makerspace,3.782,-27.716,2.0,0.8,90.0
+proc-campus-dev-000-A00045,Workbench 0.08-B,workbench,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S008,Makerspace 0.08,0.08,makerspace,2.427,-29.647,2.0,0.8,180.0
+proc-campus-dev-000-A00046,Workbench 0.08-C,workbench,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S008,Makerspace 0.08,0.08,makerspace,2.732,-27.661,2.0,0.8,90.0
+proc-campus-dev-000-A00047,Tool cabinet 0.08,tool_cabinet,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S008,Makerspace 0.08,0.08,makerspace,1.78,-31.18,1.0,0.6,180.0
+proc-campus-dev-000-A00048,Fire extinguisher 0.09,fire_extinguisher,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S009,Staircase 2,0.09,stairwell,0.22,-34.178,0.3,0.3,90.0
+proc-campus-dev-000-A00049,Lab bench 0.11-A,lab_bench,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S011,Lab 0.11,0.11,lab,1.965,-42.765,3.0,0.8,180.0
+proc-campus-dev-000-A00050,Lab bench 0.11-B,lab_bench,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S011,Lab 0.11,0.11,lab,4.099,-38.679,3.0,0.8,180.0
+proc-campus-dev-000-A00051,Fume hood 0.11-A,fume_hood,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S011,Lab 0.11,0.11,lab,0.47,-39.582,1.5,0.8,90.0
+proc-campus-dev-000-A00052,Fume hood 0.11-B,fume_hood,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S011,Lab 0.11,0.11,lab,4.006,-44.0,1.5,0.8,180.0
+proc-campus-dev-000-A00053,Microscope 0.11-A,microscope,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S011,Lab 0.11,0.11,lab,2.439,-43.736,0.5,0.5,90.0
+proc-campus-dev-000-A00054,Microscope 0.11-B,microscope,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S011,Lab 0.11,0.11,lab,1.523,-39.715,0.5,0.5,90.0
+proc-campus-dev-000-A00055,Oscilloscope station 0.11-A,oscilloscope_station,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S011,Lab 0.11,0.11,lab,5.58,-42.846,1.2,0.7,270.0
+proc-campus-dev-000-A00056,Oscilloscope station 0.11-B,oscilloscope_station,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S011,Lab 0.11,0.11,lab,1.747,-38.47,1.2,0.7,0.0
+proc-campus-dev-000-A00057,Chemical cabinet 0.11,chemical_cabinet,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S011,Lab 0.11,0.11,lab,0.32,-41.197,1.0,0.5,90.0
+proc-campus-dev-000-A00058,Eyewash station 0.11,eyewash_station,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S011,Lab 0.11,0.11,lab,0.27,-43.701,0.5,0.4,90.0
+proc-campus-dev-000-A00059,Desk 0.12-A,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S012,Office 0.12,0.12,office,4.276,-44.89,1.4,0.7,0.0
+proc-campus-dev-000-A00060,Desk 0.12-B,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S012,Office 0.12,0.12,office,0.42,-45.326,1.4,0.7,90.0
+proc-campus-dev-000-A00061,Desk 0.12-C,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S012,Office 0.12,0.12,office,0.42,-47.15,1.4,0.7,90.0
+proc-campus-dev-000-A00062,Office chair 0.12-A,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S012,Office 0.12,0.12,office,4.419,-48.462,0.6,0.6,90.0
+proc-campus-dev-000-A00063,Office chair 0.12-B,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S012,Office 0.12,0.12,office,5.462,-45.05,0.6,0.6,180.0
+proc-campus-dev-000-A00064,Office chair 0.12-C,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S012,Office 0.12,0.12,office,2.306,-46.35,0.6,0.6,180.0
+proc-campus-dev-000-A00065,Plant 0.12,plant,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S012,Office 0.12,0.12,office,5.335,-50.04,0.4,0.4,180.0
+proc-campus-dev-000-A00066,Desk 0.13-A,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S013,Office 0.13,0.13,office,0.42,-52.685,1.4,0.7,90.0
+proc-campus-dev-000-A00067,Desk 0.13-B,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S013,Office 0.13,0.13,office,4.339,-50.73,1.4,0.7,0.0
+proc-campus-dev-000-A00068,Office chair 0.13-A,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S013,Office 0.13,0.13,office,1.956,-51.06,0.6,0.6,90.0
+proc-campus-dev-000-A00069,Office chair 0.13-B,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S013,Office 0.13,0.13,office,1.078,-52.125,0.6,0.6,90.0
+proc-campus-dev-000-A00070,Bookshelf 0.13,bookshelf,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S013,Office 0.13,0.13,office,4.967,-54.505,0.9,0.35,180.0
+proc-campus-dev-000-A00071,Fire extinguisher 0.14,fire_extinguisher,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S014,Staircase 3,0.14,stairwell,1.287,-54.97,0.3,0.3,0.0
+proc-campus-dev-000-A00072,Multifunction printer 0.16-A,multifunction_printer,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S016,Print room 0.16,0.16,print_room,0.925,-61.67,0.8,0.7,0.0
+proc-campus-dev-000-A00073,Multifunction printer 0.16-B,multifunction_printer,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S016,Print room 0.16,0.16,print_room,3.345,-64.79,0.8,0.7,180.0
+proc-campus-dev-000-A00074,Printer 0.16,printer,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S016,Print room 0.16,0.16,print_room,1.576,-64.89,0.6,0.5,180.0
+proc-campus-dev-000-A00075,Paper shelf 0.16,paper_shelf,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S016,Print room 0.16,0.16,print_room,0.27,-64.56,1.0,0.4,90.0
+proc-campus-dev-000-A00076,Seminar table 0.17-A,seminar_table,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,1.993,-68.227,1.4,0.6,90.0
+proc-campus-dev-000-A00077,Seminar table 0.17-B,seminar_table,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,1.041,-66.543,1.4,0.6,180.0
+proc-campus-dev-000-A00078,Seminar table 0.17-C,seminar_table,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,3.467,-67.786,1.4,0.6,180.0
+proc-campus-dev-000-A00079,Seminar table 0.17-D,seminar_table,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,1.257,-67.793,1.4,0.6,90.0
+proc-campus-dev-000-A00080,Chair 0.17-A,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,4.472,-67.988,0.5,0.5,180.0
+proc-campus-dev-000-A00081,Chair 0.17-B,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,0.586,-67.918,0.5,0.5,180.0
+proc-campus-dev-000-A00082,Chair 0.17-C,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,3.409,-65.539,0.5,0.5,90.0
+proc-campus-dev-000-A00083,Chair 0.17-D,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,3.709,-68.666,0.5,0.5,90.0
+proc-campus-dev-000-A00084,Chair 0.17-E,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,4.121,-67.157,0.5,0.5,90.0
+proc-campus-dev-000-A00085,Chair 0.17-F,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,1.238,-69.019,0.5,0.5,90.0
+proc-campus-dev-000-A00086,Chair 0.17-G,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,4.825,-65.577,0.5,0.5,90.0
+proc-campus-dev-000-A00087,Chair 0.17-H,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,2.883,-66.874,0.5,0.5,180.0
+proc-campus-dev-000-A00088,Whiteboard 0.17,whiteboard,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,1.292,-69.48,1.8,0.1,180.0
+proc-campus-dev-000-A00089,Projector 0.17,projector,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,2.137,-67.097,0.4,0.3,180.0
+proc-campus-dev-000-A00090,Projector screen 0.17,projector_screen,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S017,Seminar room 0.17,0.17,seminar_room,0.145,-67.01,2.4,0.15,90.0
+proc-campus-dev-000-A00091,Reception desk 0.18,reception_desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S018,Main lobby,0.18,lobby,9.98,-5.757,2.5,0.8,180.0
+proc-campus-dev-000-A00092,Bench 0.18,bench,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S018,Main lobby,0.18,lobby,14.13,-1.088,1.5,0.4,270.0
+proc-campus-dev-000-A00093,Plant 0.18-A,plant,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S018,Main lobby,0.18,lobby,11.147,-0.27,0.4,0.4,0.0
+proc-campus-dev-000-A00094,Plant 0.18-B,plant,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S018,Main lobby,0.18,lobby,8.67,-0.288,0.4,0.4,90.0
+proc-campus-dev-000-A00095,Desk 0.19-A,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S019,Office 0.19,0.19,office,9.709,-6.77,1.4,0.7,0.0
+proc-campus-dev-000-A00096,Desk 0.19-B,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S019,Office 0.19,0.19,office,13.496,-9.59,1.4,0.7,180.0
+proc-campus-dev-000-A00097,Office chair 0.19-A,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S019,Office 0.19,0.19,office,12.348,-9.236,0.6,0.6,90.0
+proc-campus-dev-000-A00098,Office chair 0.19-B,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S019,Office 0.19,0.19,office,11.215,-9.441,0.6,0.6,180.0
+proc-campus-dev-000-A00099,Bookshelf 0.19,bookshelf,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S019,Office 0.19,0.19,office,13.202,-6.595,0.9,0.35,0.0
+proc-campus-dev-000-A00100,Toilet 0.20-A,toilet,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S020,Toilet 0.20,0.20,toilet,13.98,-13.414,0.4,0.7,270.0
+proc-campus-dev-000-A00101,Toilet 0.20-B,toilet,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S020,Toilet 0.20,0.20,toilet,10.549,-15.35,0.4,0.7,180.0
+proc-campus-dev-000-A00102,Toilet 0.20-C,toilet,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S020,Toilet 0.20,0.20,toilet,8.82,-14.964,0.4,0.7,90.0
+proc-campus-dev-000-A00103,Toilet 0.20-D,toilet,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S020,Toilet 0.20,0.20,toilet,13.578,-15.35,0.4,0.7,180.0
+proc-campus-dev-000-A00104,Sink 0.20,sink,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S020,Toilet 0.20,0.20,toilet,11.141,-10.305,0.6,0.45,0.0
+proc-campus-dev-000-A00105,Desk 0.21-A,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S021,Office 0.21,0.21,office,10.047,-16.19,1.4,0.7,0.0
+proc-campus-dev-000-A00106,Desk 0.21-B,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S021,Office 0.21,0.21,office,12.659,-16.19,1.4,0.7,0.0
+proc-campus-dev-000-A00107,Office chair 0.21-A,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S021,Office 0.21,0.21,office,12.857,-19.144,0.6,0.6,180.0
+proc-campus-dev-000-A00108,Office chair 0.21-B,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S021,Office 0.21,0.21,office,10.787,-20.106,0.6,0.6,90.0
+proc-campus-dev-000-A00109,Shelf 0.22-A,shelf,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S022,Storage 0.22,0.22,storage,14.13,-23.85,1.0,0.4,270.0
+proc-campus-dev-000-A00110,Shelf 0.22-B,shelf,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S022,Storage 0.22,0.22,storage,13.691,-25.2,1.0,0.4,180.0
+proc-campus-dev-000-A00111,Shelf 0.22-C,shelf,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S022,Storage 0.22,0.22,storage,12.173,-21.06,1.0,0.4,0.0
+proc-campus-dev-000-A00112,Shelf 0.22-D,shelf,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S022,Storage 0.22,0.22,storage,11.338,-25.2,1.0,0.4,180.0
+proc-campus-dev-000-A00113,Shelf 0.22-E,shelf,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S022,Storage 0.22,0.22,storage,14.13,-21.719,1.0,0.4,270.0
+proc-campus-dev-000-A00114,Shelf 0.22-F,shelf,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S022,Storage 0.22,0.22,storage,9.315,-25.2,1.0,0.4,180.0
+proc-campus-dev-000-A00115,Toilet 0.23-A,toilet,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S023,Toilet 0.23,0.23,toilet,13.98,-37.832,0.4,0.7,270.0
+proc-campus-dev-000-A00116,Toilet 0.23-B,toilet,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S023,Toilet 0.23,0.23,toilet,13.98,-38.924,0.4,0.7,270.0
+proc-campus-dev-000-A00117,Toilet 0.23-C,toilet,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S023,Toilet 0.23,0.23,toilet,10.809,-39.65,0.4,0.7,180.0
+proc-campus-dev-000-A00118,Toilet 0.23-D,toilet,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S023,Toilet 0.23,0.23,toilet,8.82,-35.319,0.4,0.7,90.0
+proc-campus-dev-000-A00119,Sink 0.23-A,sink,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S023,Toilet 0.23,0.23,toilet,8.695,-38.83,0.6,0.45,90.0
+proc-campus-dev-000-A00120,Sink 0.23-B,sink,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S023,Toilet 0.23,0.23,toilet,12.356,-39.775,0.6,0.45,180.0
+proc-campus-dev-000-A00121,Toilet 0.24-A,toilet,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S024,Toilet 0.24,0.24,toilet,13.98,-56.169,0.4,0.7,270.0
+proc-campus-dev-000-A00122,Toilet 0.24-B,toilet,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S024,Toilet 0.24,0.24,toilet,12.995,-58.58,0.4,0.7,180.0
+proc-campus-dev-000-A00123,Toilet 0.24-C,toilet,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S024,Toilet 0.24,0.24,toilet,13.98,-55.493,0.4,0.7,270.0
+proc-campus-dev-000-A00124,Sink 0.24,sink,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S024,Toilet 0.24,0.24,toilet,9.818,-58.705,0.6,0.45,180.0
+proc-campus-dev-000-A00125,Hand dryer 0.24,hand_dryer,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S024,Toilet 0.24,0.24,toilet,9.847,-55.34,0.3,0.2,0.0
+proc-campus-dev-000-A00126,Desk 0.25-A,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S025,Office 0.25,0.25,office,12.623,-59.42,1.4,0.7,0.0
+proc-campus-dev-000-A00127,Desk 0.25-B,desk,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S025,Office 0.25,0.25,office,12.826,-63.75,1.4,0.7,180.0
+proc-campus-dev-000-A00128,Office chair 0.25-A,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S025,Office 0.25,0.25,office,13.859,-60.124,0.6,0.6,90.0
+proc-campus-dev-000-A00129,Office chair 0.25-B,office_chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S025,Office 0.25,0.25,office,10.864,-63.275,0.6,0.6,180.0
+proc-campus-dev-000-A00130,Bookshelf 0.25,bookshelf,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S025,Office 0.25,0.25,office,8.645,-59.967,0.9,0.35,90.0
+proc-campus-dev-000-A00131,Lab bench 0.26-A,lab_bench,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S026,Lab 0.26,0.26,lab,11.574,-67.319,3.0,0.8,0.0
+proc-campus-dev-000-A00132,Lab bench 0.26-B,lab_bench,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S026,Lab 0.26,0.26,lab,12.03,-65.777,3.0,0.8,0.0
+proc-campus-dev-000-A00133,Microscope 0.26-A,microscope,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S026,Lab 0.26,0.26,lab,11.673,-64.96,0.5,0.5,90.0
+proc-campus-dev-000-A00134,Microscope 0.26-B,microscope,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S026,Lab 0.26,0.26,lab,12.636,-68.29,0.5,0.5,90.0
+proc-campus-dev-000-A00135,Oscilloscope station 0.26-A,oscilloscope_station,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S026,Lab 0.26,0.26,lab,13.98,-65.3,1.2,0.7,270.0
+proc-campus-dev-000-A00136,Oscilloscope station 0.26-B,oscilloscope_station,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S026,Lab 0.26,0.26,lab,9.714,-64.59,1.2,0.7,0.0
+proc-campus-dev-000-A00137,Lectern 0.27,lectern,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S027,Lecture hall 0.27,0.27,lecture_hall,12.611,-48.699,0.6,0.5,90.0
+proc-campus-dev-000-A00138,Seating row 0.27-A,lecture_seating_row,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S027,Lecture hall 0.27,0.27,lecture_hall,11.019,-49.869,5.0,0.8,180.0
+proc-campus-dev-000-A00139,Seating row 0.27-B,lecture_seating_row,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S027,Lecture hall 0.27,0.27,lecture_hall,12.737,-44.434,5.0,0.8,90.0
+proc-campus-dev-000-A00140,Seating row 0.27-C,lecture_seating_row,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S027,Lecture hall 0.27,0.27,lecture_hall,11.669,-41.49,5.0,0.8,180.0
+proc-campus-dev-000-A00141,Seating row 0.27-D,lecture_seating_row,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S027,Lecture hall 0.27,0.27,lecture_hall,11.697,-50.675,5.0,0.8,180.0
+proc-campus-dev-000-A00142,Seating row 0.27-E,lecture_seating_row,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S027,Lecture hall 0.27,0.27,lecture_hall,11.202,-46.604,5.0,0.8,90.0
+proc-campus-dev-000-A00143,Seating row 0.27-F,lecture_seating_row,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S027,Lecture hall 0.27,0.27,lecture_hall,9.67,-46.934,5.0,0.8,90.0
+proc-campus-dev-000-A00144,Seating row 0.27-G,lecture_seating_row,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S027,Lecture hall 0.27,0.27,lecture_hall,11.448,-52.012,5.0,0.8,180.0
+proc-campus-dev-000-A00145,Projector 0.27,projector,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S027,Lecture hall 0.27,0.27,lecture_hall,11.929,-47.261,0.4,0.3,90.0
+proc-campus-dev-000-A00146,Projector screen 0.27,projector_screen,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S027,Lecture hall 0.27,0.27,lecture_hall,14.255,-41.948,2.4,0.15,270.0
+proc-campus-dev-000-A00147,Whiteboard 0.27-A,whiteboard,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S027,Lecture hall 0.27,0.27,lecture_hall,14.28,-52.126,1.8,0.1,270.0
+proc-campus-dev-000-A00148,Whiteboard 0.27-B,whiteboard,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S027,Lecture hall 0.27,0.27,lecture_hall,14.28,-48.392,1.8,0.1,270.0
+proc-campus-dev-000-A00149,Serving counter 0.28,serving_counter,fixture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,11.318,-25.94,4.0,0.8,0.0
+proc-campus-dev-000-A00150,Canteen table 0.28-A,canteen_table,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,13.94,-27.968,1.8,0.8,90.0
+proc-campus-dev-000-A00151,Canteen table 0.28-B,canteen_table,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,9.837,-27.774,1.8,0.8,180.0
+proc-campus-dev-000-A00152,Canteen table 0.28-C,canteen_table,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,13.758,-32.703,1.8,0.8,90.0
+proc-campus-dev-000-A00153,Canteen table 0.28-D,canteen_table,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,12.078,-32.938,1.8,0.8,90.0
+proc-campus-dev-000-A00154,Chair 0.28-A,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,9.832,-29.841,0.5,0.5,90.0
+proc-campus-dev-000-A00155,Chair 0.28-B,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,8.78,-31.933,0.5,0.5,180.0
+proc-campus-dev-000-A00156,Chair 0.28-C,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,11.133,-28.075,0.5,0.5,90.0
+proc-campus-dev-000-A00157,Chair 0.28-D,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,11.914,-28.154,0.5,0.5,180.0
+proc-campus-dev-000-A00158,Chair 0.28-E,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,11.817,-28.94,0.5,0.5,90.0
+proc-campus-dev-000-A00159,Chair 0.28-F,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,13.529,-30.809,0.5,0.5,90.0
+proc-campus-dev-000-A00160,Chair 0.28-G,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,12.981,-33.247,0.5,0.5,180.0
+proc-campus-dev-000-A00161,Chair 0.28-H,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,11.265,-30.049,0.5,0.5,90.0
+proc-campus-dev-000-A00162,Chair 0.28-I,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,10.306,-31.597,0.5,0.5,90.0
+proc-campus-dev-000-A00163,Chair 0.28-J,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,12.135,-31.084,0.5,0.5,90.0
+proc-campus-dev-000-A00164,Chair 0.28-K,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,12.418,-27.844,0.5,0.5,90.0
+proc-campus-dev-000-A00165,Chair 0.28-L,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,9.619,-32.458,0.5,0.5,90.0
+proc-campus-dev-000-A00166,Chair 0.28-M,chair,furniture,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,12.636,-27.306,0.5,0.5,180.0
+proc-campus-dev-000-A00167,Vending machine 0.28,vending_machine,equipment,generated,proc-campus-dev-000,0,Ground floor,proc-campus-dev-000-F0-S028,Canteen 0.28,0.28,canteen,8.87,-31.212,0.9,0.8,90.0
+proc-campus-dev-000-A00168,Fire extinguisher 1.01,fire_extinguisher,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S001,Corridor 1.01,1.01,corridor,8.18,-55.491,0.3,0.3,270.0
+proc-campus-dev-000-A00169,Desk 1.02-A,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S002,Office 1.02,1.02,office,0.42,-2.311,1.4,0.7,90.0
+proc-campus-dev-000-A00170,Desk 1.02-B,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S002,Office 1.02,1.02,office,4.589,-3.75,1.4,0.7,180.0
+proc-campus-dev-000-A00171,Office chair 1.02-A,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S002,Office 1.02,1.02,office,0.467,-1.117,0.6,0.6,180.0
+proc-campus-dev-000-A00172,Office chair 1.02-B,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S002,Office 1.02,1.02,office,3.229,-1.722,0.6,0.6,180.0
+proc-campus-dev-000-A00173,Filing cabinet 1.02-A,filing_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S002,Office 1.02,1.02,office,2.546,-3.8,0.5,0.6,180.0
+proc-campus-dev-000-A00174,Filing cabinet 1.02-B,filing_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S002,Office 1.02,1.02,office,5.63,-0.566,0.5,0.6,270.0
+proc-campus-dev-000-A00175,Lab bench 1.03-A,lab_bench,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S003,Lab 1.03,1.03,lab,1.799,-5.514,3.0,0.8,180.0
+proc-campus-dev-000-A00176,Lab bench 1.03-B,lab_bench,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S003,Lab 1.03,1.03,lab,1.816,-6.445,3.0,0.8,180.0
+proc-campus-dev-000-A00177,Fume hood 1.03,fume_hood,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S003,Lab 1.03,1.03,lab,2.001,-7.88,1.5,0.8,180.0
+proc-campus-dev-000-A00178,Microscope 1.03-A,microscope,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S003,Lab 1.03,1.03,lab,2.132,-4.659,0.5,0.5,90.0
+proc-campus-dev-000-A00179,Microscope 1.03-B,microscope,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S003,Lab 1.03,1.03,lab,3.603,-4.822,0.5,0.5,90.0
+proc-campus-dev-000-A00180,Oscilloscope station 1.03-A,oscilloscope_station,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S003,Lab 1.03,1.03,lab,4.405,-7.93,1.2,0.7,180.0
+proc-campus-dev-000-A00181,Oscilloscope station 1.03-B,oscilloscope_station,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S003,Lab 1.03,1.03,lab,4.552,-4.59,1.2,0.7,0.0
+proc-campus-dev-000-A00182,Chemical cabinet 1.03,chemical_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S003,Lab 1.03,1.03,lab,1.165,-4.49,1.0,0.5,0.0
+proc-campus-dev-000-A00183,Eyewash station 1.03,eyewash_station,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S003,Lab 1.03,1.03,lab,3.374,-8.08,0.5,0.4,180.0
+proc-campus-dev-000-A00184,Seminar table 1.06-A,seminar_table,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,4.384,-17.521,1.4,0.6,90.0
+proc-campus-dev-000-A00185,Seminar table 1.06-B,seminar_table,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,3.701,-16.174,1.4,0.6,90.0
+proc-campus-dev-000-A00186,Seminar table 1.06-C,seminar_table,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,2.088,-16.628,1.4,0.6,90.0
+proc-campus-dev-000-A00187,Seminar table 1.06-D,seminar_table,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,0.393,-16.102,1.4,0.6,90.0
+proc-campus-dev-000-A00188,Chair 1.06-A,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,4.656,-16.268,0.5,0.5,90.0
+proc-campus-dev-000-A00189,Chair 1.06-B,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,1.205,-17.158,0.5,0.5,180.0
+proc-campus-dev-000-A00190,Chair 1.06-C,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,3.398,-17.849,0.5,0.5,180.0
+proc-campus-dev-000-A00191,Chair 1.06-D,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,2.859,-16.268,0.5,0.5,90.0
+proc-campus-dev-000-A00192,Chair 1.06-E,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,3.069,-15.227,0.5,0.5,180.0
+proc-campus-dev-000-A00193,Chair 1.06-F,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,1.572,-17.826,0.5,0.5,180.0
+proc-campus-dev-000-A00194,Chair 1.06-G,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,0.435,-17.41,0.5,0.5,180.0
+proc-campus-dev-000-A00195,Chair 1.06-H,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,2.804,-17.89,0.5,0.5,90.0
+proc-campus-dev-000-A00196,Whiteboard 1.06,whiteboard,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,3.194,-18.4,1.8,0.1,180.0
+proc-campus-dev-000-A00197,Projector 1.06,projector,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,3.11,-17.203,0.4,0.3,90.0
+proc-campus-dev-000-A00198,Projector screen 1.06,projector_screen,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S006,Seminar room 1.06,1.06,seminar_room,1.334,-14.995,2.4,0.15,0.0
+proc-campus-dev-000-A00199,Kitchen counter 1.07,kitchen_counter,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S007,Kitchen 1.07,1.07,kitchen,4.269,-18.89,2.4,0.6,0.0
+proc-campus-dev-000-A00200,Fridge 1.07,fridge,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S007,Kitchen 1.07,1.07,kitchen,5.443,-25.005,0.6,0.65,180.0
+proc-campus-dev-000-A00201,Stove 1.07,stove,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S007,Kitchen 1.07,1.07,kitchen,2.338,-25.03,0.6,0.6,180.0
+proc-campus-dev-000-A00202,Dishwasher 1.07,dishwasher,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S007,Kitchen 1.07,1.07,kitchen,4.599,-25.03,0.6,0.6,180.0
+proc-campus-dev-000-A00203,Microwave 1.07,microwave,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S007,Kitchen 1.07,1.07,kitchen,1.205,-18.79,0.5,0.4,0.0
+proc-campus-dev-000-A00204,Coffee machine 1.07,coffee_machine,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S007,Kitchen 1.07,1.07,kitchen,5.73,-20.675,0.4,0.4,270.0
+proc-campus-dev-000-A00205,Lab bench 1.08-A,lab_bench,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S008,Lab 1.08,1.08,lab,4.391,-27.398,3.0,0.8,90.0
+proc-campus-dev-000-A00206,Lab bench 1.08-B,lab_bench,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S008,Lab 1.08,1.08,lab,2.145,-27.967,3.0,0.8,180.0
+proc-campus-dev-000-A00207,Fume hood 1.08,fume_hood,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S008,Lab 1.08,1.08,lab,5.53,-29.989,1.5,0.8,270.0
+proc-campus-dev-000-A00208,Eyewash station 1.08,eyewash_station,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S008,Lab 1.08,1.08,lab,0.27,-27.41,0.5,0.4,90.0
+proc-campus-dev-000-A00209,Fire extinguisher 1.09,fire_extinguisher,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S009,Staircase 2,1.09,stairwell,5.78,-31.774,0.3,0.3,270.0
+proc-campus-dev-000-A00210,Lab bench 1.11-A,lab_bench,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S011,Lab 1.11,1.11,lab,1.906,-42.135,3.0,0.8,180.0
+proc-campus-dev-000-A00211,Lab bench 1.11-B,lab_bench,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S011,Lab 1.11,1.11,lab,1.691,-43.438,3.0,0.8,180.0
+proc-campus-dev-000-A00212,Fume hood 1.11,fume_hood,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S011,Lab 1.11,1.11,lab,5.53,-39.678,1.5,0.8,270.0
+proc-campus-dev-000-A00213,Microscope 1.11-A,microscope,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S011,Lab 1.11,1.11,lab,4.348,-39.451,0.5,0.5,180.0
+proc-campus-dev-000-A00214,Microscope 1.11-B,microscope,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S011,Lab 1.11,1.11,lab,4.669,-40.323,0.5,0.5,180.0
+proc-campus-dev-000-A00215,Microscope 1.11-C,microscope,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S011,Lab 1.11,1.11,lab,4.711,-44.103,0.5,0.5,90.0
+proc-campus-dev-000-A00216,Oscilloscope station 1.11-A,oscilloscope_station,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S011,Lab 1.11,1.11,lab,0.42,-40.95,1.2,0.7,90.0
+proc-campus-dev-000-A00217,Oscilloscope station 1.11-B,oscilloscope_station,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S011,Lab 1.11,1.11,lab,3.218,-38.47,1.2,0.7,0.0
+proc-campus-dev-000-A00218,Chemical cabinet 1.11,chemical_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S011,Lab 1.11,1.11,lab,1.278,-38.37,1.0,0.5,0.0
+proc-campus-dev-000-A00219,Meeting table 1.12,meeting_table,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,2.894,-46.995,2.4,1.1,90.0
+proc-campus-dev-000-A00220,Chair 1.12-A,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,2.585,-48.719,0.5,0.5,180.0
+proc-campus-dev-000-A00221,Chair 1.12-B,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,1.327,-45.601,0.5,0.5,180.0
+proc-campus-dev-000-A00222,Chair 1.12-C,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,2.319,-49.28,0.5,0.5,90.0
+proc-campus-dev-000-A00223,Chair 1.12-D,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,4.674,-45.303,0.5,0.5,90.0
+proc-campus-dev-000-A00224,Chair 1.12-E,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,4.268,-47.652,0.5,0.5,180.0
+proc-campus-dev-000-A00225,Chair 1.12-F,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,1.921,-48.102,0.5,0.5,90.0
+proc-campus-dev-000-A00226,Chair 1.12-G,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,1.482,-46.129,0.5,0.5,180.0
+proc-campus-dev-000-A00227,Chair 1.12-H,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,0.598,-48.076,0.5,0.5,180.0
+proc-campus-dev-000-A00228,Chair 1.12-I,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,5.201,-48.298,0.5,0.5,90.0
+proc-campus-dev-000-A00229,Chair 1.12-J,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,1.528,-49.468,0.5,0.5,180.0
+proc-campus-dev-000-A00230,Display screen 1.12,display_screen,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,3.451,-44.69,1.6,0.3,0.0
+proc-campus-dev-000-A00231,Whiteboard 1.12,whiteboard,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S012,Meeting room 1.12,1.12,meeting_room,1.573,-44.59,1.8,0.1,0.0
+proc-campus-dev-000-A00232,Multifunction printer 1.13-A,multifunction_printer,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S013,Print room 1.13,1.13,print_room,5.58,-51.043,0.8,0.7,270.0
+proc-campus-dev-000-A00233,Multifunction printer 1.13-B,multifunction_printer,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S013,Print room 1.13,1.13,print_room,3.721,-50.73,0.8,0.7,0.0
+proc-campus-dev-000-A00234,Printer 1.13,printer,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S013,Print room 1.13,1.13,print_room,0.32,-51.497,0.6,0.5,90.0
+proc-campus-dev-000-A00235,Paper shelf 1.13,paper_shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S013,Print room 1.13,1.13,print_room,1.934,-54.48,1.0,0.4,180.0
+proc-campus-dev-000-A00236,Seminar table 1.16-A,seminar_table,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,1.322,-62.61,1.4,0.6,180.0
+proc-campus-dev-000-A00237,Seminar table 1.16-B,seminar_table,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,1.638,-64.393,1.4,0.6,180.0
+proc-campus-dev-000-A00238,Seminar table 1.16-C,seminar_table,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,3.34,-62.672,1.4,0.6,90.0
+proc-campus-dev-000-A00239,Seminar table 1.16-D,seminar_table,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,4.063,-64.802,1.4,0.6,180.0
+proc-campus-dev-000-A00240,Chair 1.16-A,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,4.51,-63.455,0.5,0.5,180.0
+proc-campus-dev-000-A00241,Chair 1.16-B,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,2.714,-61.961,0.5,0.5,90.0
+proc-campus-dev-000-A00242,Chair 1.16-C,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,1.431,-63.82,0.5,0.5,90.0
+proc-campus-dev-000-A00243,Chair 1.16-D,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,3.94,-63.615,0.5,0.5,90.0
+proc-campus-dev-000-A00244,Chair 1.16-E,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,5.286,-64.344,0.5,0.5,180.0
+proc-campus-dev-000-A00245,Chair 1.16-F,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,3.489,-61.714,0.5,0.5,90.0
+proc-campus-dev-000-A00246,Chair 1.16-G,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,1.236,-63.179,0.5,0.5,90.0
+proc-campus-dev-000-A00247,Chair 1.16-H,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,4.165,-64.121,0.5,0.5,90.0
+proc-campus-dev-000-A00248,Whiteboard 1.16,whiteboard,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,2.807,-61.37,1.8,0.1,0.0
+proc-campus-dev-000-A00249,Projector 1.16,projector,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,2.603,-63.079,0.4,0.3,180.0
+proc-campus-dev-000-A00250,Projector screen 1.16,projector_screen,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S016,Seminar room 1.16,1.16,seminar_room,1.699,-65.065,2.4,0.15,180.0
+proc-campus-dev-000-A00251,Lab bench 1.17-A,lab_bench,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S017,Lab 1.17,1.17,lab,3.701,-67.924,3.0,0.8,90.0
+proc-campus-dev-000-A00252,Lab bench 1.17-B,lab_bench,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S017,Lab 1.17,1.17,lab,2.324,-67.919,3.0,0.8,90.0
+proc-campus-dev-000-A00253,Microscope 1.17-A,microscope,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S017,Lab 1.17,1.17,lab,2.976,-66.698,0.5,0.5,90.0
+proc-campus-dev-000-A00254,Microscope 1.17-B,microscope,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S017,Lab 1.17,1.17,lab,5.345,-66.003,0.5,0.5,180.0
+proc-campus-dev-000-A00255,Microscope 1.17-C,microscope,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S017,Lab 1.17,1.17,lab,4.83,-68.117,0.5,0.5,90.0
+proc-campus-dev-000-A00256,Chemical cabinet 1.17,chemical_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S017,Lab 1.17,1.17,lab,5.68,-68.894,1.0,0.5,270.0
+proc-campus-dev-000-A00257,Desk 1.18-A,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S018,Office 1.18,1.18,office,13.98,-2.804,1.4,0.7,270.0
+proc-campus-dev-000-A00258,Desk 1.18-B,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S018,Office 1.18,1.18,office,8.82,-4.933,1.4,0.7,90.0
+proc-campus-dev-000-A00259,Desk 1.18-C,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S018,Office 1.18,1.18,office,10.72,-0.42,1.4,0.7,0.0
+proc-campus-dev-000-A00260,Office chair 1.18-A,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S018,Office 1.18,1.18,office,12.939,-1.079,0.6,0.6,180.0
+proc-campus-dev-000-A00261,Office chair 1.18-B,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S018,Office 1.18,1.18,office,11.049,-2.875,0.6,0.6,180.0
+proc-campus-dev-000-A00262,Office chair 1.18-C,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S018,Office 1.18,1.18,office,12.296,-3.434,0.6,0.6,180.0
+proc-campus-dev-000-A00263,Bookshelf 1.18,bookshelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S018,Office 1.18,1.18,office,11.888,-6.105,0.9,0.35,180.0
+proc-campus-dev-000-A00264,Plant 1.18,plant,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S018,Office 1.18,1.18,office,8.847,-0.27,0.4,0.4,0.0
+proc-campus-dev-000-A00265,Lab bench 1.19,lab_bench,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S019,Lab 1.19,1.19,lab,11.048,-9.03,3.0,0.8,180.0
+proc-campus-dev-000-A00266,Fume hood 1.19-A,fume_hood,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S019,Lab 1.19,1.19,lab,13.93,-7.728,1.5,0.8,270.0
+proc-campus-dev-000-A00267,Fume hood 1.19-B,fume_hood,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S019,Lab 1.19,1.19,lab,10.656,-6.82,1.5,0.8,0.0
+proc-campus-dev-000-A00268,Chemical cabinet 1.19,chemical_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S019,Lab 1.19,1.19,lab,11.768,-9.69,1.0,0.5,180.0
+proc-campus-dev-000-A00269,Eyewash station 1.19,eyewash_station,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S019,Lab 1.19,1.19,lab,8.899,-6.62,0.5,0.4,0.0
+proc-campus-dev-000-A00270,Toilet 1.20-A,toilet,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S020,Toilet 1.20,1.20,toilet,9.367,-10.43,0.4,0.7,0.0
+proc-campus-dev-000-A00271,Toilet 1.20-B,toilet,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S020,Toilet 1.20,1.20,toilet,13.261,-15.35,0.4,0.7,180.0
+proc-campus-dev-000-A00272,Toilet 1.20-C,toilet,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S020,Toilet 1.20,1.20,toilet,12.614,-15.35,0.4,0.7,180.0
+proc-campus-dev-000-A00273,Toilet 1.20-D,toilet,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S020,Toilet 1.20,1.20,toilet,11.222,-10.43,0.4,0.7,0.0
+proc-campus-dev-000-A00274,Sink 1.20-A,sink,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S020,Toilet 1.20,1.20,toilet,14.105,-12.915,0.6,0.45,270.0
+proc-campus-dev-000-A00275,Sink 1.20-B,sink,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S020,Toilet 1.20,1.20,toilet,11.762,-15.475,0.6,0.45,180.0
+proc-campus-dev-000-A00276,Desk 1.21-A,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S021,Office 1.21,1.21,office,10.914,-20.37,1.4,0.7,180.0
+proc-campus-dev-000-A00277,Desk 1.21-B,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S021,Office 1.21,1.21,office,13.98,-19.105,1.4,0.7,270.0
+proc-campus-dev-000-A00278,Office chair 1.21-A,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S021,Office 1.21,1.21,office,11.655,-17.036,0.6,0.6,180.0
+proc-campus-dev-000-A00279,Office chair 1.21-B,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S021,Office 1.21,1.21,office,9.623,-16.742,0.6,0.6,90.0
+proc-campus-dev-000-A00280,Filing cabinet 1.21-A,filing_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S021,Office 1.21,1.21,office,8.77,-16.981,0.5,0.6,90.0
+proc-campus-dev-000-A00281,Filing cabinet 1.21-B,filing_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S021,Office 1.21,1.21,office,14.03,-17.332,0.5,0.6,270.0
+proc-campus-dev-000-A00282,Plant 1.21,plant,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S021,Office 1.21,1.21,office,14.13,-16.06,0.4,0.4,270.0
+proc-campus-dev-000-A00283,Meeting table 1.22,meeting_table,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,11.948,-22.88,2.4,1.1,180.0
+proc-campus-dev-000-A00284,Chair 1.22-A,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,13.399,-22.163,0.5,0.5,90.0
+proc-campus-dev-000-A00285,Chair 1.22-B,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,12.825,-24.808,0.5,0.5,180.0
+proc-campus-dev-000-A00286,Chair 1.22-C,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,13.662,-22.678,0.5,0.5,90.0
+proc-campus-dev-000-A00287,Chair 1.22-D,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,9.127,-24.935,0.5,0.5,90.0
+proc-campus-dev-000-A00288,Chair 1.22-E,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,10.176,-23.393,0.5,0.5,180.0
+proc-campus-dev-000-A00289,Chair 1.22-F,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,13.538,-24.745,0.5,0.5,90.0
+proc-campus-dev-000-A00290,Chair 1.22-G,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,11.54,-21.2,0.5,0.5,180.0
+proc-campus-dev-000-A00291,Chair 1.22-H,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,10.839,-24.443,0.5,0.5,90.0
+proc-campus-dev-000-A00292,Chair 1.22-I,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,14.012,-21.308,0.5,0.5,180.0
+proc-campus-dev-000-A00293,Chair 1.22-J,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,12.159,-24.165,0.5,0.5,90.0
+proc-campus-dev-000-A00294,Display screen 1.22,display_screen,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,14.18,-22.51,1.6,0.3,270.0
+proc-campus-dev-000-A00295,Whiteboard 1.22,whiteboard,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S022,Meeting room 1.22,1.22,meeting_room,13.358,-25.35,1.8,0.1,180.0
+proc-campus-dev-000-A00296,Desk 1.23-A,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S023,Office 1.23,1.23,office,13.98,-27.533,1.4,0.7,270.0
+proc-campus-dev-000-A00297,Desk 1.23-B,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S023,Office 1.23,1.23,office,12.338,-28.48,1.4,0.7,180.0
+proc-campus-dev-000-A00298,Office chair 1.23-A,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S023,Office 1.23,1.23,office,11.362,-26.296,0.6,0.6,90.0
+proc-campus-dev-000-A00299,Office chair 1.23-B,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S023,Office 1.23,1.23,office,11.796,-27.306,0.6,0.6,180.0
+proc-campus-dev-000-A00300,Filing cabinet 1.23-A,filing_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S023,Office 1.23,1.23,office,9.184,-25.84,0.5,0.6,0.0
+proc-campus-dev-000-A00301,Filing cabinet 1.23-B,filing_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S023,Office 1.23,1.23,office,10.737,-28.53,0.5,0.6,180.0
+proc-campus-dev-000-A00302,Plant 1.23,plant,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S023,Office 1.23,1.23,office,12.215,-25.74,0.4,0.4,0.0
+proc-campus-dev-000-A00303,Lab bench 1.24-A,lab_bench,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S024,Lab 1.24,1.24,lab,10.293,-30.81,3.0,0.8,90.0
+proc-campus-dev-000-A00304,Lab bench 1.24-B,lab_bench,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S024,Lab 1.24,1.24,lab,11.385,-32.811,3.0,0.8,180.0
+proc-campus-dev-000-A00305,Fume hood 1.24,fume_hood,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S024,Lab 1.24,1.24,lab,13.93,-32.748,1.5,0.8,270.0
+proc-campus-dev-000-A00306,Microscope 1.24-A,microscope,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S024,Lab 1.24,1.24,lab,13.858,-30.015,0.5,0.5,90.0
+proc-campus-dev-000-A00307,Microscope 1.24-B,microscope,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S024,Lab 1.24,1.24,lab,13.527,-31.72,0.5,0.5,180.0
+proc-campus-dev-000-A00308,Oscilloscope station 1.24,oscilloscope_station,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S024,Lab 1.24,1.24,lab,9.229,-29.32,1.2,0.7,0.0
+proc-campus-dev-000-A00309,Eyewash station 1.24,eyewash_station,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S024,Lab 1.24,1.24,lab,9.221,-33.63,0.5,0.4,180.0
+proc-campus-dev-000-A00310,Toilet 1.25-A,toilet,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S025,Toilet 1.25,1.25,toilet,8.82,-35.012,0.4,0.7,90.0
+proc-campus-dev-000-A00311,Toilet 1.25-B,toilet,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S025,Toilet 1.25,1.25,toilet,10.617,-39.65,0.4,0.7,180.0
+proc-campus-dev-000-A00312,Toilet 1.25-C,toilet,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S025,Toilet 1.25,1.25,toilet,9.767,-34.32,0.4,0.7,0.0
+proc-campus-dev-000-A00313,Toilet 1.25-D,toilet,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S025,Toilet 1.25,1.25,toilet,12.095,-39.65,0.4,0.7,180.0
+proc-campus-dev-000-A00314,Sink 1.25,sink,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S025,Toilet 1.25,1.25,toilet,14.105,-34.894,0.6,0.45,270.0
+proc-campus-dev-000-A00315,Hand dryer 1.25,hand_dryer,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S025,Toilet 1.25,1.25,toilet,12.63,-39.9,0.3,0.2,180.0
+proc-campus-dev-000-A00316,Desk 1.26-A,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S026,Office 1.26,1.26,office,11.67,-45.8,1.4,0.7,180.0
+proc-campus-dev-000-A00317,Desk 1.26-B,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S026,Office 1.26,1.26,office,13.98,-42.172,1.4,0.7,270.0
+proc-campus-dev-000-A00318,Desk 1.26-C,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S026,Office 1.26,1.26,office,13.98,-45.12,1.4,0.7,270.0
+proc-campus-dev-000-A00319,Office chair 1.26-A,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S026,Office 1.26,1.26,office,9.174,-45.596,0.6,0.6,180.0
+proc-campus-dev-000-A00320,Office chair 1.26-B,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S026,Office 1.26,1.26,office,9.067,-41.269,0.6,0.6,180.0
+proc-campus-dev-000-A00321,Office chair 1.26-C,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S026,Office 1.26,1.26,office,11.946,-41.574,0.6,0.6,90.0
+proc-campus-dev-000-A00322,Filing cabinet 1.26-A,filing_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S026,Office 1.26,1.26,office,8.77,-40.403,0.5,0.6,90.0
+proc-campus-dev-000-A00323,Filing cabinet 1.26-B,filing_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S026,Office 1.26,1.26,office,13.822,-40.44,0.5,0.6,0.0
+proc-campus-dev-000-A00324,Bookshelf 1.26,bookshelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S026,Office 1.26,1.26,office,8.645,-44.897,0.9,0.35,90.0
+proc-campus-dev-000-A00325,Plant 1.26,plant,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S026,Office 1.26,1.26,office,10.31,-40.34,0.4,0.4,0.0
+proc-campus-dev-000-A00326,Shelf 1.27-A,shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S027,Storage 1.27,1.27,storage,13.721,-46.49,1.0,0.4,0.0
+proc-campus-dev-000-A00327,Shelf 1.27-B,shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S027,Storage 1.27,1.27,storage,11.946,-46.49,1.0,0.4,0.0
+proc-campus-dev-000-A00328,Shelf 1.27-C,shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S027,Storage 1.27,1.27,storage,9.981,-46.49,1.0,0.4,0.0
+proc-campus-dev-000-A00329,Shelf 1.27-D,shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S027,Storage 1.27,1.27,storage,14.13,-48.672,1.0,0.4,270.0
+proc-campus-dev-000-A00330,Shelf 1.27-E,shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S027,Storage 1.27,1.27,storage,12.276,-50.43,1.0,0.4,180.0
+proc-campus-dev-000-A00331,Shelf 1.27-F,shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S027,Storage 1.27,1.27,storage,14.13,-49.876,1.0,0.4,270.0
+proc-campus-dev-000-A00332,Bookshelf 1.28-A,bookshelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,11.703,-52.196,0.9,0.35,180.0
+proc-campus-dev-000-A00333,Bookshelf 1.28-B,bookshelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,9.497,-54.188,0.9,0.35,90.0
+proc-campus-dev-000-A00334,Bookshelf 1.28-C,bookshelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,13.707,-53.822,0.9,0.35,180.0
+proc-campus-dev-000-A00335,Bookshelf 1.28-D,bookshelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,13.366,-54.698,0.9,0.35,180.0
+proc-campus-dev-000-A00336,Bookshelf 1.28-E,bookshelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,12.576,-54.002,0.9,0.35,180.0
+proc-campus-dev-000-A00337,Bookshelf 1.28-F,bookshelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,10.566,-53.977,0.9,0.35,180.0
+proc-campus-dev-000-A00338,Bookshelf 1.28-G,bookshelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,10.085,-53.346,0.9,0.35,90.0
+proc-campus-dev-000-A00339,Reading table 1.28-A,reading_table,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,13.156,-51.162,1.6,0.8,180.0
+proc-campus-dev-000-A00340,Reading table 1.28-B,reading_table,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,13.165,-52.471,1.6,0.8,180.0
+proc-campus-dev-000-A00341,Chair 1.28-A,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,10.334,-52.231,0.5,0.5,180.0
+proc-campus-dev-000-A00342,Chair 1.28-B,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,9.393,-52.128,0.5,0.5,90.0
+proc-campus-dev-000-A00343,Chair 1.28-C,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,10.526,-51.092,0.5,0.5,90.0
+proc-campus-dev-000-A00344,Chair 1.28-D,chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S028,Library 1.28,1.28,library,10.062,-54.571,0.5,0.5,180.0
+proc-campus-dev-000-A00345,Toilet 1.29-A,toilet,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S029,Toilet 1.29,1.29,toilet,8.713,-58.58,0.4,0.7,180.0
+proc-campus-dev-000-A00346,Toilet 1.29-B,toilet,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S029,Toilet 1.29,1.29,toilet,10.382,-55.59,0.4,0.7,0.0
+proc-campus-dev-000-A00347,Toilet 1.29-C,toilet,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S029,Toilet 1.29,1.29,toilet,12.253,-55.59,0.4,0.7,0.0
+proc-campus-dev-000-A00348,Sink 1.29-A,sink,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S029,Toilet 1.29,1.29,toilet,8.861,-55.465,0.6,0.45,0.0
+proc-campus-dev-000-A00349,Sink 1.29-B,sink,fixture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S029,Toilet 1.29,1.29,toilet,12.033,-58.705,0.6,0.45,180.0
+proc-campus-dev-000-A00350,Hand dryer 1.29,hand_dryer,equipment,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S029,Toilet 1.29,1.29,toilet,12.694,-58.83,0.3,0.2,180.0
+proc-campus-dev-000-A00351,Shelf 1.30-A,shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S030,Storage 1.30,1.30,storage,11.569,-63.9,1.0,0.4,180.0
+proc-campus-dev-000-A00352,Shelf 1.30-B,shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S030,Storage 1.30,1.30,storage,13.748,-59.27,1.0,0.4,0.0
+proc-campus-dev-000-A00353,Shelf 1.30-C,shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S030,Storage 1.30,1.30,storage,14.13,-60.349,1.0,0.4,270.0
+proc-campus-dev-000-A00354,Shelf 1.30-D,shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S030,Storage 1.30,1.30,storage,10.742,-59.27,1.0,0.4,0.0
+proc-campus-dev-000-A00355,Shelf 1.30-E,shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S030,Storage 1.30,1.30,storage,8.67,-59.858,1.0,0.4,90.0
+proc-campus-dev-000-A00356,Shelf 1.30-F,shelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S030,Storage 1.30,1.30,storage,14.13,-61.635,1.0,0.4,270.0
+proc-campus-dev-000-A00357,Desk 1.31-A,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S031,Office 1.31,1.31,office,11.362,-69.18,1.4,0.7,180.0
+proc-campus-dev-000-A00358,Desk 1.31-B,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S031,Office 1.31,1.31,office,10.849,-64.59,1.4,0.7,0.0
+proc-campus-dev-000-A00359,Desk 1.31-C,desk,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S031,Office 1.31,1.31,office,13.98,-66.021,1.4,0.7,270.0
+proc-campus-dev-000-A00360,Office chair 1.31-A,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S031,Office 1.31,1.31,office,12.863,-66.895,0.6,0.6,0.0
+proc-campus-dev-000-A00361,Office chair 1.31-B,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S031,Office 1.31,1.31,office,10.645,-68.518,0.6,0.6,0.0
+proc-campus-dev-000-A00362,Office chair 1.31-C,office_chair,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S031,Office 1.31,1.31,office,9.647,-67.277,0.6,0.6,90.0
+proc-campus-dev-000-A00363,Filing cabinet 1.31,filing_cabinet,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S031,Office 1.31,1.31,office,10.406,-69.23,0.5,0.6,180.0
+proc-campus-dev-000-A00364,Bookshelf 1.31,bookshelf,furniture,generated,proc-campus-dev-000,1,Floor 1,proc-campus-dev-000-F1-S031,Office 1.31,1.31,office,13.144,-69.355,0.9,0.35,180.0
+proc-campus-dev-000-A00365,Fire extinguisher 2.01,fire_extinguisher,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S001,Corridor 2.01,2.01,corridor,8.18,-14.67,0.3,0.3,270.0
+proc-campus-dev-000-A00366,Lab bench 2.02-A,lab_bench,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S002,Lab 2.02,2.02,lab,2.23,-3.045,3.0,0.8,180.0
+proc-campus-dev-000-A00367,Lab bench 2.02-B,lab_bench,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S002,Lab 2.02,2.02,lab,3.247,-0.667,3.0,0.8,180.0
+proc-campus-dev-000-A00368,Fume hood 2.02-A,fume_hood,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S002,Lab 2.02,2.02,lab,4.712,-3.7,1.5,0.8,180.0
+proc-campus-dev-000-A00369,Fume hood 2.02-B,fume_hood,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S002,Lab 2.02,2.02,lab,0.47,-1.843,1.5,0.8,90.0
+proc-campus-dev-000-A00370,Oscilloscope station 2.02,oscilloscope_station,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S002,Lab 2.02,2.02,lab,0.866,-0.42,1.2,0.7,0.0
+proc-campus-dev-000-A00371,Chemical cabinet 2.02,chemical_cabinet,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S002,Lab 2.02,2.02,lab,1.382,-3.85,1.0,0.5,180.0
+proc-campus-dev-000-A00372,Eyewash station 2.02,eyewash_station,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S002,Lab 2.02,2.02,lab,5.73,-3.236,0.5,0.4,270.0
+proc-campus-dev-000-A00373,3D printer 2.02,3d_printer,machine,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S002,Lab 2.02,2.02,lab,0.37,-2.961,0.6,0.6,90.0
+proc-campus-dev-000-A00374,Desk 2.03-A,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S003,Office 2.03,2.03,office,1.687,-4.59,1.4,0.7,0.0
+proc-campus-dev-000-A00375,Desk 2.03-B,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S003,Office 2.03,2.03,office,1.533,-7.93,1.4,0.7,180.0
+proc-campus-dev-000-A00376,Office chair 2.03-A,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S003,Office 2.03,2.03,office,0.994,-5.528,0.6,0.6,90.0
+proc-campus-dev-000-A00377,Office chair 2.03-B,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S003,Office 2.03,2.03,office,5.057,-4.819,0.6,0.6,180.0
+proc-campus-dev-000-A00378,Bookshelf 2.03,bookshelf,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S003,Office 2.03,2.03,office,3.517,-4.415,0.9,0.35,0.0
+proc-campus-dev-000-A00379,Fire extinguisher 2.04,fire_extinguisher,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S004,Staircase 1,2.04,stairwell,3.049,-8.57,0.3,0.3,0.0
+proc-campus-dev-000-A00380,Seminar table 2.06-A,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,4.386,-15.81,1.4,0.6,180.0
+proc-campus-dev-000-A00381,Seminar table 2.06-B,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,1.613,-17.74,1.4,0.6,90.0
+proc-campus-dev-000-A00382,Seminar table 2.06-C,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,0.658,-16.566,1.4,0.6,90.0
+proc-campus-dev-000-A00383,Seminar table 2.06-D,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,3.818,-17.33,1.4,0.6,90.0
+proc-campus-dev-000-A00384,Chair 2.06-A,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,4.441,-18.043,0.5,0.5,90.0
+proc-campus-dev-000-A00385,Chair 2.06-B,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,3.224,-16.364,0.5,0.5,90.0
+proc-campus-dev-000-A00386,Chair 2.06-C,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,2.151,-16.306,0.5,0.5,180.0
+proc-campus-dev-000-A00387,Chair 2.06-D,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,5.54,-18.034,0.5,0.5,180.0
+proc-campus-dev-000-A00388,Chair 2.06-E,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,0.751,-15.236,0.5,0.5,180.0
+proc-campus-dev-000-A00389,Chair 2.06-F,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,4.928,-16.673,0.5,0.5,180.0
+proc-campus-dev-000-A00390,Chair 2.06-G,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,2.171,-17.725,0.5,0.5,90.0
+proc-campus-dev-000-A00391,Chair 2.06-H,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,0.577,-17.609,0.5,0.5,90.0
+proc-campus-dev-000-A00392,Whiteboard 2.06,whiteboard,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,4.528,-18.4,1.8,0.1,180.0
+proc-campus-dev-000-A00393,Projector 2.06,projector,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,3.854,-16.376,0.4,0.3,180.0
+proc-campus-dev-000-A00394,Projector screen 2.06,projector_screen,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S006,Seminar room 2.06,2.06,seminar_room,4.245,-14.995,2.4,0.15,0.0
+proc-campus-dev-000-A00395,Kitchen counter 2.07,kitchen_counter,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S007,Kitchen 2.07,2.07,kitchen,1.728,-25.03,2.4,0.6,180.0
+proc-campus-dev-000-A00396,Fridge 2.07,fridge,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S007,Kitchen 2.07,2.07,kitchen,0.395,-21.645,0.6,0.65,90.0
+proc-campus-dev-000-A00397,Stove 2.07,stove,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S007,Kitchen 2.07,2.07,kitchen,5.63,-23.088,0.6,0.6,270.0
+proc-campus-dev-000-A00398,Dishwasher 2.07,dishwasher,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S007,Kitchen 2.07,2.07,kitchen,5.435,-18.89,0.6,0.6,0.0
+proc-campus-dev-000-A00399,Coffee machine 2.07,coffee_machine,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S007,Kitchen 2.07,2.07,kitchen,2.105,-18.79,0.4,0.4,0.0
+proc-campus-dev-000-A00400,Lab bench 2.08-A,lab_bench,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S008,Lab 2.08,2.08,lab,2.464,-28.721,3.0,0.8,90.0
+proc-campus-dev-000-A00401,Lab bench 2.08-B,lab_bench,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S008,Lab 2.08,2.08,lab,0.744,-27.527,3.0,0.8,90.0
+proc-campus-dev-000-A00402,Fume hood 2.08,fume_hood,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S008,Lab 2.08,2.08,lab,4.769,-31.08,1.5,0.8,180.0
+proc-campus-dev-000-A00403,Microscope 2.08,microscope,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S008,Lab 2.08,2.08,lab,3.924,-26.957,0.5,0.5,180.0
+proc-campus-dev-000-A00404,Oscilloscope station 2.08,oscilloscope_station,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S008,Lab 2.08,2.08,lab,0.885,-31.13,1.2,0.7,180.0
+proc-campus-dev-000-A00405,Chemical cabinet 2.08,chemical_cabinet,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S008,Lab 2.08,2.08,lab,0.32,-30.056,1.0,0.5,90.0
+proc-campus-dev-000-A00406,3D printer 2.08,3d_printer,machine,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S008,Lab 2.08,2.08,lab,3.627,-25.77,0.6,0.6,0.0
+proc-campus-dev-000-A00407,Fire extinguisher 2.09,fire_extinguisher,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S009,Staircase 2,2.09,stairwell,2.251,-35.33,0.3,0.3,180.0
+proc-campus-dev-000-A00408,Seminar table 2.11-A,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,0.768,-43.25,1.4,0.6,90.0
+proc-campus-dev-000-A00409,Seminar table 2.11-B,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,4.576,-42.948,1.4,0.6,90.0
+proc-campus-dev-000-A00410,Seminar table 2.11-C,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,4.892,-43.977,1.4,0.6,180.0
+proc-campus-dev-000-A00411,Seminar table 2.11-D,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,2.022,-39.277,1.4,0.6,180.0
+proc-campus-dev-000-A00412,Seminar table 2.11-E,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,3.982,-39.027,1.4,0.6,180.0
+proc-campus-dev-000-A00413,Seminar table 2.11-F,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,3.62,-40.04,1.4,0.6,90.0
+proc-campus-dev-000-A00414,Chair 2.11-A,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,4.173,-40.781,0.5,0.5,180.0
+proc-campus-dev-000-A00415,Chair 2.11-B,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,2.458,-43.749,0.5,0.5,180.0
+proc-campus-dev-000-A00416,Chair 2.11-C,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,2.99,-42.378,0.5,0.5,180.0
+proc-campus-dev-000-A00417,Chair 2.11-D,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,3.735,-43.061,0.5,0.5,180.0
+proc-campus-dev-000-A00418,Chair 2.11-E,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,2.613,-41.427,0.5,0.5,180.0
+proc-campus-dev-000-A00419,Chair 2.11-F,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,0.734,-41.621,0.5,0.5,90.0
+proc-campus-dev-000-A00420,Chair 2.11-G,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,1.765,-42.642,0.5,0.5,90.0
+proc-campus-dev-000-A00421,Chair 2.11-H,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,4.952,-39.055,0.5,0.5,90.0
+proc-campus-dev-000-A00422,Chair 2.11-I,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,3.669,-42.151,0.5,0.5,180.0
+proc-campus-dev-000-A00423,Chair 2.11-J,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,2.159,-40.512,0.5,0.5,90.0
+proc-campus-dev-000-A00424,Chair 2.11-K,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,2.945,-40.419,0.5,0.5,90.0
+proc-campus-dev-000-A00425,Chair 2.11-L,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,1.154,-40.215,0.5,0.5,180.0
+proc-campus-dev-000-A00426,Whiteboard 2.11,whiteboard,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,4.122,-38.17,1.8,0.1,0.0
+proc-campus-dev-000-A00427,Projector 2.11,projector,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,3.112,-41.005,0.4,0.3,90.0
+proc-campus-dev-000-A00428,Projector screen 2.11,projector_screen,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S011,Seminar room 2.11,2.11,seminar_room,0.145,-39.403,2.4,0.15,90.0
+proc-campus-dev-000-A00429,Desk 2.12-A,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S012,Office 2.12,2.12,office,0.42,-46.246,1.4,0.7,90.0
+proc-campus-dev-000-A00430,Desk 2.12-B,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S012,Office 2.12,2.12,office,0.42,-49.455,1.4,0.7,90.0
+proc-campus-dev-000-A00431,Desk 2.12-C,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S012,Office 2.12,2.12,office,3.833,-49.89,1.4,0.7,180.0
+proc-campus-dev-000-A00432,Office chair 2.12-A,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S012,Office 2.12,2.12,office,1.222,-46.268,0.6,0.6,90.0
+proc-campus-dev-000-A00433,Office chair 2.12-B,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S012,Office 2.12,2.12,office,5.268,-45.526,0.6,0.6,90.0
+proc-campus-dev-000-A00434,Office chair 2.12-C,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S012,Office 2.12,2.12,office,2.829,-49.19,0.6,0.6,180.0
+proc-campus-dev-000-A00435,Filing cabinet 2.12,filing_cabinet,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S012,Office 2.12,2.12,office,0.37,-47.794,0.5,0.6,90.0
+proc-campus-dev-000-A00436,Bookshelf 2.12,bookshelf,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S012,Office 2.12,2.12,office,5.246,-44.715,0.9,0.35,0.0
+proc-campus-dev-000-A00437,Plant 2.12,plant,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S012,Office 2.12,2.12,office,4.273,-44.74,0.4,0.4,0.0
+proc-campus-dev-000-A00438,Seminar table 2.13-A,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,3.818,-50.949,1.4,0.6,180.0
+proc-campus-dev-000-A00439,Seminar table 2.13-B,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,4.303,-52.28,1.4,0.6,90.0
+proc-campus-dev-000-A00440,Seminar table 2.13-C,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,0.921,-53.514,1.4,0.6,180.0
+proc-campus-dev-000-A00441,Seminar table 2.13-D,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,0.85,-51.917,1.4,0.6,90.0
+proc-campus-dev-000-A00442,Chair 2.13-A,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,1.696,-50.714,0.5,0.5,90.0
+proc-campus-dev-000-A00443,Chair 2.13-B,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,4.617,-53.386,0.5,0.5,180.0
+proc-campus-dev-000-A00444,Chair 2.13-C,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,1.555,-51.654,0.5,0.5,90.0
+proc-campus-dev-000-A00445,Chair 2.13-D,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,2.97,-51.985,0.5,0.5,90.0
+proc-campus-dev-000-A00446,Chair 2.13-E,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,3.648,-54.395,0.5,0.5,90.0
+proc-campus-dev-000-A00447,Chair 2.13-F,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,1.921,-52.906,0.5,0.5,180.0
+proc-campus-dev-000-A00448,Chair 2.13-G,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,3.147,-52.676,0.5,0.5,180.0
+proc-campus-dev-000-A00449,Chair 2.13-H,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,5.344,-53.635,0.5,0.5,180.0
+proc-campus-dev-000-A00450,Whiteboard 2.13,whiteboard,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,2.329,-54.63,1.8,0.1,180.0
+proc-campus-dev-000-A00451,Projector 2.13,projector,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,2.337,-52.259,0.4,0.3,180.0
+proc-campus-dev-000-A00452,Projector screen 2.13,projector_screen,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S013,Seminar room 2.13,2.13,seminar_room,3.836,-50.455,2.4,0.15,0.0
+proc-campus-dev-000-A00453,Fire extinguisher 2.14,fire_extinguisher,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S014,Staircase 3,2.14,stairwell,5.78,-55.062,0.3,0.3,270.0
+proc-campus-dev-000-A00454,Desk 2.16-A,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S016,Office 2.16,2.16,office,1.213,-61.67,1.4,0.7,0.0
+proc-campus-dev-000-A00455,Desk 2.16-B,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S016,Office 2.16,2.16,office,4.473,-64.79,1.4,0.7,180.0
+proc-campus-dev-000-A00456,Office chair 2.16-A,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S016,Office 2.16,2.16,office,0.908,-63.061,0.6,0.6,180.0
+proc-campus-dev-000-A00457,Office chair 2.16-B,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S016,Office 2.16,2.16,office,4.666,-63.69,0.6,0.6,180.0
+proc-campus-dev-000-A00458,Bookshelf 2.16,bookshelf,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S016,Office 2.16,2.16,office,1.849,-64.965,0.9,0.35,180.0
+proc-campus-dev-000-A00459,Plant 2.16,plant,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S016,Office 2.16,2.16,office,3.211,-61.52,0.4,0.4,0.0
+proc-campus-dev-000-A00460,Lab bench 2.17-A,lab_bench,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S017,Lab 2.17,2.17,lab,3.395,-67.333,3.0,0.8,90.0
+proc-campus-dev-000-A00461,Lab bench 2.17-B,lab_bench,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S017,Lab 2.17,2.17,lab,4.494,-66.803,3.0,0.8,90.0
+proc-campus-dev-000-A00462,Fume hood 2.17-A,fume_hood,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S017,Lab 2.17,2.17,lab,1.448,-69.13,1.5,0.8,180.0
+proc-campus-dev-000-A00463,Fume hood 2.17-B,fume_hood,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S017,Lab 2.17,2.17,lab,0.47,-66.029,1.5,0.8,90.0
+proc-campus-dev-000-A00464,Microscope 2.17-A,microscope,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S017,Lab 2.17,2.17,lab,1.185,-65.909,0.5,0.5,180.0
+proc-campus-dev-000-A00465,Microscope 2.17-B,microscope,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S017,Lab 2.17,2.17,lab,1.321,-68.298,0.5,0.5,90.0
+proc-campus-dev-000-A00466,Oscilloscope station 2.17-A,oscilloscope_station,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S017,Lab 2.17,2.17,lab,2.125,-65.63,1.2,0.7,0.0
+proc-campus-dev-000-A00467,Oscilloscope station 2.17-B,oscilloscope_station,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S017,Lab 2.17,2.17,lab,5.58,-66.043,1.2,0.7,270.0
+proc-campus-dev-000-A00468,Chemical cabinet 2.17,chemical_cabinet,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S017,Lab 2.17,2.17,lab,0.32,-69.02,1.0,0.5,90.0
+proc-campus-dev-000-A00469,3D printer 2.17,3d_printer,machine,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S017,Lab 2.17,2.17,lab,3.637,-69.23,0.6,0.6,180.0
+proc-campus-dev-000-A00470,Desk 2.18-A,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S018,Office 2.18,2.18,office,13.309,-5.93,1.4,0.7,180.0
+proc-campus-dev-000-A00471,Desk 2.18-B,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S018,Office 2.18,2.18,office,10.534,-0.42,1.4,0.7,0.0
+proc-campus-dev-000-A00472,Desk 2.18-C,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S018,Office 2.18,2.18,office,11.886,-5.93,1.4,0.7,180.0
+proc-campus-dev-000-A00473,Office chair 2.18-A,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S018,Office 2.18,2.18,office,11.809,-2.246,0.6,0.6,90.0
+proc-campus-dev-000-A00474,Office chair 2.18-B,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S018,Office 2.18,2.18,office,13.949,-4.607,0.6,0.6,180.0
+proc-campus-dev-000-A00475,Office chair 2.18-C,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S018,Office 2.18,2.18,office,12.539,-3.537,0.6,0.6,180.0
+proc-campus-dev-000-A00476,Filing cabinet 2.18-A,filing_cabinet,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S018,Office 2.18,2.18,office,14.03,-1.08,0.5,0.6,270.0
+proc-campus-dev-000-A00477,Filing cabinet 2.18-B,filing_cabinet,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S018,Office 2.18,2.18,office,9.555,-5.98,0.5,0.6,180.0
+proc-campus-dev-000-A00478,Plant 2.18,plant,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S018,Office 2.18,2.18,office,10.555,-6.08,0.4,0.4,180.0
+proc-campus-dev-000-A00479,Lab bench 2.19,lab_bench,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S019,Lab 2.19,2.19,lab,9.615,-8.378,3.0,0.8,90.0
+proc-campus-dev-000-A00480,Microscope 2.19-A,microscope,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S019,Lab 2.19,2.19,lab,13.187,-9.638,0.5,0.5,180.0
+proc-campus-dev-000-A00481,Microscope 2.19-B,microscope,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S019,Lab 2.19,2.19,lab,12.063,-8.019,0.5,0.5,90.0
+proc-campus-dev-000-A00482,Microscope 2.19-C,microscope,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S019,Lab 2.19,2.19,lab,10.718,-8.828,0.5,0.5,180.0
+proc-campus-dev-000-A00483,Oscilloscope station 2.19-A,oscilloscope_station,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S019,Lab 2.19,2.19,lab,11.17,-9.59,1.2,0.7,180.0
+proc-campus-dev-000-A00484,Oscilloscope station 2.19-B,oscilloscope_station,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S019,Lab 2.19,2.19,lab,13.98,-9.129,1.2,0.7,270.0
+proc-campus-dev-000-A00485,Chemical cabinet 2.19,chemical_cabinet,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S019,Lab 2.19,2.19,lab,14.08,-7.277,1.0,0.5,270.0
+proc-campus-dev-000-A00486,Eyewash station 2.19,eyewash_station,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S019,Lab 2.19,2.19,lab,14.13,-8.083,0.5,0.4,270.0
+proc-campus-dev-000-A00487,Toilet 2.20-A,toilet,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S020,Toilet 2.20,2.20,toilet,9.95,-10.43,0.4,0.7,0.0
+proc-campus-dev-000-A00488,Toilet 2.20-B,toilet,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S020,Toilet 2.20,2.20,toilet,8.82,-15.352,0.4,0.7,90.0
+proc-campus-dev-000-A00489,Toilet 2.20-C,toilet,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S020,Toilet 2.20,2.20,toilet,11.424,-10.43,0.4,0.7,0.0
+proc-campus-dev-000-A00490,Toilet 2.20-D,toilet,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S020,Toilet 2.20,2.20,toilet,10.02,-15.35,0.4,0.7,180.0
+proc-campus-dev-000-A00491,Sink 2.20-A,sink,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S020,Toilet 2.20,2.20,toilet,8.695,-14.441,0.6,0.45,90.0
+proc-campus-dev-000-A00492,Sink 2.20-B,sink,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S020,Toilet 2.20,2.20,toilet,13.554,-15.475,0.6,0.45,180.0
+proc-campus-dev-000-A00493,Lab bench 2.21-A,lab_bench,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S021,Lab 2.21,2.21,lab,10.881,-18.881,3.0,0.8,180.0
+proc-campus-dev-000-A00494,Lab bench 2.21-B,lab_bench,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S021,Lab 2.21,2.21,lab,12.952,-18.915,3.0,0.8,90.0
+proc-campus-dev-000-A00495,Fume hood 2.21,fume_hood,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S021,Lab 2.21,2.21,lab,10.273,-16.24,1.5,0.8,0.0
+proc-campus-dev-000-A00496,Microscope 2.21,microscope,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S021,Lab 2.21,2.21,lab,9.952,-17.66,0.5,0.5,90.0
+proc-campus-dev-000-A00497,Oscilloscope station 2.21,oscilloscope_station,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S021,Lab 2.21,2.21,lab,13.98,-19.495,1.2,0.7,270.0
+proc-campus-dev-000-A00498,Eyewash station 2.21,eyewash_station,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S021,Lab 2.21,2.21,lab,9.056,-20.52,0.5,0.4,180.0
+proc-campus-dev-000-A00499,Desk 2.22-A,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S022,Office 2.22,2.22,office,10.617,-25.05,1.4,0.7,180.0
+proc-campus-dev-000-A00500,Desk 2.22-B,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S022,Office 2.22,2.22,office,13.98,-22.297,1.4,0.7,270.0
+proc-campus-dev-000-A00501,Office chair 2.22-A,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S022,Office 2.22,2.22,office,11.597,-22.982,0.6,0.6,180.0
+proc-campus-dev-000-A00502,Office chair 2.22-B,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S022,Office 2.22,2.22,office,12.963,-21.783,0.6,0.6,90.0
+proc-campus-dev-000-A00503,Plant 2.22,plant,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S022,Office 2.22,2.22,office,10.099,-21.06,0.4,0.4,0.0
+proc-campus-dev-000-A00504,Desk 2.23-A,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S023,Office 2.23,2.23,office,12.071,-25.89,1.4,0.7,0.0
+proc-campus-dev-000-A00505,Desk 2.23-B,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S023,Office 2.23,2.23,office,13.98,-26.737,1.4,0.7,270.0
+proc-campus-dev-000-A00506,Office chair 2.23-A,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S023,Office 2.23,2.23,office,13.206,-26.858,0.6,0.6,90.0
+proc-campus-dev-000-A00507,Office chair 2.23-B,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S023,Office 2.23,2.23,office,12.006,-27.79,0.6,0.6,180.0
+proc-campus-dev-000-A00508,Filing cabinet 2.23,filing_cabinet,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S023,Office 2.23,2.23,office,10.068,-25.84,0.5,0.6,0.0
+proc-campus-dev-000-A00509,Desk 2.24-A,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S024,Office 2.24,2.24,office,9.89,-29.32,1.4,0.7,0.0
+proc-campus-dev-000-A00510,Desk 2.24-B,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S024,Office 2.24,2.24,office,11.465,-29.32,1.4,0.7,0.0
+proc-campus-dev-000-A00511,Office chair 2.24-A,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S024,Office 2.24,2.24,office,12.21,-30.777,0.6,0.6,180.0
+proc-campus-dev-000-A00512,Office chair 2.24-B,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S024,Office 2.24,2.24,office,13.476,-31.24,0.6,0.6,180.0
+proc-campus-dev-000-A00513,Toilet 2.25-A,toilet,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S025,Toilet 2.25,2.25,toilet,13.98,-38.948,0.4,0.7,270.0
+proc-campus-dev-000-A00514,Toilet 2.25-B,toilet,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S025,Toilet 2.25,2.25,toilet,12.302,-34.32,0.4,0.7,0.0
+proc-campus-dev-000-A00515,Toilet 2.25-C,toilet,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S025,Toilet 2.25,2.25,toilet,13.98,-35.109,0.4,0.7,270.0
+proc-campus-dev-000-A00516,Toilet 2.25-D,toilet,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S025,Toilet 2.25,2.25,toilet,8.82,-35.036,0.4,0.7,90.0
+proc-campus-dev-000-A00517,Sink 2.25,sink,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S025,Toilet 2.25,2.25,toilet,9.837,-39.775,0.6,0.45,180.0
+proc-campus-dev-000-A00518,Hand dryer 2.25,hand_dryer,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S025,Toilet 2.25,2.25,toilet,10.568,-34.07,0.3,0.2,0.0
+proc-campus-dev-000-A00519,Multifunction printer 2.26-A,multifunction_printer,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S026,Print room 2.26,2.26,print_room,8.82,-45.57,0.8,0.7,90.0
+proc-campus-dev-000-A00520,Multifunction printer 2.26-B,multifunction_printer,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S026,Print room 2.26,2.26,print_room,13.98,-41.661,0.8,0.7,270.0
+proc-campus-dev-000-A00521,Printer 2.26,printer,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S026,Print room 2.26,2.26,print_room,14.08,-45.334,0.6,0.5,270.0
+proc-campus-dev-000-A00522,Paper shelf 2.26,paper_shelf,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S026,Print room 2.26,2.26,print_room,10.963,-40.34,1.0,0.4,0.0
+proc-campus-dev-000-A00523,Desk 2.27-A,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S027,Office 2.27,2.27,office,11.469,-46.64,1.4,0.7,0.0
+proc-campus-dev-000-A00524,Desk 2.27-B,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S027,Office 2.27,2.27,office,13.98,-48.583,1.4,0.7,270.0
+proc-campus-dev-000-A00525,Office chair 2.27-A,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S027,Office 2.27,2.27,office,13.042,-49.316,0.6,0.6,180.0
+proc-campus-dev-000-A00526,Office chair 2.27-B,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S027,Office 2.27,2.27,office,10.03,-47.624,0.6,0.6,180.0
+proc-campus-dev-000-A00527,Filing cabinet 2.27,filing_cabinet,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S027,Office 2.27,2.27,office,13.077,-46.59,0.5,0.6,0.0
+proc-campus-dev-000-A00528,Bookshelf 2.27,bookshelf,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S027,Office 2.27,2.27,office,8.645,-46.812,0.9,0.35,90.0
+proc-campus-dev-000-A00529,Desk 2.28-A,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S028,Office 2.28,2.28,office,10.987,-51.12,1.4,0.7,0.0
+proc-campus-dev-000-A00530,Desk 2.28-B,desk,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S028,Office 2.28,2.28,office,11.432,-54.75,1.4,0.7,180.0
+proc-campus-dev-000-A00531,Office chair 2.28-A,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S028,Office 2.28,2.28,office,12.92,-52.182,0.6,0.6,90.0
+proc-campus-dev-000-A00532,Office chair 2.28-B,office_chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S028,Office 2.28,2.28,office,11.319,-52.434,0.6,0.6,180.0
+proc-campus-dev-000-A00533,Filing cabinet 2.28,filing_cabinet,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S028,Office 2.28,2.28,office,14.03,-54.594,0.5,0.6,270.0
+proc-campus-dev-000-A00534,Plant 2.28,plant,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S028,Office 2.28,2.28,office,9.017,-50.97,0.4,0.4,0.0
+proc-campus-dev-000-A00535,Toilet 2.29-A,toilet,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S029,Toilet 2.29,2.29,toilet,13.98,-56.798,0.4,0.7,270.0
+proc-campus-dev-000-A00536,Toilet 2.29-B,toilet,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S029,Toilet 2.29,2.29,toilet,11.924,-55.59,0.4,0.7,0.0
+proc-campus-dev-000-A00537,Toilet 2.29-C,toilet,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S029,Toilet 2.29,2.29,toilet,10.258,-58.58,0.4,0.7,180.0
+proc-campus-dev-000-A00538,Sink 2.29,sink,fixture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S029,Toilet 2.29,2.29,toilet,9.347,-58.705,0.6,0.45,180.0
+proc-campus-dev-000-A00539,Hand dryer 2.29,hand_dryer,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S029,Toilet 2.29,2.29,toilet,14.23,-56.3,0.3,0.2,270.0
+proc-campus-dev-000-A00540,Seminar table 2.30-A,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,10.117,-61.639,1.4,0.6,180.0
+proc-campus-dev-000-A00541,Seminar table 2.30-B,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,9.598,-62.967,1.4,0.6,180.0
+proc-campus-dev-000-A00542,Seminar table 2.30-C,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,11.87,-59.759,1.4,0.6,180.0
+proc-campus-dev-000-A00543,Seminar table 2.30-D,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,13.691,-62.543,1.4,0.6,90.0
+proc-campus-dev-000-A00544,Seminar table 2.30-E,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,12.586,-60.54,1.4,0.6,180.0
+proc-campus-dev-000-A00545,Chair 2.30-A,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,13.469,-59.301,0.5,0.5,180.0
+proc-campus-dev-000-A00546,Chair 2.30-B,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,8.923,-60.435,0.5,0.5,90.0
+proc-campus-dev-000-A00547,Chair 2.30-C,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,10.87,-63.736,0.5,0.5,90.0
+proc-campus-dev-000-A00548,Chair 2.30-D,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,12.109,-62.956,0.5,0.5,180.0
+proc-campus-dev-000-A00549,Chair 2.30-E,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,11.428,-61.251,0.5,0.5,180.0
+proc-campus-dev-000-A00550,Chair 2.30-F,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,11.363,-62.683,0.5,0.5,180.0
+proc-campus-dev-000-A00551,Chair 2.30-G,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,13.581,-59.863,0.5,0.5,180.0
+proc-campus-dev-000-A00552,Chair 2.30-H,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,12.037,-62.042,0.5,0.5,180.0
+proc-campus-dev-000-A00553,Chair 2.30-I,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,13.819,-61.515,0.5,0.5,90.0
+proc-campus-dev-000-A00554,Whiteboard 2.30,whiteboard,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,9.831,-59.12,1.8,0.1,0.0
+proc-campus-dev-000-A00555,Projector 2.30,projector,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,11.375,-61.858,0.4,0.3,90.0
+proc-campus-dev-000-A00556,Projector screen 2.30,projector_screen,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S030,Seminar room 2.30,2.30,seminar_room,12.602,-64.025,2.4,0.15,180.0
+proc-campus-dev-000-A00557,Seminar table 2.31-A,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,8.896,-65.448,1.4,0.6,90.0
+proc-campus-dev-000-A00558,Seminar table 2.31-B,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,10.198,-66.591,1.4,0.6,0.0
+proc-campus-dev-000-A00559,Seminar table 2.31-C,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,12.783,-67.96,1.4,0.6,0.0
+proc-campus-dev-000-A00560,Seminar table 2.31-D,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,9.449,-67.776,1.4,0.6,90.0
+proc-campus-dev-000-A00561,Seminar table 2.31-E,seminar_table,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,10.018,-64.986,1.4,0.6,90.0
+proc-campus-dev-000-A00562,Chair 2.31-A,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,12.404,-65.03,0.5,0.5,0.0
+proc-campus-dev-000-A00563,Chair 2.31-B,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,11.966,-68.544,0.5,0.5,90.0
+proc-campus-dev-000-A00564,Chair 2.31-C,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,11.69,-67.776,0.5,0.5,90.0
+proc-campus-dev-000-A00565,Chair 2.31-D,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,10.655,-64.784,0.5,0.5,90.0
+proc-campus-dev-000-A00566,Chair 2.31-E,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,10.17,-67.851,0.5,0.5,90.0
+proc-campus-dev-000-A00567,Chair 2.31-F,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,13.811,-65.239,0.5,0.5,90.0
+proc-campus-dev-000-A00568,Chair 2.31-G,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,14.054,-67.265,0.5,0.5,0.0
+proc-campus-dev-000-A00569,Chair 2.31-H,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,12.509,-66.009,0.5,0.5,0.0
+proc-campus-dev-000-A00570,Chair 2.31-I,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,11.116,-69.041,0.5,0.5,0.0
+proc-campus-dev-000-A00571,Chair 2.31-J,chair,furniture,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,13.5,-65.835,0.5,0.5,0.0
+proc-campus-dev-000-A00572,Whiteboard 2.31,whiteboard,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,14.28,-68.567,1.8,0.1,270.0
+proc-campus-dev-000-A00573,Projector 2.31,projector,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,11.656,-66.802,0.4,0.3,0.0
+proc-campus-dev-000-A00574,Projector screen 2.31,projector_screen,equipment,generated,proc-campus-dev-000,2,Floor 2,proc-campus-dev-000-F2-S031,Seminar room 2.31,2.31,seminar_room,12.58,-69.455,2.4,0.15,180.0
+proc-campus-dev-000-A00575,Seminar table 3.02-A,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,4.482,-1.77,1.4,0.6,180.0
+proc-campus-dev-000-A00576,Seminar table 3.02-B,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,1.468,-1.437,1.4,0.6,90.0
+proc-campus-dev-000-A00577,Seminar table 3.02-C,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,3.06,-2.847,1.4,0.6,180.0
+proc-campus-dev-000-A00578,Seminar table 3.02-D,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,0.761,-2.003,1.4,0.6,90.0
+proc-campus-dev-000-A00579,Chair 3.02-A,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,5.541,-3.384,0.5,0.5,90.0
+proc-campus-dev-000-A00580,Chair 3.02-B,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,3.1,-0.858,0.5,0.5,180.0
+proc-campus-dev-000-A00581,Chair 3.02-C,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,2.812,-2.146,0.5,0.5,180.0
+proc-campus-dev-000-A00582,Chair 3.02-D,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,4.067,-2.927,0.5,0.5,90.0
+proc-campus-dev-000-A00583,Chair 3.02-E,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,4.288,-3.782,0.5,0.5,180.0
+proc-campus-dev-000-A00584,Chair 3.02-F,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,3.152,-3.436,0.5,0.5,90.0
+proc-campus-dev-000-A00585,Chair 3.02-G,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,0.691,-3.827,0.5,0.5,180.0
+proc-campus-dev-000-A00586,Chair 3.02-H,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,4.588,-0.88,0.5,0.5,90.0
+proc-campus-dev-000-A00587,Whiteboard 3.02,whiteboard,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,2.512,-0.12,1.8,0.1,0.0
+proc-campus-dev-000-A00588,Projector 3.02,projector,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,2.957,-1.595,0.4,0.3,90.0
+proc-campus-dev-000-A00589,Projector screen 3.02,projector_screen,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S002,Seminar room 3.02,3.02,seminar_room,0.145,-1.544,2.4,0.15,90.0
+proc-campus-dev-000-A00590,Seminar table 3.03-A,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,3.901,-6.232,1.4,0.6,90.0
+proc-campus-dev-000-A00591,Seminar table 3.03-B,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,4.872,-7.821,1.4,0.6,180.0
+proc-campus-dev-000-A00592,Seminar table 3.03-C,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,1.685,-5.282,1.4,0.6,180.0
+proc-campus-dev-000-A00593,Seminar table 3.03-D,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,2.861,-4.924,1.4,0.6,90.0
+proc-campus-dev-000-A00594,Chair 3.03-A,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,4.096,-4.542,0.5,0.5,90.0
+proc-campus-dev-000-A00595,Chair 3.03-B,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,3.096,-7.56,0.5,0.5,90.0
+proc-campus-dev-000-A00596,Chair 3.03-C,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,2.136,-6.732,0.5,0.5,90.0
+proc-campus-dev-000-A00597,Chair 3.03-D,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,1.909,-7.521,0.5,0.5,180.0
+proc-campus-dev-000-A00598,Chair 3.03-E,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,4.739,-7.099,0.5,0.5,180.0
+proc-campus-dev-000-A00599,Chair 3.03-F,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,0.6,-6.138,0.5,0.5,90.0
+proc-campus-dev-000-A00600,Chair 3.03-G,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,4.132,-7.21,0.5,0.5,90.0
+proc-campus-dev-000-A00601,Chair 3.03-H,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,4.843,-4.941,0.5,0.5,90.0
+proc-campus-dev-000-A00602,Whiteboard 3.03,whiteboard,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,1.318,-8.23,1.8,0.1,180.0
+proc-campus-dev-000-A00603,Projector 3.03,projector,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,2.948,-6.669,0.4,0.3,90.0
+proc-campus-dev-000-A00604,Projector screen 3.03,projector_screen,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S003,Seminar room 3.03,3.03,seminar_room,3.56,-8.205,2.4,0.15,180.0
+proc-campus-dev-000-A00605,Lab bench 3.06,lab_bench,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S006,Lab 3.06,3.06,lab,2.533,-16.454,3.0,0.8,180.0
+proc-campus-dev-000-A00606,Fume hood 3.06,fume_hood,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S006,Lab 3.06,3.06,lab,0.911,-15.32,1.5,0.8,0.0
+proc-campus-dev-000-A00607,Microscope 3.06,microscope,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S006,Lab 3.06,3.06,lab,2.264,-17.854,0.5,0.5,180.0
+proc-campus-dev-000-A00608,Chemical cabinet 3.06,chemical_cabinet,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S006,Lab 3.06,3.06,lab,5.346,-18.2,1.0,0.5,180.0
+proc-campus-dev-000-A00609,Eyewash station 3.06,eyewash_station,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S006,Lab 3.06,3.06,lab,4.102,-15.12,0.5,0.4,0.0
+proc-campus-dev-000-A00610,Desk 3.07-A,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S007,Office 3.07,3.07,office,2.49,-24.98,1.4,0.7,180.0
+proc-campus-dev-000-A00611,Desk 3.07-B,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S007,Office 3.07,3.07,office,5.58,-20.015,1.4,0.7,270.0
+proc-campus-dev-000-A00612,Desk 3.07-C,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S007,Office 3.07,3.07,office,5.58,-24.112,1.4,0.7,270.0
+proc-campus-dev-000-A00613,Office chair 3.07-A,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S007,Office 3.07,3.07,office,1.267,-22.849,0.6,0.6,180.0
+proc-campus-dev-000-A00614,Office chair 3.07-B,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S007,Office 3.07,3.07,office,4.028,-22.947,0.6,0.6,180.0
+proc-campus-dev-000-A00615,Office chair 3.07-C,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S007,Office 3.07,3.07,office,3.813,-24.132,0.6,0.6,90.0
+proc-campus-dev-000-A00616,Plant 3.07,plant,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S007,Office 3.07,3.07,office,0.756,-25.13,0.4,0.4,180.0
+proc-campus-dev-000-A00617,Desk 3.08-A,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S008,Office 3.08,3.08,office,0.944,-31.13,1.4,0.7,180.0
+proc-campus-dev-000-A00618,Desk 3.08-B,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S008,Office 3.08,3.08,office,0.42,-26.231,1.4,0.7,90.0
+proc-campus-dev-000-A00619,Desk 3.08-C,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S008,Office 3.08,3.08,office,2.605,-25.82,1.4,0.7,0.0
+proc-campus-dev-000-A00620,Office chair 3.08-A,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S008,Office 3.08,3.08,office,4.179,-29.048,0.6,0.6,90.0
+proc-campus-dev-000-A00621,Office chair 3.08-B,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S008,Office 3.08,3.08,office,2.241,-30.416,0.6,0.6,90.0
+proc-campus-dev-000-A00622,Office chair 3.08-C,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S008,Office 3.08,3.08,office,2.48,-26.697,0.6,0.6,180.0
+proc-campus-dev-000-A00623,Filing cabinet 3.08-A,filing_cabinet,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S008,Office 3.08,3.08,office,0.37,-27.721,0.5,0.6,90.0
+proc-campus-dev-000-A00624,Filing cabinet 3.08-B,filing_cabinet,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S008,Office 3.08,3.08,office,5.024,-25.77,0.5,0.6,0.0
+proc-campus-dev-000-A00625,Bookshelf 3.08,bookshelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S008,Office 3.08,3.08,office,2.413,-31.305,0.9,0.35,180.0
+proc-campus-dev-000-A00626,Fire extinguisher 3.09,fire_extinguisher,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S009,Staircase 2,3.09,stairwell,0.22,-33.451,0.3,0.3,90.0
+proc-campus-dev-000-A00627,Lab bench 3.11-A,lab_bench,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S011,Lab 3.11,3.11,lab,3.605,-41.649,3.0,0.8,180.0
+proc-campus-dev-000-A00628,Lab bench 3.11-B,lab_bench,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S011,Lab 3.11,3.11,lab,3.509,-42.856,3.0,0.8,180.0
+proc-campus-dev-000-A00629,Microscope 3.11,microscope,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S011,Lab 3.11,3.11,lab,2.625,-38.849,0.5,0.5,180.0
+proc-campus-dev-000-A00630,Oscilloscope station 3.11,oscilloscope_station,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S011,Lab 3.11,3.11,lab,0.42,-40.115,1.2,0.7,90.0
+proc-campus-dev-000-A00631,Chemical cabinet 3.11,chemical_cabinet,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S011,Lab 3.11,3.11,lab,0.32,-38.756,1.0,0.5,90.0
+proc-campus-dev-000-A00632,Eyewash station 3.11,eyewash_station,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S011,Lab 3.11,3.11,lab,5.73,-38.64,0.5,0.4,270.0
+proc-campus-dev-000-A00633,Seminar table 3.12-A,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,1.975,-48.435,1.4,0.6,90.0
+proc-campus-dev-000-A00634,Seminar table 3.12-B,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,4.036,-45.724,1.4,0.6,90.0
+proc-campus-dev-000-A00635,Seminar table 3.12-C,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,4.279,-48.89,1.4,0.6,180.0
+proc-campus-dev-000-A00636,Seminar table 3.12-D,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,3.575,-47.163,1.4,0.6,90.0
+proc-campus-dev-000-A00637,Seminar table 3.12-E,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,0.556,-46.036,1.4,0.6,90.0
+proc-campus-dev-000-A00638,Chair 3.12-A,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,1.585,-47.146,0.5,0.5,180.0
+proc-campus-dev-000-A00639,Chair 3.12-B,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,5.153,-49.892,0.5,0.5,180.0
+proc-campus-dev-000-A00640,Chair 3.12-C,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,4.693,-46.495,0.5,0.5,180.0
+proc-campus-dev-000-A00641,Chair 3.12-D,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,2.57,-48.399,0.5,0.5,180.0
+proc-campus-dev-000-A00642,Chair 3.12-E,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,5.678,-49.097,0.5,0.5,90.0
+proc-campus-dev-000-A00643,Chair 3.12-F,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,4.838,-45.083,0.5,0.5,90.0
+proc-campus-dev-000-A00644,Chair 3.12-G,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,3.162,-48.875,0.5,0.5,180.0
+proc-campus-dev-000-A00645,Chair 3.12-H,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,5.338,-45.611,0.5,0.5,180.0
+proc-campus-dev-000-A00646,Chair 3.12-I,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,3.007,-45.008,0.5,0.5,180.0
+proc-campus-dev-000-A00647,Chair 3.12-J,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,1.971,-45.383,0.5,0.5,90.0
+proc-campus-dev-000-A00648,Chair 3.12-K,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,0.912,-47.713,0.5,0.5,90.0
+proc-campus-dev-000-A00649,Whiteboard 3.12,whiteboard,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,5.007,-44.59,1.8,0.1,0.0
+proc-campus-dev-000-A00650,Projector 3.12,projector,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,2.9,-46.869,0.4,0.3,180.0
+proc-campus-dev-000-A00651,Projector screen 3.12,projector_screen,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S012,Seminar room 3.12,3.12,seminar_room,3.3,-50.165,2.4,0.15,180.0
+proc-campus-dev-000-A00652,Seminar table 3.13-A,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,2.578,-53.105,1.4,0.6,180.0
+proc-campus-dev-000-A00653,Seminar table 3.13-B,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,4.883,-51.212,1.4,0.6,90.0
+proc-campus-dev-000-A00654,Seminar table 3.13-C,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,4.512,-53.725,1.4,0.6,90.0
+proc-campus-dev-000-A00655,Seminar table 3.13-D,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,3.245,-52.401,1.4,0.6,180.0
+proc-campus-dev-000-A00656,Chair 3.13-A,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,5.361,-53.703,0.5,0.5,180.0
+proc-campus-dev-000-A00657,Chair 3.13-B,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,1.389,-53.479,0.5,0.5,90.0
+proc-campus-dev-000-A00658,Chair 3.13-C,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,1.066,-50.712,0.5,0.5,180.0
+proc-campus-dev-000-A00659,Chair 3.13-D,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,1.432,-52.273,0.5,0.5,180.0
+proc-campus-dev-000-A00660,Chair 3.13-E,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,3.474,-53.684,0.5,0.5,90.0
+proc-campus-dev-000-A00661,Chair 3.13-F,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,1.148,-51.677,0.5,0.5,180.0
+proc-campus-dev-000-A00662,Chair 3.13-G,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,2.253,-52.303,0.5,0.5,180.0
+proc-campus-dev-000-A00663,Chair 3.13-H,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,5.439,-51.224,0.5,0.5,180.0
+proc-campus-dev-000-A00664,Whiteboard 3.13,whiteboard,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,3.531,-54.63,1.8,0.1,180.0
+proc-campus-dev-000-A00665,Projector 3.13,projector,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,3.522,-52.993,0.4,0.3,180.0
+proc-campus-dev-000-A00666,Projector screen 3.13,projector_screen,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S013,Seminar room 3.13,3.13,seminar_room,0.145,-51.977,2.4,0.15,90.0
+proc-campus-dev-000-A00667,Fire extinguisher 3.14,fire_extinguisher,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S014,Staircase 3,3.14,stairwell,5.687,-58.53,0.3,0.3,180.0
+proc-campus-dev-000-A00668,Desk 3.16-A,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S016,Office 3.16,3.16,office,0.951,-64.79,1.4,0.7,180.0
+proc-campus-dev-000-A00669,Desk 3.16-B,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S016,Office 3.16,3.16,office,3.798,-64.79,1.4,0.7,180.0
+proc-campus-dev-000-A00670,Office chair 3.16-A,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S016,Office 3.16,3.16,office,4.064,-62.867,0.6,0.6,180.0
+proc-campus-dev-000-A00671,Office chair 3.16-B,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S016,Office 3.16,3.16,office,3.609,-63.636,0.6,0.6,90.0
+proc-campus-dev-000-A00672,Filing cabinet 3.16,filing_cabinet,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S016,Office 3.16,3.16,office,0.37,-64.061,0.5,0.6,90.0
+proc-campus-dev-000-A00673,Bookshelf 3.16,bookshelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S016,Office 3.16,3.16,office,4.144,-61.495,0.9,0.35,0.0
+proc-campus-dev-000-A00674,Desk 3.17-A,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S017,Office 3.17,3.17,office,0.42,-66.408,1.4,0.7,90.0
+proc-campus-dev-000-A00675,Desk 3.17-B,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S017,Office 3.17,3.17,office,0.916,-69.18,1.4,0.7,180.0
+proc-campus-dev-000-A00676,Office chair 3.17-A,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S017,Office 3.17,3.17,office,1.269,-65.703,0.6,0.6,90.0
+proc-campus-dev-000-A00677,Office chair 3.17-B,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S017,Office 3.17,3.17,office,2.751,-68.153,0.6,0.6,90.0
+proc-campus-dev-000-A00678,Filing cabinet 3.17-A,filing_cabinet,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S017,Office 3.17,3.17,office,4.779,-69.23,0.5,0.6,180.0
+proc-campus-dev-000-A00679,Filing cabinet 3.17-B,filing_cabinet,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S017,Office 3.17,3.17,office,5.63,-68.476,0.5,0.6,270.0
+proc-campus-dev-000-A00680,Multifunction printer 3.18,multifunction_printer,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S018,Print room 3.18,3.18,print_room,11.083,-5.93,0.8,0.7,180.0
+proc-campus-dev-000-A00681,Paper shelf 3.18,paper_shelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S018,Print room 3.18,3.18,print_room,13.265,-6.08,1.0,0.4,180.0
+proc-campus-dev-000-A00682,Desk 3.19-A,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S019,Office 3.19,3.19,office,11.464,-6.77,1.4,0.7,0.0
+proc-campus-dev-000-A00683,Desk 3.19-B,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S019,Office 3.19,3.19,office,9.693,-9.59,1.4,0.7,180.0
+proc-campus-dev-000-A00684,Office chair 3.19-A,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S019,Office 3.19,3.19,office,12.151,-9.079,0.6,0.6,90.0
+proc-campus-dev-000-A00685,Office chair 3.19-B,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S019,Office 3.19,3.19,office,10.789,-9.314,0.6,0.6,180.0
+proc-campus-dev-000-A00686,Toilet 3.20-A,toilet,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S020,Toilet 3.20,3.20,toilet,13.977,-15.35,0.4,0.7,180.0
+proc-campus-dev-000-A00687,Toilet 3.20-B,toilet,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S020,Toilet 3.20,3.20,toilet,8.82,-14.593,0.4,0.7,90.0
+proc-campus-dev-000-A00688,Toilet 3.20-C,toilet,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S020,Toilet 3.20,3.20,toilet,13.98,-11.25,0.4,0.7,270.0
+proc-campus-dev-000-A00689,Toilet 3.20-D,toilet,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S020,Toilet 3.20,3.20,toilet,11.448,-10.43,0.4,0.7,0.0
+proc-campus-dev-000-A00690,Sink 3.20,sink,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S020,Toilet 3.20,3.20,toilet,8.695,-11.84,0.6,0.45,90.0
+proc-campus-dev-000-A00691,Hand dryer 3.20,hand_dryer,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S020,Toilet 3.20,3.20,toilet,8.57,-11.349,0.3,0.2,90.0
+proc-campus-dev-000-A00692,Desk 3.21-A,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S021,Office 3.21,3.21,office,9.298,-20.37,1.4,0.7,180.0
+proc-campus-dev-000-A00693,Desk 3.21-B,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S021,Office 3.21,3.21,office,13.98,-18.834,1.4,0.7,270.0
+proc-campus-dev-000-A00694,Office chair 3.21-A,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S021,Office 3.21,3.21,office,10.343,-19.423,0.6,0.6,90.0
+proc-campus-dev-000-A00695,Office chair 3.21-B,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S021,Office 3.21,3.21,office,11.481,-17.49,0.6,0.6,180.0
+proc-campus-dev-000-A00696,Filing cabinet 3.21,filing_cabinet,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S021,Office 3.21,3.21,office,11.532,-20.42,0.5,0.6,180.0
+proc-campus-dev-000-A00697,Plant 3.21,plant,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S021,Office 3.21,3.21,office,13.021,-16.04,0.4,0.4,0.0
+proc-campus-dev-000-A00698,Desk 3.22-A,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S022,Office 3.22,3.22,office,13.354,-21.21,1.4,0.7,0.0
+proc-campus-dev-000-A00699,Desk 3.22-B,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S022,Office 3.22,3.22,office,10.29,-21.21,1.4,0.7,0.0
+proc-campus-dev-000-A00700,Office chair 3.22-A,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S022,Office 3.22,3.22,office,13.341,-23.947,0.6,0.6,180.0
+proc-campus-dev-000-A00701,Office chair 3.22-B,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S022,Office 3.22,3.22,office,9.419,-24.143,0.6,0.6,180.0
+proc-campus-dev-000-A00702,Filing cabinet 3.22-A,filing_cabinet,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S022,Office 3.22,3.22,office,13.862,-25.1,0.5,0.6,180.0
+proc-campus-dev-000-A00703,Filing cabinet 3.22-B,filing_cabinet,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S022,Office 3.22,3.22,office,14.03,-23.588,0.5,0.6,270.0
+proc-campus-dev-000-A00704,Plant 3.22,plant,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S022,Office 3.22,3.22,office,14.13,-22.988,0.4,0.4,270.0
+proc-campus-dev-000-A00705,Desk 3.23-A,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S023,Office 3.23,3.23,office,9.882,-28.48,1.4,0.7,180.0
+proc-campus-dev-000-A00706,Desk 3.23-B,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S023,Office 3.23,3.23,office,13.98,-27.236,1.4,0.7,270.0
+proc-campus-dev-000-A00707,Office chair 3.23-A,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S023,Office 3.23,3.23,office,12.011,-26.327,0.6,0.6,90.0
+proc-campus-dev-000-A00708,Office chair 3.23-B,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S023,Office 3.23,3.23,office,12.338,-28.342,0.6,0.6,180.0
+proc-campus-dev-000-A00709,Filing cabinet 3.23,filing_cabinet,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S023,Office 3.23,3.23,office,9.955,-25.84,0.5,0.6,0.0
+proc-campus-dev-000-A00710,Bookshelf 3.23,bookshelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S023,Office 3.23,3.23,office,12.054,-25.715,0.9,0.35,0.0
+proc-campus-dev-000-A00711,Shelf 3.24-A,shelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S024,Storage 3.24,3.24,storage,12.031,-29.17,1.0,0.4,0.0
+proc-campus-dev-000-A00712,Shelf 3.24-B,shelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S024,Storage 3.24,3.24,storage,14.13,-29.641,1.0,0.4,270.0
+proc-campus-dev-000-A00713,Shelf 3.24-C,shelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S024,Storage 3.24,3.24,storage,8.67,-33.034,1.0,0.4,90.0
+proc-campus-dev-000-A00714,Shelf 3.24-D,shelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S024,Storage 3.24,3.24,storage,13.835,-33.63,1.0,0.4,180.0
+proc-campus-dev-000-A00715,Shelf 3.24-E,shelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S024,Storage 3.24,3.24,storage,14.13,-32.036,1.0,0.4,270.0
+proc-campus-dev-000-A00716,Shelf 3.24-F,shelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S024,Storage 3.24,3.24,storage,12.699,-33.63,1.0,0.4,180.0
+proc-campus-dev-000-A00717,Toilet 3.25-A,toilet,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S025,Toilet 3.25,3.25,toilet,13.98,-38.721,0.4,0.7,270.0
+proc-campus-dev-000-A00718,Toilet 3.25-B,toilet,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S025,Toilet 3.25,3.25,toilet,12.884,-39.65,0.4,0.7,180.0
+proc-campus-dev-000-A00719,Toilet 3.25-C,toilet,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S025,Toilet 3.25,3.25,toilet,13.98,-36.027,0.4,0.7,270.0
+proc-campus-dev-000-A00720,Toilet 3.25-D,toilet,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S025,Toilet 3.25,3.25,toilet,8.82,-39.581,0.4,0.7,90.0
+proc-campus-dev-000-A00721,Sink 3.25,sink,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S025,Toilet 3.25,3.25,toilet,11.262,-39.775,0.6,0.45,180.0
+proc-campus-dev-000-A00722,Seminar table 3.26-A,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,10.478,-40.604,1.4,0.6,180.0
+proc-campus-dev-000-A00723,Seminar table 3.26-B,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,10.957,-43.613,1.4,0.6,180.0
+proc-campus-dev-000-A00724,Seminar table 3.26-C,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,10.59,-41.219,1.4,0.6,180.0
+proc-campus-dev-000-A00725,Seminar table 3.26-D,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,9.896,-45.66,1.4,0.6,180.0
+proc-campus-dev-000-A00726,Seminar table 3.26-E,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,12.087,-45.326,1.4,0.6,90.0
+proc-campus-dev-000-A00727,Seminar table 3.26-F,seminar_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,14.016,-42.973,1.4,0.6,90.0
+proc-campus-dev-000-A00728,Chair 3.26-A,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,9.397,-44.68,0.5,0.5,180.0
+proc-campus-dev-000-A00729,Chair 3.26-B,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,11.625,-42.686,0.5,0.5,180.0
+proc-campus-dev-000-A00730,Chair 3.26-C,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,11.202,-45.264,0.5,0.5,180.0
+proc-campus-dev-000-A00731,Chair 3.26-D,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,13.355,-44.153,0.5,0.5,90.0
+proc-campus-dev-000-A00732,Chair 3.26-E,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,12.716,-40.79,0.5,0.5,180.0
+proc-campus-dev-000-A00733,Chair 3.26-F,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,9.125,-42.05,0.5,0.5,180.0
+proc-campus-dev-000-A00734,Chair 3.26-G,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,8.716,-40.627,0.5,0.5,180.0
+proc-campus-dev-000-A00735,Chair 3.26-H,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,12.592,-44.251,0.5,0.5,180.0
+proc-campus-dev-000-A00736,Chair 3.26-I,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,10.577,-44.897,0.5,0.5,180.0
+proc-campus-dev-000-A00737,Chair 3.26-J,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,9.721,-43.494,0.5,0.5,90.0
+proc-campus-dev-000-A00738,Chair 3.26-K,chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,12.692,-45.82,0.5,0.5,90.0
+proc-campus-dev-000-A00739,Whiteboard 3.26,whiteboard,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,10.185,-46.1,1.8,0.1,180.0
+proc-campus-dev-000-A00740,Projector 3.26,projector,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,12.104,-43.001,0.4,0.3,90.0
+proc-campus-dev-000-A00741,Projector screen 3.26,projector_screen,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S026,Seminar room 3.26,3.26,seminar_room,10.766,-40.215,2.4,0.15,0.0
+proc-campus-dev-000-A00742,Kitchen counter 3.27,kitchen_counter,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S027,Kitchen 3.27,3.27,kitchen,14.03,-49.162,2.4,0.6,270.0
+proc-campus-dev-000-A00743,Fridge 3.27,fridge,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S027,Kitchen 3.27,3.27,kitchen,10.815,-46.615,0.6,0.65,0.0
+proc-campus-dev-000-A00744,Stove 3.27,stove,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S027,Kitchen 3.27,3.27,kitchen,8.77,-50.087,0.6,0.6,90.0
+proc-campus-dev-000-A00745,Microwave 3.27,microwave,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S027,Kitchen 3.27,3.27,kitchen,10.18,-50.43,0.5,0.4,180.0
+proc-campus-dev-000-A00746,Coffee machine 3.27,coffee_machine,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S027,Kitchen 3.27,3.27,kitchen,11.438,-46.49,0.4,0.4,0.0
+proc-campus-dev-000-A00747,Dining table 3.27,dining_table,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S027,Kitchen 3.27,3.27,kitchen,10.996,-48.11,1.6,0.9,180.0
+proc-campus-dev-000-A00748,Desk 3.28-A,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S028,Office 3.28,3.28,office,11.377,-51.12,1.4,0.7,0.0
+proc-campus-dev-000-A00749,Desk 3.28-B,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S028,Office 3.28,3.28,office,12.38,-54.75,1.4,0.7,180.0
+proc-campus-dev-000-A00750,Office chair 3.28-A,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S028,Office 3.28,3.28,office,13.764,-51.337,0.6,0.6,90.0
+proc-campus-dev-000-A00751,Office chair 3.28-B,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S028,Office 3.28,3.28,office,8.998,-51.888,0.6,0.6,180.0
+proc-campus-dev-000-A00752,Bookshelf 3.28,bookshelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S028,Office 3.28,3.28,office,9.187,-54.925,0.9,0.35,180.0
+proc-campus-dev-000-A00753,Plant 3.28,plant,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S028,Office 3.28,3.28,office,12.635,-50.97,0.4,0.4,0.0
+proc-campus-dev-000-A00754,Toilet 3.29-A,toilet,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S029,Toilet 3.29,3.29,toilet,13.599,-55.59,0.4,0.7,0.0
+proc-campus-dev-000-A00755,Toilet 3.29-B,toilet,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S029,Toilet 3.29,3.29,toilet,11.125,-55.59,0.4,0.7,0.0
+proc-campus-dev-000-A00756,Toilet 3.29-C,toilet,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S029,Toilet 3.29,3.29,toilet,12.461,-55.59,0.4,0.7,0.0
+proc-campus-dev-000-A00757,Sink 3.29,sink,fixture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S029,Toilet 3.29,3.29,toilet,9.35,-55.465,0.6,0.45,0.0
+proc-campus-dev-000-A00758,Hand dryer 3.29,hand_dryer,equipment,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S029,Toilet 3.29,3.29,toilet,8.57,-58.688,0.3,0.2,90.0
+proc-campus-dev-000-A00759,Desk 3.30-A,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S030,Office 3.30,3.30,office,12.251,-59.42,1.4,0.7,0.0
+proc-campus-dev-000-A00760,Desk 3.30-B,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S030,Office 3.30,3.30,office,13.98,-61.415,1.4,0.7,270.0
+proc-campus-dev-000-A00761,Office chair 3.30-A,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S030,Office 3.30,3.30,office,10.376,-59.397,0.6,0.6,180.0
+proc-campus-dev-000-A00762,Office chair 3.30-B,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S030,Office 3.30,3.30,office,9.285,-59.489,0.6,0.6,90.0
+proc-campus-dev-000-A00763,Filing cabinet 3.30,filing_cabinet,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S030,Office 3.30,3.30,office,8.784,-63.8,0.5,0.6,180.0
+proc-campus-dev-000-A00764,Bookshelf 3.30,bookshelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S030,Office 3.30,3.30,office,12.874,-63.925,0.9,0.35,180.0
+proc-campus-dev-000-A00765,Desk 3.31-A,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S031,Office 3.31,3.31,office,12.94,-69.18,1.4,0.7,180.0
+proc-campus-dev-000-A00766,Desk 3.31-B,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S031,Office 3.31,3.31,office,13.98,-66.768,1.4,0.7,270.0
+proc-campus-dev-000-A00767,Desk 3.31-C,desk,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S031,Office 3.31,3.31,office,13.98,-65.301,1.4,0.7,270.0
+proc-campus-dev-000-A00768,Office chair 3.31-A,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S031,Office 3.31,3.31,office,10.466,-68.767,0.6,0.6,0.0
+proc-campus-dev-000-A00769,Office chair 3.31-B,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S031,Office 3.31,3.31,office,11.416,-68.185,0.6,0.6,90.0
+proc-campus-dev-000-A00770,Office chair 3.31-C,office_chair,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S031,Office 3.31,3.31,office,13.045,-66.023,0.6,0.6,0.0
+proc-campus-dev-000-A00771,Bookshelf 3.31,bookshelf,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S031,Office 3.31,3.31,office,11.581,-69.355,0.9,0.35,180.0
+proc-campus-dev-000-A00772,Plant 3.31,plant,furniture,generated,proc-campus-dev-000,3,Floor 3,proc-campus-dev-000-F3-S031,Office 3.31,3.31,office,9.43,-64.44,0.4,0.4,0.0
+proc-campus-dev-000-A00773,Shoe cabinet 4.01,shoe_cabinet,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S001,Corridor 4.01,4.01,corridor,8.155,-9.973,0.8,0.35,270.0
+proc-campus-dev-000-A00774,Seminar table 4.02-A,seminar_table,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,4.003,-0.855,1.4,0.6,180.0
+proc-campus-dev-000-A00775,Seminar table 4.02-B,seminar_table,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,0.873,-2.996,1.4,0.6,90.0
+proc-campus-dev-000-A00776,Seminar table 4.02-C,seminar_table,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,1.779,-0.989,1.4,0.6,90.0
+proc-campus-dev-000-A00777,Seminar table 4.02-D,seminar_table,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,2.949,-1.894,1.4,0.6,180.0
+proc-campus-dev-000-A00778,Chair 4.02-A,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,4.432,-2.127,0.5,0.5,90.0
+proc-campus-dev-000-A00779,Chair 4.02-B,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,3.847,-2.563,0.5,0.5,90.0
+proc-campus-dev-000-A00780,Chair 4.02-C,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,2.798,-0.46,0.5,0.5,90.0
+proc-campus-dev-000-A00781,Chair 4.02-D,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,0.544,-1.301,0.5,0.5,180.0
+proc-campus-dev-000-A00782,Chair 4.02-E,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,1.99,-2.544,0.5,0.5,90.0
+proc-campus-dev-000-A00783,Chair 4.02-F,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,5.538,-0.326,0.5,0.5,90.0
+proc-campus-dev-000-A00784,Chair 4.02-G,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,4.22,-3.322,0.5,0.5,90.0
+proc-campus-dev-000-A00785,Chair 4.02-H,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,5.009,-1.048,0.5,0.5,90.0
+proc-campus-dev-000-A00786,Whiteboard 4.02,whiteboard,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,3.382,-0.12,1.8,0.1,0.0
+proc-campus-dev-000-A00787,Projector 4.02,projector,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,2.561,-2.656,0.4,0.3,180.0
+proc-campus-dev-000-A00788,Projector screen 4.02,projector_screen,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S002,Seminar room 4.02,4.02,seminar_room,3.819,-4.025,2.4,0.15,180.0
+proc-campus-dev-000-A00789,Lab bench 4.03-A,lab_bench,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S003,Lab 4.03,4.03,lab,3.761,-7.581,3.0,0.8,180.0
+proc-campus-dev-000-A00790,Lab bench 4.03-B,lab_bench,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S003,Lab 4.03,4.03,lab,1.018,-6.604,3.0,0.8,90.0
+proc-campus-dev-000-A00791,Fume hood 4.03-A,fume_hood,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S003,Lab 4.03,4.03,lab,5.102,-4.64,1.5,0.8,0.0
+proc-campus-dev-000-A00792,Fume hood 4.03-B,fume_hood,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S003,Lab 4.03,4.03,lab,1.119,-4.64,1.5,0.8,0.0
+proc-campus-dev-000-A00793,Microscope 4.03,microscope,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S003,Lab 4.03,4.03,lab,5.096,-5.335,0.5,0.5,180.0
+proc-campus-dev-000-A00794,Oscilloscope station 4.03,oscilloscope_station,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S003,Lab 4.03,4.03,lab,2.827,-4.59,1.2,0.7,0.0
+proc-campus-dev-000-A00795,Fire extinguisher 4.04,fire_extinguisher,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S004,Staircase 1,4.04,stairwell,5.309,-12.13,0.3,0.3,180.0
+proc-campus-dev-000-A00796,Shelf 4.06-A,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S006,Storage 4.06,4.06,storage,1.551,-15.12,1.0,0.4,0.0
+proc-campus-dev-000-A00797,Shelf 4.06-B,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S006,Storage 4.06,4.06,storage,0.27,-15.501,1.0,0.4,90.0
+proc-campus-dev-000-A00798,Shelf 4.06-C,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S006,Storage 4.06,4.06,storage,0.27,-17.663,1.0,0.4,90.0
+proc-campus-dev-000-A00799,Shelf 4.06-D,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S006,Storage 4.06,4.06,storage,5.063,-18.25,1.0,0.4,180.0
+proc-campus-dev-000-A00800,Shelf 4.06-E,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S006,Storage 4.06,4.06,storage,1.859,-18.25,1.0,0.4,180.0
+proc-campus-dev-000-A00801,Shelf 4.06-F,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S006,Storage 4.06,4.06,storage,3.05,-15.12,1.0,0.4,0.0
+proc-campus-dev-000-A00802,Desk 4.07-A,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S007,Office 4.07,4.07,office,5.058,-18.94,1.4,0.7,0.0
+proc-campus-dev-000-A00803,Desk 4.07-B,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S007,Office 4.07,4.07,office,2.559,-18.94,1.4,0.7,0.0
+proc-campus-dev-000-A00804,Desk 4.07-C,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S007,Office 4.07,4.07,office,0.42,-24.165,1.4,0.7,90.0
+proc-campus-dev-000-A00805,Office chair 4.07-A,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S007,Office 4.07,4.07,office,3.238,-23.94,0.6,0.6,90.0
+proc-campus-dev-000-A00806,Office chair 4.07-B,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S007,Office 4.07,4.07,office,4.87,-23.683,0.6,0.6,180.0
+proc-campus-dev-000-A00807,Office chair 4.07-C,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S007,Office 4.07,4.07,office,5.171,-20.051,0.6,0.6,180.0
+proc-campus-dev-000-A00808,Filing cabinet 4.07-A,filing_cabinet,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S007,Office 4.07,4.07,office,0.37,-21.734,0.5,0.6,90.0
+proc-campus-dev-000-A00809,Filing cabinet 4.07-B,filing_cabinet,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S007,Office 4.07,4.07,office,0.37,-20.612,0.5,0.6,90.0
+proc-campus-dev-000-A00810,Bookshelf 4.07,bookshelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S007,Office 4.07,4.07,office,5.755,-20.243,0.9,0.35,270.0
+proc-campus-dev-000-A00811,Shelf 4.08-A,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S008,Storage 4.08,4.08,storage,2.269,-31.28,1.0,0.4,180.0
+proc-campus-dev-000-A00812,Shelf 4.08-B,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S008,Storage 4.08,4.08,storage,2.954,-25.67,1.0,0.4,0.0
+proc-campus-dev-000-A00813,Shelf 4.08-C,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S008,Storage 4.08,4.08,storage,5.73,-30.665,1.0,0.4,270.0
+proc-campus-dev-000-A00814,Shelf 4.08-D,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S008,Storage 4.08,4.08,storage,1.788,-25.67,1.0,0.4,0.0
+proc-campus-dev-000-A00815,Shelf 4.08-E,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S008,Storage 4.08,4.08,storage,0.27,-28.331,1.0,0.4,90.0
+proc-campus-dev-000-A00816,Shelf 4.08-F,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S008,Storage 4.08,4.08,storage,4.621,-31.28,1.0,0.4,180.0
+proc-campus-dev-000-A00817,Meeting table 4.11,meeting_table,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,3.813,-40.703,2.4,1.1,180.0
+proc-campus-dev-000-A00818,Chair 4.11-A,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,4.613,-39.746,0.5,0.5,180.0
+proc-campus-dev-000-A00819,Chair 4.11-B,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,4.07,-43.095,0.5,0.5,90.0
+proc-campus-dev-000-A00820,Chair 4.11-C,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,0.311,-42.246,0.5,0.5,180.0
+proc-campus-dev-000-A00821,Chair 4.11-D,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,3.625,-41.886,0.5,0.5,90.0
+proc-campus-dev-000-A00822,Chair 4.11-E,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,1.255,-43.386,0.5,0.5,180.0
+proc-campus-dev-000-A00823,Chair 4.11-F,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,2.953,-42.758,0.5,0.5,90.0
+proc-campus-dev-000-A00824,Chair 4.11-G,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,5.391,-39.244,0.5,0.5,90.0
+proc-campus-dev-000-A00825,Chair 4.11-H,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,0.752,-43.71,0.5,0.5,90.0
+proc-campus-dev-000-A00826,Chair 4.11-I,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,2.971,-38.633,0.5,0.5,180.0
+proc-campus-dev-000-A00827,Chair 4.11-J,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,1.602,-43.896,0.5,0.5,90.0
+proc-campus-dev-000-A00828,Display screen 4.11,display_screen,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,0.22,-40.867,1.6,0.3,90.0
+proc-campus-dev-000-A00829,Whiteboard 4.11,whiteboard,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S011,Meeting room 4.11,4.11,meeting_room,3.452,-38.17,1.8,0.1,0.0
+proc-campus-dev-000-A00830,Seminar table 4.12-A,seminar_table,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,5.123,-44.887,1.4,0.6,180.0
+proc-campus-dev-000-A00831,Seminar table 4.12-B,seminar_table,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,2.619,-47.251,1.4,0.6,90.0
+proc-campus-dev-000-A00832,Seminar table 4.12-C,seminar_table,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,1.839,-47.867,1.4,0.6,90.0
+proc-campus-dev-000-A00833,Seminar table 4.12-D,seminar_table,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,0.956,-46.159,1.4,0.6,90.0
+proc-campus-dev-000-A00834,Seminar table 4.12-E,seminar_table,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,4.887,-46.913,1.4,0.6,90.0
+proc-campus-dev-000-A00835,Chair 4.12-A,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,5.15,-49.097,0.5,0.5,180.0
+proc-campus-dev-000-A00836,Chair 4.12-B,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,3.021,-44.816,0.5,0.5,90.0
+proc-campus-dev-000-A00837,Chair 4.12-C,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,3.926,-45.345,0.5,0.5,90.0
+proc-campus-dev-000-A00838,Chair 4.12-D,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,1.633,-45.189,0.5,0.5,180.0
+proc-campus-dev-000-A00839,Chair 4.12-E,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,2.541,-45.445,0.5,0.5,90.0
+proc-campus-dev-000-A00840,Chair 4.12-F,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,3.983,-48.491,0.5,0.5,90.0
+proc-campus-dev-000-A00841,Chair 4.12-G,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,3.152,-46.056,0.5,0.5,90.0
+proc-campus-dev-000-A00842,Chair 4.12-H,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,4.309,-49.954,0.5,0.5,180.0
+proc-campus-dev-000-A00843,Chair 4.12-I,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,4.909,-45.729,0.5,0.5,180.0
+proc-campus-dev-000-A00844,Chair 4.12-J,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,1.612,-46.606,0.5,0.5,90.0
+proc-campus-dev-000-A00845,Chair 4.12-K,chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,0.529,-48.248,0.5,0.5,180.0
+proc-campus-dev-000-A00846,Whiteboard 4.12,whiteboard,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,1.207,-50.19,1.8,0.1,180.0
+proc-campus-dev-000-A00847,Projector 4.12,projector,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,3.71,-47.265,0.4,0.3,180.0
+proc-campus-dev-000-A00848,Projector screen 4.12,projector_screen,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S012,Seminar room 4.12,4.12,seminar_room,0.145,-46.35,2.4,0.15,90.0
+proc-campus-dev-000-A00849,Lab bench 4.13-A,lab_bench,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S013,Lab 4.13,4.13,lab,2.486,-52.894,3.0,0.8,180.0
+proc-campus-dev-000-A00850,Lab bench 4.13-B,lab_bench,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S013,Lab 4.13,4.13,lab,2.953,-54.115,3.0,0.8,180.0
+proc-campus-dev-000-A00851,Microscope 4.13,microscope,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S013,Lab 4.13,4.13,lab,3.947,-51.102,0.5,0.5,90.0
+proc-campus-dev-000-A00852,Oscilloscope station 4.13-A,oscilloscope_station,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S013,Lab 4.13,4.13,lab,0.42,-52.736,1.2,0.7,90.0
+proc-campus-dev-000-A00853,Oscilloscope station 4.13-B,oscilloscope_station,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S013,Lab 4.13,4.13,lab,4.822,-50.73,1.2,0.7,0.0
+proc-campus-dev-000-A00854,Fire extinguisher 4.14,fire_extinguisher,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S014,Staircase 3,4.14,stairwell,3.348,-58.53,0.3,0.3,180.0
+proc-campus-dev-000-A00855,Desk 4.16-A,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S016,Office 4.16,4.16,office,1.958,-61.67,1.4,0.7,0.0
+proc-campus-dev-000-A00856,Desk 4.16-B,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S016,Office 4.16,4.16,office,2.521,-64.79,1.4,0.7,180.0
+proc-campus-dev-000-A00857,Office chair 4.16-A,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S016,Office 4.16,4.16,office,4.424,-63.773,0.6,0.6,180.0
+proc-campus-dev-000-A00858,Office chair 4.16-B,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S016,Office 4.16,4.16,office,1.77,-62.528,0.6,0.6,180.0
+proc-campus-dev-000-A00859,Filing cabinet 4.16-A,filing_cabinet,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S016,Office 4.16,4.16,office,1.272,-64.84,0.5,0.6,180.0
+proc-campus-dev-000-A00860,Filing cabinet 4.16-B,filing_cabinet,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S016,Office 4.16,4.16,office,5.521,-64.84,0.5,0.6,180.0
+proc-campus-dev-000-A00861,Bookshelf 4.16,bookshelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S016,Office 4.16,4.16,office,3.141,-61.495,0.9,0.35,0.0
+proc-campus-dev-000-A00862,Shelf 4.17-A,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S017,Storage 4.17,4.17,storage,0.554,-65.48,1.0,0.4,0.0
+proc-campus-dev-000-A00863,Shelf 4.17-B,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S017,Storage 4.17,4.17,storage,3.046,-69.33,1.0,0.4,180.0
+proc-campus-dev-000-A00864,Shelf 4.17-C,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S017,Storage 4.17,4.17,storage,1.13,-69.33,1.0,0.4,180.0
+proc-campus-dev-000-A00865,Shelf 4.17-D,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S017,Storage 4.17,4.17,storage,5.1,-65.48,1.0,0.4,0.0
+proc-campus-dev-000-A00866,Shelf 4.17-E,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S017,Storage 4.17,4.17,storage,4.774,-69.33,1.0,0.4,180.0
+proc-campus-dev-000-A00867,Shelf 4.17-F,shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S017,Storage 4.17,4.17,storage,5.73,-68.845,1.0,0.4,270.0
+proc-campus-dev-000-A00868,Desk 4.18-A,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S018,Office 4.18,4.18,office,12.714,-0.42,1.4,0.7,0.0
+proc-campus-dev-000-A00869,Desk 4.18-B,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S018,Office 4.18,4.18,office,13.98,-4.274,1.4,0.7,270.0
+proc-campus-dev-000-A00870,Desk 4.18-C,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S018,Office 4.18,4.18,office,10.883,-5.93,1.4,0.7,180.0
+proc-campus-dev-000-A00871,Office chair 4.18-A,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S018,Office 4.18,4.18,office,10.224,-4.829,0.6,0.6,180.0
+proc-campus-dev-000-A00872,Office chair 4.18-B,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S018,Office 4.18,4.18,office,10.897,-2.336,0.6,0.6,180.0
+proc-campus-dev-000-A00873,Office chair 4.18-C,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S018,Office 4.18,4.18,office,11.242,-0.503,0.6,0.6,90.0
+proc-campus-dev-000-A00874,Bookshelf 4.18,bookshelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S018,Office 4.18,4.18,office,8.645,-4.924,0.9,0.35,90.0
+proc-campus-dev-000-A00875,Plant 4.18,plant,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S018,Office 4.18,4.18,office,9.249,-0.27,0.4,0.4,0.0
+proc-campus-dev-000-A00876,Desk 4.19-A,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S019,Office 4.19,4.19,office,12.023,-9.59,1.4,0.7,180.0
+proc-campus-dev-000-A00877,Desk 4.19-B,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S019,Office 4.19,4.19,office,13.98,-7.807,1.4,0.7,270.0
+proc-campus-dev-000-A00878,Office chair 4.19-A,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S019,Office 4.19,4.19,office,10.319,-8.923,0.6,0.6,90.0
+proc-campus-dev-000-A00879,Office chair 4.19-B,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S019,Office 4.19,4.19,office,11.347,-8.237,0.6,0.6,180.0
+proc-campus-dev-000-A00880,Filing cabinet 4.19-A,filing_cabinet,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S019,Office 4.19,4.19,office,10.821,-6.72,0.5,0.6,0.0
+proc-campus-dev-000-A00881,Filing cabinet 4.19-B,filing_cabinet,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S019,Office 4.19,4.19,office,10.573,-9.64,0.5,0.6,180.0
+proc-campus-dev-000-A00882,Bookshelf 4.19,bookshelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S019,Office 4.19,4.19,office,9.657,-6.595,0.9,0.35,0.0
+proc-campus-dev-000-A00883,Toilet 4.20-A,toilet,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S020,Toilet 4.20,4.20,toilet,13.856,-10.43,0.4,0.7,0.0
+proc-campus-dev-000-A00884,Toilet 4.20-B,toilet,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S020,Toilet 4.20,4.20,toilet,13.506,-15.35,0.4,0.7,180.0
+proc-campus-dev-000-A00885,Toilet 4.20-C,toilet,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S020,Toilet 4.20,4.20,toilet,12.705,-10.43,0.4,0.7,0.0
+proc-campus-dev-000-A00886,Toilet 4.20-D,toilet,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S020,Toilet 4.20,4.20,toilet,8.994,-15.35,0.4,0.7,180.0
+proc-campus-dev-000-A00887,Sink 4.20-A,sink,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S020,Toilet 4.20,4.20,toilet,8.768,-10.305,0.6,0.45,0.0
+proc-campus-dev-000-A00888,Sink 4.20-B,sink,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S020,Toilet 4.20,4.20,toilet,9.543,-10.305,0.6,0.45,0.0
+proc-campus-dev-000-A00889,Lab bench 4.21-A,lab_bench,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S021,Lab 4.21,4.21,lab,10.827,-16.845,3.0,0.8,180.0
+proc-campus-dev-000-A00890,Lab bench 4.21-B,lab_bench,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S021,Lab 4.21,4.21,lab,10.834,-17.671,3.0,0.8,180.0
+proc-campus-dev-000-A00891,Chemical cabinet 4.21,chemical_cabinet,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S021,Lab 4.21,4.21,lab,12.635,-20.47,1.0,0.5,180.0
+proc-campus-dev-000-A00892,Eyewash station 4.21,eyewash_station,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S021,Lab 4.21,4.21,lab,10.018,-20.52,0.5,0.4,180.0
+proc-campus-dev-000-A00893,Lab bench 4.22-A,lab_bench,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S022,Lab 4.22,4.22,lab,10.765,-24.99,3.0,0.8,180.0
+proc-campus-dev-000-A00894,Lab bench 4.22-B,lab_bench,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S022,Lab 4.22,4.22,lab,12.175,-24.005,3.0,0.8,180.0
+proc-campus-dev-000-A00895,Fume hood 4.22,fume_hood,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S022,Lab 4.22,4.22,lab,12.237,-21.26,1.5,0.8,0.0
+proc-campus-dev-000-A00896,Microscope 4.22,microscope,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S022,Lab 4.22,4.22,lab,9.379,-23.652,0.5,0.5,180.0
+proc-campus-dev-000-A00897,Oscilloscope station 4.22-A,oscilloscope_station,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S022,Lab 4.22,4.22,lab,9.861,-21.21,1.2,0.7,0.0
+proc-campus-dev-000-A00898,Oscilloscope station 4.22-B,oscilloscope_station,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S022,Lab 4.22,4.22,lab,13.98,-21.944,1.2,0.7,270.0
+proc-campus-dev-000-A00899,Multifunction printer 4.23,multifunction_printer,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S023,Print room 4.23,4.23,print_room,13.318,-28.48,0.8,0.7,180.0
+proc-campus-dev-000-A00900,Paper shelf 4.23,paper_shelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S023,Print room 4.23,4.23,print_room,14.13,-27.12,1.0,0.4,270.0
+proc-campus-dev-000-A00901,Desk 4.24-A,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S024,Office 4.24,4.24,office,13.98,-31.217,1.4,0.7,270.0
+proc-campus-dev-000-A00902,Desk 4.24-B,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S024,Office 4.24,4.24,office,13.223,-29.32,1.4,0.7,0.0
+proc-campus-dev-000-A00903,Office chair 4.24-A,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S024,Office 4.24,4.24,office,10.897,-31.864,0.6,0.6,90.0
+proc-campus-dev-000-A00904,Office chair 4.24-B,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S024,Office 4.24,4.24,office,11.659,-29.862,0.6,0.6,90.0
+proc-campus-dev-000-A00905,Bookshelf 4.24,bookshelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S024,Office 4.24,4.24,office,9.913,-29.145,0.9,0.35,0.0
+proc-campus-dev-000-A00906,Toilet 4.25-A,toilet,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S025,Toilet 4.25,4.25,toilet,13.98,-38.033,0.4,0.7,270.0
+proc-campus-dev-000-A00907,Toilet 4.25-B,toilet,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S025,Toilet 4.25,4.25,toilet,11.586,-39.65,0.4,0.7,180.0
+proc-campus-dev-000-A00908,Toilet 4.25-C,toilet,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S025,Toilet 4.25,4.25,toilet,8.82,-34.808,0.4,0.7,90.0
+proc-campus-dev-000-A00909,Toilet 4.25-D,toilet,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S025,Toilet 4.25,4.25,toilet,8.812,-39.65,0.4,0.7,180.0
+proc-campus-dev-000-A00910,Sink 4.25,sink,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S025,Toilet 4.25,4.25,toilet,14.105,-38.992,0.6,0.45,270.0
+proc-campus-dev-000-A00911,Hand dryer 4.25,hand_dryer,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S025,Toilet 4.25,4.25,toilet,13.331,-34.07,0.3,0.2,0.0
+proc-campus-dev-000-A00912,Lab bench 4.26-A,lab_bench,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S026,Lab 4.26,4.26,lab,11.623,-41.305,3.0,0.8,180.0
+proc-campus-dev-000-A00913,Lab bench 4.26-B,lab_bench,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S026,Lab 4.26,4.26,lab,10.896,-43.124,3.0,0.8,180.0
+proc-campus-dev-000-A00914,Microscope 4.26-A,microscope,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S026,Lab 4.26,4.26,lab,9.971,-45.082,0.5,0.5,90.0
+proc-campus-dev-000-A00915,Microscope 4.26-B,microscope,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S026,Lab 4.26,4.26,lab,12.757,-44.41,0.5,0.5,180.0
+proc-campus-dev-000-A00916,Microscope 4.26-C,microscope,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S026,Lab 4.26,4.26,lab,9.22,-40.792,0.5,0.5,180.0
+proc-campus-dev-000-A00917,Oscilloscope station 4.26,oscilloscope_station,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S026,Lab 4.26,4.26,lab,12.758,-45.8,1.2,0.7,180.0
+proc-campus-dev-000-A00918,Desk 4.27-A,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S027,Office 4.27,4.27,office,12.595,-50.28,1.4,0.7,180.0
+proc-campus-dev-000-A00919,Desk 4.27-B,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S027,Office 4.27,4.27,office,9.228,-50.28,1.4,0.7,180.0
+proc-campus-dev-000-A00920,Office chair 4.27-A,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S027,Office 4.27,4.27,office,11.576,-46.823,0.6,0.6,180.0
+proc-campus-dev-000-A00921,Office chair 4.27-B,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S027,Office 4.27,4.27,office,11.339,-48.21,0.6,0.6,90.0
+proc-campus-dev-000-A00922,Kitchen counter 4.28,kitchen_counter,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S028,Kitchen 4.28,4.28,kitchen,14.03,-53.512,2.4,0.6,270.0
+proc-campus-dev-000-A00923,Fridge 4.28,fridge,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S028,Kitchen 4.28,4.28,kitchen,13.072,-51.095,0.6,0.65,0.0
+proc-campus-dev-000-A00924,Stove 4.28,stove,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S028,Kitchen 4.28,4.28,kitchen,9.957,-51.07,0.6,0.6,0.0
+proc-campus-dev-000-A00925,Dishwasher 4.28,dishwasher,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S028,Kitchen 4.28,4.28,kitchen,8.77,-51.681,0.6,0.6,90.0
+proc-campus-dev-000-A00926,Coffee machine 4.28,coffee_machine,equipment,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S028,Kitchen 4.28,4.28,kitchen,11.49,-50.97,0.4,0.4,0.0
+proc-campus-dev-000-A00927,Toilet 4.29-A,toilet,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S029,Toilet 4.29,4.29,toilet,9.502,-58.58,0.4,0.7,180.0
+proc-campus-dev-000-A00928,Toilet 4.29-B,toilet,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S029,Toilet 4.29,4.29,toilet,11.588,-58.58,0.4,0.7,180.0
+proc-campus-dev-000-A00929,Toilet 4.29-C,toilet,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S029,Toilet 4.29,4.29,toilet,12.101,-55.59,0.4,0.7,0.0
+proc-campus-dev-000-A00930,Sink 4.29-A,sink,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S029,Toilet 4.29,4.29,toilet,14.105,-55.946,0.6,0.45,270.0
+proc-campus-dev-000-A00931,Sink 4.29-B,sink,fixture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S029,Toilet 4.29,4.29,toilet,11.069,-55.465,0.6,0.45,0.0
+proc-campus-dev-000-A00932,Desk 4.30-A,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S030,Office 4.30,4.30,office,10.443,-63.75,1.4,0.7,180.0
+proc-campus-dev-000-A00933,Desk 4.30-B,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S030,Office 4.30,4.30,office,12.518,-59.42,1.4,0.7,0.0
+proc-campus-dev-000-A00934,Office chair 4.30-A,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S030,Office 4.30,4.30,office,11.868,-61.299,0.6,0.6,180.0
+proc-campus-dev-000-A00935,Office chair 4.30-B,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S030,Office 4.30,4.30,office,10.796,-62.673,0.6,0.6,90.0
+proc-campus-dev-000-A00936,Bookshelf 4.30,bookshelf,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S030,Office 4.30,4.30,office,14.155,-59.658,0.9,0.35,270.0
+proc-campus-dev-000-A00937,Desk 4.31-A,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S031,Office 4.31,4.31,office,13.98,-67.604,1.4,0.7,270.0
+proc-campus-dev-000-A00938,Desk 4.31-B,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S031,Office 4.31,4.31,office,11.847,-69.18,1.4,0.7,180.0
+proc-campus-dev-000-A00939,Desk 4.31-C,desk,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S031,Office 4.31,4.31,office,9.792,-64.59,1.4,0.7,0.0
+proc-campus-dev-000-A00940,Office chair 4.31-A,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S031,Office 4.31,4.31,office,9.896,-68.361,0.6,0.6,90.0
+proc-campus-dev-000-A00941,Office chair 4.31-B,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S031,Office 4.31,4.31,office,12.795,-65.702,0.6,0.6,90.0
+proc-campus-dev-000-A00942,Office chair 4.31-C,office_chair,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S031,Office 4.31,4.31,office,13.405,-68.853,0.6,0.6,90.0
+proc-campus-dev-000-A00943,Filing cabinet 4.31,filing_cabinet,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S031,Office 4.31,4.31,office,14.03,-66.368,0.5,0.6,270.0
+proc-campus-dev-000-A00944,Plant 4.31,plant,furniture,generated,proc-campus-dev-000,4,Floor 4,proc-campus-dev-000-F4-S031,Office 4.31,4.31,office,10.416,-69.33,0.4,0.4,180.0

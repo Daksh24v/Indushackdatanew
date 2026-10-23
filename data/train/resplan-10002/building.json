@@ -1,0 +1,906 @@
+{
+ "building": {
+  "id": "resplan-10002",
+  "name": "Residence 10002",
+  "source": "resplan",
+  "source_ref": {
+   "plan_id": "10002"
+  },
+  "license": "CC-BY-4.0",
+  "attribution": "ResPlan, Agour et al., https://github.com/m-agour/ResPlan (CC BY 4.0)",
+  "split": "train",
+  "units": "m"
+ },
+ "floors": [
+  {
+   "id": "resplan-10002-F0",
+   "level": 0,
+   "name": "Ground floor",
+   "elevation_m": 0.0,
+   "height_m": 3.0
+  }
+ ],
+ "spaces": [
+  {
+   "id": "resplan-10002-F0-S001",
+   "floor_id": "resplan-10002-F0",
+   "type": "room",
+   "room_type": "living_room",
+   "name": "Living room 0.01",
+   "ref": "0.01",
+   "polygon": [
+    [
+     5.519,
+     11.122
+    ],
+    [
+     8.208,
+     11.122
+    ],
+    [
+     8.208,
+     11.99
+    ],
+    [
+     10.673,
+     11.99
+    ],
+    [
+     10.673,
+     11.122
+    ],
+    [
+     14.427,
+     11.122
+    ],
+    [
+     14.427,
+     9.105
+    ],
+    [
+     12.27,
+     9.105
+    ],
+    [
+     12.27,
+     8.656
+    ],
+    [
+     11.458,
+     8.656
+    ],
+    [
+     11.458,
+     5.659
+    ],
+    [
+     5.519,
+     5.659
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-S002",
+   "floor_id": "resplan-10002-F0",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 0.02",
+   "ref": "0.02",
+   "polygon": [
+    [
+     16.416,
+     5.435
+    ],
+    [
+     16.416,
+     0.0
+    ],
+    [
+     9.245,
+     0.0
+    ],
+    [
+     9.245,
+     5.435
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-S003",
+   "floor_id": "resplan-10002-F0",
+   "type": "room",
+   "room_type": "bedroom",
+   "name": "Bedroom 0.03",
+   "ref": "0.03",
+   "polygon": [
+    [
+     7.984,
+     18.602
+    ],
+    [
+     7.984,
+     11.346
+    ],
+    [
+     2.185,
+     11.346
+    ],
+    [
+     2.185,
+     18.602
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-S004",
+   "floor_id": "resplan-10002-F0",
+   "type": "room",
+   "room_type": "bathroom",
+   "name": "Bathroom 0.04",
+   "ref": "0.04",
+   "polygon": [
+    [
+     5.519,
+     -0.0
+    ],
+    [
+     5.519,
+     5.435
+    ],
+    [
+     9.357,
+     5.435
+    ],
+    [
+     9.357,
+     5.379
+    ],
+    [
+     8.965,
+     5.379
+    ],
+    [
+     8.965,
+     3.026
+    ],
+    [
+     9.301,
+     3.026
+    ],
+    [
+     9.301,
+     2.97
+    ],
+    [
+     9.021,
+     2.97
+    ],
+    [
+     9.021,
+     -0.0
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-S005",
+   "floor_id": "resplan-10002-F0",
+   "type": "room",
+   "room_type": "bathroom",
+   "name": "Bathroom 0.05",
+   "ref": "0.05",
+   "polygon": [
+    [
+     10.673,
+     12.214
+    ],
+    [
+     8.208,
+     12.214
+    ],
+    [
+     8.208,
+     16.5
+    ],
+    [
+     10.673,
+     16.5
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-S006",
+   "floor_id": "resplan-10002-F0",
+   "type": "outdoor",
+   "room_type": "balcony",
+   "name": "Balcony 0.06",
+   "ref": "0.06",
+   "polygon": [
+    [
+     10.954,
+     16.444
+    ],
+    [
+     19.274,
+     16.444
+    ],
+    [
+     19.274,
+     11.402
+    ],
+    [
+     16.705,
+     11.402
+    ],
+    [
+     16.39,
+     11.372
+    ],
+    [
+     16.36,
+     11.057
+    ],
+    [
+     16.36,
+     5.715
+    ],
+    [
+     14.708,
+     5.715
+    ],
+    [
+     14.708,
+     11.402
+    ],
+    [
+     10.954,
+     11.402
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-S007",
+   "floor_id": "resplan-10002-F0",
+   "type": "stair",
+   "room_type": "stairwell",
+   "name": "Stairwell 0.07",
+   "ref": "0.07",
+   "polygon": [
+    [
+     12.242,
+     6.92
+    ],
+    [
+     13.335,
+     6.92
+    ],
+    [
+     13.335,
+     9.161
+    ],
+    [
+     14.371,
+     9.161
+    ],
+    [
+     14.371,
+     5.715
+    ],
+    [
+     11.402,
+     5.715
+    ],
+    [
+     11.402,
+     8.712
+    ],
+    [
+     12.214,
+     8.712
+    ],
+    [
+     12.214,
+     9.161
+    ],
+    [
+     12.242,
+     9.161
+    ]
+   ],
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-S008",
+   "floor_id": "resplan-10002-F0",
+   "type": "stair",
+   "room_type": "stairwell",
+   "name": "Stairwell 0.08",
+   "ref": "0.08",
+   "polygon": [
+    [
+     1.905,
+     14.455
+    ],
+    [
+     1.905,
+     11.066
+    ],
+    [
+     5.239,
+     11.066
+    ],
+    [
+     5.239,
+     9.497
+    ],
+    [
+     3.474,
+     9.497
+    ],
+    [
+     3.474,
+     9.945
+    ],
+    [
+     0.84,
+     9.945
+    ],
+    [
+     0.84,
+     14.455
+    ]
+   ],
+   "synthetic": false
+  }
+ ],
+ "openings": [
+  {
+   "id": "resplan-10002-F0-O0001",
+   "floor_id": "resplan-10002-F0",
+   "space_ids": [
+    "resplan-10002-F0-S003",
+    "resplan-10002-F0-S005"
+   ],
+   "kind": "door",
+   "position": [
+    8.096,
+    12.957
+   ],
+   "width_m": 1.373,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-O0002",
+   "floor_id": "resplan-10002-F0",
+   "space_ids": [
+    "resplan-10002-F0-S001",
+    "resplan-10002-F0-S003"
+   ],
+   "kind": "door",
+   "position": [
+    7.214,
+    11.234
+   ],
+   "width_m": 1.429,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-O0003",
+   "floor_id": "resplan-10002-F0",
+   "space_ids": [
+    "resplan-10002-F0-S001",
+    "resplan-10002-F0-S008"
+   ],
+   "kind": "door",
+   "position": [
+    5.407,
+    10.281
+   ],
+   "width_m": 1.569,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-O0004",
+   "floor_id": "resplan-10002-F0",
+   "space_ids": [
+    "resplan-10002-F0-S001",
+    "resplan-10002-F0-S006"
+   ],
+   "kind": "door",
+   "position": [
+    12.831,
+    11.234
+   ],
+   "width_m": 1.017,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-O0005",
+   "floor_id": "resplan-10002-F0",
+   "space_ids": [
+    "resplan-10002-F0-S001",
+    "resplan-10002-F0-S004"
+   ],
+   "kind": "door",
+   "position": [
+    7.438,
+    5.547
+   ],
+   "width_m": 1.017,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-O0006",
+   "floor_id": "resplan-10002-F0",
+   "space_ids": [
+    "resplan-10002-F0-S001",
+    "resplan-10002-F0-S002"
+   ],
+   "kind": "door",
+   "position": [
+    10.564,
+    5.547
+   ],
+   "width_m": 1.501,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-O0007",
+   "floor_id": "resplan-10002-F0",
+   "space_ids": [
+    "resplan-10002-F0-S001",
+    "resplan-10002-F0-S007"
+   ],
+   "kind": "opening",
+   "position": [
+    11.458,
+    7.923
+   ],
+   "width_m": 4.669,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-O0008",
+   "floor_id": "resplan-10002-F0",
+   "space_ids": [
+    "resplan-10002-F0-S002",
+    "resplan-10002-F0-S004"
+   ],
+   "kind": "opening",
+   "position": [
+    9.245,
+    5.319
+   ],
+   "width_m": 2.585,
+   "step_free": true,
+   "synthetic": false
+  },
+  {
+   "id": "resplan-10002-F0-O0009",
+   "floor_id": "resplan-10002-F0",
+   "space_ids": [
+    "resplan-10002-F0-S001",
+    "outside"
+   ],
+   "kind": "entrance",
+   "position": [
+    14.427,
+    10.337
+   ],
+   "width_m": 1.457,
+   "step_free": true,
+   "synthetic": false
+  }
+ ],
+ "vertical_connectors": [],
+ "assets": [
+  {
+   "id": "resplan-10002-A00001",
+   "name": "Sofa 0.01",
+   "category": "furniture",
+   "type": "sofa",
+   "space_id": "resplan-10002-F0-S001",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    9.282,
+    11.47
+   ],
+   "footprint": {
+    "width_m": 2.0,
+    "depth_m": 0.9,
+    "rotation_deg": 0.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00002",
+   "name": "Coffee table 0.01",
+   "category": "furniture",
+   "type": "coffee_table",
+   "space_id": "resplan-10002-F0-S001",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    8.711,
+    9.363
+   ],
+   "footprint": {
+    "width_m": 1.0,
+    "depth_m": 0.6,
+    "rotation_deg": 180.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00003",
+   "name": "TV stand 0.01",
+   "category": "furniture",
+   "type": "tv_stand",
+   "space_id": "resplan-10002-F0-S001",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    5.789,
+    7.251
+   ],
+   "footprint": {
+    "width_m": 1.5,
+    "depth_m": 0.4,
+    "rotation_deg": 90.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00004",
+   "name": "Dining chair 0.01-A",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "resplan-10002-F0-S001",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    8.438,
+    7.16
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 180.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00005",
+   "name": "Dining chair 0.01-B",
+   "category": "furniture",
+   "type": "dining_chair",
+   "space_id": "resplan-10002-F0-S001",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    10.104,
+    8.618
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.45,
+    "rotation_deg": 90.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00006",
+   "name": "Bookshelf 0.01",
+   "category": "furniture",
+   "type": "bookshelf",
+   "space_id": "resplan-10002-F0-S001",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    11.706,
+    8.901
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.35,
+    "rotation_deg": 180.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00007",
+   "name": "Bed 0.02",
+   "category": "furniture",
+   "type": "bed",
+   "space_id": "resplan-10002-F0-S002",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    15.049,
+    4.365
+   ],
+   "footprint": {
+    "width_m": 1.6,
+    "depth_m": 2.0,
+    "rotation_deg": 0.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00008",
+   "name": "Wardrobe 0.02",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "resplan-10002-F0-S002",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    13.953,
+    0.37
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 180.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00009",
+   "name": "Nightstand 0.02-A",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "resplan-10002-F0-S002",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    16.146,
+    3.531
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 270.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00010",
+   "name": "Nightstand 0.02-B",
+   "category": "furniture",
+   "type": "nightstand",
+   "space_id": "resplan-10002-F0-S002",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    16.044,
+    0.27
+   ],
+   "footprint": {
+    "width_m": 0.45,
+    "depth_m": 0.4,
+    "rotation_deg": 180.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00011",
+   "name": "Single bed 0.03",
+   "category": "furniture",
+   "type": "single_bed",
+   "space_id": "resplan-10002-F0-S003",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    6.914,
+    16.309
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 2.0,
+    "rotation_deg": 270.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00012",
+   "name": "Wardrobe 0.03",
+   "category": "furniture",
+   "type": "wardrobe",
+   "space_id": "resplan-10002-F0-S003",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    2.555,
+    14.726
+   ],
+   "footprint": {
+    "width_m": 1.2,
+    "depth_m": 0.6,
+    "rotation_deg": 90.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00013",
+   "name": "Toilet 0.04",
+   "category": "fixture",
+   "type": "toilet",
+   "space_id": "resplan-10002-F0-S004",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    8.601,
+    1.848
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.7,
+    "rotation_deg": 270.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00014",
+   "name": "Sink 0.04",
+   "category": "fixture",
+   "type": "sink",
+   "space_id": "resplan-10002-F0-S004",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    8.67,
+    3.75
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.45,
+    "rotation_deg": 270.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00015",
+   "name": "Shower 0.04",
+   "category": "fixture",
+   "type": "shower",
+   "space_id": "resplan-10002-F0-S004",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    6.039,
+    0.83
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.9,
+    "rotation_deg": 90.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00016",
+   "name": "Toilet 0.05",
+   "category": "fixture",
+   "type": "toilet",
+   "space_id": "resplan-10002-F0-S005",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    8.628,
+    15.684
+   ],
+   "footprint": {
+    "width_m": 0.4,
+    "depth_m": 0.7,
+    "rotation_deg": 90.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00017",
+   "name": "Sink 0.05",
+   "category": "fixture",
+   "type": "sink",
+   "space_id": "resplan-10002-F0-S005",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    9.594,
+    16.205
+   ],
+   "footprint": {
+    "width_m": 0.6,
+    "depth_m": 0.45,
+    "rotation_deg": 0.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00018",
+   "name": "Shower 0.05",
+   "category": "fixture",
+   "type": "shower",
+   "space_id": "resplan-10002-F0-S005",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    10.153,
+    13.584
+   ],
+   "footprint": {
+    "width_m": 0.9,
+    "depth_m": 0.9,
+    "rotation_deg": 270.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00019",
+   "name": "Outdoor table 0.06",
+   "category": "furniture",
+   "type": "outdoor_table",
+   "space_id": "resplan-10002-F0-S006",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    15.153,
+    14.981
+   ],
+   "footprint": {
+    "width_m": 0.8,
+    "depth_m": 0.8,
+    "rotation_deg": 0.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00020",
+   "name": "Outdoor chair 0.06-A",
+   "category": "furniture",
+   "type": "outdoor_chair",
+   "space_id": "resplan-10002-F0-S006",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    17.972,
+    14.278
+   ],
+   "footprint": {
+    "width_m": 0.5,
+    "depth_m": 0.5,
+    "rotation_deg": 0.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00021",
+   "name": "Outdoor chair 0.06-B",
+   "category": "furniture",
+   "type": "outdoor_chair",
+   "space_id": "resplan-10002-F0-S006",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    15.728,
+    13.346
+   ],
+   "footprint": {
+    "width_m": 0.5,
+    "depth_m": 0.5,
+    "rotation_deg": 270.0
+   },
+   "source": "generated"
+  },
+  {
+   "id": "resplan-10002-A00022",
+   "name": "Fire extinguisher 0.08",
+   "category": "equipment",
+   "type": "fire_extinguisher",
+   "space_id": "resplan-10002-F0-S008",
+   "floor_id": "resplan-10002-F0",
+   "position": [
+    1.06,
+    12.26
+   ],
+   "footprint": {
+    "width_m": 0.3,
+    "depth_m": 0.3,
+    "rotation_deg": 90.0
+   },
+   "source": "generated"
+  }
+ ]
+}

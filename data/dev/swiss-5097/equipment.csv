@@ -1,0 +1,928 @@
+asset_id,name,type,category,source,building_id,floor_level,floor_name,space_id,space_name,room_ref,room_type,x_m,y_m,width_m,depth_m,rotation_deg
+swiss-5097-A00001,Internal stairs -1.01-A,internal_stairs,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S001,Corridor -1.01 (apartment 1),-1.01,corridor,7.102,13.198,0.9,0.32,49.2
+swiss-5097-A00002,Internal stairs -1.01-B,internal_stairs,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S001,Corridor -1.01 (apartment 1),-1.01,corridor,6.907,13.639,0.94,0.93,-153.6
+swiss-5097-A00003,Internal stairs -1.04-A,internal_stairs,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S004,Corridor -1.04 (apartment 2),-1.04,corridor,9.82,11.403,0.9,0.32,49.2
+swiss-5097-A00004,Internal stairs -1.04-B,internal_stairs,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S004,Corridor -1.04 (apartment 2),-1.04,corridor,10.029,10.966,0.94,0.93,-153.6
+swiss-5097-A00005,Sink -1.07,sink,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S007,Bathroom -1.07 (apartment 2),-1.07,bathroom,10.543,7.976,0.68,0.43,26.8
+swiss-5097-A00006,Toilet -1.07,toilet,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S007,Bathroom -1.07 (apartment 2),-1.07,bathroom,9.842,7.686,0.54,0.43,116.8
+swiss-5097-A00007,Toilet -1.08,toilet,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S008,Bathroom -1.08 (apartment 3),-1.08,bathroom,11.84,7.499,0.57,0.43,116.8
+swiss-5097-A00008,Sink -1.08,sink,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S008,Bathroom -1.08 (apartment 3),-1.08,bathroom,11.164,7.24,0.42,0.68,116.8
+swiss-5097-A00009,Internal stairs -1.10-A,internal_stairs,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S010,Corridor -1.10 (apartment 3),-1.10,corridor,13.051,4.941,0.94,0.93,-153.6
+swiss-5097-A00010,Internal stairs -1.10-B,internal_stairs,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S010,Corridor -1.10 (apartment 3),-1.10,corridor,13.235,4.507,0.9,0.32,0.3
+swiss-5097-A00011,Internal stairs -1.13-A,internal_stairs,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S013,Corridor -1.13 (apartment 4),-1.13,corridor,13.417,0.832,0.91,0.98,-153.6
+swiss-5097-A00012,Internal stairs -1.13-B,internal_stairs,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S013,Corridor -1.13 (apartment 4),-1.13,corridor,13.174,1.285,0.89,0.31,0.3
+swiss-5097-A00013,Sink -1.14,sink,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S014,Bathroom -1.14 (apartment 4),-1.14,bathroom,15.487,-1.31,0.68,0.42,26.8
+swiss-5097-A00014,Toilet -1.14,toilet,fixture,dataset,swiss-5097,-1,Basement 1,swiss-5097-F-1-S014,Bathroom -1.14 (apartment 4),-1.14,bathroom,16.094,-0.931,0.43,0.54,-153.2
+swiss-5097-A00015,Toilet 0.04,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S004,Bathroom 0.04 (apartment 5),0.04,bathroom,-2.668,23.018,0.56,0.43,27.9
+swiss-5097-A00016,Sink 0.04,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S004,Bathroom 0.04 (apartment 5),0.04,bathroom,-1.064,22.556,0.41,0.7,117.9
+swiss-5097-A00017,Kitchen counter 0.06,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S006,Kitchen 0.06 (apartment 5),0.06,kitchen,-0.8,26.877,3.31,0.53,-62.1
+swiss-5097-A00018,Sink 0.10,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S010,Bathroom 0.10 (apartment 6),0.10,bathroom,3.104,27.5,0.47,0.71,-152.1
+swiss-5097-A00019,Toilet 0.10,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S010,Bathroom 0.10 (apartment 6),0.10,bathroom,4.615,27.062,0.55,0.47,-62.1
+swiss-5097-A00020,Kitchen counter 0.13,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S013,Kitchen 0.13 (apartment 6),0.13,kitchen,6.095,26.301,3.72,0.59,117.9
+swiss-5097-A00021,Toilet 0.14,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S014,Bathroom 0.14 (apartment 7),0.14,bathroom,5.527,17.111,0.44,0.55,-62.1
+swiss-5097-A00022,Sink 0.14,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S014,Bathroom 0.14 (apartment 7),0.14,bathroom,5.864,18.005,0.66,0.44,-152.1
+swiss-5097-A00023,Internal stairs 0.15-A,internal_stairs,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S015,Corridor 0.15 (apartment 7),0.15,corridor,8.279,14.581,1.53,1.14,-151.6
+swiss-5097-A00024,Internal stairs 0.15-B,internal_stairs,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S015,Corridor 0.15 (apartment 7),0.15,corridor,6.905,14.465,2.21,1.04,117.1
+swiss-5097-A00025,Kitchen counter 0.17-A,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S017,Kitchen 0.17 (apartment 7),0.17,kitchen,2.121,18.531,3.15,0.58,27.9
+swiss-5097-A00026,Kitchen counter 0.17-B,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S017,Kitchen 0.17 (apartment 7),0.17,kitchen,1.403,17.145,1.22,0.59,-62.1
+swiss-5097-A00027,Internal stairs 0.18-A,internal_stairs,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S018,Corridor 0.18 (apartment 8),0.18,corridor,8.084,12.751,1.16,1.56,-61.6
+swiss-5097-A00028,Internal stairs 0.18-B,internal_stairs,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S018,Corridor 0.18 (apartment 8),0.18,corridor,9.439,12.874,2.19,1.05,118.5
+swiss-5097-A00029,Kitchen counter 0.19-A,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S019,Kitchen 0.19 (apartment 8),0.19,kitchen,7.303,8.697,3.1,0.59,-152.1
+swiss-5097-A00030,Kitchen counter 0.19-B,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S019,Kitchen 0.19 (apartment 8),0.19,kitchen,5.789,8.884,1.18,0.6,117.9
+swiss-5097-A00031,Toilet 0.21,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S021,Bathroom 0.21 (apartment 8),0.21,bathroom,9.518,9.535,0.44,0.58,-62.1
+swiss-5097-A00032,Sink 0.21,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S021,Bathroom 0.21 (apartment 8),0.21,bathroom,10.443,9.31,0.42,0.69,117.9
+swiss-5097-A00033,Kitchen counter 0.23-A,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S023,Kitchen 0.23 (apartment 9),0.23,kitchen,7.778,7.842,3.14,0.59,27.9
+swiss-5097-A00034,Kitchen counter 0.23-B,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S023,Kitchen 0.23 (apartment 9),0.23,kitchen,9.32,7.645,1.22,0.6,-62.1
+swiss-5097-A00035,Internal stairs 0.24-A,internal_stairs,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S024,Corridor 0.24 (apartment 9),0.24,corridor,13.243,5.625,2.23,1.12,117.9
+swiss-5097-A00036,Internal stairs 0.24-B,internal_stairs,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S024,Corridor 0.24 (apartment 9),0.24,corridor,12.367,4.545,1.41,1.11,26.6
+swiss-5097-A00037,Sink 0.25,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S025,Bathroom 0.25 (apartment 9),0.25,bathroom,10.934,8.507,0.41,0.69,-62.1
+swiss-5097-A00038,Toilet 0.25,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S025,Bathroom 0.25 (apartment 9),0.25,bathroom,11.858,8.27,0.56,0.44,27.9
+swiss-5097-A00039,Kitchen counter 0.26-A,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S026,Kitchen 0.26 (apartment 10),0.26,kitchen,11.236,-1.634,0.9,0.38,-62.1
+swiss-5097-A00040,Kitchen counter 0.26-B,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S026,Kitchen 0.26 (apartment 10),0.26,kitchen,12.792,-1.642,3.11,0.58,27.9
+swiss-5097-A00041,Toilet 0.27,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S027,Bathroom 0.27 (apartment 10),0.27,bathroom,14.536,-0.005,0.52,0.44,27.9
+swiss-5097-A00042,Sink 0.27,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S027,Bathroom 0.27 (apartment 10),0.27,bathroom,15.431,-0.24,0.69,0.41,27.9
+swiss-5097-A00043,Internal stairs 0.28-A,internal_stairs,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S028,Corridor 0.28 (apartment 10),0.28,corridor,14.055,3.714,1.4,1.15,26.6
+swiss-5097-A00044,Internal stairs 0.28-B,internal_stairs,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S028,Corridor 0.28 (apartment 10),0.28,corridor,13.191,2.644,2.2,1.11,117.9
+swiss-5097-A00045,Toilet 0.33,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S033,Bathroom 0.33 (apartment 11),0.33,bathroom,-3.498,-12.316,0.44,0.56,130.8
+swiss-5097-A00046,Sink 0.33,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S033,Bathroom 0.33 (apartment 11),0.33,bathroom,-3.62,-13.252,0.68,0.43,40.8
+swiss-5097-A00047,Kitchen counter 0.34-A,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S034,Kitchen 0.34 (apartment 11),0.34,kitchen,-0.748,-9.757,1.0,0.44,-49.2
+swiss-5097-A00048,Kitchen counter 0.34-B,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S034,Kitchen 0.34 (apartment 11),0.34,kitchen,-1.284,-11.256,3.2,0.6,40.8
+swiss-5097-A00049,Sink 0.35,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S035,Bathroom 0.35 (apartment 12),0.35,bathroom,-10.122,-5.857,0.62,0.41,40.8
+swiss-5097-A00050,Toilet 0.35,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S035,Bathroom 0.35 (apartment 12),0.35,bathroom,-10.212,-6.78,0.58,0.42,40.8
+swiss-5097-A00051,Kitchen counter 0.38-A,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S038,Kitchen 0.38 (apartment 12),0.38,kitchen,-8.311,-3.12,3.19,0.6,40.8
+swiss-5097-A00052,Kitchen counter 0.38-B,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S038,Kitchen 0.38 (apartment 12),0.38,kitchen,-8.719,-4.638,1.28,0.58,130.8
+swiss-5097-A00053,Toilet 0.40,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S040,Bathroom 0.40 (apartment 13),0.40,bathroom,-10.546,-4.157,0.6,0.42,-139.2
+swiss-5097-A00054,Sink 0.40,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S040,Bathroom 0.40 (apartment 13),0.40,bathroom,-10.657,-5.092,0.62,0.42,40.8
+swiss-5097-A00055,Kitchen counter 0.42-A,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S042,Kitchen 0.42 (apartment 13),0.42,kitchen,-9.143,-2.568,2.58,0.59,-139.2
+swiss-5097-A00056,Kitchen counter 0.42-B,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S042,Kitchen 0.42 (apartment 13),0.42,kitchen,-8.355,-1.079,1.82,0.62,130.8
+swiss-5097-A00057,Kitchen counter 0.46-A,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S046,Kitchen 0.46 (apartment 14),0.46,kitchen,-14.815,6.404,1.81,0.62,-49.2
+swiss-5097-A00058,Kitchen counter 0.46-B,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S046,Kitchen 0.46 (apartment 14),0.46,kitchen,-16.418,5.826,2.63,0.59,-139.2
+swiss-5097-A00059,Toilet 0.48,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S048,Bathroom 0.48 (apartment 14),0.48,bathroom,-16.139,2.327,0.6,0.42,-139.2
+swiss-5097-A00060,Sink 0.48,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S048,Bathroom 0.48 (apartment 14),0.48,bathroom,-17.073,2.369,0.62,0.43,-139.2
+swiss-5097-A00061,Kitchen counter 0.50,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S050,Kitchen 0.50 (apartment 15),0.50,kitchen,-20.555,0.619,3.95,0.59,40.8
+swiss-5097-A00062,Bathtub 0.52,bathtub,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S052,Bathroom 0.52 (apartment 15),0.52,bathroom,-26.406,5.65,1.69,0.76,40.8
+swiss-5097-A00063,Sink 0.52,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S052,Bathroom 0.52 (apartment 15),0.52,bathroom,-25.405,5.424,0.7,0.47,130.8
+swiss-5097-A00064,Toilet 0.52,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S052,Bathroom 0.52 (apartment 15),0.52,bathroom,-25.002,4.889,0.56,0.44,-139.2
+swiss-5097-A00065,Sink 0.57,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S057,Bathroom 0.57 (apartment 16),0.57,bathroom,-27.239,7.557,0.7,0.46,130.8
+swiss-5097-A00066,Bathtub 0.57,bathtub,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S057,Bathroom 0.57 (apartment 16),0.57,bathroom,-27.137,6.508,1.67,0.76,40.8
+swiss-5097-A00067,Toilet 0.57,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S057,Bathroom 0.57 (apartment 16),0.57,bathroom,-27.711,8.033,0.55,0.44,40.8
+swiss-5097-A00068,Kitchen counter 0.58,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S058,Kitchen 0.58 (apartment 16),0.58,kitchen,-28.061,11.657,0.62,3.28,40.8
+swiss-5097-A00069,Kitchen counter 0.60,kitchen_counter,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S060,Kitchen 0.60 (apartment 17),0.60,kitchen,-23.234,12.151,3.22,0.57,130.8
+swiss-5097-A00070,Toilet 0.61,toilet,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S061,Bathroom 0.61 (apartment 17),0.61,bathroom,-19.808,11.906,0.46,0.6,-139.2
+swiss-5097-A00071,Bathtub 0.61,bathtub,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S061,Bathroom 0.61 (apartment 17),0.61,bathroom,-18.115,10.936,1.68,0.75,40.8
+swiss-5097-A00072,Sink 0.61,sink,fixture,dataset,swiss-5097,0,Ground floor,swiss-5097-F0-S061,Bathroom 0.61 (apartment 17),0.61,bathroom,-19.234,12.48,0.72,0.48,-139.2
+swiss-5097-A00073,Kitchen counter 1.03,kitchen_counter,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S003,Kitchen 1.03 (apartment 18),1.03,kitchen,6.206,26.623,3.7,0.59,117.0
+swiss-5097-A00074,Sink 1.07,sink,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S007,Bathroom 1.07 (apartment 18),1.07,bathroom,3.246,27.856,0.71,0.47,117.0
+swiss-5097-A00075,Toilet 1.07,toilet,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S007,Bathroom 1.07 (apartment 18),1.07,bathroom,4.744,27.401,0.55,0.46,117.0
+swiss-5097-A00076,Bathtub 1.13,bathtub,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S013,Bathroom 1.13 (apartment 19),1.13,bathroom,-0.426,20.033,1.61,0.78,-153.1
+swiss-5097-A00077,Sink 1.13,sink,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S013,Bathroom 1.13 (apartment 19),1.13,bathroom,-1.506,21.785,0.68,0.48,27.0
+swiss-5097-A00078,Toilet 1.13,toilet,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S013,Bathroom 1.13 (apartment 19),1.13,bathroom,-0.753,22.1,0.6,0.42,-63.0
+swiss-5097-A00079,Kitchen counter 1.14,kitchen_counter,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S014,Kitchen 1.14 (apartment 19),1.14,kitchen,0.243,25.477,3.59,0.55,-63.0
+swiss-5097-A00080,Sink 1.37,sink,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S037,Bathroom 1.37 (apartment 24),1.37,bathroom,15.662,-0.811,0.84,0.44,-153.0
+swiss-5097-A00081,Toilet 1.37,toilet,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S037,Bathroom 1.37 (apartment 24),1.37,bathroom,16.692,-1.444,0.55,0.43,-153.0
+swiss-5097-A00082,Bathtub 1.37,bathtub,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S037,Bathroom 1.37 (apartment 24),1.37,bathroom,15.059,-1.819,1.69,0.81,117.0
+swiss-5097-A00083,Kitchen counter 1.40,kitchen_counter,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S040,Kitchen 1.40 (apartment 24),1.40,kitchen,18.745,0.742,4.16,0.59,27.0
+swiss-5097-A00084,Kitchen counter 1.46,kitchen_counter,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S046,Kitchen 1.46 (apartment 25),1.46,kitchen,26.894,-13.544,2.89,0.51,-146.8
+swiss-5097-A00085,Bathtub 1.47,bathtub,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S047,Bathroom 1.47 (apartment 25),1.47,bathroom,18.579,-11.227,1.68,0.74,33.2
+swiss-5097-A00086,Toilet 1.47,toilet,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S047,Bathroom 1.47 (apartment 25),1.47,bathroom,19.072,-13.006,0.56,0.43,-146.8
+swiss-5097-A00087,Sink 1.47,sink,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S047,Bathroom 1.47 (apartment 25),1.47,bathroom,18.601,-12.369,0.47,0.85,-146.8
+swiss-5097-A00088,Kitchen counter 1.50,kitchen_counter,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S050,Kitchen 1.50 (apartment 26),1.50,kitchen,13.455,-9.872,3.91,0.6,124.0
+swiss-5097-A00089,Sink 1.53,sink,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S053,Bathroom 1.53 (apartment 26),1.53,bathroom,17.644,-12.666,0.85,0.45,-56.8
+swiss-5097-A00090,Toilet 1.53,toilet,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S053,Bathroom 1.53 (apartment 26),1.53,bathroom,17.172,-12.047,0.56,0.43,-146.8
+swiss-5097-A00091,Bathtub 1.53,bathtub,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S053,Bathroom 1.53 (apartment 26),1.53,bathroom,17.649,-13.837,1.68,0.73,33.2
+swiss-5097-A00092,Kitchen counter 1.63,kitchen_counter,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S063,Kitchen 1.63 (apartment 27),1.63,kitchen,5.581,-15.078,3.83,0.63,124.0
+swiss-5097-A00093,Toilet 1.64,toilet,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S064,Bathroom 1.64 (apartment 27),1.64,bathroom,6.066,-19.334,0.61,0.43,33.6
+swiss-5097-A00094,Sink 1.64,sink,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S064,Bathroom 1.64 (apartment 27),1.64,bathroom,6.459,-20.066,0.83,0.46,-56.4
+swiss-5097-A00095,Bathtub 1.64,bathtub,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S064,Bathroom 1.64 (apartment 27),1.64,bathroom,7.498,-20.52,1.67,0.73,34.2
+swiss-5097-A00096,Toilet 1.71,toilet,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S071,Bathroom 1.71 (apartment 28),1.71,bathroom,6.153,-21.495,0.58,0.43,33.6
+swiss-5097-A00097,Sink 1.71,sink,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S071,Bathroom 1.71 (apartment 28),1.71,bathroom,5.771,-20.799,0.83,0.45,123.6
+swiss-5097-A00098,Bathtub 1.71,bathtub,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S071,Bathroom 1.71 (apartment 28),1.71,bathroom,4.717,-20.329,1.67,0.72,-145.8
+swiss-5097-A00099,Kitchen counter 1.74,kitchen_counter,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S074,Kitchen 1.74 (apartment 28),1.74,kitchen,3.574,-28.903,2.94,0.59,33.6
+swiss-5097-A00100,Sink 1.80,sink,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S080,Bathroom 1.80 (apartment 29),1.80,bathroom,-3.657,-13.512,0.89,0.45,39.8
+swiss-5097-A00101,Toilet 1.80,toilet,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S080,Bathroom 1.80 (apartment 29),1.80,bathroom,-3.455,-14.709,0.62,0.53,39.8
+swiss-5097-A00102,Kitchen counter 1.82,kitchen_counter,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S082,Kitchen 1.82 (apartment 29),1.82,kitchen,-6.337,-15.752,4.18,0.58,39.8
+swiss-5097-A00103,Kitchen counter 1.109,kitchen_counter,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S109,Kitchen 1.109 (apartment 34),1.109,kitchen,-20.833,1.451,3.94,0.59,39.8
+swiss-5097-A00104,Sink 1.110,sink,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S110,Bathroom 1.110 (apartment 34),1.110,bathroom,-25.591,6.341,0.7,0.47,129.8
+swiss-5097-A00105,Bathtub 1.110,bathtub,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S110,Bathroom 1.110 (apartment 34),1.110,bathroom,-26.584,6.586,1.68,0.76,39.8
+swiss-5097-A00106,Toilet 1.110,toilet,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S110,Bathroom 1.110 (apartment 34),1.110,bathroom,-25.198,5.799,0.44,0.56,-50.2
+swiss-5097-A00107,Toilet 1.111,toilet,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S111,Bathroom 1.111 (apartment 34),1.111,bathroom,-17.365,4.432,0.44,0.57,-140.2
+swiss-5097-A00108,Sink 1.111,sink,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S111,Bathroom 1.111 (apartment 34),1.111,bathroom,-17.896,3.927,0.47,0.69,129.8
+swiss-5097-A00109,Bathtub 1.112,bathtub,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S112,Bathroom 1.112 (apartment 35),1.112,bathroom,-18.221,11.714,1.62,0.76,39.8
+swiss-5097-A00110,Toilet 1.112,toilet,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S112,Bathroom 1.112 (apartment 35),1.112,bathroom,-19.872,12.729,0.6,0.46,-50.2
+swiss-5097-A00111,Sink 1.112,sink,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S112,Bathroom 1.112 (apartment 35),1.112,bathroom,-19.29,13.291,0.72,0.48,39.8
+swiss-5097-A00112,Kitchen counter 1.113,kitchen_counter,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S113,Kitchen 1.113 (apartment 35),1.113,kitchen,-23.203,12.919,2.93,0.58,129.8
+swiss-5097-A00113,Bathtub 1.119,bathtub,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S119,Bathroom 1.119 (apartment 36),1.119,bathroom,-27.299,7.454,1.67,0.76,-140.2
+swiss-5097-A00114,Sink 1.119,sink,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S119,Bathroom 1.119 (apartment 36),1.119,bathroom,-27.384,8.502,0.7,0.46,129.8
+swiss-5097-A00115,Toilet 1.119,toilet,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S119,Bathroom 1.119 (apartment 36),1.119,bathroom,-27.847,8.985,0.55,0.44,39.8
+swiss-5097-A00116,Kitchen counter 1.120,kitchen_counter,fixture,dataset,swiss-5097,1,Floor 1,swiss-5097-F1-S120,Kitchen 1.120 (apartment 36),1.120,kitchen,-28.127,12.613,3.27,0.62,129.8
+swiss-5097-A00117,Bathtub 2.04,bathtub,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S004,Bathroom 2.04 (apartment 37),2.04,bathroom,7.785,-20.453,1.68,0.73,-145.0
+swiss-5097-A00118,Toilet 2.04,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S004,Bathroom 2.04 (apartment 37),2.04,bathroom,6.335,-19.286,0.61,0.43,-145.6
+swiss-5097-A00119,Sink 2.04,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S004,Bathroom 2.04 (apartment 37),2.04,bathroom,6.737,-20.014,0.83,0.46,-55.6
+swiss-5097-A00120,Kitchen counter 2.06,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S006,Kitchen 2.06 (apartment 37),2.06,kitchen,5.79,-15.025,3.84,0.64,124.8
+swiss-5097-A00121,Sink 2.10,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S010,Bathroom 2.10 (apartment 38),2.10,bathroom,2.913,27.946,0.71,0.47,117.8
+swiss-5097-A00122,Toilet 2.10,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S010,Bathroom 2.10 (apartment 38),2.10,bathroom,4.42,27.512,0.46,0.54,27.8
+swiss-5097-A00123,Kitchen counter 2.11,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S011,Kitchen 2.11 (apartment 38),2.11,kitchen,5.895,26.754,3.7,0.59,-62.2
+swiss-5097-A00124,Kitchen counter 2.18,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S018,Kitchen 2.18 (apartment 39),2.18,kitchen,-0.068,25.518,3.6,0.56,117.8
+swiss-5097-A00125,Toilet 2.21,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S021,Bathroom 2.21 (apartment 39),2.21,bathroom,-1.022,22.122,0.6,0.43,117.8
+swiss-5097-A00126,Sink 2.21,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S021,Bathroom 2.21 (apartment 39),2.21,bathroom,-1.773,21.796,0.68,0.48,27.8
+swiss-5097-A00127,Bathtub 2.21,bathtub,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S021,Bathroom 2.21 (apartment 39),2.21,bathroom,-0.67,20.054,0.78,1.62,117.8
+swiss-5097-A00128,Sink 2.24,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S024,Bathroom 2.24 (apartment 40),2.24,bathroom,7.2,13.686,0.71,0.44,-62.4
+swiss-5097-A00129,Toilet 2.24,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S024,Bathroom 2.24 (apartment 40),2.24,bathroom,6.899,14.398,0.58,0.45,-152.4
+swiss-5097-A00130,Kitchen counter 2.27,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S027,Kitchen 2.27 (apartment 40),2.27,kitchen,5.615,10.734,4.14,0.59,-152.2
+swiss-5097-A00131,Bathtub 2.29,bathtub,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S029,Bathroom 2.29 (apartment 40),2.29,bathroom,10.689,10.734,1.71,0.77,117.8
+swiss-5097-A00132,Toilet 2.29,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S029,Bathroom 2.29 (apartment 40),2.29,bathroom,9.386,9.44,0.47,0.62,-152.2
+swiss-5097-A00133,Sink 2.29,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S029,Bathroom 2.29 (apartment 40),2.29,bathroom,10.138,9.728,0.84,0.44,27.8
+swiss-5097-A00134,Kitchen counter 2.34,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S034,Kitchen 2.34 (apartment 41),2.34,kitchen,8.817,4.615,4.17,0.6,27.8
+swiss-5097-A00135,Toilet 2.35,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S035,Bathroom 2.35 (apartment 41),2.35,bathroom,11.413,9.222,0.62,0.47,117.8
+swiss-5097-A00136,Sink 2.35,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S035,Bathroom 2.35 (apartment 41),2.35,bathroom,10.672,8.932,0.84,0.44,27.8
+swiss-5097-A00137,Bathtub 2.35,bathtub,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S035,Bathroom 2.35 (apartment 41),2.35,bathroom,10.096,7.937,0.75,1.67,27.8
+swiss-5097-A00138,Toilet 2.40,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S040,Bathroom 2.40 (apartment 41),2.40,bathroom,12.583,3.557,0.58,0.42,27.8
+swiss-5097-A00139,Sink 2.40,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S040,Bathroom 2.40 (apartment 41),2.40,bathroom,12.172,4.209,0.69,0.46,117.8
+swiss-5097-A00140,Kitchen counter 2.47,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S047,Kitchen 2.47 (apartment 42),2.47,kitchen,19.668,-1.781,3.17,0.62,27.8
+swiss-5097-A00141,Toilet 2.48,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S048,Bathroom 2.48 (apartment 42),2.48,bathroom,22.675,-6.813,0.52,0.45,124.7
+swiss-5097-A00142,Sink 2.48,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S048,Bathroom 2.48 (apartment 42),2.48,bathroom,21.019,-6.369,0.69,0.43,-55.3
+swiss-5097-A00143,Kitchen counter 2.51,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S051,Kitchen 2.51 (apartment 43),2.51,kitchen,27.154,-13.173,2.92,0.57,34.0
+swiss-5097-A00144,Bathtub 2.53,bathtub,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S053,Bathroom 2.53 (apartment 43),2.53,bathroom,18.768,-11.004,1.65,0.77,34.0
+swiss-5097-A00145,Sink 2.53,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S053,Bathroom 2.53 (apartment 43),2.53,bathroom,18.808,-12.125,0.47,0.85,-146.0
+swiss-5097-A00146,Toilet 2.53,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S053,Bathroom 2.53 (apartment 43),2.53,bathroom,19.287,-12.756,0.56,0.43,34.0
+swiss-5097-A00147,Kitchen counter 2.58,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S058,Kitchen 2.58 (apartment 44),2.58,kitchen,13.619,-9.7,3.84,0.52,124.8
+swiss-5097-A00148,Sink 2.65,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S065,Bathroom 2.65 (apartment 44),2.65,bathroom,17.852,-12.437,0.85,0.45,-56.0
+swiss-5097-A00149,Toilet 2.65,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S065,Bathroom 2.65 (apartment 44),2.65,bathroom,17.371,-11.824,0.56,0.43,-146.0
+swiss-5097-A00150,Bathtub 2.65,bathtub,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S065,Bathroom 2.65 (apartment 44),2.65,bathroom,17.872,-13.61,1.69,0.73,34.0
+swiss-5097-A00151,Kitchen counter 2.70,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S070,Kitchen 2.70 (apartment 45),2.70,kitchen,3.957,-28.908,2.95,0.6,-145.6
+swiss-5097-A00152,Toilet 2.72,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S072,Bathroom 2.72 (apartment 45),2.72,bathroom,6.449,-21.45,0.58,0.43,-145.6
+swiss-5097-A00153,Sink 2.72,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S072,Bathroom 2.72 (apartment 45),2.72,bathroom,6.057,-20.758,0.83,0.45,124.4
+swiss-5097-A00154,Bathtub 2.72,bathtub,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S072,Bathroom 2.72 (apartment 45),2.72,bathroom,4.994,-20.302,1.68,0.72,35.0
+swiss-5097-A00155,Kitchen counter 2.73,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S073,Kitchen 2.73 (apartment 46),2.73,kitchen,-3.854,-17.691,3.11,0.59,40.6
+swiss-5097-A00156,Sink 2.76,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S076,Bathroom 2.76 (apartment 46),2.76,bathroom,-0.082,-20.641,0.7,0.44,-55.6
+swiss-5097-A00157,Toilet 2.76,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S076,Bathroom 2.76 (apartment 46),2.76,bathroom,-0.299,-22.357,0.56,0.48,124.4
+swiss-5097-A00158,Kitchen counter 2.81,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S081,Kitchen 2.81 (apartment 47),2.81,kitchen,-11.205,-9.951,4.21,0.58,40.6
+swiss-5097-A00159,Bathtub 2.83,bathtub,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S083,Bathroom 2.83 (apartment 47),2.83,bathroom,-9.328,-5.237,1.7,0.79,130.6
+swiss-5097-A00160,Sink 2.83,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S083,Bathroom 2.83 (apartment 47),2.83,bathroom,-10.436,-5.368,0.86,0.46,40.6
+swiss-5097-A00161,Toilet 2.83,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S083,Bathroom 2.83 (apartment 47),2.83,bathroom,-10.996,-5.916,0.57,0.44,-49.4
+swiss-5097-A00162,Toilet 2.84,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S084,Bathroom 2.84 (apartment 47),2.84,bathroom,-6.155,-9.137,0.57,0.44,40.6
+swiss-5097-A00163,Sink 2.84,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S084,Bathroom 2.84 (apartment 47),2.84,bathroom,-6.611,-8.505,0.67,0.44,130.6
+swiss-5097-A00164,Sink 2.89,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S089,Bathroom 2.89 (apartment 48),2.89,bathroom,-13.58,-0.386,0.7,0.39,-49.4
+swiss-5097-A00165,Toilet 2.89,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S089,Bathroom 2.89 (apartment 48),2.89,bathroom,-14.138,0.156,0.53,0.44,40.6
+swiss-5097-A00166,Kitchen counter 2.91,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S091,Kitchen 2.91 (apartment 48),2.91,kitchen,-10.239,-0.0,4.16,0.58,40.6
+swiss-5097-A00167,Bathtub 2.92,bathtub,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S092,Bathroom 2.92 (apartment 48),2.92,bathroom,-12.14,-4.721,1.69,0.78,130.6
+swiss-5097-A00168,Sink 2.92,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S092,Bathroom 2.92 (apartment 48),2.92,bathroom,-10.976,-4.577,0.86,0.39,40.6
+swiss-5097-A00169,Toilet 2.92,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S092,Bathroom 2.92 (apartment 48),2.92,bathroom,-10.421,-4.005,0.54,0.44,130.6
+swiss-5097-A00170,Kitchen counter 2.101,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S101,Kitchen 2.101 (apartment 49),2.101,kitchen,-23.403,12.597,2.93,0.58,130.6
+swiss-5097-A00171,Toilet 2.104,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S104,Bathroom 2.104 (apartment 49),2.104,bathroom,-20.063,12.455,0.6,0.46,130.6
+swiss-5097-A00172,Sink 2.104,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S104,Bathroom 2.104 (apartment 49),2.104,bathroom,-19.487,13.027,0.48,0.72,130.6
+swiss-5097-A00173,Bathtub 2.104,bathtub,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S104,Bathroom 2.104 (apartment 49),2.104,bathroom,-18.396,11.462,1.63,0.76,40.6
+swiss-5097-A00174,Toilet 2.108,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S108,Bathroom 2.108 (apartment 50),2.108,bathroom,-27.991,8.602,0.59,0.44,-139.4
+swiss-5097-A00175,Bathtub 2.108,bathtub,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S108,Bathroom 2.108 (apartment 50),2.108,bathroom,-27.406,7.091,1.67,0.76,40.6
+swiss-5097-A00176,Sink 2.108,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S108,Bathroom 2.108 (apartment 50),2.108,bathroom,-27.504,8.139,0.7,0.45,130.6
+swiss-5097-A00177,Kitchen counter 2.109,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S109,Kitchen 2.109 (apartment 50),2.109,kitchen,-28.334,12.219,3.28,0.62,130.6
+swiss-5097-A00178,Kitchen counter 2.112,kitchen_counter,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S112,Kitchen 2.112 (apartment 51),2.112,kitchen,-20.883,1.144,3.95,0.59,40.6
+swiss-5097-A00179,Sink 2.115,sink,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S115,Bathroom 2.115 (apartment 51),2.115,bathroom,-25.685,5.996,0.7,0.48,-49.4
+swiss-5097-A00180,Bathtub 2.115,bathtub,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S115,Bathroom 2.115 (apartment 51),2.115,bathroom,-26.683,6.226,1.7,0.76,40.6
+swiss-5097-A00181,Toilet 2.115,toilet,fixture,dataset,swiss-5097,2,Floor 2,swiss-5097-F2-S115,Bathroom 2.115 (apartment 51),2.115,bathroom,-25.297,5.449,0.44,0.6,130.6
+swiss-5097-A00182,Fire extinguisher -1.01,fire_extinguisher,equipment,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S001,Corridor -1.01 (apartment 1),-1.01,corridor,7.272,15.798,0.3,0.3,26.8
+swiss-5097-A00183,Shoe cabinet -1.01,shoe_cabinet,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S001,Corridor -1.01 (apartment 1),-1.01,corridor,6.48,15.369,0.8,0.35,26.8
+swiss-5097-A00184,Bed -1.02,bed,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S002,Bedroom -1.02 (apartment 1),-1.02,bedroom,10.693,16.574,1.6,2.0,26.8
+swiss-5097-A00185,Wardrobe -1.02,wardrobe,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S002,Bedroom -1.02 (apartment 1),-1.02,bedroom,9.552,14.484,1.2,0.6,116.8
+swiss-5097-A00186,Desk -1.02,desk,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S002,Bedroom -1.02 (apartment 1),-1.02,bedroom,11.553,14.522,1.4,0.7,206.8
+swiss-5097-A00187,Shelf -1.03,shelf,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S003,Storage -1.03 (apartment 1),-1.03,storage,7.645,12.921,1.0,0.4,51.3
+swiss-5097-A00188,Fire extinguisher -1.04,fire_extinguisher,equipment,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S004,Corridor -1.04 (apartment 2),-1.04,corridor,10.025,10.169,0.3,0.3,63.9
+swiss-5097-A00189,Shelf -1.05,shelf,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S005,Storage -1.05 (apartment 2),-1.05,storage,8.76,11.964,1.0,0.4,26.8
+swiss-5097-A00190,Single bed -1.06,single_bed,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S006,Bedroom -1.06 (apartment 2),-1.06,bedroom,13.84,11.492,0.9,2.0,296.8
+swiss-5097-A00191,Wardrobe -1.06,wardrobe,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S006,Bedroom -1.06 (apartment 2),-1.06,bedroom,13.929,12.869,1.2,0.6,296.8
+swiss-5097-A00192,Nightstand -1.06,nightstand,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S006,Bedroom -1.06 (apartment 2),-1.06,bedroom,10.809,11.774,0.45,0.4,116.8
+swiss-5097-A00193,Bed -1.09,bed,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S009,Bedroom -1.09 (apartment 3),-1.09,bedroom,15.95,5.61,1.6,2.0,206.8
+swiss-5097-A00194,Wardrobe -1.09,wardrobe,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S009,Bedroom -1.09 (apartment 3),-1.09,bedroom,15.133,9.167,1.2,0.6,26.8
+swiss-5097-A00195,Nightstand -1.09,nightstand,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S009,Bedroom -1.09 (apartment 3),-1.09,bedroom,14.435,4.594,0.45,0.4,116.8
+swiss-5097-A00196,Desk -1.09,desk,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S009,Bedroom -1.09 (apartment 3),-1.09,bedroom,13.883,8.479,1.4,0.7,26.8
+swiss-5097-A00197,Shelf -1.11,shelf,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S011,Storage -1.11 (apartment 3),-1.11,storage,13.335,3.41,1.0,0.4,206.8
+swiss-5097-A00198,Single bed -1.12,single_bed,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S012,Bedroom -1.12 (apartment 4),-1.12,bedroom,17.966,3.888,0.9,2.0,26.8
+swiss-5097-A00199,Wardrobe -1.12,wardrobe,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S012,Bedroom -1.12 (apartment 4),-1.12,bedroom,17.625,-0.031,1.2,0.6,206.8
+swiss-5097-A00200,Nightstand -1.12,nightstand,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S012,Bedroom -1.12 (apartment 4),-1.12,bedroom,15.251,3.412,0.45,0.4,26.8
+swiss-5097-A00201,Shelf -1.15,shelf,furniture,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S015,Storage -1.15 (apartment 4),-1.15,storage,13.606,2.564,1.0,0.4,26.8
+swiss-5097-A00202,Fire extinguisher -1.16,fire_extinguisher,equipment,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S016,Landing -1.16,-1.16,stairwell,5.228,15.756,0.3,0.3,206.8
+swiss-5097-A00203,Fire extinguisher -1.17,fire_extinguisher,equipment,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S017,Landing -1.17,-1.17,stairwell,7.619,9.589,0.3,0.3,296.8
+swiss-5097-A00204,Fire extinguisher -1.18,fire_extinguisher,equipment,generated,swiss-5097,-1,Basement 1,swiss-5097-F-1-S018,Landing -1.18,-1.18,stairwell,9.155,4.868,0.3,0.3,105.5
+swiss-5097-A00205,Outdoor chair 0.02,outdoor_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S002,Balcony 0.02 (apartment 5),0.02,balcony,-5.675,29.156,0.5,0.5,118.0
+swiss-5097-A00206,Single bed 0.03,single_bed,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S003,Bedroom 0.03 (apartment 5),0.03,bedroom,0.284,29.534,0.9,2.0,297.9
+swiss-5097-A00207,Wardrobe 0.03,wardrobe,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S003,Bedroom 0.03 (apartment 5),0.03,bedroom,0.254,27.585,1.2,0.6,208.0
+swiss-5097-A00208,Nightstand 0.03,nightstand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S003,Bedroom 0.03 (apartment 5),0.03,bedroom,0.284,31.241,0.45,0.4,297.9
+swiss-5097-A00209,Desk 0.03,desk,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S003,Bedroom 0.03 (apartment 5),0.03,bedroom,-0.86,31.118,1.4,0.7,27.9
+swiss-5097-A00210,Washing machine 0.04,washing_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S004,Bathroom 0.04 (apartment 5),0.04,bathroom,-2.029,23.423,0.6,0.6,27.9
+swiss-5097-A00211,Sofa 0.05,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S005,Living room 0.05 (apartment 5),0.05,living_room,-4.445,26.447,2.0,0.9,117.9
+swiss-5097-A00212,Coffee table 0.05,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S005,Living room 0.05 (apartment 5),0.05,living_room,-3.099,25.393,1.0,0.6,117.9
+swiss-5097-A00213,TV stand 0.05,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S005,Living room 0.05 (apartment 5),0.05,living_room,-2.002,25.1,1.5,0.4,297.9
+swiss-5097-A00214,Bookshelf 0.05,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S005,Living room 0.05 (apartment 5),0.05,living_room,-2.486,24.121,0.9,0.35,207.9
+swiss-5097-A00215,Armchair 0.05,armchair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S005,Living room 0.05 (apartment 5),0.05,living_room,-3.724,25.021,0.8,0.8,207.9
+swiss-5097-A00216,Plant 0.05,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S005,Living room 0.05 (apartment 5),0.05,living_room,-5.123,27.488,0.4,0.4,28.0
+swiss-5097-A00217,Fridge 0.06,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S006,Kitchen 0.06 (apartment 5),0.06,kitchen,-1.426,25.499,0.6,0.65,117.9
+swiss-5097-A00218,Stove 0.06,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S006,Kitchen 0.06 (apartment 5),0.06,kitchen,-2.015,27.772,0.6,0.6,27.9
+swiss-5097-A00219,Sofa 0.07,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S007,Living room 0.07 (apartment 6),0.07,living_room,6.058,33.758,2.0,0.9,296.4
+swiss-5097-A00220,Coffee table 0.07,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S007,Living room 0.07 (apartment 6),0.07,living_room,7.037,29.639,1.0,0.6,26.4
+swiss-5097-A00221,TV stand 0.07,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S007,Living room 0.07 (apartment 6),0.07,living_room,7.165,32.088,1.5,0.4,296.4
+swiss-5097-A00222,Plant 0.07,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S007,Living room 0.07 (apartment 6),0.07,living_room,8.892,28.605,0.4,0.4,296.4
+swiss-5097-A00223,Bed 0.08,bed,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S008,Bedroom 0.08 (apartment 6),0.08,bedroom,7.645,20.718,1.6,2.0,117.9
+swiss-5097-A00224,Wardrobe 0.08,wardrobe,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S008,Bedroom 0.08 (apartment 6),0.08,bedroom,9.605,22.366,1.2,0.6,297.9
+swiss-5097-A00225,Desk 0.08,desk,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S008,Bedroom 0.08 (apartment 6),0.08,bedroom,9.428,21.114,1.4,0.7,208.0
+swiss-5097-A00226,Single bed 0.11,single_bed,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S011,Bedroom 0.11 (apartment 6),0.11,bedroom,2.902,31.38,0.9,2.0,297.9
+swiss-5097-A00227,Wardrobe 0.11,wardrobe,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S011,Bedroom 0.11 (apartment 6),0.11,bedroom,1.432,31.284,1.2,0.6,117.9
+swiss-5097-A00228,Nightstand 0.11,nightstand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S011,Bedroom 0.11 (apartment 6),0.11,bedroom,0.848,32.194,0.45,0.4,27.9
+swiss-5097-A00229,Desk 0.11,desk,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S011,Bedroom 0.11 (apartment 6),0.11,bedroom,4.076,30.554,1.4,0.7,297.9
+swiss-5097-A00230,Fridge 0.13,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S013,Kitchen 0.13 (apartment 6),0.13,kitchen,6.151,28.078,0.6,0.65,28.0
+swiss-5097-A00231,Stove 0.13,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S013,Kitchen 0.13 (apartment 6),0.13,kitchen,7.638,25.394,0.6,0.6,207.9
+swiss-5097-A00232,Coffee machine 0.13,coffee_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S013,Kitchen 0.13 (apartment 6),0.13,kitchen,7.49,25.91,0.4,0.4,297.9
+swiss-5097-A00233,Washing machine 0.14,washing_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S014,Bathroom 0.14 (apartment 7),0.14,bathroom,6.768,18.295,0.6,0.6,298.0
+swiss-5097-A00234,Sofa 0.16,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S016,Living room 0.16 (apartment 7),0.16,living_room,11.392,18.664,2.0,0.9,297.9
+swiss-5097-A00235,Coffee table 0.16,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S016,Living room 0.16 (apartment 7),0.16,living_room,10.786,16.812,1.0,0.6,207.9
+swiss-5097-A00236,TV stand 0.16,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S016,Living room 0.16 (apartment 7),0.16,living_room,9.022,15.858,1.5,0.4,117.9
+swiss-5097-A00237,Dining chair 0.16-A,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S016,Living room 0.16 (apartment 7),0.16,living_room,9.277,19.539,0.45,0.45,117.9
+swiss-5097-A00238,Dining chair 0.16-B,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S016,Living room 0.16 (apartment 7),0.16,living_room,11.453,15.983,0.45,0.45,117.9
+swiss-5097-A00239,Dining chair 0.16-C,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S016,Living room 0.16 (apartment 7),0.16,living_room,7.579,18.837,0.45,0.45,207.9
+swiss-5097-A00240,Armchair 0.16,armchair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S016,Living room 0.16 (apartment 7),0.16,living_room,10.146,19.137,0.8,0.8,207.9
+swiss-5097-A00241,Plant 0.16,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S016,Living room 0.16 (apartment 7),0.16,living_room,12.03,16.223,0.4,0.4,207.9
+swiss-5097-A00242,Fridge 0.17,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S017,Kitchen 0.17 (apartment 7),0.17,kitchen,4.531,16.5,0.6,0.65,298.1
+swiss-5097-A00243,Stove 0.17,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S017,Kitchen 0.17 (apartment 7),0.17,kitchen,3.779,17.963,0.6,0.6,298.1
+swiss-5097-A00244,Dishwasher 0.17,dishwasher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S017,Kitchen 0.17 (apartment 7),0.17,kitchen,2.365,15.487,0.6,0.6,117.9
+swiss-5097-A00245,Coffee machine 0.17,coffee_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S017,Kitchen 0.17 (apartment 7),0.17,kitchen,3.964,13.811,0.4,0.4,207.8
+swiss-5097-A00246,Dining table 0.17,dining_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S017,Kitchen 0.17 (apartment 7),0.17,kitchen,3.098,16.533,1.6,0.9,207.9
+swiss-5097-A00247,Fridge 0.19,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S019,Kitchen 0.19 (apartment 8),0.19,kitchen,5.644,13.521,0.6,0.65,27.9
+swiss-5097-A00248,Stove 0.19,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S019,Kitchen 0.19 (apartment 8),0.19,kitchen,4.841,10.816,0.6,0.6,117.9
+swiss-5097-A00249,Dishwasher 0.19,dishwasher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S019,Kitchen 0.19 (apartment 8),0.19,kitchen,5.29,9.97,0.6,0.6,117.9
+swiss-5097-A00250,Coffee machine 0.19,coffee_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S019,Kitchen 0.19 (apartment 8),0.19,kitchen,3.808,12.689,0.4,0.4,27.9
+swiss-5097-A00251,Sofa 0.20,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S020,Living room 0.20 (apartment 8),0.20,living_room,11.994,14.902,2.0,0.9,27.9
+swiss-5097-A00252,Coffee table 0.20,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S020,Living room 0.20 (apartment 8),0.20,living_room,12.444,13.518,1.0,0.6,117.9
+swiss-5097-A00253,TV stand 0.20,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S020,Living room 0.20 (apartment 8),0.20,living_room,14.925,12.515,1.5,0.4,297.9
+swiss-5097-A00254,Dining chair 0.20-A,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S020,Living room 0.20 (apartment 8),0.20,living_room,13.936,13.898,0.45,0.45,207.9
+swiss-5097-A00255,Dining chair 0.20-B,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S020,Living room 0.20 (apartment 8),0.20,living_room,11.675,13.64,0.45,0.45,207.9
+swiss-5097-A00256,Bookshelf 0.20-A,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S020,Living room 0.20 (apartment 8),0.20,living_room,12.442,10.344,0.9,0.35,208.0
+swiss-5097-A00257,Bookshelf 0.20-B,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S020,Living room 0.20 (apartment 8),0.20,living_room,13.497,15.27,0.9,0.35,297.9
+swiss-5097-A00258,Plant 0.20,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S020,Living room 0.20 (apartment 8),0.20,living_room,14.685,11.563,0.4,0.4,208.0
+swiss-5097-A00259,Washing machine 0.21,washing_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S021,Bathroom 0.21 (apartment 8),0.21,bathroom,11.129,10.046,0.6,0.6,297.9
+swiss-5097-A00260,Sofa 0.22,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S022,Living room 0.22 (apartment 9),0.22,living_room,13.674,9.667,2.0,0.9,28.0
+swiss-5097-A00261,Coffee table 0.22,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S022,Living room 0.22 (apartment 9),0.22,living_room,15.034,8.707,1.0,0.6,207.9
+swiss-5097-A00262,TV stand 0.22,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S022,Living room 0.22 (apartment 9),0.22,living_room,16.22,10.065,1.5,0.4,297.9
+swiss-5097-A00263,Plant 0.22-A,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S022,Living room 0.22 (apartment 9),0.22,living_room,17.354,6.849,0.4,0.4,207.9
+swiss-5097-A00264,Plant 0.22-B,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S022,Living room 0.22 (apartment 9),0.22,living_room,16.013,6.138,0.4,0.4,207.9
+swiss-5097-A00265,Fridge 0.23,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S023,Kitchen 0.23 (apartment 9),0.23,kitchen,9.875,3.547,0.6,0.65,207.8
+swiss-5097-A00266,Stove 0.23,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S023,Kitchen 0.23 (apartment 9),0.23,kitchen,10.898,4.569,0.6,0.6,297.2
+swiss-5097-A00267,Dishwasher 0.23,dishwasher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S023,Kitchen 0.23 (apartment 9),0.23,kitchen,9.778,6.676,0.6,0.6,298.4
+swiss-5097-A00268,Coffee machine 0.23,coffee_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S023,Kitchen 0.23 (apartment 9),0.23,kitchen,7.966,4.706,0.4,0.4,117.9
+swiss-5097-A00269,Fridge 0.26,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S026,Kitchen 0.26 (apartment 10),0.26,kitchen,10.367,0.445,0.6,0.65,117.9
+swiss-5097-A00270,Stove 0.26,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S026,Kitchen 0.26 (apartment 10),0.26,kitchen,12.158,2.17,0.6,0.6,297.9
+swiss-5097-A00271,Dishwasher 0.26,dishwasher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S026,Kitchen 0.26 (apartment 10),0.26,kitchen,10.72,-0.275,0.6,0.6,117.9
+swiss-5097-A00272,Coffee machine 0.26,coffee_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S026,Kitchen 0.26 (apartment 10),0.26,kitchen,9.786,2.321,0.4,0.4,27.9
+swiss-5097-A00273,Sofa 0.29,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S029,Living room 0.29 (apartment 10),0.29,living_room,18.746,4.751,2.0,0.9,297.9
+swiss-5097-A00274,Coffee table 0.29,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S029,Living room 0.29 (apartment 10),0.29,living_room,18.035,4.146,1.0,0.6,118.0
+swiss-5097-A00275,TV stand 0.29,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S029,Living room 0.29 (apartment 10),0.29,living_room,19.792,3.308,1.5,0.4,297.9
+swiss-5097-A00276,Bookshelf 0.29-A,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S029,Living room 0.29 (apartment 10),0.29,living_room,18.058,1.077,0.9,0.35,208.0
+swiss-5097-A00277,Bookshelf 0.29-B,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S029,Living room 0.29 (apartment 10),0.29,living_room,16.761,5.543,0.9,0.35,28.0
+swiss-5097-A00278,Plant 0.29-A,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S029,Living room 0.29 (apartment 10),0.29,living_room,17.95,6.146,0.4,0.4,28.0
+swiss-5097-A00279,Plant 0.29-B,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S029,Living room 0.29 (apartment 10),0.29,living_room,15.026,4.448,0.4,0.4,118.0
+swiss-5097-A00280,Shelf 0.31,shelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S031,Storage 0.31 (apartment 11),0.31,storage,-6.027,-9.43,1.0,0.4,40.8
+swiss-5097-A00281,Sofa 0.32,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S032,Living room 0.32 (apartment 11),0.32,living_room,-8.324,-11.75,2.0,0.9,40.8
+swiss-5097-A00282,Coffee table 0.32,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S032,Living room 0.32 (apartment 11),0.32,living_room,-7.741,-13.882,1.0,0.6,220.8
+swiss-5097-A00283,TV stand 0.32,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S032,Living room 0.32 (apartment 11),0.32,living_room,-5.823,-15.218,1.5,0.4,220.8
+swiss-5097-A00284,Dining table 0.32,dining_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S032,Living room 0.32 (apartment 11),0.32,living_room,-7.422,-15.019,1.6,0.9,220.8
+swiss-5097-A00285,Dining chair 0.32-A,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S032,Living room 0.32 (apartment 11),0.32,living_room,-6.65,-15.873,0.45,0.45,130.8
+swiss-5097-A00286,Dining chair 0.32-B,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S032,Living room 0.32 (apartment 11),0.32,living_room,-9.075,-12.841,0.45,0.45,130.8
+swiss-5097-A00287,Dining chair 0.32-C,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S032,Living room 0.32 (apartment 11),0.32,living_room,-9.326,-13.285,0.45,0.45,130.8
+swiss-5097-A00288,Bookshelf 0.32-A,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S032,Living room 0.32 (apartment 11),0.32,living_room,-10.024,-14.227,0.9,0.35,130.8
+swiss-5097-A00289,Bookshelf 0.32-B,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S032,Living room 0.32 (apartment 11),0.32,living_room,-8.152,-16.395,0.9,0.35,130.8
+swiss-5097-A00290,Armchair 0.32,armchair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S032,Living room 0.32 (apartment 11),0.32,living_room,-7.739,-12.395,0.8,0.8,130.8
+swiss-5097-A00291,Plant 0.32,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S032,Living room 0.32 (apartment 11),0.32,living_room,-9.0,-15.375,0.4,0.4,130.8
+swiss-5097-A00292,Fridge 0.34,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S034,Kitchen 0.34 (apartment 11),0.34,kitchen,-2.304,-8.217,0.6,0.65,310.8
+swiss-5097-A00293,Stove 0.34,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S034,Kitchen 0.34 (apartment 11),0.34,kitchen,-5.167,-8.233,0.6,0.6,40.8
+swiss-5097-A00294,Coffee machine 0.34,coffee_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S034,Kitchen 0.34 (apartment 11),0.34,kitchen,-4.941,-9.088,0.4,0.4,130.2
+swiss-5097-A00295,Dining table 0.34,dining_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S034,Kitchen 0.34 (apartment 11),0.34,kitchen,-2.96,-8.86,1.6,0.9,130.8
+swiss-5097-A00296,Sofa 0.36,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S036,Living room 0.36 (apartment 12),0.36,living_room,-9.242,-10.698,2.0,0.9,220.8
+swiss-5097-A00297,Coffee table 0.36,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S036,Living room 0.36 (apartment 12),0.36,living_room,-11.483,-9.972,1.0,0.6,130.8
+swiss-5097-A00298,TV stand 0.36,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S036,Living room 0.36 (apartment 12),0.36,living_room,-12.268,-11.589,1.5,0.4,130.8
+swiss-5097-A00299,Dining chair 0.36-A,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S036,Living room 0.36 (apartment 12),0.36,living_room,-13.2,-8.902,0.45,0.45,220.8
+swiss-5097-A00300,Dining chair 0.36-B,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S036,Living room 0.36 (apartment 12),0.36,living_room,-12.612,-10.093,0.45,0.45,220.8
+swiss-5097-A00301,Armchair 0.36,armchair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S036,Living room 0.36 (apartment 12),0.36,living_room,-11.763,-10.816,0.8,0.8,130.8
+swiss-5097-A00302,Plant 0.36-A,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S036,Living room 0.36 (apartment 12),0.36,living_room,-13.043,-8.399,0.4,0.4,40.8
+swiss-5097-A00303,Plant 0.36-B,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S036,Living room 0.36 (apartment 12),0.36,living_room,-10.724,-7.76,0.4,0.4,310.7
+swiss-5097-A00304,Fridge 0.38,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S038,Kitchen 0.38 (apartment 12),0.38,kitchen,-5.665,-4.325,0.6,0.65,310.8
+swiss-5097-A00305,Stove 0.38,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S038,Kitchen 0.38 (apartment 12),0.38,kitchen,-6.425,-3.406,0.6,0.6,310.8
+swiss-5097-A00306,Dishwasher 0.38,dishwasher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S038,Kitchen 0.38 (apartment 12),0.38,kitchen,-5.575,-7.131,0.6,0.6,220.8
+swiss-5097-A00307,Coffee machine 0.38,coffee_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S038,Kitchen 0.38 (apartment 12),0.38,kitchen,-4.94,-6.714,0.4,0.4,220.8
+swiss-5097-A00308,Shelf 0.39,shelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S039,Storage 0.39 (apartment 12),0.39,storage,-6.803,-8.079,1.0,0.4,310.7
+swiss-5097-A00309,Sofa 0.41,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S041,Living room 0.41 (apartment 13),0.41,living_room,-15.273,-7.728,2.0,0.9,130.8
+swiss-5097-A00310,Coffee table 0.41,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S041,Living room 0.41 (apartment 13),0.41,living_room,-15.315,-6.249,1.0,0.6,130.8
+swiss-5097-A00311,TV stand 0.41,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S041,Living room 0.41 (apartment 13),0.41,living_room,-15.518,-3.401,1.5,0.4,40.8
+swiss-5097-A00312,Dining table 0.41,dining_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S041,Living room 0.41 (apartment 13),0.41,living_room,-15.413,-4.391,1.6,0.9,220.8
+swiss-5097-A00313,Dining chair 0.41-A,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S041,Living room 0.41 (apartment 13),0.41,living_room,-14.476,-5.032,0.45,0.45,130.8
+swiss-5097-A00314,Dining chair 0.41-B,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S041,Living room 0.41 (apartment 13),0.41,living_room,-13.953,-6.427,0.45,0.45,220.8
+swiss-5097-A00315,Dining chair 0.41-C,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S041,Living room 0.41 (apartment 13),0.41,living_room,-14.367,-5.626,0.45,0.45,220.8
+swiss-5097-A00316,Dining chair 0.41-D,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S041,Living room 0.41 (apartment 13),0.41,living_room,-16.74,-5.324,0.45,0.45,220.8
+swiss-5097-A00317,Bookshelf 0.41-A,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S041,Living room 0.41 (apartment 13),0.41,living_room,-17.116,-6.014,0.9,0.35,130.8
+swiss-5097-A00318,Bookshelf 0.41-B,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S041,Living room 0.41 (apartment 13),0.41,living_room,-14.454,-3.41,0.9,0.35,310.8
+swiss-5097-A00319,Plant 0.41-A,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S041,Living room 0.41 (apartment 13),0.41,living_room,-13.022,-7.13,0.4,0.4,220.8
+swiss-5097-A00320,Plant 0.41-B,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S041,Living room 0.41 (apartment 13),0.41,living_room,-13.922,-7.907,0.4,0.4,220.8
+swiss-5097-A00321,Fridge 0.42,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S042,Kitchen 0.42 (apartment 13),0.42,kitchen,-9.252,-0.171,0.6,0.65,310.8
+swiss-5097-A00322,Stove 0.42,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S042,Kitchen 0.42 (apartment 13),0.42,kitchen,-12.362,-0.098,0.6,0.6,130.8
+swiss-5097-A00323,Dishwasher 0.42,dishwasher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S042,Kitchen 0.42 (apartment 13),0.42,kitchen,-9.792,0.494,0.6,0.6,310.8
+swiss-5097-A00324,Microwave 0.42,microwave,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S042,Kitchen 0.42 (apartment 13),0.42,kitchen,-11.911,-0.999,0.5,0.4,130.8
+swiss-5097-A00325,Coffee machine 0.42,coffee_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S042,Kitchen 0.42 (apartment 13),0.42,kitchen,-12.68,1.182,0.4,0.4,40.8
+swiss-5097-A00326,Shelf 0.43,shelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S043,Storage 0.43 (apartment 13),0.43,storage,-13.098,-1.286,1.0,0.4,40.8
+swiss-5097-A00327,Fire extinguisher 0.44,fire_extinguisher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S044,Corridor 0.44 (apartment 13),0.44,corridor,-12.906,-3.316,0.3,0.3,310.8
+swiss-5097-A00328,Coat rack 0.44,coat_rack,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S044,Corridor 0.44 (apartment 13),0.44,corridor,-13.666,-3.294,0.6,0.3,130.9
+swiss-5097-A00329,Fridge 0.46,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S046,Kitchen 0.46 (apartment 14),0.46,kitchen,-13.816,5.115,0.6,0.65,310.8
+swiss-5097-A00330,Stove 0.46,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S046,Kitchen 0.46 (apartment 14),0.46,kitchen,-13.315,2.005,0.6,0.6,220.8
+swiss-5097-A00331,Microwave 0.46,microwave,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S046,Kitchen 0.46 (apartment 14),0.46,kitchen,-15.875,3.604,0.5,0.4,130.9
+swiss-5097-A00332,Coffee machine 0.46,coffee_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S046,Kitchen 0.46 (apartment 14),0.46,kitchen,-12.584,2.504,0.4,0.4,220.8
+swiss-5097-A00333,Sofa 0.47,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S047,Living room 0.47 (apartment 14),0.47,living_room,-17.287,-3.367,2.0,0.9,220.8
+swiss-5097-A00334,Coffee table 0.47,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S047,Living room 0.47 (apartment 14),0.47,living_room,-18.842,-2.303,1.0,0.6,220.8
+swiss-5097-A00335,TV stand 0.47,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S047,Living room 0.47 (apartment 14),0.47,living_room,-19.048,-3.739,1.5,0.4,130.8
+swiss-5097-A00336,Dining chair 0.47-A,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S047,Living room 0.47 (apartment 14),0.47,living_room,-15.705,-2.263,0.45,0.45,220.8
+swiss-5097-A00337,Dining chair 0.47-B,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S047,Living room 0.47 (apartment 14),0.47,living_room,-18.816,-1.119,0.45,0.45,310.8
+swiss-5097-A00338,Dining chair 0.47-C,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S047,Living room 0.47 (apartment 14),0.47,living_room,-16.433,-1.273,0.45,0.45,310.8
+swiss-5097-A00339,Bookshelf 0.47-A,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S047,Living room 0.47 (apartment 14),0.47,living_room,-19.827,0.052,0.9,0.35,40.8
+swiss-5097-A00340,Bookshelf 0.47-B,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S047,Living room 0.47 (apartment 14),0.47,living_room,-18.2,0.943,0.9,0.35,311.5
+swiss-5097-A00341,Armchair 0.47,armchair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S047,Living room 0.47 (apartment 14),0.47,living_room,-17.932,-1.691,0.8,0.8,310.8
+swiss-5097-A00342,Plant 0.47,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S047,Living room 0.47 (apartment 14),0.47,living_room,-21.246,-1.192,0.4,0.4,130.8
+swiss-5097-A00343,Washing machine 0.48,washing_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S048,Bathroom 0.48 (apartment 14),0.48,bathroom,-17.587,1.482,0.6,0.6,130.8
+swiss-5097-A00344,Shelf 0.49,shelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S049,Storage 0.49 (apartment 14),0.49,storage,-14.439,-0.469,1.0,0.4,19.2
+swiss-5097-A00345,Fridge 0.50,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S050,Kitchen 0.50 (apartment 15),0.50,kitchen,-22.444,0.117,0.6,0.65,130.8
+swiss-5097-A00346,Stove 0.50,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S050,Kitchen 0.50 (apartment 15),0.50,kitchen,-20.357,2.017,0.6,0.6,40.8
+swiss-5097-A00347,Coffee machine 0.50,coffee_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S050,Kitchen 0.50 (apartment 15),0.50,kitchen,-19.779,2.332,0.4,0.4,310.8
+swiss-5097-A00348,Outdoor chair 0.51,outdoor_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S051,Balcony 0.51 (apartment 15),0.51,balcony,-25.359,-3.377,0.5,0.5,310.8
+swiss-5097-A00349,Plant 0.51-A,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S051,Balcony 0.51 (apartment 15),0.51,balcony,-25.791,-2.229,0.4,0.4,40.8
+swiss-5097-A00350,Plant 0.51-B,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S051,Balcony 0.51 (apartment 15),0.51,balcony,-25.321,-1.823,0.4,0.4,40.8
+swiss-5097-A00351,Sofa 0.53,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S053,Living room 0.53 (apartment 15),0.53,living_room,-27.569,-1.557,2.0,0.9,130.8
+swiss-5097-A00352,Coffee table 0.53,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S053,Living room 0.53 (apartment 15),0.53,living_room,-23.424,2.675,1.0,0.6,220.8
+swiss-5097-A00353,TV stand 0.53,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S053,Living room 0.53 (apartment 15),0.53,living_room,-27.198,0.94,1.5,0.4,40.8
+swiss-5097-A00354,Dining chair 0.53-A,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S053,Living room 0.53 (apartment 15),0.53,living_room,-26.727,-0.05,0.45,0.45,220.8
+swiss-5097-A00355,Dining chair 0.53-B,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S053,Living room 0.53 (apartment 15),0.53,living_room,-22.851,1.042,0.45,0.45,220.8
+swiss-5097-A00356,Bookshelf 0.53-A,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S053,Living room 0.53 (apartment 15),0.53,living_room,-23.438,4.22,0.9,0.35,40.8
+swiss-5097-A00357,Bookshelf 0.53-B,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S053,Living room 0.53 (apartment 15),0.53,living_room,-23.144,5.269,0.9,0.35,40.8
+swiss-5097-A00358,Plant 0.53-A,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S053,Living room 0.53 (apartment 15),0.53,living_room,-20.305,2.941,0.4,0.4,310.8
+swiss-5097-A00359,Plant 0.53-B,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S053,Living room 0.53 (apartment 15),0.53,living_room,-28.555,-0.797,0.4,0.4,130.8
+swiss-5097-A00360,Single bed 0.54,single_bed,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S054,Bedroom 0.54 (apartment 15),0.54,bedroom,-29.182,1.153,0.9,2.0,130.8
+swiss-5097-A00361,Wardrobe 0.54,wardrobe,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S054,Bedroom 0.54 (apartment 15),0.54,bedroom,-26.657,3.759,1.2,0.6,310.8
+swiss-5097-A00362,Nightstand 0.54,nightstand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S054,Bedroom 0.54 (apartment 15),0.54,bedroom,-28.503,0.771,0.45,0.4,220.8
+swiss-5097-A00363,Outdoor table 0.55,outdoor_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S055,Balcony 0.55 (apartment 16),0.55,balcony,-35.941,7.724,0.8,0.8,130.8
+swiss-5097-A00364,Outdoor chair 0.55,outdoor_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S055,Balcony 0.55 (apartment 16),0.55,balcony,-33.042,10.622,0.5,0.5,130.8
+swiss-5097-A00365,Single bed 0.56,single_bed,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S056,Bedroom 0.56 (apartment 16),0.56,bedroom,-31.584,3.936,0.9,2.0,130.8
+swiss-5097-A00366,Wardrobe 0.56,wardrobe,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S056,Bedroom 0.56 (apartment 16),0.56,bedroom,-28.484,5.902,1.2,0.6,310.8
+swiss-5097-A00367,Fridge 0.58,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S058,Kitchen 0.58 (apartment 16),0.58,kitchen,-26.075,7.932,0.6,0.65,130.8
+swiss-5097-A00368,Stove 0.58,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S058,Kitchen 0.58 (apartment 16),0.58,kitchen,-26.638,8.546,0.6,0.6,130.8
+swiss-5097-A00369,Microwave 0.58,microwave,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S058,Kitchen 0.58 (apartment 16),0.58,kitchen,-29.472,12.327,0.5,0.4,40.8
+swiss-5097-A00370,Coffee machine 0.58,coffee_machine,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S058,Kitchen 0.58 (apartment 16),0.58,kitchen,-25.656,9.174,0.4,0.4,310.8
+swiss-5097-A00371,Sofa 0.59,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S059,Living room 0.59 (apartment 16),0.59,living_room,-31.42,10.968,2.0,0.9,130.8
+swiss-5097-A00372,Coffee table 0.59,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S059,Living room 0.59 (apartment 16),0.59,living_room,-32.353,7.521,1.0,0.6,220.8
+swiss-5097-A00373,TV stand 0.59,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S059,Living room 0.59 (apartment 16),0.59,living_room,-29.937,12.679,1.5,0.4,220.8
+swiss-5097-A00374,Dining chair 0.59-A,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S059,Living room 0.59 (apartment 16),0.59,living_room,-30.072,8.987,0.45,0.45,220.8
+swiss-5097-A00375,Dining chair 0.59-B,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S059,Living room 0.59 (apartment 16),0.59,living_room,-30.267,13.106,0.45,0.45,220.8
+swiss-5097-A00376,Fridge 0.60,fridge,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S060,Kitchen 0.60 (apartment 17),0.60,kitchen,-21.943,11.62,0.6,0.65,220.7
+swiss-5097-A00377,Stove 0.60,stove,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S060,Kitchen 0.60 (apartment 17),0.60,kitchen,-23.518,13.641,0.6,0.6,40.8
+swiss-5097-A00378,Sofa 0.62,sofa,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S062,Living room 0.62 (apartment 17),0.62,living_room,-22.555,16.579,2.0,0.9,310.8
+swiss-5097-A00379,Coffee table 0.62,coffee_table,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S062,Living room 0.62 (apartment 17),0.62,living_room,-20.959,12.85,1.0,0.6,130.8
+swiss-5097-A00380,TV stand 0.62,tv_stand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S062,Living room 0.62 (apartment 17),0.62,living_room,-21.151,15.336,1.5,0.4,310.8
+swiss-5097-A00381,Dining chair 0.62-A,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S062,Living room 0.62 (apartment 17),0.62,living_room,-20.961,11.081,0.45,0.45,130.8
+swiss-5097-A00382,Dining chair 0.62-B,dining_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S062,Living room 0.62 (apartment 17),0.62,living_room,-20.414,14.472,0.45,0.45,130.8
+swiss-5097-A00383,Bookshelf 0.62,bookshelf,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S062,Living room 0.62 (apartment 17),0.62,living_room,-21.34,12.396,0.9,0.35,130.8
+swiss-5097-A00384,Plant 0.62-A,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S062,Living room 0.62 (apartment 17),0.62,living_room,-20.222,12.921,0.4,0.4,221.0
+swiss-5097-A00385,Plant 0.62-B,plant,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S062,Living room 0.62 (apartment 17),0.62,living_room,-19.72,13.678,0.4,0.4,310.8
+swiss-5097-A00386,Single bed 0.63,single_bed,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S063,Bedroom 0.63 (apartment 17),0.63,bedroom,-27.792,14.03,0.9,2.0,130.8
+swiss-5097-A00387,Wardrobe 0.63,wardrobe,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S063,Bedroom 0.63 (apartment 17),0.63,bedroom,-27.064,12.116,1.2,0.6,130.8
+swiss-5097-A00388,Nightstand 0.63-A,nightstand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S063,Bedroom 0.63 (apartment 17),0.63,bedroom,-26.669,14.95,0.45,0.4,310.6
+swiss-5097-A00389,Nightstand 0.63-B,nightstand,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S063,Bedroom 0.63 (apartment 17),0.63,bedroom,-25.472,12.139,0.45,0.4,220.6
+swiss-5097-A00390,Outdoor chair 0.64-A,outdoor_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S064,Balcony 0.64 (apartment 17),0.64,balcony,-24.432,18.199,0.5,0.5,40.8
+swiss-5097-A00391,Outdoor chair 0.64-B,outdoor_chair,furniture,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S064,Balcony 0.64 (apartment 17),0.64,balcony,-25.802,16.772,0.5,0.5,130.8
+swiss-5097-A00392,Fire extinguisher 0.65,fire_extinguisher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S065,Landing 0.65,0.65,stairwell,0.564,21.417,0.3,0.3,207.9
+swiss-5097-A00393,Fire extinguisher 0.66,fire_extinguisher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S066,Landing 0.66,0.66,stairwell,4.004,23.718,0.3,0.3,50.4
+swiss-5097-A00394,Fire extinguisher 0.68,fire_extinguisher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S068,Landing 0.68,0.68,stairwell,2.432,11.453,0.3,0.3,117.9
+swiss-5097-A00395,Fire extinguisher 0.69,fire_extinguisher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S069,Landing 0.69,0.69,stairwell,6.722,4.277,0.3,0.3,61.6
+swiss-5097-A00396,Fire extinguisher 0.70,fire_extinguisher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S070,Landing 0.70,0.70,stairwell,7.875,1.557,0.3,0.3,84.4
+swiss-5097-A00397,Fire extinguisher 0.71,fire_extinguisher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S071,Landing 0.71,0.71,stairwell,-1.596,-6.302,0.3,0.3,311.1
+swiss-5097-A00398,Fire extinguisher 0.72,fire_extinguisher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S072,Landing 0.72,0.72,stairwell,-3.294,-4.335,0.3,0.3,311.1
+swiss-5097-A00399,Fire extinguisher 0.73,fire_extinguisher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S073,Landing 0.73,0.73,stairwell,-9.229,2.54,0.3,0.3,311.1
+swiss-5097-A00400,Fire extinguisher 0.74,fire_extinguisher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S074,Landing 0.74,0.74,stairwell,-11.325,4.964,0.3,0.3,311.1
+swiss-5097-A00401,Fire extinguisher 0.75,fire_extinguisher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S075,Landing 0.75,0.75,stairwell,-20.625,4.596,0.3,0.3,130.9
+swiss-5097-A00402,Fire extinguisher 0.76,fire_extinguisher,equipment,generated,swiss-5097,0,Ground floor,swiss-5097-F0-S076,Landing 0.76,0.76,stairwell,-24.171,6.872,0.3,0.3,40.7
+swiss-5097-A00403,Single bed 1.01,single_bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S001,Bedroom 1.01 (apartment 18),1.01,bedroom,8.887,22.588,0.9,2.0,296.7
+swiss-5097-A00404,Wardrobe 1.01,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S001,Bedroom 1.01 (apartment 18),1.01,bedroom,8.631,20.912,1.2,0.6,206.9
+swiss-5097-A00405,Nightstand 1.01-A,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S001,Bedroom 1.01 (apartment 18),1.01,bedroom,7.285,23.0,0.45,0.4,26.9
+swiss-5097-A00406,Nightstand 1.01-B,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S001,Bedroom 1.01 (apartment 18),1.01,bedroom,6.34,22.521,0.45,0.4,26.9
+swiss-5097-A00407,Bed 1.02,bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S002,Bedroom 1.02 (apartment 18),1.02,bedroom,2.79,30.973,1.6,2.0,117.0
+swiss-5097-A00408,Wardrobe 1.02,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S002,Bedroom 1.02 (apartment 18),1.02,bedroom,3.959,31.65,1.2,0.6,297.0
+swiss-5097-A00409,Fridge 1.03,fridge,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S003,Kitchen 1.03 (apartment 18),1.03,kitchen,7.517,25.626,0.6,0.65,206.8
+swiss-5097-A00410,Stove 1.03,stove,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S003,Kitchen 1.03 (apartment 18),1.03,kitchen,6.483,28.174,0.6,0.6,297.0
+swiss-5097-A00411,Shelf 1.04,shelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S004,Storage 1.04 (apartment 18),1.04,storage,4.923,19.903,1.0,0.4,26.8
+swiss-5097-A00412,Outdoor table 1.05,outdoor_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S005,Balcony 1.05 (apartment 18),1.05,balcony,10.67,23.689,0.8,0.8,296.8
+swiss-5097-A00413,Outdoor chair 1.05-A,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S005,Balcony 1.05 (apartment 18),1.05,balcony,11.375,22.95,0.5,0.5,206.8
+swiss-5097-A00414,Outdoor chair 1.05-B,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S005,Balcony 1.05 (apartment 18),1.05,balcony,11.973,23.1,0.5,0.5,296.8
+swiss-5097-A00415,Plant 1.05-A,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S005,Balcony 1.05 (apartment 18),1.05,balcony,12.256,22.687,0.4,0.4,206.8
+swiss-5097-A00416,Plant 1.05-B,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S005,Balcony 1.05 (apartment 18),1.05,balcony,10.965,22.552,0.4,0.4,116.7
+swiss-5097-A00417,Sofa 1.08,sofa,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S008,Living room 1.08 (apartment 18),1.08,living_room,5.831,30.401,2.0,0.9,116.9
+swiss-5097-A00418,Coffee table 1.08,coffee_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S008,Living room 1.08 (apartment 18),1.08,living_room,8.009,29.396,1.0,0.6,25.5
+swiss-5097-A00419,TV stand 1.08,tv_stand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S008,Living room 1.08 (apartment 18),1.08,living_room,8.922,29.195,1.5,0.4,295.5
+swiss-5097-A00420,Dining table 1.08,dining_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S008,Living room 1.08 (apartment 18),1.08,living_room,5.943,33.751,1.6,0.9,25.5
+swiss-5097-A00421,Plant 1.08,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S008,Living room 1.08 (apartment 18),1.08,living_room,6.601,23.486,0.4,0.4,206.9
+swiss-5097-A00422,Sofa 1.09,sofa,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S009,Living room 1.09 (apartment 19),1.09,living_room,-3.193,24.881,2.0,0.9,116.7
+swiss-5097-A00423,Coffee table 1.09,coffee_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S009,Living room 1.09 (apartment 19),1.09,living_room,-2.169,24.516,1.0,0.6,116.7
+swiss-5097-A00424,TV stand 1.09,tv_stand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S009,Living room 1.09 (apartment 19),1.09,living_room,-4.704,27.325,1.5,0.4,116.7
+swiss-5097-A00425,Dining table 1.09,dining_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S009,Living room 1.09 (apartment 19),1.09,living_room,-1.662,23.536,1.6,0.9,206.7
+swiss-5097-A00426,Bookshelf 1.09-A,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S009,Living room 1.09 (apartment 19),1.09,living_room,-0.827,23.191,0.9,0.35,206.9
+swiss-5097-A00427,Bookshelf 1.09-B,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S009,Living room 1.09 (apartment 19),1.09,living_room,-2.781,23.452,0.9,0.35,116.7
+swiss-5097-A00428,Armchair 1.09,armchair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S009,Living room 1.09 (apartment 19),1.09,living_room,-2.952,26.442,0.8,0.8,206.7
+swiss-5097-A00429,Plant 1.09,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S009,Living room 1.09 (apartment 19),1.09,living_room,-2.301,22.553,0.4,0.4,116.7
+swiss-5097-A00430,Outdoor table 1.10,outdoor_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S010,Balcony 1.10 (apartment 19),1.10,balcony,-2.836,30.008,0.8,0.8,116.9
+swiss-5097-A00431,Outdoor chair 1.10,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S010,Balcony 1.10 (apartment 19),1.10,balcony,-2.9,30.736,0.5,0.5,116.9
+swiss-5097-A00432,Plant 1.10,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S010,Balcony 1.10 (apartment 19),1.10,balcony,-4.262,30.395,0.4,0.4,26.9
+swiss-5097-A00433,Bed 1.11,bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S011,Bedroom 1.11 (apartment 19),1.11,bedroom,0.954,29.005,1.6,2.0,297.0
+swiss-5097-A00434,Wardrobe 1.11,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S011,Bedroom 1.11 (apartment 19),1.11,bedroom,0.847,30.755,1.2,0.6,297.0
+swiss-5097-A00435,Nightstand 1.11-A,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S011,Bedroom 1.11 (apartment 19),1.11,bedroom,-1.004,29.66,0.45,0.4,117.3
+swiss-5097-A00436,Nightstand 1.11-B,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S011,Bedroom 1.11 (apartment 19),1.11,bedroom,0.56,31.538,0.45,0.4,297.0
+swiss-5097-A00437,Shelf 1.12,shelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S012,Storage 1.12 (apartment 19),1.12,storage,4.896,20.88,1.0,0.4,206.9
+swiss-5097-A00438,Fridge 1.14,fridge,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S014,Kitchen 1.14 (apartment 19),1.14,kitchen,-0.263,24.443,0.6,0.65,117.0
+swiss-5097-A00439,Microwave 1.14,microwave,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S014,Kitchen 1.14 (apartment 19),1.14,kitchen,-1.042,26.646,0.5,0.4,27.0
+swiss-5097-A00440,Single bed 1.15,single_bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S015,Bedroom 1.15 (apartment 19),1.15,bedroom,1.002,17.773,0.9,2.0,116.7
+swiss-5097-A00441,Wardrobe 1.15,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S015,Bedroom 1.15 (apartment 19),1.15,bedroom,3.179,18.151,1.2,0.6,206.9
+swiss-5097-A00442,Nightstand 1.15-A,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S015,Bedroom 1.15 (apartment 19),1.15,bedroom,0.035,19.306,0.45,0.4,26.9
+swiss-5097-A00443,Nightstand 1.15-B,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S015,Bedroom 1.15 (apartment 19),1.15,bedroom,2.279,17.583,0.45,0.4,206.9
+swiss-5097-A00444,Fire extinguisher 1.38,fire_extinguisher,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S038,Corridor 1.38 (apartment 24),1.38,corridor,17.409,-3.409,0.3,0.3,206.9
+swiss-5097-A00445,Outdoor table 1.39,outdoor_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S039,Balcony 1.39 (apartment 24),1.39,balcony,22.81,-6.445,0.8,0.8,123.9
+swiss-5097-A00446,Outdoor chair 1.39,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S039,Balcony 1.39 (apartment 24),1.39,balcony,23.478,-4.637,0.5,0.5,123.9
+swiss-5097-A00447,Fridge 1.40,fridge,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S040,Kitchen 1.40 (apartment 24),1.40,kitchen,20.196,0.557,0.6,0.65,207.0
+swiss-5097-A00448,Stove 1.40,stove,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S040,Kitchen 1.40 (apartment 24),1.40,kitchen,18.154,-0.512,0.6,0.6,207.0
+swiss-5097-A00449,Dishwasher 1.40,dishwasher,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S040,Kitchen 1.40 (apartment 24),1.40,kitchen,17.497,-0.601,0.6,0.6,117.1
+swiss-5097-A00450,Coffee machine 1.40,coffee_machine,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S040,Kitchen 1.40 (apartment 24),1.40,kitchen,20.634,1.039,0.4,0.4,296.7
+swiss-5097-A00451,Bed 1.41,bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S041,Bedroom 1.41 (apartment 24),1.41,bedroom,11.774,-3.31,1.6,2.0,26.9
+swiss-5097-A00452,Wardrobe 1.41,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S041,Bedroom 1.41 (apartment 24),1.41,bedroom,13.46,-4.558,1.2,0.6,207.0
+swiss-5097-A00453,Sofa 1.42,sofa,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S042,Living room 1.42 (apartment 24),1.42,living_room,21.412,-1.061,2.0,0.9,296.7
+swiss-5097-A00454,Coffee table 1.42,coffee_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S042,Living room 1.42 (apartment 24),1.42,living_room,19.825,-3.066,1.0,0.6,27.0
+swiss-5097-A00455,TV stand 1.42,tv_stand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S042,Living room 1.42 (apartment 24),1.42,living_room,19.178,-3.948,1.5,0.4,123.3
+swiss-5097-A00456,Dining table 1.42,dining_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S042,Living room 1.42 (apartment 24),1.42,living_room,21.577,-3.258,1.6,0.9,117.0
+swiss-5097-A00457,Bookshelf 1.42-A,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S042,Living room 1.42 (apartment 24),1.42,living_room,20.492,-0.044,0.9,0.35,27.0
+swiss-5097-A00458,Bookshelf 1.42-B,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S042,Living room 1.42 (apartment 24),1.42,living_room,20.017,-5.272,0.9,0.35,123.3
+swiss-5097-A00459,Plant 1.42,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S042,Living room 1.42 (apartment 24),1.42,living_room,18.632,-3.062,0.4,0.4,115.6
+swiss-5097-A00460,Single bed 1.43,single_bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S043,Bedroom 1.43 (apartment 25),1.43,bedroom,25.054,-9.329,0.9,2.0,213.2
+swiss-5097-A00461,Wardrobe 1.43,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S043,Bedroom 1.43 (apartment 25),1.43,bedroom,24.332,-7.178,1.2,0.6,33.9
+swiss-5097-A00462,Nightstand 1.43-A,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S043,Bedroom 1.43 (apartment 25),1.43,bedroom,26.015,-8.827,0.45,0.4,303.2
+swiss-5097-A00463,Nightstand 1.43-B,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S043,Bedroom 1.43 (apartment 25),1.43,bedroom,26.281,-9.481,0.45,0.4,213.2
+swiss-5097-A00464,Outdoor chair 1.45-A,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S045,Balcony 1.45 (apartment 25),1.45,balcony,21.52,-17.919,0.5,0.5,303.4
+swiss-5097-A00465,Outdoor chair 1.45-B,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S045,Balcony 1.45 (apartment 25),1.45,balcony,21.002,-18.503,0.5,0.5,213.4
+swiss-5097-A00466,Fridge 1.46,fridge,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S046,Kitchen 1.46 (apartment 25),1.46,kitchen,28.576,-12.9,0.6,0.65,33.2
+swiss-5097-A00467,Coffee machine 1.46,coffee_machine,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S046,Kitchen 1.46 (apartment 25),1.46,kitchen,28.955,-13.325,0.4,0.4,303.2
+swiss-5097-A00468,Sofa 1.48,sofa,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S048,Living room 1.48 (apartment 25),1.48,living_room,19.298,-16.648,2.0,0.9,123.2
+swiss-5097-A00469,Coffee table 1.48,coffee_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S048,Living room 1.48 (apartment 25),1.48,living_room,21.823,-14.49,1.0,0.6,33.3
+swiss-5097-A00470,TV stand 1.48,tv_stand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S048,Living room 1.48 (apartment 25),1.48,living_room,22.477,-15.894,1.5,0.4,213.2
+swiss-5097-A00471,Dining chair 1.48-A,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S048,Living room 1.48 (apartment 25),1.48,living_room,21.636,-15.884,0.45,0.45,33.3
+swiss-5097-A00472,Dining chair 1.48-B,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S048,Living room 1.48 (apartment 25),1.48,living_room,22.799,-14.176,0.45,0.45,123.3
+swiss-5097-A00473,Dining chair 1.48-C,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S048,Living room 1.48 (apartment 25),1.48,living_room,21.298,-13.266,0.45,0.45,123.3
+swiss-5097-A00474,Dining chair 1.48-D,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S048,Living room 1.48 (apartment 25),1.48,living_room,23.977,-15.898,0.45,0.45,123.3
+swiss-5097-A00475,Bookshelf 1.48,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S048,Living room 1.48 (apartment 25),1.48,living_room,25.026,-14.152,0.9,0.35,303.2
+swiss-5097-A00476,Armchair 1.48,armchair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S048,Living room 1.48 (apartment 25),1.48,living_room,23.905,-14.281,0.8,0.8,33.3
+swiss-5097-A00477,Bed 1.49,bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S049,Bedroom 1.49 (apartment 25),1.49,bedroom,26.946,-11.681,1.6,2.0,213.2
+swiss-5097-A00478,Wardrobe 1.49,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S049,Bedroom 1.49 (apartment 25),1.49,bedroom,25.408,-11.061,1.2,0.6,33.2
+swiss-5097-A00479,Nightstand 1.49,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S049,Bedroom 1.49 (apartment 25),1.49,bedroom,25.412,-13.426,0.45,0.4,123.2
+swiss-5097-A00480,Fridge 1.50,fridge,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S050,Kitchen 1.50 (apartment 26),1.50,kitchen,11.899,-9.249,0.6,0.65,124.0
+swiss-5097-A00481,Stove 1.50,stove,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S050,Kitchen 1.50 (apartment 26),1.50,kitchen,12.333,-9.938,0.6,0.6,124.0
+swiss-5097-A00482,Microwave 1.50,microwave,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S050,Kitchen 1.50 (apartment 26),1.50,kitchen,13.721,-11.748,0.5,0.4,214.0
+swiss-5097-A00483,Bed 1.51,bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S051,Bedroom 1.51 (apartment 26),1.51,bedroom,15.493,-6.658,1.6,2.0,297.0
+swiss-5097-A00484,Wardrobe 1.51,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S051,Bedroom 1.51 (apartment 26),1.51,bedroom,13.01,-6.02,1.2,0.6,27.0
+swiss-5097-A00485,Desk 1.51,desk,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S051,Bedroom 1.51 (apartment 26),1.51,bedroom,14.369,-5.383,1.4,0.7,27.0
+swiss-5097-A00486,Sofa 1.52,sofa,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S052,Living room 1.52 (apartment 26),1.52,living_room,11.444,-11.496,2.0,0.9,124.0
+swiss-5097-A00487,Coffee table 1.52,coffee_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S052,Living room 1.52 (apartment 26),1.52,living_room,15.372,-14.309,1.0,0.6,213.2
+swiss-5097-A00488,TV stand 1.52,tv_stand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S052,Living room 1.52 (apartment 26),1.52,living_room,18.617,-17.709,1.5,0.4,303.2
+swiss-5097-A00489,Dining chair 1.52-A,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S052,Living room 1.52 (apartment 26),1.52,living_room,14.145,-14.736,0.45,0.45,303.2
+swiss-5097-A00490,Dining chair 1.52-B,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S052,Living room 1.52 (apartment 26),1.52,living_room,14.669,-13.424,0.45,0.45,213.2
+swiss-5097-A00491,Bookshelf 1.52-A,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S052,Living room 1.52 (apartment 26),1.52,living_room,13.858,-15.659,0.9,0.35,123.6
+swiss-5097-A00492,Bookshelf 1.52-B,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S052,Living room 1.52 (apartment 26),1.52,living_room,17.588,-16.091,0.9,0.35,303.2
+swiss-5097-A00493,Armchair 1.52,armchair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S052,Living room 1.52 (apartment 26),1.52,living_room,17.645,-17.812,0.8,0.8,213.2
+swiss-5097-A00494,Washing machine 1.53,washing_machine,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S053,Bathroom 1.53 (apartment 26),1.53,bathroom,16.574,-13.099,0.6,0.6,123.2
+swiss-5097-A00495,Coat rack 1.55,coat_rack,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S055,Corridor 1.55 (apartment 26),1.55,corridor,17.287,-10.952,0.6,0.3,213.3
+swiss-5097-A00496,Outdoor table 1.56,outdoor_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S056,Balcony 1.56 (apartment 26),1.56,balcony,19.531,-19.501,0.8,0.8,303.4
+swiss-5097-A00497,Outdoor chair 1.56,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S056,Balcony 1.56 (apartment 26),1.56,balcony,18.327,-20.473,0.5,0.5,303.4
+swiss-5097-A00498,Single bed 1.57,single_bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S057,Bedroom 1.57 (apartment 26),1.57,bedroom,9.44,-12.888,0.9,2.0,123.3
+swiss-5097-A00499,Wardrobe 1.57,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S057,Bedroom 1.57 (apartment 26),1.57,bedroom,9.88,-11.068,1.2,0.6,304.0
+swiss-5097-A00500,Shelf 1.58,shelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S058,Storage 1.58 (apartment 26),1.58,storage,14.792,-10.504,1.0,0.4,123.9
+swiss-5097-A00501,Shelf 1.59,shelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S059,Storage 1.59 (apartment 26),1.59,storage,12.806,-16.042,1.0,0.4,214.4
+swiss-5097-A00502,Shelf 1.60,shelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S060,Storage 1.60 (apartment 27),1.60,storage,10.692,-15.898,1.0,0.4,34.1
+swiss-5097-A00503,Sofa 1.61,sofa,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S061,Living room 1.61 (apartment 27),1.61,living_room,8.936,-15.653,2.0,0.9,303.4
+swiss-5097-A00504,Coffee table 1.61,coffee_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S061,Living room 1.61 (apartment 27),1.61,living_room,8.886,-18.145,1.0,0.6,303.4
+swiss-5097-A00505,TV stand 1.61,tv_stand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S061,Living room 1.61 (apartment 27),1.61,living_room,9.284,-20.836,1.5,0.4,123.5
+swiss-5097-A00506,Dining chair 1.61-A,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S061,Living room 1.61 (apartment 27),1.61,living_room,11.375,-21.609,0.45,0.45,303.4
+swiss-5097-A00507,Dining chair 1.61-B,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S061,Living room 1.61 (apartment 27),1.61,living_room,12.384,-20.576,0.45,0.45,303.4
+swiss-5097-A00508,Dining chair 1.61-C,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S061,Living room 1.61 (apartment 27),1.61,living_room,10.393,-19.296,0.45,0.45,303.4
+swiss-5097-A00509,Dining chair 1.61-D,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S061,Living room 1.61 (apartment 27),1.61,living_room,12.003,-21.594,0.45,0.45,303.4
+swiss-5097-A00510,Bookshelf 1.61-A,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S061,Living room 1.61 (apartment 27),1.61,living_room,8.067,-13.835,0.9,0.35,303.4
+swiss-5097-A00511,Bookshelf 1.61-B,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S061,Living room 1.61 (apartment 27),1.61,living_room,11.183,-18.559,0.9,0.35,303.4
+swiss-5097-A00512,Armchair 1.61,armchair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S061,Living room 1.61 (apartment 27),1.61,living_room,11.094,-20.925,0.8,0.8,303.4
+swiss-5097-A00513,Plant 1.61,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S061,Living room 1.61 (apartment 27),1.61,living_room,11.952,-19.77,0.4,0.4,303.4
+swiss-5097-A00514,Fridge 1.63,fridge,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S063,Kitchen 1.63 (apartment 27),1.63,kitchen,5.372,-13.333,0.6,0.65,304.0
+swiss-5097-A00515,Stove 1.63,stove,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S063,Kitchen 1.63 (apartment 27),1.63,kitchen,7.074,-15.968,0.6,0.6,214.0
+swiss-5097-A00516,Dishwasher 1.63,dishwasher,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S063,Kitchen 1.63 (apartment 27),1.63,kitchen,5.854,-14.005,0.6,0.6,304.0
+swiss-5097-A00517,Single bed 1.65,single_bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S065,Bedroom 1.65 (apartment 27),1.65,bedroom,3.024,-13.355,0.9,2.0,39.8
+swiss-5097-A00518,Wardrobe 1.65,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S065,Bedroom 1.65 (apartment 27),1.65,bedroom,1.029,-15.844,1.2,0.6,129.8
+swiss-5097-A00519,Coat rack 1.66,coat_rack,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S066,Corridor 1.66 (apartment 27),1.66,corridor,3.873,-18.874,0.6,0.3,33.8
+swiss-5097-A00520,Outdoor table 1.67,outdoor_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S067,Balcony 1.67 (apartment 27),1.67,balcony,13.039,-24.256,0.8,0.8,303.4
+swiss-5097-A00521,Outdoor chair 1.67-A,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S067,Balcony 1.67 (apartment 27),1.67,balcony,14.386,-23.141,0.5,0.5,303.4
+swiss-5097-A00522,Outdoor chair 1.67-B,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S067,Balcony 1.67 (apartment 27),1.67,balcony,14.401,-22.483,0.5,0.5,303.4
+swiss-5097-A00523,Plant 1.67,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S067,Balcony 1.67 (apartment 27),1.67,balcony,14.943,-23.56,0.4,0.4,213.4
+swiss-5097-A00524,Shelf 1.68,shelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S068,Storage 1.68 (apartment 27),1.68,storage,5.547,-16.472,1.0,0.4,304.0
+swiss-5097-A00525,Single bed 1.69,single_bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S069,Bedroom 1.69 (apartment 27),1.69,bedroom,13.435,-18.062,0.9,2.0,303.6
+swiss-5097-A00526,Wardrobe 1.69,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S069,Bedroom 1.69 (apartment 27),1.69,bedroom,12.909,-19.671,1.2,0.6,123.6
+swiss-5097-A00527,Sofa 1.70,sofa,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S070,Living room 1.70 (apartment 28),1.70,living_room,8.922,-22.385,2.0,0.9,303.6
+swiss-5097-A00528,Coffee table 1.70,coffee_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S070,Living room 1.70 (apartment 28),1.70,living_room,6.863,-25.068,1.0,0.6,33.6
+swiss-5097-A00529,TV stand 1.70,tv_stand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S070,Living room 1.70 (apartment 28),1.70,living_room,7.314,-21.828,1.5,0.4,34.1
+swiss-5097-A00530,Dining table 1.70,dining_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S070,Living room 1.70 (apartment 28),1.70,living_room,6.655,-27.439,1.6,0.9,123.6
+swiss-5097-A00531,Dining chair 1.70-A,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S070,Living room 1.70 (apartment 28),1.70,living_room,6.649,-24.229,0.45,0.45,123.6
+swiss-5097-A00532,Dining chair 1.70-B,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S070,Living room 1.70 (apartment 28),1.70,living_room,5.365,-24.423,0.45,0.45,33.6
+swiss-5097-A00533,Bookshelf 1.70,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S070,Living room 1.70 (apartment 28),1.70,living_room,5.901,-22.756,0.9,0.35,34.1
+swiss-5097-A00534,Armchair 1.70,armchair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S070,Living room 1.70 (apartment 28),1.70,living_room,8.352,-23.812,0.8,0.8,33.6
+swiss-5097-A00535,Plant 1.70,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S070,Living room 1.70 (apartment 28),1.70,living_room,10.078,-23.671,0.4,0.4,303.6
+swiss-5097-A00536,Outdoor table 1.72,outdoor_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S072,Balcony 1.72 (apartment 28),1.72,balcony,9.058,-27.202,0.8,0.8,303.4
+swiss-5097-A00537,Outdoor chair 1.72,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S072,Balcony 1.72 (apartment 28),1.72,balcony,8.658,-26.355,0.5,0.5,213.4
+swiss-5097-A00538,Plant 1.72,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S072,Balcony 1.72 (apartment 28),1.72,balcony,8.58,-25.85,0.4,0.4,33.2
+swiss-5097-A00539,Bed 1.73,bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S073,Bedroom 1.73 (apartment 28),1.73,bedroom,1.33,-27.746,1.6,2.0,33.6
+swiss-5097-A00540,Wardrobe 1.73,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S073,Bedroom 1.73 (apartment 28),1.73,bedroom,3.163,-28.125,1.2,0.6,213.6
+swiss-5097-A00541,Nightstand 1.73-A,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S073,Bedroom 1.73 (apartment 28),1.73,bedroom,4.132,-27.602,0.45,0.4,213.6
+swiss-5097-A00542,Nightstand 1.73-B,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S073,Bedroom 1.73 (apartment 28),1.73,bedroom,2.386,-28.761,0.45,0.4,213.6
+swiss-5097-A00543,Fridge 1.74,fridge,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S074,Kitchen 1.74 (apartment 28),1.74,kitchen,2.535,-30.39,0.6,0.65,123.7
+swiss-5097-A00544,Coffee machine 1.74,coffee_machine,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S074,Kitchen 1.74 (apartment 28),1.74,kitchen,2.85,-30.886,0.4,0.4,213.2
+swiss-5097-A00545,Fire extinguisher 1.75,fire_extinguisher,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S075,Corridor 1.75 (apartment 28),1.75,corridor,2.186,-22.769,0.3,0.3,33.9
+swiss-5097-A00546,Single bed 1.76,single_bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S076,Bedroom 1.76 (apartment 28),1.76,bedroom,0.062,-23.989,0.9,2.0,33.6
+swiss-5097-A00547,Wardrobe 1.76,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S076,Bedroom 1.76 (apartment 28),1.76,bedroom,0.25,-26.458,1.2,0.6,213.6
+swiss-5097-A00548,Nightstand 1.76,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S076,Bedroom 1.76 (apartment 28),1.76,bedroom,1.438,-25.789,0.45,0.4,213.6
+swiss-5097-A00549,Outdoor table 1.77,outdoor_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S077,Balcony 1.77 (apartment 29),1.77,balcony,-2.078,-22.359,0.8,0.8,213.7
+swiss-5097-A00550,Outdoor chair 1.77-A,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S077,Balcony 1.77 (apartment 29),1.77,balcony,-1.324,-21.712,0.5,0.5,303.7
+swiss-5097-A00551,Outdoor chair 1.77-B,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S077,Balcony 1.77 (apartment 29),1.77,balcony,-0.521,-21.367,0.5,0.5,303.7
+swiss-5097-A00552,Plant 1.77-A,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S077,Balcony 1.77 (apartment 29),1.77,balcony,-0.799,-20.682,0.4,0.4,303.6
+swiss-5097-A00553,Plant 1.77-B,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S077,Balcony 1.77 (apartment 29),1.77,balcony,-1.107,-22.538,0.4,0.4,213.7
+swiss-5097-A00554,Sofa 1.78,sofa,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S078,Living room 1.78 (apartment 29),1.78,living_room,-4.381,-20.556,2.0,0.9,129.8
+swiss-5097-A00555,Coffee table 1.78,coffee_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S078,Living room 1.78 (apartment 29),1.78,living_room,-3.435,-18.235,1.0,0.6,219.8
+swiss-5097-A00556,TV stand 1.78,tv_stand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S078,Living room 1.78 (apartment 29),1.78,living_room,-2.069,-18.164,1.5,0.4,303.6
+swiss-5097-A00557,Dining table 1.78,dining_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S078,Living room 1.78 (apartment 29),1.78,living_room,-3.19,-19.759,1.6,0.9,219.8
+swiss-5097-A00558,Bookshelf 1.78,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S078,Living room 1.78 (apartment 29),1.78,living_room,-6.324,-17.806,0.9,0.35,39.8
+swiss-5097-A00559,Fire extinguisher 1.79,fire_extinguisher,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S079,Corridor 1.79 (apartment 29),1.79,corridor,-2.045,-16.202,0.3,0.3,219.8
+swiss-5097-A00560,Single bed 1.81,single_bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S081,Bedroom 1.81 (apartment 29),1.81,bedroom,0.307,-10.813,0.9,2.0,39.8
+swiss-5097-A00561,Wardrobe 1.81,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S081,Bedroom 1.81 (apartment 29),1.81,bedroom,-1.327,-11.264,1.2,0.6,39.8
+swiss-5097-A00562,Nightstand 1.81,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S081,Bedroom 1.81 (apartment 29),1.81,bedroom,1.633,-11.26,0.45,0.4,309.8
+swiss-5097-A00563,Fridge 1.82,fridge,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S082,Kitchen 1.82 (apartment 29),1.82,kitchen,-6.586,-17.152,0.6,0.65,219.8
+swiss-5097-A00564,Stove 1.82,stove,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S082,Kitchen 1.82 (apartment 29),1.82,kitchen,-4.429,-15.386,0.6,0.6,219.8
+swiss-5097-A00565,Dishwasher 1.82,dishwasher,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S082,Kitchen 1.82 (apartment 29),1.82,kitchen,-4.931,-15.805,0.6,0.6,219.8
+swiss-5097-A00566,Coffee machine 1.82,coffee_machine,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S082,Kitchen 1.82 (apartment 29),1.82,kitchen,-7.021,-17.677,0.4,0.4,219.8
+swiss-5097-A00567,Bed 1.103,bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S103,Bedroom 1.103 (apartment 34),1.103,bedroom,-28.67,3.95,1.6,2.0,39.8
+swiss-5097-A00568,Wardrobe 1.103,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S103,Bedroom 1.103 (apartment 34),1.103,bedroom,-27.973,5.442,1.2,0.6,39.8
+swiss-5097-A00569,Nightstand 1.103,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S103,Bedroom 1.103 (apartment 34),1.103,bedroom,-27.063,5.082,0.45,0.4,309.8
+swiss-5097-A00570,Coat rack 1.104,coat_rack,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S104,Corridor 1.104 (apartment 34),1.104,corridor,-19.481,4.975,0.6,0.3,219.8
+swiss-5097-A00571,Bed 1.105,bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S105,Bedroom 1.105 (apartment 34),1.105,bedroom,-18.148,9.415,1.6,2.0,39.8
+swiss-5097-A00572,Wardrobe 1.105,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S105,Bedroom 1.105 (apartment 34),1.105,bedroom,-17.263,8.357,1.2,0.6,219.8
+swiss-5097-A00573,Outdoor chair 1.106,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S106,Balcony 1.106 (apartment 34),1.106,balcony,-23.519,-0.641,0.5,0.5,309.8
+swiss-5097-A00574,Plant 1.106-A,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S106,Balcony 1.106 (apartment 34),1.106,balcony,-25.991,-1.194,0.4,0.4,39.8
+swiss-5097-A00575,Plant 1.106-B,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S106,Balcony 1.106 (apartment 34),1.106,balcony,-23.981,-1.1,0.4,0.4,219.8
+swiss-5097-A00576,Sofa 1.107,sofa,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S107,Living room 1.107 (apartment 34),1.107,living_room,-24.563,3.985,2.0,0.9,39.8
+swiss-5097-A00577,Coffee table 1.107,coffee_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S107,Living room 1.107 (apartment 34),1.107,living_room,-23.359,3.259,1.0,0.6,309.8
+swiss-5097-A00578,TV stand 1.107,tv_stand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S107,Living room 1.107 (apartment 34),1.107,living_room,-28.716,0.848,1.5,0.4,39.8
+swiss-5097-A00579,Dining table 1.107,dining_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S107,Living room 1.107 (apartment 34),1.107,living_room,-26.855,0.303,1.6,0.9,219.8
+swiss-5097-A00580,Armchair 1.107,armchair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S107,Living room 1.107 (apartment 34),1.107,living_room,-27.836,-0.614,0.8,0.8,309.8
+swiss-5097-A00581,Plant 1.107-A,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S107,Living room 1.107 (apartment 34),1.107,living_room,-26.304,-0.577,0.4,0.4,219.8
+swiss-5097-A00582,Plant 1.107-B,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S107,Living room 1.107 (apartment 34),1.107,living_room,-23.795,1.69,0.4,0.4,219.7
+swiss-5097-A00583,Bed 1.108,bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S108,Bedroom 1.108 (apartment 34),1.108,bedroom,-15.613,6.818,1.6,2.0,219.8
+swiss-5097-A00584,Wardrobe 1.108,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S108,Bedroom 1.108 (apartment 34),1.108,bedroom,-15.902,8.319,1.2,0.6,39.8
+swiss-5097-A00585,Fridge 1.109,fridge,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S109,Kitchen 1.109 (apartment 34),1.109,kitchen,-22.321,1.395,0.6,0.65,39.8
+swiss-5097-A00586,Stove 1.109,stove,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S109,Kitchen 1.109 (apartment 34),1.109,kitchen,-20.467,2.973,0.6,0.6,39.8
+swiss-5097-A00587,Microwave 1.109,microwave,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S109,Kitchen 1.109 (apartment 34),1.109,kitchen,-22.894,1.08,0.5,0.4,39.8
+swiss-5097-A00588,Fridge 1.113,fridge,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S113,Kitchen 1.113 (apartment 35),1.113,kitchen,-21.8,12.679,0.6,0.65,309.8
+swiss-5097-A00589,Stove 1.113,stove,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S113,Kitchen 1.113 (apartment 35),1.113,kitchen,-23.427,14.271,0.6,0.6,39.8
+swiss-5097-A00590,Outdoor table 1.114,outdoor_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S114,Balcony 1.114 (apartment 35),1.114,balcony,-25.109,18.801,0.8,0.8,129.8
+swiss-5097-A00591,Outdoor chair 1.114,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S114,Balcony 1.114 (apartment 35),1.114,balcony,-26.119,17.414,0.5,0.5,129.8
+swiss-5097-A00592,Plant 1.114-A,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S114,Balcony 1.114 (apartment 35),1.114,balcony,-26.024,18.351,0.4,0.4,39.8
+swiss-5097-A00593,Plant 1.114-B,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S114,Balcony 1.114 (apartment 35),1.114,balcony,-26.415,18.025,0.4,0.4,39.8
+swiss-5097-A00594,Sofa 1.115,sofa,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S115,Living room 1.115 (apartment 35),1.115,living_room,-20.433,13.939,2.0,0.9,220.0
+swiss-5097-A00595,Coffee table 1.115,coffee_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S115,Living room 1.115 (apartment 35),1.115,living_room,-21.912,15.388,1.0,0.6,309.8
+swiss-5097-A00596,TV stand 1.115,tv_stand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S115,Living room 1.115 (apartment 35),1.115,living_room,-21.346,16.31,1.5,0.4,309.8
+swiss-5097-A00597,Dining chair 1.115-A,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S115,Living room 1.115 (apartment 35),1.115,living_room,-23.915,15.851,0.45,0.45,39.8
+swiss-5097-A00598,Dining chair 1.115-B,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S115,Living room 1.115 (apartment 35),1.115,living_room,-22.933,16.456,0.45,0.45,39.8
+swiss-5097-A00599,Dining chair 1.115-C,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S115,Living room 1.115 (apartment 35),1.115,living_room,-23.63,15.024,0.45,0.45,309.8
+swiss-5097-A00600,Bookshelf 1.115-A,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S115,Living room 1.115 (apartment 35),1.115,living_room,-22.565,17.812,0.9,0.35,309.8
+swiss-5097-A00601,Bookshelf 1.115-B,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S115,Living room 1.115 (apartment 35),1.115,living_room,-21.609,11.438,0.9,0.35,39.8
+swiss-5097-A00602,Armchair 1.115,armchair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S115,Living room 1.115 (apartment 35),1.115,living_room,-21.137,14.673,0.8,0.8,309.8
+swiss-5097-A00603,Single bed 1.116,single_bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S116,Bedroom 1.116 (apartment 35),1.116,bedroom,-27.463,14.555,0.9,2.0,129.8
+swiss-5097-A00604,Wardrobe 1.116,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S116,Bedroom 1.116 (apartment 35),1.116,bedroom,-25.596,13.129,1.2,0.6,219.6
+swiss-5097-A00605,Nightstand 1.116-A,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S116,Bedroom 1.116 (apartment 35),1.116,bedroom,-26.349,12.376,0.45,0.4,219.6
+swiss-5097-A00606,Nightstand 1.116-B,nightstand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S116,Bedroom 1.116 (apartment 35),1.116,bedroom,-26.121,15.214,0.45,0.4,309.6
+swiss-5097-A00607,Single bed 1.117,single_bed,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S117,Bedroom 1.117 (apartment 36),1.117,bedroom,-32.069,5.47,0.9,2.0,39.8
+swiss-5097-A00608,Wardrobe 1.117,wardrobe,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S117,Bedroom 1.117 (apartment 36),1.117,bedroom,-29.778,5.376,1.2,0.6,219.8
+swiss-5097-A00609,Fire extinguisher 1.118,fire_extinguisher,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S118,Corridor 1.118 (apartment 36),1.118,corridor,-26.47,8.855,0.3,0.3,129.8
+swiss-5097-A00610,Washing machine 1.119,washing_machine,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S119,Bathroom 1.119 (apartment 36),1.119,bathroom,-28.503,8.158,0.6,0.6,129.8
+swiss-5097-A00611,Fridge 1.120,fridge,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S120,Kitchen 1.120 (apartment 36),1.120,kitchen,-28.518,11.665,0.6,0.65,129.8
+swiss-5097-A00612,Coffee machine 1.120,coffee_machine,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S120,Kitchen 1.120 (apartment 36),1.120,kitchen,-29.491,13.334,0.4,0.4,39.8
+swiss-5097-A00613,Sofa 1.121,sofa,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S121,Living room 1.121 (apartment 36),1.121,living_room,-31.622,10.941,2.0,0.9,39.7
+swiss-5097-A00614,Coffee table 1.121,coffee_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S121,Living room 1.121 (apartment 36),1.121,living_room,-31.193,9.248,1.0,0.6,219.8
+swiss-5097-A00615,TV stand 1.121,tv_stand,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S121,Living room 1.121 (apartment 36),1.121,living_room,-32.574,7.097,1.5,0.4,219.8
+swiss-5097-A00616,Dining table 1.121,dining_table,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S121,Living room 1.121 (apartment 36),1.121,living_room,-30.322,13.713,1.6,0.9,219.8
+swiss-5097-A00617,Dining chair 1.121-A,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S121,Living room 1.121 (apartment 36),1.121,living_room,-30.42,10.729,0.45,0.45,309.8
+swiss-5097-A00618,Dining chair 1.121-B,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S121,Living room 1.121 (apartment 36),1.121,living_room,-32.132,12.551,0.45,0.45,309.8
+swiss-5097-A00619,Dining chair 1.121-C,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S121,Living room 1.121 (apartment 36),1.121,living_room,-30.571,10.12,0.45,0.45,219.8
+swiss-5097-A00620,Dining chair 1.121-D,dining_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S121,Living room 1.121 (apartment 36),1.121,living_room,-33.286,7.194,0.45,0.45,309.8
+swiss-5097-A00621,Bookshelf 1.121-A,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S121,Living room 1.121 (apartment 36),1.121,living_room,-34.061,6.379,0.9,0.35,129.8
+swiss-5097-A00622,Bookshelf 1.121-B,bookshelf,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S121,Living room 1.121 (apartment 36),1.121,living_room,-34.631,8.799,0.9,0.35,39.7
+swiss-5097-A00623,Armchair 1.121,armchair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S121,Living room 1.121 (apartment 36),1.121,living_room,-34.807,7.636,0.8,0.8,309.8
+swiss-5097-A00624,Plant 1.121,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S121,Living room 1.121 (apartment 36),1.121,living_room,-31.761,12.983,0.4,0.4,39.8
+swiss-5097-A00625,Outdoor chair 1.122-A,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S122,Balcony 1.122 (apartment 36),1.122,balcony,-34.446,10.92,0.5,0.5,129.8
+swiss-5097-A00626,Outdoor chair 1.122-B,outdoor_chair,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S122,Balcony 1.122 (apartment 36),1.122,balcony,-34.947,10.628,0.5,0.5,129.8
+swiss-5097-A00627,Plant 1.122,plant,furniture,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S122,Balcony 1.122 (apartment 36),1.122,balcony,-32.591,11.366,0.4,0.4,219.8
+swiss-5097-A00628,Fire extinguisher 1.123,fire_extinguisher,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S123,Stair hall 1.123,1.123,stairwell,17.689,-4.127,0.3,0.3,26.8
+swiss-5097-A00629,Fire extinguisher 1.124,fire_extinguisher,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S124,Stair hall 1.124,1.124,stairwell,4.121,22.262,0.3,0.3,206.8
+swiss-5097-A00630,Fire extinguisher 1.125,fire_extinguisher,equipment,generated,swiss-5097,1,Floor 1,swiss-5097-F1-S125,Stair hall 1.125,1.125,stairwell,-1.166,-18.087,0.3,0.3,123.4
+swiss-5097-A00631,Outdoor table 2.01,outdoor_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S001,Balcony 2.01 (apartment 37),2.01,balcony,13.874,-24.073,0.8,0.8,214.1
+swiss-5097-A00632,Outdoor chair 2.01-A,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S001,Balcony 2.01 (apartment 37),2.01,balcony,17.221,-21.86,0.5,0.5,304.1
+swiss-5097-A00633,Outdoor chair 2.01-B,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S001,Balcony 2.01 (apartment 37),2.01,balcony,12.22,-24.322,0.5,0.5,214.1
+swiss-5097-A00634,Plant 2.01-A,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S001,Balcony 2.01 (apartment 37),2.01,balcony,13.23,-24.772,0.4,0.4,214.1
+swiss-5097-A00635,Plant 2.01-B,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S001,Balcony 2.01 (apartment 37),2.01,balcony,17.087,-21.087,0.4,0.4,304.8
+swiss-5097-A00636,Single bed 2.03,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S003,Bedroom 2.03 (apartment 37),2.03,bedroom,13.986,-19.44,0.9,2.0,124.4
+swiss-5097-A00637,Wardrobe 2.03,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S003,Bedroom 2.03 (apartment 37),2.03,bedroom,14.949,-18.483,1.2,0.6,304.4
+swiss-5097-A00638,Nightstand 2.03-A,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S003,Bedroom 2.03 (apartment 37),2.03,bedroom,16.018,-19.866,0.45,0.4,304.4
+swiss-5097-A00639,Nightstand 2.03-B,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S003,Bedroom 2.03 (apartment 37),2.03,bedroom,15.727,-19.442,0.45,0.4,304.4
+swiss-5097-A00640,Desk 2.03,desk,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S003,Bedroom 2.03 (apartment 37),2.03,bedroom,13.872,-16.998,1.4,0.7,304.4
+swiss-5097-A00641,Sofa 2.05,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S005,Living room 2.05 (apartment 37),2.05,living_room,11.465,-18.97,2.0,0.9,304.4
+swiss-5097-A00642,Coffee table 2.05,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S005,Living room 2.05 (apartment 37),2.05,living_room,9.784,-19.438,1.0,0.6,34.5
+swiss-5097-A00643,TV stand 2.05,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S005,Living room 2.05 (apartment 37),2.05,living_room,8.321,-13.874,1.5,0.4,304.1
+swiss-5097-A00644,Armchair 2.05,armchair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S005,Living room 2.05 (apartment 37),2.05,living_room,8.527,-15.38,0.8,0.8,304.5
+swiss-5097-A00645,Plant 2.05-A,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S005,Living room 2.05 (apartment 37),2.05,living_room,8.903,-19.757,0.4,0.4,124.3
+swiss-5097-A00646,Plant 2.05-B,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S005,Living room 2.05 (apartment 37),2.05,living_room,9.879,-21.187,0.4,0.4,124.3
+swiss-5097-A00647,Fridge 2.06,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S006,Kitchen 2.06 (apartment 37),2.06,kitchen,6.1,-14.053,0.6,0.65,304.8
+swiss-5097-A00648,Stove 2.06,stove,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S006,Kitchen 2.06 (apartment 37),2.06,kitchen,5.573,-13.257,0.6,0.6,34.3
+swiss-5097-A00649,Microwave 2.06,microwave,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S006,Kitchen 2.06 (apartment 37),2.06,kitchen,7.238,-16.066,0.5,0.4,214.8
+swiss-5097-A00650,Fire extinguisher 2.07,fire_extinguisher,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S007,Corridor 2.07 (apartment 37),2.07,corridor,5.738,-17.398,0.3,0.3,305.2
+swiss-5097-A00651,Bed 2.08,bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S008,Bedroom 2.08 (apartment 37),2.08,bedroom,2.755,-13.73,1.6,2.0,40.6
+swiss-5097-A00652,Wardrobe 2.08,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S008,Bedroom 2.08 (apartment 37),2.08,bedroom,2.478,-16.156,1.2,0.6,214.6
+swiss-5097-A00653,Shelf 2.09,shelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S009,Storage 2.09 (apartment 37),2.09,storage,10.963,-15.751,1.0,0.4,34.8
+swiss-5097-A00654,Shower 2.10,shower,fixture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S010,Bathroom 2.10 (apartment 38),2.10,bathroom,3.616,27.369,0.9,0.9,207.6
+swiss-5097-A00655,Fridge 2.11,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S011,Kitchen 2.11 (apartment 38),2.11,kitchen,5.806,28.443,0.6,0.65,27.6
+swiss-5097-A00656,Stove 2.11,stove,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S011,Kitchen 2.11 (apartment 38),2.11,kitchen,7.388,25.834,0.6,0.6,207.6
+swiss-5097-A00657,Single bed 2.12,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S012,Bedroom 2.12 (apartment 38),2.12,bedroom,7.961,21.632,0.9,2.0,207.6
+swiss-5097-A00658,Wardrobe 2.12,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S012,Bedroom 2.12 (apartment 38),2.12,bedroom,9.29,23.014,1.2,0.6,297.5
+swiss-5097-A00659,Bed 2.13,bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S013,Bedroom 2.13 (apartment 38),2.13,bedroom,1.818,32.34,1.6,2.0,27.6
+swiss-5097-A00660,Wardrobe 2.13,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S013,Bedroom 2.13 (apartment 38),2.13,bedroom,3.822,31.303,1.2,0.6,297.8
+swiss-5097-A00661,Outdoor table 2.14,outdoor_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S014,Balcony 2.14 (apartment 38),2.14,balcony,10.609,23.871,0.8,0.8,207.6
+swiss-5097-A00662,Outdoor chair 2.14,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S014,Balcony 2.14 (apartment 38),2.14,balcony,10.823,24.803,0.5,0.5,207.6
+swiss-5097-A00663,Plant 2.14-A,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S014,Balcony 2.14 (apartment 38),2.14,balcony,11.299,22.445,0.4,0.4,207.6
+swiss-5097-A00664,Plant 2.14-B,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S014,Balcony 2.14 (apartment 38),2.14,balcony,11.812,23.132,0.4,0.4,297.8
+swiss-5097-A00665,Sofa 2.16,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S016,Living room 2.16 (apartment 38),2.16,living_room,6.141,33.619,2.0,0.9,296.3
+swiss-5097-A00666,Coffee table 2.16,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S016,Living room 2.16 (apartment 38),2.16,living_room,6.696,29.511,1.0,0.6,296.3
+swiss-5097-A00667,TV stand 2.16,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S016,Living room 2.16 (apartment 38),2.16,living_room,8.216,25.842,1.5,0.4,117.9
+swiss-5097-A00668,Dining chair 2.16-A,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S016,Living room 2.16 (apartment 38),2.16,living_room,6.801,28.552,0.45,0.45,296.3
+swiss-5097-A00669,Dining chair 2.16-B,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S016,Living room 2.16 (apartment 38),2.16,living_room,9.381,26.083,0.45,0.45,296.3
+swiss-5097-A00670,Dining chair 2.16-C,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S016,Living room 2.16 (apartment 38),2.16,living_room,7.883,25.251,0.45,0.45,296.3
+swiss-5097-A00671,Dining chair 2.16-D,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S016,Living room 2.16 (apartment 38),2.16,living_room,7.761,28.929,0.45,0.45,296.3
+swiss-5097-A00672,Bookshelf 2.16-A,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S016,Living room 2.16 (apartment 38),2.16,living_room,8.106,30.261,0.9,0.35,296.3
+swiss-5097-A00673,Bookshelf 2.16-B,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S016,Living room 2.16 (apartment 38),2.16,living_room,6.561,24.623,0.9,0.35,28.4
+swiss-5097-A00674,Armchair 2.16,armchair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S016,Living room 2.16 (apartment 38),2.16,living_room,5.741,32.186,0.8,0.8,296.3
+swiss-5097-A00675,Sofa 2.17,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S017,Living room 2.17 (apartment 39),2.17,living_room,-3.242,24.272,2.0,0.9,117.5
+swiss-5097-A00676,Coffee table 2.17,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S017,Living room 2.17 (apartment 39),2.17,living_room,-2.521,24.581,1.0,0.6,117.5
+swiss-5097-A00677,TV stand 2.17,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S017,Living room 2.17 (apartment 39),2.17,living_room,-4.648,26.429,1.5,0.4,117.5
+swiss-5097-A00678,Dining chair 2.17-A,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S017,Living room 2.17 (apartment 39),2.17,living_room,-3.174,27.624,0.45,0.45,207.5
+swiss-5097-A00679,Dining chair 2.17-B,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S017,Living room 2.17 (apartment 39),2.17,living_room,-4.315,27.785,0.45,0.45,207.5
+swiss-5097-A00680,Bookshelf 2.17-A,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S017,Living room 2.17 (apartment 39),2.17,living_room,-1.087,24.033,0.9,0.35,297.8
+swiss-5097-A00681,Bookshelf 2.17-B,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S017,Living room 2.17 (apartment 39),2.17,living_room,-1.806,22.849,0.9,0.35,207.6
+swiss-5097-A00682,Plant 2.17-A,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S017,Living room 2.17 (apartment 39),2.17,living_room,-2.764,29.277,0.4,0.4,27.6
+swiss-5097-A00683,Plant 2.17-B,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S017,Living room 2.17 (apartment 39),2.17,living_room,-5.073,28.068,0.4,0.4,27.6
+swiss-5097-A00684,Stove 2.18,stove,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S018,Kitchen 2.18 (apartment 39),2.18,kitchen,-0.651,24.591,0.6,0.6,117.8
+swiss-5097-A00685,Microwave 2.18,microwave,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S018,Kitchen 2.18 (apartment 39),2.18,kitchen,-1.399,26.68,0.5,0.4,27.8
+swiss-5097-A00686,Single bed 2.19,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S019,Bedroom 2.19 (apartment 39),2.19,bedroom,-0.985,30.875,0.9,2.0,27.6
+swiss-5097-A00687,Wardrobe 2.19,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S019,Bedroom 2.19 (apartment 39),2.19,bedroom,0.779,28.416,1.2,0.6,207.6
+swiss-5097-A00688,Nightstand 2.19,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S019,Bedroom 2.19 (apartment 39),2.19,bedroom,0.59,30.812,0.45,0.4,297.8
+swiss-5097-A00689,Outdoor chair 2.22-A,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S022,Balcony 2.22 (apartment 39),2.22,balcony,-3.817,30.134,0.5,0.5,117.6
+swiss-5097-A00690,Outdoor chair 2.22-B,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S022,Balcony 2.22 (apartment 39),2.22,balcony,-4.977,29.592,0.5,0.5,27.6
+swiss-5097-A00691,Plant 2.22,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S022,Balcony 2.22 (apartment 39),2.22,balcony,-2.92,30.592,0.4,0.4,297.8
+swiss-5097-A00692,Single bed 2.23,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S023,Bedroom 2.23 (apartment 40),2.23,bedroom,14.093,13.416,0.9,2.0,27.6
+swiss-5097-A00693,Wardrobe 2.23,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S023,Bedroom 2.23 (apartment 40),2.23,bedroom,11.638,10.935,1.2,0.6,117.8
+swiss-5097-A00694,Nightstand 2.23-A,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S023,Bedroom 2.23 (apartment 40),2.23,bedroom,12.187,13.322,0.45,0.4,27.6
+swiss-5097-A00695,Nightstand 2.23-B,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S023,Bedroom 2.23 (apartment 40),2.23,bedroom,11.527,12.977,0.45,0.4,27.6
+swiss-5097-A00696,Washing machine 2.24,washing_machine,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S024,Bathroom 2.24 (apartment 40),2.24,bathroom,7.579,14.817,0.6,0.6,27.6
+swiss-5097-A00697,Single bed 2.25,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S025,Bedroom 2.25 (apartment 40),2.25,bedroom,7.355,9.162,0.9,2.0,207.6
+swiss-5097-A00698,Wardrobe 2.25,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S025,Bedroom 2.25 (apartment 40),2.25,bedroom,6.1,7.716,1.2,0.6,207.6
+swiss-5097-A00699,Nightstand 2.25-A,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S025,Bedroom 2.25 (apartment 40),2.25,bedroom,4.663,9.397,0.45,0.4,27.6
+swiss-5097-A00700,Nightstand 2.25-B,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S025,Bedroom 2.25 (apartment 40),2.25,bedroom,6.626,10.423,0.45,0.4,27.6
+swiss-5097-A00701,Fridge 2.27,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S027,Kitchen 2.27 (apartment 40),2.27,kitchen,6.173,12.017,0.6,0.65,27.6
+swiss-5097-A00702,Stove 2.27,stove,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S027,Kitchen 2.27 (apartment 40),2.27,kitchen,3.704,10.689,0.6,0.6,117.5
+swiss-5097-A00703,Dishwasher 2.27,dishwasher,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S027,Kitchen 2.27 (apartment 40),2.27,kitchen,4.213,11.02,0.6,0.6,27.6
+swiss-5097-A00704,Single bed 2.28,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S028,Bedroom 2.28 (apartment 40),2.28,bedroom,0.933,17.454,0.9,2.0,117.5
+swiss-5097-A00705,Wardrobe 2.28,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S028,Bedroom 2.28 (apartment 40),2.28,bedroom,1.13,19.73,1.2,0.6,27.6
+swiss-5097-A00706,Nightstand 2.28-A,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S028,Bedroom 2.28 (apartment 40),2.28,bedroom,2.276,17.717,0.45,0.4,207.6
+swiss-5097-A00707,Nightstand 2.28-B,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S028,Bedroom 2.28 (apartment 40),2.28,bedroom,0.051,19.278,0.45,0.4,27.6
+swiss-5097-A00708,Bed 2.31,bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S031,Bedroom 2.31 (apartment 40),2.31,bedroom,11.535,14.666,1.6,2.0,207.6
+swiss-5097-A00709,Wardrobe 2.31,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S031,Bedroom 2.31 (apartment 40),2.31,bedroom,10.393,16.288,1.2,0.6,27.6
+swiss-5097-A00710,Nightstand 2.31-A,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S031,Bedroom 2.31 (apartment 40),2.31,bedroom,12.601,16.877,0.45,0.4,297.5
+swiss-5097-A00711,Nightstand 2.31-B,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S031,Bedroom 2.31 (apartment 40),2.31,bedroom,13.505,15.143,0.45,0.4,297.5
+swiss-5097-A00712,Sofa 2.32,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S032,Living room 2.32 (apartment 40),2.32,living_room,10.577,17.635,2.0,0.9,207.6
+swiss-5097-A00713,Coffee table 2.32,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S032,Living room 2.32 (apartment 40),2.32,living_room,8.516,17.921,1.0,0.6,297.6
+swiss-5097-A00714,TV stand 2.32,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S032,Living room 2.32 (apartment 40),2.32,living_room,2.737,12.327,1.5,0.4,117.5
+swiss-5097-A00715,Dining table 2.32,dining_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S032,Living room 2.32 (apartment 40),2.32,living_room,9.401,18.88,1.6,0.9,207.6
+swiss-5097-A00716,Bookshelf 2.32-A,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S032,Living room 2.32 (apartment 40),2.32,living_room,7.426,19.47,0.9,0.35,27.5
+swiss-5097-A00717,Bookshelf 2.32-B,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S032,Living room 2.32 (apartment 40),2.32,living_room,8.545,20.053,0.9,0.35,27.5
+swiss-5097-A00718,Plant 2.32-A,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S032,Living room 2.32 (apartment 40),2.32,living_room,6.245,13.432,0.4,0.4,297.8
+swiss-5097-A00719,Plant 2.32-B,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S032,Living room 2.32 (apartment 40),2.32,living_room,4.679,17.682,0.4,0.4,117.1
+swiss-5097-A00720,Fire extinguisher 2.33,fire_extinguisher,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S033,Corridor 2.33 (apartment 40),2.33,corridor,9.638,11.568,0.3,0.3,207.6
+swiss-5097-A00721,Fridge 2.34,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S034,Kitchen 2.34 (apartment 41),2.34,kitchen,8.198,3.265,0.6,0.65,207.6
+swiss-5097-A00722,Stove 2.34,stove,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S034,Kitchen 2.34 (apartment 41),2.34,kitchen,10.24,4.305,0.6,0.6,207.6
+swiss-5097-A00723,Microwave 2.34,microwave,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S034,Kitchen 2.34 (apartment 41),2.34,kitchen,7.528,3.136,0.5,0.4,117.5
+swiss-5097-A00724,Single bed 2.36,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S036,Bedroom 2.36 (apartment 41),2.36,bedroom,14.976,6.921,0.9,2.0,27.6
+swiss-5097-A00725,Wardrobe 2.36,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S036,Bedroom 2.36 (apartment 41),2.36,bedroom,16.108,8.302,1.2,0.6,27.6
+swiss-5097-A00726,Desk 2.36,desk,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S036,Bedroom 2.36 (apartment 41),2.36,bedroom,15.503,5.065,1.4,0.7,207.6
+swiss-5097-A00727,Fire extinguisher 2.37,fire_extinguisher,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S037,Corridor 2.37 (apartment 41),2.37,corridor,17.304,-3.27,0.3,0.3,207.6
+swiss-5097-A00728,Single bed 2.38,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S038,Bedroom 2.38 (apartment 41),2.38,bedroom,14.686,9.383,0.9,2.0,207.6
+swiss-5097-A00729,Wardrobe 2.38,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S038,Bedroom 2.38 (apartment 41),2.38,bedroom,15.646,10.82,1.2,0.6,297.5
+swiss-5097-A00730,Bed 2.39,bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S039,Bedroom 2.39 (apartment 41),2.39,bedroom,7.697,6.486,1.6,2.0,27.6
+swiss-5097-A00731,Wardrobe 2.39,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S039,Bedroom 2.39 (apartment 41),2.39,bedroom,7.983,5.095,1.2,0.6,207.6
+swiss-5097-A00732,Nightstand 2.39-A,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S039,Bedroom 2.39 (apartment 41),2.39,bedroom,9.469,5.759,0.45,0.4,207.6
+swiss-5097-A00733,Nightstand 2.39-B,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S039,Bedroom 2.39 (apartment 41),2.39,bedroom,9.435,7.361,0.45,0.4,297.8
+swiss-5097-A00734,Fire extinguisher 2.41,fire_extinguisher,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S041,Corridor 2.41 (apartment 41),2.41,corridor,11.153,7.094,0.3,0.3,27.6
+swiss-5097-A00735,Single bed 2.42,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S042,Bedroom 2.42 (apartment 41),2.42,bedroom,12.184,-3.269,0.9,2.0,27.6
+swiss-5097-A00736,Wardrobe 2.42,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S042,Bedroom 2.42 (apartment 41),2.42,bedroom,11.752,-4.813,1.2,0.6,117.5
+swiss-5097-A00737,Outdoor chair 2.43-A,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S043,Balcony 2.43 (apartment 41),2.43,balcony,11.427,-1.1,0.5,0.5,297.4
+swiss-5097-A00738,Outdoor chair 2.43-B,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S043,Balcony 2.43 (apartment 41),2.43,balcony,10.351,-2.191,0.5,0.5,207.4
+swiss-5097-A00739,Sofa 2.44,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S044,Living room 2.44 (apartment 41),2.44,living_room,9.737,0.644,2.0,0.9,206.7
+swiss-5097-A00740,Coffee table 2.44,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S044,Living room 2.44 (apartment 41),2.44,living_room,17.919,4.132,1.0,0.6,207.5
+swiss-5097-A00741,TV stand 2.44,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S044,Living room 2.44 (apartment 41),2.44,living_room,16.781,1.031,1.5,0.4,207.5
+swiss-5097-A00742,Dining chair 2.44-A,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S044,Living room 2.44 (apartment 41),2.44,living_room,16.284,2.162,0.45,0.45,207.5
+swiss-5097-A00743,Dining chair 2.44-B,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S044,Living room 2.44 (apartment 41),2.44,living_room,16.061,3.35,0.45,0.45,297.5
+swiss-5097-A00744,Bookshelf 2.44,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S044,Living room 2.44 (apartment 41),2.44,living_room,15.354,4.02,0.9,0.35,27.6
+swiss-5097-A00745,Armchair 2.44,armchair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S044,Living room 2.44 (apartment 41),2.44,living_room,11.447,1.439,0.8,0.8,297.5
+swiss-5097-A00746,Plant 2.44,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S044,Living room 2.44 (apartment 41),2.44,living_room,8.038,2.157,0.4,0.4,117.5
+swiss-5097-A00747,Sofa 2.45,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S045,Living room 2.45 (apartment 42),2.45,living_room,20.664,0.868,2.0,0.9,297.5
+swiss-5097-A00748,Coffee table 2.45,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S045,Living room 2.45 (apartment 42),2.45,living_room,18.882,0.13,1.0,0.6,117.8
+swiss-5097-A00749,TV stand 2.45,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S045,Living room 2.45 (apartment 42),2.45,living_room,18.808,1.06,1.5,0.4,27.6
+swiss-5097-A00750,Dining chair 2.45-A,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S045,Living room 2.45 (apartment 42),2.45,living_room,18.642,-1.222,0.45,0.45,207.8
+swiss-5097-A00751,Dining chair 2.45-B,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S045,Living room 2.45 (apartment 42),2.45,living_room,19.847,-0.026,0.45,0.45,117.8
+swiss-5097-A00752,Dining chair 2.45-C,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S045,Living room 2.45 (apartment 42),2.45,living_room,17.614,0.066,0.45,0.45,117.8
+swiss-5097-A00753,Bookshelf 2.45-A,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S045,Living room 2.45 (apartment 42),2.45,living_room,20.983,-0.36,0.9,0.35,207.8
+swiss-5097-A00754,Bookshelf 2.45-B,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S045,Living room 2.45 (apartment 42),2.45,living_room,17.796,-1.109,0.9,0.35,117.8
+swiss-5097-A00755,Plant 2.45,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S045,Living room 2.45 (apartment 42),2.45,living_room,18.348,-1.723,0.4,0.4,207.8
+swiss-5097-A00756,Outdoor chair 2.46,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S046,Balcony 2.46 (apartment 42),2.46,balcony,24.061,-5.577,0.5,0.5,34.7
+swiss-5097-A00757,Fridge 2.47,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S047,Kitchen 2.47 (apartment 42),2.47,kitchen,21.77,-0.983,0.6,0.65,297.5
+swiss-5097-A00758,Stove 2.47,stove,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S047,Kitchen 2.47 (apartment 42),2.47,kitchen,22.497,-2.325,0.6,0.6,297.5
+swiss-5097-A00759,Dishwasher 2.47,dishwasher,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S047,Kitchen 2.47 (apartment 42),2.47,kitchen,22.126,-1.613,0.6,0.6,297.5
+swiss-5097-A00760,Coffee machine 2.47,coffee_machine,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S047,Kitchen 2.47 (apartment 42),2.47,kitchen,22.942,-2.962,0.4,0.4,297.5
+swiss-5097-A00761,Washing machine 2.48,washing_machine,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S048,Bathroom 2.48 (apartment 42),2.48,bathroom,21.673,-7.069,0.6,0.6,124.0
+swiss-5097-A00762,Sofa 2.50,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S050,Living room 2.50 (apartment 43),2.50,living_room,20.487,-13.35,2.0,0.9,34.3
+swiss-5097-A00763,Coffee table 2.50,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S050,Living room 2.50 (apartment 43),2.50,living_room,22.957,-13.105,1.0,0.6,304.2
+swiss-5097-A00764,TV stand 2.50,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S050,Living room 2.50 (apartment 43),2.50,living_room,22.996,-15.419,1.5,0.4,214.0
+swiss-5097-A00765,Dining chair 2.50-A,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S050,Living room 2.50 (apartment 43),2.50,living_room,18.947,-15.185,0.45,0.45,34.2
+swiss-5097-A00766,Dining chair 2.50-B,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S050,Living room 2.50 (apartment 43),2.50,living_room,21.314,-15.759,0.45,0.45,34.2
+swiss-5097-A00767,Dining chair 2.50-C,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S050,Living room 2.50 (apartment 43),2.50,living_room,25.004,-14.871,0.45,0.45,304.2
+swiss-5097-A00768,Dining chair 2.50-D,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S050,Living room 2.50 (apartment 43),2.50,living_room,24.454,-13.463,0.45,0.45,304.2
+swiss-5097-A00769,Bookshelf 2.50,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S050,Living room 2.50 (apartment 43),2.50,living_room,18.216,-14.9,0.9,0.35,124.0
+swiss-5097-A00770,Plant 2.50-A,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S050,Living room 2.50 (apartment 43),2.50,living_room,19.042,-16.082,0.4,0.4,124.0
+swiss-5097-A00771,Plant 2.50-B,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S050,Living room 2.50 (apartment 43),2.50,living_room,25.177,-13.696,0.4,0.4,304.2
+swiss-5097-A00772,Fridge 2.51,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S051,Kitchen 2.51 (apartment 43),2.51,kitchen,29.03,-13.346,0.6,0.65,214.0
+swiss-5097-A00773,Microwave 2.51,microwave,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S051,Kitchen 2.51 (apartment 43),2.51,kitchen,28.878,-12.454,0.5,0.4,304.0
+swiss-5097-A00774,Single bed 2.52,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S052,Bedroom 2.52 (apartment 43),2.52,bedroom,25.066,-8.226,0.9,2.0,304.0
+swiss-5097-A00775,Wardrobe 2.52,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S052,Bedroom 2.52 (apartment 43),2.52,bedroom,24.813,-10.116,1.2,0.6,214.0
+swiss-5097-A00776,Nightstand 2.52,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S052,Bedroom 2.52 (apartment 43),2.52,bedroom,26.528,-9.08,0.45,0.4,214.0
+swiss-5097-A00777,Single bed 2.54,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S054,Bedroom 2.54 (apartment 43),2.54,bedroom,25.663,-11.525,0.9,2.0,34.0
+swiss-5097-A00778,Wardrobe 2.54,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S054,Bedroom 2.54 (apartment 43),2.54,bedroom,26.428,-10.165,1.2,0.6,34.0
+swiss-5097-A00779,Nightstand 2.54,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S054,Bedroom 2.54 (apartment 43),2.54,bedroom,27.515,-10.43,0.45,0.4,304.0
+swiss-5097-A00780,Desk 2.54,desk,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S054,Bedroom 2.54 (apartment 43),2.54,bedroom,27.407,-11.933,1.4,0.7,214.0
+swiss-5097-A00781,Outdoor chair 2.55,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S055,Balcony 2.55 (apartment 43),2.55,balcony,21.539,-17.603,0.5,0.5,304.1
+swiss-5097-A00782,Single bed 2.56,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S056,Bedroom 2.56 (apartment 44),2.56,bedroom,9.715,-11.692,0.9,2.0,304.8
+swiss-5097-A00783,Wardrobe 2.56,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S056,Bedroom 2.56 (apartment 44),2.56,bedroom,9.806,-14.289,1.2,0.6,124.1
+swiss-5097-A00784,Nightstand 2.56,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S056,Bedroom 2.56 (apartment 44),2.56,bedroom,8.257,-12.181,0.45,0.4,124.1
+swiss-5097-A00785,Shelf 2.57,shelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S057,Storage 2.57 (apartment 44),2.57,storage,12.473,-15.712,1.0,0.4,124.8
+swiss-5097-A00786,Fridge 2.58,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S058,Kitchen 2.58 (apartment 44),2.58,kitchen,11.993,-9.017,0.6,0.65,124.8
+swiss-5097-A00787,Stove 2.58,stove,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S058,Kitchen 2.58 (apartment 44),2.58,kitchen,13.965,-11.415,0.6,0.6,214.7
+swiss-5097-A00788,Microwave 2.58,microwave,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S058,Kitchen 2.58 (apartment 44),2.58,kitchen,12.501,-9.969,0.5,0.4,124.8
+swiss-5097-A00789,Coffee machine 2.58,coffee_machine,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S058,Kitchen 2.58 (apartment 44),2.58,kitchen,12.2,-9.534,0.4,0.4,124.8
+swiss-5097-A00790,Outdoor chair 2.61,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S061,Balcony 2.61 (apartment 44),2.61,balcony,20.24,-19.906,0.5,0.5,304.1
+swiss-5097-A00791,Plant 2.61,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S061,Balcony 2.61 (apartment 44),2.61,balcony,18.603,-21.131,0.4,0.4,214.1
+swiss-5097-A00792,Sofa 2.62,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S062,Living room 2.62 (apartment 44),2.62,living_room,18.249,-16.965,2.0,0.9,304.0
+swiss-5097-A00793,Coffee table 2.62,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S062,Living room 2.62 (apartment 44),2.62,living_room,15.898,-13.935,1.0,0.6,304.0
+swiss-5097-A00794,TV stand 2.62,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S062,Living room 2.62 (apartment 44),2.62,living_room,16.492,-18.951,1.5,0.4,124.4
+swiss-5097-A00795,Armchair 2.62,armchair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S062,Living room 2.62 (apartment 44),2.62,living_room,11.512,-10.861,0.8,0.8,214.0
+swiss-5097-A00796,Single bed 2.63,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S063,Bedroom 2.63 (apartment 44),2.63,bedroom,15.616,-6.415,0.9,2.0,214.0
+swiss-5097-A00797,Wardrobe 2.63,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S063,Bedroom 2.63 (apartment 44),2.63,bedroom,12.824,-6.87,1.2,0.6,117.5
+swiss-5097-A00798,Shelf 2.64,shelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S064,Storage 2.64 (apartment 44),2.64,storage,14.527,-9.68,1.0,0.4,124.8
+swiss-5097-A00799,Washing machine 2.65,washing_machine,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S065,Bathroom 2.65 (apartment 44),2.65,bathroom,16.982,-13.18,0.6,0.6,124.0
+swiss-5097-A00800,Single bed 2.66,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S066,Bedroom 2.66 (apartment 45),2.66,bedroom,-0.299,-24.496,0.9,2.0,34.4
+swiss-5097-A00801,Wardrobe 2.66,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S066,Bedroom 2.66 (apartment 45),2.66,bedroom,1.67,-25.772,1.2,0.6,214.4
+swiss-5097-A00802,Nightstand 2.66-A,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S066,Bedroom 2.66 (apartment 45),2.66,bedroom,-0.855,-25.044,0.45,0.4,124.4
+swiss-5097-A00803,Nightstand 2.66-B,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S066,Bedroom 2.66 (apartment 45),2.66,bedroom,-1.122,-24.655,0.45,0.4,124.4
+swiss-5097-A00804,Outdoor chair 2.67-A,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S067,Balcony 2.67 (apartment 45),2.67,balcony,11.005,-26.102,0.5,0.5,304.1
+swiss-5097-A00805,Outdoor chair 2.67-B,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S067,Balcony 2.67 (apartment 45),2.67,balcony,11.581,-25.454,0.5,0.5,214.1
+swiss-5097-A00806,Plant 2.67,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S067,Balcony 2.67 (apartment 45),2.67,balcony,11.356,-24.662,0.4,0.4,304.8
+swiss-5097-A00807,Single bed 2.69,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S069,Bedroom 2.69 (apartment 45),2.69,bedroom,1.977,-28.353,0.9,2.0,214.4
+swiss-5097-A00808,Wardrobe 2.69,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S069,Bedroom 2.69 (apartment 45),2.69,bedroom,4.109,-27.098,1.2,0.6,304.4
+swiss-5097-A00809,Fridge 2.70,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S070,Kitchen 2.70 (apartment 45),2.70,kitchen,3.164,-30.688,0.6,0.65,124.4
+swiss-5097-A00810,Microwave 2.70,microwave,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S070,Kitchen 2.70 (apartment 45),2.70,kitchen,2.63,-30.13,0.5,0.4,124.4
+swiss-5097-A00811,Coffee machine 2.70,coffee_machine,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S070,Kitchen 2.70 (apartment 45),2.70,kitchen,5.264,-29.548,0.4,0.4,214.0
+swiss-5097-A00812,Sofa 2.71,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S071,Living room 2.71 (apartment 45),2.71,living_room,7.231,-22.339,2.0,0.9,34.9
+swiss-5097-A00813,Coffee table 2.71,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S071,Living room 2.71 (apartment 45),2.71,living_room,6.909,-25.226,1.0,0.6,124.4
+swiss-5097-A00814,TV stand 2.71,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S071,Living room 2.71 (apartment 45),2.71,living_room,8.426,-25.252,1.5,0.4,214.1
+swiss-5097-A00815,Dining chair 2.71-A,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S071,Living room 2.71 (apartment 45),2.71,living_room,5.617,-24.987,0.45,0.45,34.4
+swiss-5097-A00816,Dining chair 2.71-B,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S071,Living room 2.71 (apartment 45),2.71,living_room,9.327,-22.937,0.45,0.45,34.4
+swiss-5097-A00817,Dining chair 2.71-C,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S071,Living room 2.71 (apartment 45),2.71,living_room,5.334,-26.709,0.45,0.45,34.4
+swiss-5097-A00818,Dining chair 2.71-D,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S071,Living room 2.71 (apartment 45),2.71,living_room,6.926,-23.606,0.45,0.45,124.4
+swiss-5097-A00819,Bookshelf 2.71,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S071,Living room 2.71 (apartment 45),2.71,living_room,8.888,-21.307,0.9,0.35,304.4
+swiss-5097-A00820,Armchair 2.71,armchair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S071,Living room 2.71 (apartment 45),2.71,living_room,6.192,-27.235,0.8,0.8,124.4
+swiss-5097-A00821,Plant 2.71-A,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S071,Living room 2.71 (apartment 45),2.71,living_room,9.524,-22.279,0.4,0.4,304.4
+swiss-5097-A00822,Plant 2.71-B,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S071,Living room 2.71 (apartment 45),2.71,living_room,10.211,-24.044,0.4,0.4,214.1
+swiss-5097-A00823,Fridge 2.73,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S073,Kitchen 2.73 (apartment 46),2.73,kitchen,-3.966,-19.417,0.6,0.65,130.6
+swiss-5097-A00824,Stove 2.73,stove,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S073,Kitchen 2.73 (apartment 46),2.73,kitchen,-4.391,-18.959,0.6,0.6,130.6
+swiss-5097-A00825,Microwave 2.73,microwave,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S073,Kitchen 2.73 (apartment 46),2.73,kitchen,-3.135,-19.2,0.5,0.4,220.6
+swiss-5097-A00826,Coffee machine 2.73,coffee_machine,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S073,Kitchen 2.73 (apartment 46),2.73,kitchen,-2.469,-18.63,0.4,0.4,220.6
+swiss-5097-A00827,Sofa 2.74,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S074,Living room 2.74 (apartment 46),2.74,living_room,-6.593,-16.476,2.0,0.9,40.6
+swiss-5097-A00828,Coffee table 2.74,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S074,Living room 2.74 (apartment 46),2.74,living_room,-5.959,-18.284,1.0,0.6,130.6
+swiss-5097-A00829,TV stand 2.74,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S074,Living room 2.74 (apartment 46),2.74,living_room,-5.017,-19.959,1.5,0.4,130.6
+swiss-5097-A00830,Bookshelf 2.74,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S074,Living room 2.74 (apartment 46),2.74,living_room,-0.946,-19.421,0.9,0.35,304.4
+swiss-5097-A00831,Armchair 2.74,armchair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S074,Living room 2.74 (apartment 46),2.74,living_room,-5.033,-15.765,0.8,0.8,130.6
+swiss-5097-A00832,Plant 2.74-A,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S074,Living room 2.74 (apartment 46),2.74,living_room,-4.377,-15.092,0.4,0.4,310.6
+swiss-5097-A00833,Plant 2.74-B,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S074,Living room 2.74 (apartment 46),2.74,living_room,-5.088,-19.154,0.4,0.4,310.1
+swiss-5097-A00834,Outdoor table 2.75,outdoor_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S075,Balcony 2.75 (apartment 46),2.75,balcony,-2.14,-22.975,0.8,0.8,34.6
+swiss-5097-A00835,Plant 2.75,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S075,Balcony 2.75 (apartment 46),2.75,balcony,-1.429,-22.68,0.4,0.4,304.6
+swiss-5097-A00836,Shower 2.76,shower,fixture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S076,Bathroom 2.76 (apartment 46),2.76,bathroom,-0.657,-21.681,0.9,0.9,124.8
+swiss-5097-A00837,Outdoor chair 2.78,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S078,Balcony 2.78 (apartment 47),2.78,balcony,-8.766,-15.498,0.5,0.5,220.6
+swiss-5097-A00838,Sofa 2.80,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S080,Living room 2.80 (apartment 47),2.80,living_room,-2.648,-7.645,2.0,0.9,40.6
+swiss-5097-A00839,Coffee table 2.80,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S080,Living room 2.80 (apartment 47),2.80,living_room,-2.463,-9.736,1.0,0.6,220.6
+swiss-5097-A00840,TV stand 2.80,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S080,Living room 2.80 (apartment 47),2.80,living_room,-6.428,-10.559,1.5,0.4,40.6
+swiss-5097-A00841,Dining table 2.80,dining_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S080,Living room 2.80 (apartment 47),2.80,living_room,-4.533,-11.015,1.6,0.9,220.6
+swiss-5097-A00842,Bookshelf 2.80,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S080,Living room 2.80 (apartment 47),2.80,living_room,-0.04,-9.05,0.9,0.35,310.6
+swiss-5097-A00843,Plant 2.80-A,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S080,Living room 2.80 (apartment 47),2.80,living_room,-11.503,-12.33,0.4,0.4,40.6
+swiss-5097-A00844,Plant 2.80-B,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S080,Living room 2.80 (apartment 47),2.80,living_room,-10.942,-11.85,0.4,0.4,40.6
+swiss-5097-A00845,Fridge 2.81,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S081,Kitchen 2.81 (apartment 47),2.81,kitchen,-12.004,-11.653,0.6,0.65,130.6
+swiss-5097-A00846,Microwave 2.81,microwave,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S081,Kitchen 2.81 (apartment 47),2.81,kitchen,-11.291,-11.398,0.5,0.4,220.6
+swiss-5097-A00847,Single bed 2.82,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S082,Bedroom 2.82 (apartment 47),2.82,bedroom,-12.157,-7.237,0.9,2.0,310.6
+swiss-5097-A00848,Wardrobe 2.82,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S082,Bedroom 2.82 (apartment 47),2.82,bedroom,-14.19,-8.668,1.2,0.6,40.6
+swiss-5097-A00849,Desk 2.82,desk,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S082,Bedroom 2.82 (apartment 47),2.82,bedroom,-11.509,-9.046,1.4,0.7,220.6
+swiss-5097-A00850,Single bed 2.85,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S085,Bedroom 2.85 (apartment 47),2.85,bedroom,-5.126,-7.57,0.9,2.0,130.6
+swiss-5097-A00851,Wardrobe 2.85,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S085,Bedroom 2.85 (apartment 47),2.85,bedroom,-3.354,-6.801,1.2,0.6,220.6
+swiss-5097-A00852,Nightstand 2.85,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S085,Bedroom 2.85 (apartment 47),2.85,bedroom,-3.284,-5.301,0.45,0.4,310.6
+swiss-5097-A00853,Desk 2.85,desk,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S085,Bedroom 2.85 (apartment 47),2.85,bedroom,-5.006,-4.765,1.4,0.7,40.6
+swiss-5097-A00854,Bed 2.86,bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S086,Bedroom 2.86 (apartment 47),2.86,bedroom,-0.305,-11.659,1.6,2.0,40.6
+swiss-5097-A00855,Wardrobe 2.86,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S086,Bedroom 2.86 (apartment 47),2.86,bedroom,1.031,-12.841,1.2,0.6,220.6
+swiss-5097-A00856,Desk 2.86,desk,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S086,Bedroom 2.86 (apartment 47),2.86,bedroom,1.118,-10.67,1.4,0.7,310.6
+swiss-5097-A00857,Single bed 2.87,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S087,Bedroom 2.87 (apartment 47),2.87,bedroom,-7.477,-4.717,0.9,2.0,220.6
+swiss-5097-A00858,Wardrobe 2.87,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S087,Bedroom 2.87 (apartment 47),2.87,bedroom,-6.061,-2.215,1.2,0.6,310.6
+swiss-5097-A00859,Bed 2.88,bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S088,Bedroom 2.88 (apartment 48),2.88,bedroom,-17.031,-4.749,1.6,2.0,130.6
+swiss-5097-A00860,Wardrobe 2.88,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S088,Bedroom 2.88 (apartment 48),2.88,bedroom,-15.841,-1.836,1.2,0.6,310.6
+swiss-5097-A00861,Nightstand 2.88-A,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S088,Bedroom 2.88 (apartment 48),2.88,bedroom,-18.798,-3.599,0.45,0.4,40.6
+swiss-5097-A00862,Nightstand 2.88-B,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S088,Bedroom 2.88 (apartment 48),2.88,bedroom,-17.369,-2.375,0.45,0.4,40.6
+swiss-5097-A00863,Washing machine 2.89,washing_machine,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S089,Bathroom 2.89 (apartment 48),2.89,bathroom,-14.954,-0.438,0.6,0.6,40.6
+swiss-5097-A00864,Sofa 2.90,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S090,Living room 2.90 (apartment 48),2.90,living_room,-20.355,0.048,2.0,0.9,40.5
+swiss-5097-A00865,Coffee table 2.90,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S090,Living room 2.90 (apartment 48),2.90,living_room,-16.798,-0.247,1.0,0.6,220.6
+swiss-5097-A00866,TV stand 2.90,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S090,Living room 2.90 (apartment 48),2.90,living_room,-18.076,-2.006,1.5,0.4,220.6
+swiss-5097-A00867,Dining chair 2.90-A,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S090,Living room 2.90 (apartment 48),2.90,living_room,-17.406,0.929,0.45,0.45,310.6
+swiss-5097-A00868,Dining chair 2.90-B,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S090,Living room 2.90 (apartment 48),2.90,living_room,-12.421,0.698,0.45,0.45,220.6
+swiss-5097-A00869,Bookshelf 2.90,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S090,Living room 2.90 (apartment 48),2.90,living_room,-14.657,0.89,0.9,0.35,220.6
+swiss-5097-A00870,Armchair 2.90,armchair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S090,Living room 2.90 (apartment 48),2.90,living_room,-19.629,-2.233,0.8,0.8,220.6
+swiss-5097-A00871,Fridge 2.91,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S091,Kitchen 2.91 (apartment 48),2.91,kitchen,-9.463,1.719,0.6,0.65,310.6
+swiss-5097-A00872,Stove 2.91,stove,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S091,Kitchen 2.91 (apartment 48),2.91,kitchen,-11.695,0.004,0.6,0.6,40.6
+swiss-5097-A00873,Microwave 2.91,microwave,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S091,Kitchen 2.91 (apartment 48),2.91,kitchen,-10.104,1.498,0.5,0.4,40.6
+swiss-5097-A00874,Fire extinguisher 2.93,fire_extinguisher,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S093,Corridor 2.93 (apartment 48),2.93,corridor,-19.218,3.561,0.3,0.3,130.6
+swiss-5097-A00875,Single bed 2.94,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S094,Bedroom 2.94 (apartment 48),2.94,bedroom,-15.909,7.276,0.9,2.0,40.6
+swiss-5097-A00876,Wardrobe 2.94,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S094,Bedroom 2.94 (apartment 48),2.94,bedroom,-17.061,5.278,1.2,0.6,130.6
+swiss-5097-A00877,Bed 2.95,bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S095,Bedroom 2.95 (apartment 48),2.95,bedroom,-17.861,8.634,1.6,2.0,220.6
+swiss-5097-A00878,Wardrobe 2.95,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S095,Bedroom 2.95 (apartment 48),2.95,bedroom,-16.71,10.179,1.2,0.6,310.6
+swiss-5097-A00879,Outdoor table 2.96,outdoor_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S096,Balcony 2.96 (apartment 48),2.96,balcony,-13.791,4.727,0.8,0.8,130.6
+swiss-5097-A00880,Single bed 2.97,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S097,Bedroom 2.97 (apartment 48),2.97,bedroom,-7.749,-0.748,0.9,2.0,220.6
+swiss-5097-A00881,Wardrobe 2.97,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S097,Bedroom 2.97 (apartment 48),2.97,bedroom,-8.591,-2.391,1.2,0.6,220.6
+swiss-5097-A00882,Nightstand 2.97,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S097,Bedroom 2.97 (apartment 48),2.97,bedroom,-9.393,-3.21,0.45,0.4,220.6
+swiss-5097-A00883,Single bed 2.98,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S098,Bedroom 2.98 (apartment 48),2.98,bedroom,-15.666,-6.676,0.9,2.0,40.6
+swiss-5097-A00884,Wardrobe 2.98,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S098,Bedroom 2.98 (apartment 48),2.98,bedroom,-14.13,-7.172,1.2,0.6,220.6
+swiss-5097-A00885,Nightstand 2.98,nightstand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S098,Bedroom 2.98 (apartment 48),2.98,bedroom,-14.607,-4.715,0.45,0.4,40.6
+swiss-5097-A00886,Single bed 2.100,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S100,Bedroom 2.100 (apartment 49),2.100,bedroom,-27.756,14.241,0.9,2.0,130.6
+swiss-5097-A00887,Wardrobe 2.100,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S100,Bedroom 2.100 (apartment 49),2.100,bedroom,-26.945,12.219,1.2,0.6,130.6
+swiss-5097-A00888,Fridge 2.101,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S101,Kitchen 2.101 (apartment 49),2.101,kitchen,-23.53,14.013,0.6,0.65,40.6
+swiss-5097-A00889,Microwave 2.101,microwave,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S101,Kitchen 2.101 (apartment 49),2.101,kitchen,-21.94,13.327,0.5,0.4,310.6
+swiss-5097-A00890,Fire extinguisher 2.102,fire_extinguisher,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S102,Corridor 2.102 (apartment 49),2.102,corridor,-22.027,10.965,0.3,0.3,40.6
+swiss-5097-A00891,Sofa 2.103,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S103,Living room 2.103 (apartment 49),2.103,living_room,-21.872,15.973,2.0,0.9,310.6
+swiss-5097-A00892,Coffee table 2.103,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S103,Living room 2.103 (apartment 49),2.103,living_room,-24.279,15.482,1.0,0.6,40.6
+swiss-5097-A00893,TV stand 2.103,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S103,Living room 2.103 (apartment 49),2.103,living_room,-20.277,14.495,1.5,0.4,310.6
+swiss-5097-A00894,Dining chair 2.103-A,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S103,Living room 2.103 (apartment 49),2.103,living_room,-23.733,14.818,0.45,0.45,40.6
+swiss-5097-A00895,Dining chair 2.103-B,dining_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S103,Living room 2.103 (apartment 49),2.103,living_room,-22.716,15.828,0.45,0.45,310.6
+swiss-5097-A00896,Bookshelf 2.103,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S103,Living room 2.103 (apartment 49),2.103,living_room,-20.689,13.251,0.9,0.35,220.8
+swiss-5097-A00897,Outdoor chair 2.105-A,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S105,Balcony 2.105 (apartment 49),2.105,balcony,-26.676,17.399,0.5,0.5,130.6
+swiss-5097-A00898,Outdoor chair 2.105-B,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S105,Balcony 2.105 (apartment 49),2.105,balcony,-25.216,18.331,0.5,0.5,130.6
+swiss-5097-A00899,Plant 2.106-A,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S106,Balcony 2.106 (apartment 50),2.106,balcony,-36.502,8.249,0.4,0.4,130.6
+swiss-5097-A00900,Plant 2.106-B,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S106,Balcony 2.106 (apartment 50),2.106,balcony,-35.21,10.362,0.4,0.4,40.6
+swiss-5097-A00901,Bed 2.107,bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S107,Bedroom 2.107 (apartment 50),2.107,bedroom,-32.357,4.867,1.6,2.0,40.6
+swiss-5097-A00902,Wardrobe 2.107,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S107,Bedroom 2.107 (apartment 50),2.107,bedroom,-29.351,5.411,1.2,0.6,220.6
+swiss-5097-A00903,Fridge 2.109,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S109,Kitchen 2.109 (apartment 50),2.109,kitchen,-28.67,11.212,0.6,0.65,130.6
+swiss-5097-A00904,Coffee machine 2.109,coffee_machine,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S109,Kitchen 2.109 (apartment 50),2.109,kitchen,-29.721,12.91,0.4,0.4,40.6
+swiss-5097-A00905,Sofa 2.110,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S110,Living room 2.110 (apartment 50),2.110,living_room,-34.489,6.645,2.0,0.9,130.6
+swiss-5097-A00906,Coffee table 2.110,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S110,Living room 2.110 (apartment 50),2.110,living_room,-32.954,8.521,1.0,0.6,40.6
+swiss-5097-A00907,TV stand 2.110,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S110,Living room 2.110 (apartment 50),2.110,living_room,-32.315,10.394,1.5,0.4,40.5
+swiss-5097-A00908,Dining table 2.110,dining_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S110,Living room 2.110 (apartment 50),2.110,living_room,-31.331,12.202,1.6,0.9,40.6
+swiss-5097-A00909,Bookshelf 2.110,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S110,Living room 2.110 (apartment 50),2.110,living_room,-33.154,6.224,0.9,0.35,220.6
+swiss-5097-A00910,Fridge 2.112,fridge,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S112,Kitchen 2.112 (apartment 51),2.112,kitchen,-22.758,0.625,0.6,0.65,130.6
+swiss-5097-A00911,Stove 2.112,stove,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S112,Kitchen 2.112 (apartment 51),2.112,kitchen,-20.108,2.71,0.6,0.6,310.6
+swiss-5097-A00912,Microwave 2.112,microwave,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S112,Kitchen 2.112 (apartment 51),2.112,kitchen,-22.382,1.223,0.5,0.4,40.6
+swiss-5097-A00913,Coffee machine 2.112,coffee_machine,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S112,Kitchen 2.112 (apartment 51),2.112,kitchen,-20.757,2.616,0.4,0.4,40.6
+swiss-5097-A00914,Outdoor chair 2.113,outdoor_chair,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S113,Balcony 2.113 (apartment 51),2.113,balcony,-24.622,-1.375,0.5,0.5,40.6
+swiss-5097-A00915,Plant 2.113,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S113,Balcony 2.113 (apartment 51),2.113,balcony,-27.089,-2.792,0.4,0.4,130.6
+swiss-5097-A00916,Sofa 2.114,sofa,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S114,Living room 2.114 (apartment 51),2.114,living_room,-28.395,0.421,2.0,0.9,40.6
+swiss-5097-A00917,Coffee table 2.114,coffee_table,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S114,Living room 2.114 (apartment 51),2.114,living_room,-24.46,2.56,1.0,0.6,310.6
+swiss-5097-A00918,TV stand 2.114,tv_stand,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S114,Living room 2.114 (apartment 51),2.114,living_room,-26.801,-1.363,1.5,0.4,220.6
+swiss-5097-A00919,Bookshelf 2.114,bookshelf,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S114,Living room 2.114 (apartment 51),2.114,living_room,-23.289,5.95,0.9,0.35,40.6
+swiss-5097-A00920,Plant 2.114,plant,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S114,Living room 2.114 (apartment 51),2.114,living_room,-27.364,1.634,0.4,0.4,40.6
+swiss-5097-A00921,Single bed 2.116,single_bed,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S116,Bedroom 2.116 (apartment 51),2.116,bedroom,-29.631,1.82,0.9,2.0,130.6
+swiss-5097-A00922,Wardrobe 2.116,wardrobe,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S116,Bedroom 2.116 (apartment 51),2.116,bedroom,-30.581,2.902,1.2,0.6,40.6
+swiss-5097-A00923,Desk 2.116,desk,furniture,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S116,Bedroom 2.116 (apartment 51),2.116,bedroom,-28.948,4.235,1.4,0.7,40.6
+swiss-5097-A00924,Fire extinguisher 2.117,fire_extinguisher,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S117,Stair hall 2.117,2.117,stairwell,16.736,-7.565,0.3,0.3,33.4
+swiss-5097-A00925,Fire extinguisher 2.118,fire_extinguisher,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S118,Stair hall 2.118,2.118,stairwell,0.414,26.407,0.3,0.3,117.8
+swiss-5097-A00926,Fire extinguisher 2.119,fire_extinguisher,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S119,Stair hall 2.119,2.119,stairwell,-0.006,-19.42,0.3,0.3,124.4
+swiss-5097-A00927,Fire extinguisher 2.120,fire_extinguisher,equipment,generated,swiss-5097,2,Floor 2,swiss-5097-F2-S120,Stair hall 2.120,2.120,stairwell,-24.169,7.675,0.3,0.3,40.5

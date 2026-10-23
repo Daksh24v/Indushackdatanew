@@ -1,0 +1,481 @@
+asset_id,name,type,category,source,building_id,floor_level,floor_name,space_id,space_name,room_ref,room_type,x_m,y_m,width_m,depth_m,rotation_deg
+proc-factory-dev-008-A00001,CNC mill H-A1-A,cnc_mill,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S001,Production zone H-A1,H-A1,production_zone,10.567,9.14,3.0,2.5,180.0
+proc-factory-dev-008-A00002,CNC mill H-A1-B,cnc_mill,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S001,Production zone H-A1,H-A1,production_zone,1.503,2.897,3.0,2.5,90.0
+proc-factory-dev-008-A00003,CNC mill H-A1-C,cnc_mill,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S001,Production zone H-A1,H-A1,production_zone,11.169,5.064,3.0,2.5,180.0
+proc-factory-dev-008-A00004,Welding station H-A1-A,welding_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S001,Production zone H-A1,H-A1,production_zone,10.297,18.13,2.0,2.0,0.0
+proc-factory-dev-008-A00005,Welding station H-A1-B,welding_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S001,Production zone H-A1,H-A1,production_zone,1.07,5.585,2.0,2.0,90.0
+proc-factory-dev-008-A00006,Tool cabinet H-A1,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S001,Production zone H-A1,H-A1,production_zone,13.806,0.37,1.0,0.6,180.0
+proc-factory-dev-008-A00007,Fire extinguisher H-A1,fire_extinguisher,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S001,Production zone H-A1,H-A1,production_zone,10.522,0.22,0.3,0.3,180.0
+proc-factory-dev-008-A00008,Assembly station H-A2-A,assembly_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S002,Assembly zone H-A2,H-A2,assembly_zone,20.175,15.986,2.4,1.2,90.0
+proc-factory-dev-008-A00009,Assembly station H-A2-B,assembly_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S002,Assembly zone H-A2,H-A2,assembly_zone,18.665,13.248,2.4,1.2,90.0
+proc-factory-dev-008-A00010,Assembly station H-A2-C,assembly_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S002,Assembly zone H-A2,H-A2,assembly_zone,26.275,0.813,2.4,1.2,180.0
+proc-factory-dev-008-A00011,Assembly station H-A2-D,assembly_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S002,Assembly zone H-A2,H-A2,assembly_zone,15.613,15.548,2.4,1.2,90.0
+proc-factory-dev-008-A00012,Assembly station H-A2-E,assembly_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S002,Assembly zone H-A2,H-A2,assembly_zone,26.934,3.22,2.4,1.2,90.0
+proc-factory-dev-008-A00013,Assembly station H-A2-F,assembly_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S002,Assembly zone H-A2,H-A2,assembly_zone,26.401,17.187,2.4,1.2,180.0
+proc-factory-dev-008-A00014,Workbench H-A2,workbench,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S002,Assembly zone H-A2,H-A2,assembly_zone,29.33,6.486,2.0,0.8,270.0
+proc-factory-dev-008-A00015,Tool cabinet H-A2-A,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S002,Assembly zone H-A2,H-A2,assembly_zone,18.102,0.37,1.0,0.6,180.0
+proc-factory-dev-008-A00016,Tool cabinet H-A2-B,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S002,Assembly zone H-A2,H-A2,assembly_zone,20.598,18.83,1.0,0.6,0.0
+proc-factory-dev-008-A00017,CNC lathe H-A3-A,cnc_lathe,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S003,Production zone H-A3,H-A3,production_zone,36.78,11.123,3.5,2.0,90.0
+proc-factory-dev-008-A00018,CNC lathe H-A3-B,cnc_lathe,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S003,Production zone H-A3,H-A3,production_zone,37.439,17.341,3.5,2.0,180.0
+proc-factory-dev-008-A00019,CNC lathe H-A3-C,cnc_lathe,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S003,Production zone H-A3,H-A3,production_zone,37.343,5.416,3.5,2.0,180.0
+proc-factory-dev-008-A00020,Waterjet cutter H-A3,waterjet_cutter,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S003,Production zone H-A3,H-A3,production_zone,32.766,6.052,4.0,3.0,90.0
+proc-factory-dev-008-A00021,Welding station H-A3,welding_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S003,Production zone H-A3,H-A3,production_zone,43.63,1.636,2.0,2.0,270.0
+proc-factory-dev-008-A00022,Tool cabinet H-A3,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S003,Production zone H-A3,H-A3,production_zone,30.17,7.538,1.0,0.6,90.0
+proc-factory-dev-008-A00023,Fire extinguisher H-A3,fire_extinguisher,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S003,Production zone H-A3,H-A3,production_zone,42.752,0.22,0.3,0.3,180.0
+proc-factory-dev-008-A00024,Assembly station H-A4-A,assembly_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S004,Assembly zone H-A4,H-A4,assembly_zone,52.667,6.452,2.4,1.2,180.0
+proc-factory-dev-008-A00025,Assembly station H-A4-B,assembly_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S004,Assembly zone H-A4,H-A4,assembly_zone,52.929,5.08,2.4,1.2,180.0
+proc-factory-dev-008-A00026,Assembly station H-A4-C,assembly_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S004,Assembly zone H-A4,H-A4,assembly_zone,48.191,3.619,2.4,1.2,180.0
+proc-factory-dev-008-A00027,Assembly station H-A4-D,assembly_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S004,Assembly zone H-A4,H-A4,assembly_zone,49.955,12.102,2.4,1.2,90.0
+proc-factory-dev-008-A00028,Assembly station H-A4-E,assembly_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S004,Assembly zone H-A4,H-A4,assembly_zone,51.246,1.023,2.4,1.2,180.0
+proc-factory-dev-008-A00029,Assembly station H-A4-F,assembly_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S004,Assembly zone H-A4,H-A4,assembly_zone,57.098,4.028,2.4,1.2,90.0
+proc-factory-dev-008-A00030,Workbench H-A4-A,workbench,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S004,Assembly zone H-A4,H-A4,assembly_zone,47.556,18.73,2.0,0.8,0.0
+proc-factory-dev-008-A00031,Workbench H-A4-B,workbench,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S004,Assembly zone H-A4,H-A4,assembly_zone,45.17,15.747,2.0,0.8,90.0
+proc-factory-dev-008-A00032,Workbench H-A4-C,workbench,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S004,Assembly zone H-A4,H-A4,assembly_zone,59.13,3.208,2.0,0.8,270.0
+proc-factory-dev-008-A00033,Tool cabinet H-A4-A,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S004,Assembly zone H-A4,H-A4,assembly_zone,59.23,14.365,1.0,0.6,270.0
+proc-factory-dev-008-A00034,Tool cabinet H-A4-B,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S004,Assembly zone H-A4,H-A4,assembly_zone,55.983,18.83,1.0,0.6,0.0
+proc-factory-dev-008-A00035,Milling machine H-A5-A,milling_machine,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S005,Production zone H-A5,H-A5,production_zone,60.719,4.336,2.0,1.8,180.0
+proc-factory-dev-008-A00036,Milling machine H-A5-B,milling_machine,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S005,Production zone H-A5,H-A5,production_zone,62.984,2.304,2.0,1.8,90.0
+proc-factory-dev-008-A00037,Milling machine H-A5-C,milling_machine,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S005,Production zone H-A5,H-A5,production_zone,60.954,7.103,2.0,1.8,90.0
+proc-factory-dev-008-A00038,Tool cabinet H-A5-A,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S005,Production zone H-A5,H-A5,production_zone,74.13,13.505,1.0,0.6,270.0
+proc-factory-dev-008-A00039,Tool cabinet H-A5-B,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S005,Production zone H-A5,H-A5,production_zone,65.195,18.83,1.0,0.6,0.0
+proc-factory-dev-008-A00040,Fire extinguisher H-A5,fire_extinguisher,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S005,Production zone H-A5,H-A5,production_zone,59.82,0.88,0.3,0.3,90.0
+proc-factory-dev-008-A00041,Pallet rack H-A6-A,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S006,Warehouse zone H-A6,H-A6,warehouse_zone,85.312,17.444,2.7,1.1,180.0
+proc-factory-dev-008-A00042,Pallet rack H-A6-B,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S006,Warehouse zone H-A6,H-A6,warehouse_zone,75.782,17.704,2.7,1.1,90.0
+proc-factory-dev-008-A00043,Pallet rack H-A6-C,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S006,Warehouse zone H-A6,H-A6,warehouse_zone,75.938,14.309,2.7,1.1,180.0
+proc-factory-dev-008-A00044,Pallet rack H-A6-D,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S006,Warehouse zone H-A6,H-A6,warehouse_zone,79.503,10.582,2.7,1.1,90.0
+proc-factory-dev-008-A00045,Pallet rack H-A6-E,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S006,Warehouse zone H-A6,H-A6,warehouse_zone,85.906,12.368,2.7,1.1,180.0
+proc-factory-dev-008-A00046,Pallet rack H-A6-F,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S006,Warehouse zone H-A6,H-A6,warehouse_zone,78.907,16.109,2.7,1.1,180.0
+proc-factory-dev-008-A00047,Pallet rack H-A6-G,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S006,Warehouse zone H-A6,H-A6,warehouse_zone,80.713,4.04,2.7,1.1,90.0
+proc-factory-dev-008-A00048,Pallet rack H-A6-H,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S006,Warehouse zone H-A6,H-A6,warehouse_zone,87.415,16.932,2.7,1.1,90.0
+proc-factory-dev-008-A00049,Pallet rack H-A6-I,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S006,Warehouse zone H-A6,H-A6,warehouse_zone,77.457,0.949,2.7,1.1,180.0
+proc-factory-dev-008-A00050,Pallet rack H-A6-J,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S006,Warehouse zone H-A6,H-A6,warehouse_zone,83.659,15.037,2.7,1.1,180.0
+proc-factory-dev-008-A00051,Pallet rack H-A6-K,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S006,Warehouse zone H-A6,H-A6,warehouse_zone,78.67,5.165,2.7,1.1,180.0
+proc-factory-dev-008-A00052,Press brake H-B1-A,press_brake,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S007,Production zone H-B1,H-B1,production_zone,3.599,30.012,4.0,1.8,90.0
+proc-factory-dev-008-A00053,Press brake H-B1-B,press_brake,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S007,Production zone H-B1,H-B1,production_zone,8.281,34.976,4.0,1.8,90.0
+proc-factory-dev-008-A00054,Press brake H-B1-C,press_brake,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S007,Production zone H-B1,H-B1,production_zone,9.054,30.535,4.0,1.8,180.0
+proc-factory-dev-008-A00055,Robot cell H-B1,robot_cell,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S007,Production zone H-B1,H-B1,production_zone,2.472,23.531,4.0,4.0,90.0
+proc-factory-dev-008-A00056,Drill press H-B1-A,drill_press,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S007,Production zone H-B1,H-B1,production_zone,0.47,37.783,0.8,0.8,90.0
+proc-factory-dev-008-A00057,Drill press H-B1-B,drill_press,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S007,Production zone H-B1,H-B1,production_zone,14.43,24.051,0.8,0.8,270.0
+proc-factory-dev-008-A00058,Welding station H-B1,welding_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S007,Production zone H-B1,H-B1,production_zone,13.83,36.093,2.0,2.0,270.0
+proc-factory-dev-008-A00059,Tool cabinet H-B1,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S007,Production zone H-B1,H-B1,production_zone,3.184,19.57,1.0,0.6,180.0
+proc-factory-dev-008-A00060,Fire extinguisher H-B1,fire_extinguisher,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S007,Production zone H-B1,H-B1,production_zone,0.22,23.442,0.3,0.3,90.0
+proc-factory-dev-008-A00061,CNC mill H-B2-A,cnc_mill,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S008,Production zone H-B2,H-B2,production_zone,24.707,26.057,3.0,2.5,90.0
+proc-factory-dev-008-A00062,CNC mill H-B2-B,cnc_mill,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S008,Production zone H-B2,H-B2,production_zone,18.606,26.055,3.0,2.5,180.0
+proc-factory-dev-008-A00063,CNC mill H-B2-C,cnc_mill,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S008,Production zone H-B2,H-B2,production_zone,18.393,35.101,3.0,2.5,180.0
+proc-factory-dev-008-A00064,Tool cabinet H-B2-A,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S008,Production zone H-B2,H-B2,production_zone,15.27,25.076,1.0,0.6,90.0
+proc-factory-dev-008-A00065,Tool cabinet H-B2-B,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S008,Production zone H-B2,H-B2,production_zone,29.43,32.336,1.0,0.6,270.0
+proc-factory-dev-008-A00066,Fire extinguisher H-B2,fire_extinguisher,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S008,Production zone H-B2,H-B2,production_zone,15.12,31.341,0.3,0.3,90.0
+proc-factory-dev-008-A00067,Industrial 3D printer H-B3-A,industrial_3d_printer,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S009,Additive zone H-B3,H-B3,additive_zone,42.015,32.52,1.5,1.2,180.0
+proc-factory-dev-008-A00068,Industrial 3D printer H-B3-B,industrial_3d_printer,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S009,Additive zone H-B3,H-B3,additive_zone,37.218,27.635,1.5,1.2,90.0
+proc-factory-dev-008-A00069,Industrial 3D printer H-B3-C,industrial_3d_printer,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S009,Additive zone H-B3,H-B3,additive_zone,42.099,20.294,1.5,1.2,90.0
+proc-factory-dev-008-A00070,Industrial 3D printer H-B3-D,industrial_3d_printer,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S009,Additive zone H-B3,H-B3,additive_zone,41.331,28.721,1.5,1.2,90.0
+proc-factory-dev-008-A00071,3D printer H-B3-A,3d_printer,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S009,Additive zone H-B3,H-B3,additive_zone,30.17,24.435,0.6,0.6,90.0
+proc-factory-dev-008-A00072,3D printer H-B3-B,3d_printer,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S009,Additive zone H-B3,H-B3,additive_zone,30.984,38.03,0.6,0.6,0.0
+proc-factory-dev-008-A00073,3D printer H-B3-C,3d_printer,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S009,Additive zone H-B3,H-B3,additive_zone,44.166,38.03,0.6,0.6,0.0
+proc-factory-dev-008-A00074,3D printer H-B3-D,3d_printer,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S009,Additive zone H-B3,H-B3,additive_zone,44.33,33.846,0.6,0.6,270.0
+proc-factory-dev-008-A00075,Powder handling station H-B3,powder_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S009,Additive zone H-B3,H-B3,additive_zone,44.13,24.38,1.5,1.0,270.0
+proc-factory-dev-008-A00076,Curing oven H-B3,curing_oven,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S009,Additive zone H-B3,H-B3,additive_zone,34.79,19.77,1.2,1.0,180.0
+proc-factory-dev-008-A00077,Workbench H-B3,workbench,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S009,Additive zone H-B3,H-B3,additive_zone,37.157,31.45,2.0,0.8,180.0
+proc-factory-dev-008-A00078,Press brake H-B4-A,press_brake,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S010,Production zone H-B4,H-B4,production_zone,54.138,31.805,4.0,1.8,90.0
+proc-factory-dev-008-A00079,Press brake H-B4-B,press_brake,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S010,Production zone H-B4,H-B4,production_zone,51.611,23.771,4.0,1.8,90.0
+proc-factory-dev-008-A00080,Press brake H-B4-C,press_brake,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S010,Production zone H-B4,H-B4,production_zone,46.827,33.289,4.0,1.8,90.0
+proc-factory-dev-008-A00081,Drill press H-B4,drill_press,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S010,Production zone H-B4,H-B4,production_zone,54.676,19.67,0.8,0.8,180.0
+proc-factory-dev-008-A00082,Tool cabinet H-B4-A,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S010,Production zone H-B4,H-B4,production_zone,47.152,38.03,1.0,0.6,0.0
+proc-factory-dev-008-A00083,Tool cabinet H-B4-B,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S010,Production zone H-B4,H-B4,production_zone,57.877,19.57,1.0,0.6,180.0
+proc-factory-dev-008-A00084,Fire extinguisher H-B4,fire_extinguisher,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S010,Production zone H-B4,H-B4,production_zone,59.38,32.185,0.3,0.3,270.0
+proc-factory-dev-008-A00085,Milling machine H-B5-A,milling_machine,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S011,Production zone H-B5,H-B5,production_zone,69.904,26.267,2.0,1.8,180.0
+proc-factory-dev-008-A00086,Milling machine H-B5-B,milling_machine,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S011,Production zone H-B5,H-B5,production_zone,67.383,35.228,2.0,1.8,90.0
+proc-factory-dev-008-A00087,Milling machine H-B5-C,milling_machine,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S011,Production zone H-B5,H-B5,production_zone,65.003,29.063,2.0,1.8,90.0
+proc-factory-dev-008-A00088,Drill press H-B5,drill_press,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S011,Production zone H-B5,H-B5,production_zone,60.07,21.057,0.8,0.8,90.0
+proc-factory-dev-008-A00089,Welding station H-B5-A,welding_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S011,Production zone H-B5,H-B5,production_zone,64.968,20.27,2.0,2.0,180.0
+proc-factory-dev-008-A00090,Welding station H-B5-B,welding_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S011,Production zone H-B5,H-B5,production_zone,73.43,25.79,2.0,2.0,270.0
+proc-factory-dev-008-A00091,Tool cabinet H-B5-A,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S011,Production zone H-B5,H-B5,production_zone,70.085,38.03,1.0,0.6,0.0
+proc-factory-dev-008-A00092,Tool cabinet H-B5-B,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S011,Production zone H-B5,H-B5,production_zone,73.212,38.03,1.0,0.6,0.0
+proc-factory-dev-008-A00093,Fire extinguisher H-B5,fire_extinguisher,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S011,Production zone H-B5,H-B5,production_zone,71.51,19.42,0.3,0.3,180.0
+proc-factory-dev-008-A00094,Injection moulding machine H-B6-A,injection_moulding_machine,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S012,Production zone H-B6,H-B6,production_zone,82.485,36.615,5.0,2.0,180.0
+proc-factory-dev-008-A00095,Injection moulding machine H-B6-B,injection_moulding_machine,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S012,Production zone H-B6,H-B6,production_zone,86.617,28.826,5.0,2.0,180.0
+proc-factory-dev-008-A00096,Injection moulding machine H-B6-C,injection_moulding_machine,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S012,Production zone H-B6,H-B6,production_zone,82.142,26.471,5.0,2.0,90.0
+proc-factory-dev-008-A00097,Robot cell H-B6,robot_cell,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S012,Production zone H-B6,H-B6,production_zone,77.416,27.278,4.0,4.0,90.0
+proc-factory-dev-008-A00098,Welding station H-B6-A,welding_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S012,Production zone H-B6,H-B6,production_zone,85.696,20.27,2.0,2.0,180.0
+proc-factory-dev-008-A00099,Welding station H-B6-B,welding_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S012,Production zone H-B6,H-B6,production_zone,88.33,21.235,2.0,2.0,270.0
+proc-factory-dev-008-A00100,Tool cabinet H-B6-A,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S012,Production zone H-B6,H-B6,production_zone,77.707,19.57,1.0,0.6,180.0
+proc-factory-dev-008-A00101,Tool cabinet H-B6-B,tool_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S012,Production zone H-B6,H-B6,production_zone,76.473,38.03,1.0,0.6,0.0
+proc-factory-dev-008-A00102,Fire extinguisher H-B6,fire_extinguisher,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S012,Production zone H-B6,H-B6,production_zone,79.183,19.42,0.3,0.3,180.0
+proc-factory-dev-008-A00103,Fire extinguisher H-C2,fire_extinguisher,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S014,Main aisle H-C2,H-C2,corridor,15.294,57.38,0.3,0.3,0.0
+proc-factory-dev-008-A00104,Coat rack H-C3,coat_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S015,Main aisle H-C3,H-C3,corridor,44.48,42.764,0.6,0.3,270.0
+proc-factory-dev-008-A00105,Fire extinguisher H-C4,fire_extinguisher,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S016,Main aisle H-C4,H-C4,corridor,44.92,39.953,0.3,0.3,90.0
+proc-factory-dev-008-A00106,Fire extinguisher H-C6,fire_extinguisher,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S018,Main aisle H-C6,H-C6,corridor,79.643,57.38,0.3,0.3,0.0
+proc-factory-dev-008-A00107,Packing station H-D1-A,packing_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S019,Logistics zone H-D1,H-D1,logistics_zone,10.497,73.944,2.0,1.0,180.0
+proc-factory-dev-008-A00108,Packing station H-D1-B,packing_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S019,Logistics zone H-D1,H-D1,logistics_zone,11.058,67.142,2.0,1.0,180.0
+proc-factory-dev-008-A00109,Forklift H-D1,forklift,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S019,Logistics zone H-D1,H-D1,logistics_zone,2.833,61.89,2.5,1.2,90.0
+proc-factory-dev-008-A00110,Forklift charging station H-D1,forklift_charging_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S019,Logistics zone H-D1,H-D1,logistics_zone,14.33,71.134,1.5,1.0,270.0
+proc-factory-dev-008-A00111,Pallet rack H-D1-A,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S019,Logistics zone H-D1,H-D1,logistics_zone,0.62,74.455,2.7,1.1,90.0
+proc-factory-dev-008-A00112,Pallet rack H-D1-B,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S019,Logistics zone H-D1,H-D1,logistics_zone,14.28,60.106,2.7,1.1,270.0
+proc-factory-dev-008-A00113,Pallet rack H-D1-C,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S019,Logistics zone H-D1,H-D1,logistics_zone,14.28,73.574,2.7,1.1,270.0
+proc-factory-dev-008-A00114,Packing station H-D2-A,packing_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S020,Logistics zone H-D2,H-D2,logistics_zone,19.737,73.25,2.0,1.0,180.0
+proc-factory-dev-008-A00115,Packing station H-D2-B,packing_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S020,Logistics zone H-D2,H-D2,logistics_zone,25.974,59.634,2.0,1.0,180.0
+proc-factory-dev-008-A00116,Forklift H-D2-A,forklift,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S020,Logistics zone H-D2,H-D2,logistics_zone,19.99,63.962,2.5,1.2,90.0
+proc-factory-dev-008-A00117,Forklift H-D2-B,forklift,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S020,Logistics zone H-D2,H-D2,logistics_zone,17.927,61.733,2.5,1.2,180.0
+proc-factory-dev-008-A00118,Forklift charging station H-D2,forklift_charging_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S020,Logistics zone H-D2,H-D2,logistics_zone,17.638,58.17,1.5,1.0,180.0
+proc-factory-dev-008-A00119,Pallet rack H-D2,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S020,Logistics zone H-D2,H-D2,logistics_zone,15.52,72.702,2.7,1.1,90.0
+proc-factory-dev-008-A00120,Air compressor H-D2,compressor,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S020,Logistics zone H-D2,H-D2,logistics_zone,29.23,63.943,1.5,1.0,270.0
+proc-factory-dev-008-A00121,Packing station H-D3,packing_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S021,Logistics zone H-D3,H-D3,logistics_zone,38.556,67.507,2.0,1.0,90.0
+proc-factory-dev-008-A00122,Forklift H-D3,forklift,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S021,Logistics zone H-D3,H-D3,logistics_zone,35.99,75.03,2.5,1.2,90.0
+proc-factory-dev-008-A00123,Forklift charging station H-D3,forklift_charging_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S021,Logistics zone H-D3,H-D3,logistics_zone,30.838,76.23,1.5,1.0,0.0
+proc-factory-dev-008-A00124,Pallet rack H-D3-A,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S021,Logistics zone H-D3,H-D3,logistics_zone,30.42,71.958,2.7,1.1,90.0
+proc-factory-dev-008-A00125,Pallet rack H-D3-B,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S021,Logistics zone H-D3,H-D3,logistics_zone,33.228,76.18,2.7,1.1,0.0
+proc-factory-dev-008-A00126,Pallet rack H-D3-C,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S021,Logistics zone H-D3,H-D3,logistics_zone,40.64,76.18,2.7,1.1,0.0
+proc-factory-dev-008-A00127,Packing station H-D4-A,packing_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S022,Logistics zone H-D4,H-D4,logistics_zone,52.362,69.567,2.0,1.0,180.0
+proc-factory-dev-008-A00128,Packing station H-D4-B,packing_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S022,Logistics zone H-D4,H-D4,logistics_zone,51.969,65.244,2.0,1.0,90.0
+proc-factory-dev-008-A00129,Packing station H-D4-C,packing_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S022,Logistics zone H-D4,H-D4,logistics_zone,46.019,65.093,2.0,1.0,180.0
+proc-factory-dev-008-A00130,Forklift H-D4,forklift,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S022,Logistics zone H-D4,H-D4,logistics_zone,57.606,64.66,2.5,1.2,90.0
+proc-factory-dev-008-A00131,Forklift charging station H-D4,forklift_charging_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S022,Logistics zone H-D4,H-D4,logistics_zone,57.631,76.23,1.5,1.0,0.0
+proc-factory-dev-008-A00132,Pallet rack H-D4-A,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S022,Logistics zone H-D4,H-D4,logistics_zone,45.32,61.518,2.7,1.1,90.0
+proc-factory-dev-008-A00133,Pallet rack H-D4-B,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S022,Logistics zone H-D4,H-D4,logistics_zone,58.98,73.64,2.7,1.1,270.0
+proc-factory-dev-008-A00134,Pallet rack H-D4-C,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S022,Logistics zone H-D4,H-D4,logistics_zone,46.831,76.18,2.7,1.1,0.0
+proc-factory-dev-008-A00135,Pallet rack H-D4-D,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S022,Logistics zone H-D4,H-D4,logistics_zone,57.383,58.22,2.7,1.1,180.0
+proc-factory-dev-008-A00136,Packing station H-D5,packing_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S023,Logistics zone H-D5,H-D5,logistics_zone,72.518,67.218,2.0,1.0,90.0
+proc-factory-dev-008-A00137,Forklift H-D5,forklift,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S023,Logistics zone H-D5,H-D5,logistics_zone,67.177,64.703,2.5,1.2,180.0
+proc-factory-dev-008-A00138,Forklift charging station H-D5,forklift_charging_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S023,Logistics zone H-D5,H-D5,logistics_zone,62.704,58.17,1.5,1.0,180.0
+proc-factory-dev-008-A00139,Pallet rack H-D5-A,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S023,Logistics zone H-D5,H-D5,logistics_zone,61.861,76.18,2.7,1.1,0.0
+proc-factory-dev-008-A00140,Pallet rack H-D5-B,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S023,Logistics zone H-D5,H-D5,logistics_zone,60.22,62.374,2.7,1.1,90.0
+proc-factory-dev-008-A00141,Packing station H-D6-A,packing_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S024,Logistics zone H-D6,H-D6,logistics_zone,78.827,76.038,2.0,1.0,180.0
+proc-factory-dev-008-A00142,Packing station H-D6-B,packing_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S024,Logistics zone H-D6,H-D6,logistics_zone,80.868,75.071,2.0,1.0,90.0
+proc-factory-dev-008-A00143,Packing station H-D6-C,packing_station,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S024,Logistics zone H-D6,H-D6,logistics_zone,88.4,71.284,2.0,1.0,90.0
+proc-factory-dev-008-A00144,Forklift H-D6-A,forklift,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S024,Logistics zone H-D6,H-D6,logistics_zone,75.993,73.724,2.5,1.2,90.0
+proc-factory-dev-008-A00145,Forklift H-D6-B,forklift,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S024,Logistics zone H-D6,H-D6,logistics_zone,86.049,70.925,2.5,1.2,180.0
+proc-factory-dev-008-A00146,Forklift charging station H-D6,forklift_charging_station,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S024,Logistics zone H-D6,H-D6,logistics_zone,75.07,62.414,1.5,1.0,90.0
+proc-factory-dev-008-A00147,Pallet rack H-D6,pallet_rack,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S024,Logistics zone H-D6,H-D6,logistics_zone,75.12,69.501,2.7,1.1,90.0
+proc-factory-dev-008-A00148,Reception desk 0.28,reception_desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S028,Hall access 0.28,0.28,lobby,2.132,-2.539,2.5,0.8,90.0
+proc-factory-dev-008-A00149,Plant 0.28,plant,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S028,Hall access 0.28,0.28,lobby,0.27,-4.689,0.4,0.4,90.0
+proc-factory-dev-008-A00150,Desk 0.29-A,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S029,Office 0.29,0.29,office,7.81,-2.923,1.4,0.7,270.0
+proc-factory-dev-008-A00151,Desk 0.29-B,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S029,Office 0.29,0.29,office,3.91,-3.541,1.4,0.7,90.0
+proc-factory-dev-008-A00152,Office chair 0.29-A,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S029,Office 0.29,0.29,office,6.935,-1.979,0.6,0.6,180.0
+proc-factory-dev-008-A00153,Office chair 0.29-B,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S029,Office 0.29,0.29,office,7.5,-0.371,0.6,0.6,90.0
+proc-factory-dev-008-A00154,Plant 0.29,plant,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S029,Office 0.29,0.29,office,7.96,-1.706,0.4,0.4,270.0
+proc-factory-dev-008-A00155,Desk 0.30-A,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S030,Office 0.30,0.30,office,8.65,-0.791,1.4,0.7,90.0
+proc-factory-dev-008-A00156,Desk 0.30-B,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S030,Office 0.30,0.30,office,12.629,-4.58,1.4,0.7,180.0
+proc-factory-dev-008-A00157,Office chair 0.30-A,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S030,Office 0.30,0.30,office,10.344,-2.242,0.6,0.6,90.0
+proc-factory-dev-008-A00158,Office chair 0.30-B,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S030,Office 0.30,0.30,office,9.579,-0.724,0.6,0.6,180.0
+proc-factory-dev-008-A00159,Bookshelf 0.30,bookshelf,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S030,Office 0.30,0.30,office,8.475,-3.867,0.9,0.35,90.0
+proc-factory-dev-008-A00160,Meeting table 0.31,meeting_table,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S031,Meeting room 0.31,0.31,meeting_room,14.824,-3.194,2.4,1.1,180.0
+proc-factory-dev-008-A00161,Chair 0.31-A,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S031,Meeting room 0.31,0.31,meeting_room,15.802,-0.434,0.5,0.5,180.0
+proc-factory-dev-008-A00162,Chair 0.31-B,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S031,Meeting room 0.31,0.31,meeting_room,14.019,-1.668,0.5,0.5,180.0
+proc-factory-dev-008-A00163,Chair 0.31-C,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S031,Meeting room 0.31,0.31,meeting_room,16.276,-4.368,0.5,0.5,90.0
+proc-factory-dev-008-A00164,Chair 0.31-D,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S031,Meeting room 0.31,0.31,meeting_room,15.866,-0.966,0.5,0.5,90.0
+proc-factory-dev-008-A00165,Chair 0.31-E,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S031,Meeting room 0.31,0.31,meeting_room,15.168,-1.25,0.5,0.5,90.0
+proc-factory-dev-008-A00166,Chair 0.31-F,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S031,Meeting room 0.31,0.31,meeting_room,14.136,-0.361,0.5,0.5,180.0
+proc-factory-dev-008-A00167,Chair 0.31-G,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S031,Meeting room 0.31,0.31,meeting_room,16.147,-2.018,0.5,0.5,180.0
+proc-factory-dev-008-A00168,Chair 0.31-H,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S031,Meeting room 0.31,0.31,meeting_room,14.703,-2.214,0.5,0.5,90.0
+proc-factory-dev-008-A00169,Display screen 0.31,display_screen,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S031,Meeting room 0.31,0.31,meeting_room,17.01,-2.537,1.6,0.3,270.0
+proc-factory-dev-008-A00170,Desk 0.32,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S032,Office 0.32,0.32,office,20.24,-2.433,1.4,0.7,270.0
+proc-factory-dev-008-A00171,Office chair 0.32,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S032,Office 0.32,0.32,office,20.0,-1.209,0.6,0.6,90.0
+proc-factory-dev-008-A00172,Plant 0.32,plant,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S032,Office 0.32,0.32,office,18.186,-0.27,0.4,0.4,0.0
+proc-factory-dev-008-A00173,Meeting table 0.33,meeting_table,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S033,Meeting room 0.33,0.33,meeting_room,22.976,-2.595,2.4,1.1,0.0
+proc-factory-dev-008-A00174,Chair 0.33-A,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S033,Meeting room 0.33,0.33,meeting_room,23.635,-0.553,0.5,0.5,90.0
+proc-factory-dev-008-A00175,Chair 0.33-B,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S033,Meeting room 0.33,0.33,meeting_room,21.274,-3.318,0.5,0.5,90.0
+proc-factory-dev-008-A00176,Chair 0.33-C,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S033,Meeting room 0.33,0.33,meeting_room,21.609,-0.833,0.5,0.5,90.0
+proc-factory-dev-008-A00177,Chair 0.33-D,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S033,Meeting room 0.33,0.33,meeting_room,23.575,-4.141,0.5,0.5,0.0
+proc-factory-dev-008-A00178,Chair 0.33-E,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S033,Meeting room 0.33,0.33,meeting_room,23.499,-1.298,0.5,0.5,0.0
+proc-factory-dev-008-A00179,Chair 0.33-F,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S033,Meeting room 0.33,0.33,meeting_room,22.571,-1.252,0.5,0.5,90.0
+proc-factory-dev-008-A00180,Chair 0.33-G,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S033,Meeting room 0.33,0.33,meeting_room,24.089,-1.499,0.5,0.5,0.0
+proc-factory-dev-008-A00181,Display screen 0.33,display_screen,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S033,Meeting room 0.33,0.33,meeting_room,20.88,-1.687,1.6,0.3,90.0
+proc-factory-dev-008-A00182,Desk 0.34-A,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S034,Office 0.34,0.34,office,25.153,-0.42,1.4,0.7,0.0
+proc-factory-dev-008-A00183,Desk 0.34-B,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S034,Office 0.34,0.34,office,27.168,-0.42,1.4,0.7,0.0
+proc-factory-dev-008-A00184,Office chair 0.34-A,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S034,Office 0.34,0.34,office,26.721,-1.408,0.6,0.6,0.0
+proc-factory-dev-008-A00185,Office chair 0.34-B,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S034,Office 0.34,0.34,office,25.5,-3.714,0.6,0.6,0.0
+proc-factory-dev-008-A00186,Bookshelf 0.34,bookshelf,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S034,Office 0.34,0.34,office,28.635,-4.257,0.9,0.35,270.0
+proc-factory-dev-008-A00187,Plant 0.34,plant,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S034,Office 0.34,0.34,office,24.668,-4.73,0.4,0.4,180.0
+proc-factory-dev-008-A00188,Desk 0.35-A,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S035,Office 0.35,0.35,office,29.3,-3.229,1.4,0.7,90.0
+proc-factory-dev-008-A00189,Desk 0.35-B,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S035,Office 0.35,0.35,office,32.76,-2.631,1.4,0.7,270.0
+proc-factory-dev-008-A00190,Office chair 0.35-A,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S035,Office 0.35,0.35,office,32.752,-1.501,0.6,0.6,180.0
+proc-factory-dev-008-A00191,Office chair 0.35-B,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S035,Office 0.35,0.35,office,30.506,-3.344,0.6,0.6,180.0
+proc-factory-dev-008-A00192,Filing cabinet 0.35,filing_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S035,Office 0.35,0.35,office,32.81,-4.414,0.5,0.6,270.0
+proc-factory-dev-008-A00193,Bookshelf 0.35,bookshelf,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S035,Office 0.35,0.35,office,29.125,-1.664,0.9,0.35,90.0
+proc-factory-dev-008-A00194,Desk 0.36,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S036,Office 0.36,0.36,office,35.93,-3.788,1.4,0.7,270.0
+proc-factory-dev-008-A00195,Office chair 0.36,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S036,Office 0.36,0.36,office,35.422,-1.99,0.6,0.6,0.0
+proc-factory-dev-008-A00196,Filing cabinet 0.36-A,filing_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S036,Office 0.36,0.36,office,33.55,-3.151,0.5,0.6,90.0
+proc-factory-dev-008-A00197,Filing cabinet 0.36-B,filing_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S036,Office 0.36,0.36,office,35.566,-0.37,0.5,0.6,0.0
+proc-factory-dev-008-A00198,Bookshelf 0.36,bookshelf,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S036,Office 0.36,0.36,office,36.105,-1.235,0.9,0.35,270.0
+proc-factory-dev-008-A00199,Coordinate measuring machine 0.37,coordinate_measuring_machine,machine,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S037,Quality lab 0.37,0.37,quality_lab,40.191,-3.325,2.0,1.5,180.0
+proc-factory-dev-008-A00200,Inspection bench 0.37,inspection_bench,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S037,Quality lab 0.37,0.37,quality_lab,36.82,-2.507,2.0,0.8,90.0
+proc-factory-dev-008-A00201,Microscope 0.37-A,microscope,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S037,Quality lab 0.37,0.37,quality_lab,37.555,-0.466,0.5,0.5,90.0
+proc-factory-dev-008-A00202,Microscope 0.37-B,microscope,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S037,Quality lab 0.37,0.37,quality_lab,36.752,-3.882,0.5,0.5,90.0
+proc-factory-dev-008-A00203,Kitchen counter 0.38,kitchen_counter,fixture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S038,Kitchen 0.38,0.38,kitchen,44.66,-1.824,2.4,0.6,270.0
+proc-factory-dev-008-A00204,Fridge 0.38,fridge,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S038,Kitchen 0.38,0.38,kitchen,42.02,-4.605,0.6,0.65,180.0
+proc-factory-dev-008-A00205,Stove 0.38,stove,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S038,Kitchen 0.38,0.38,kitchen,44.4,-4.63,0.6,0.6,180.0
+proc-factory-dev-008-A00206,Microwave 0.38,microwave,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S038,Kitchen 0.38,0.38,kitchen,44.76,-3.739,0.5,0.4,270.0
+proc-factory-dev-008-A00207,Coffee machine 0.38,coffee_machine,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S038,Kitchen 0.38,0.38,kitchen,42.108,-0.27,0.4,0.4,0.0
+proc-factory-dev-008-A00208,Desk 0.39,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S039,Office 0.39,0.39,office,45.45,-3.379,1.4,0.7,90.0
+proc-factory-dev-008-A00209,Office chair 0.39,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S039,Office 0.39,0.39,office,46.556,-0.384,0.6,0.6,90.0
+proc-factory-dev-008-A00210,Plant 0.39,plant,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S039,Office 0.39,0.39,office,47.81,-2.585,0.4,0.4,270.0
+proc-factory-dev-008-A00211,Locker 0.40-A,locker,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S040,Locker room 0.40,0.40,locker_room,52.95,-1.181,0.9,0.5,270.0
+proc-factory-dev-008-A00212,Locker 0.40-B,locker,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S040,Locker room 0.40,0.40,locker_room,50.246,-0.32,0.9,0.5,0.0
+proc-factory-dev-008-A00213,Locker 0.40-C,locker,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S040,Locker room 0.40,0.40,locker_room,48.4,-2.701,0.9,0.5,90.0
+proc-factory-dev-008-A00214,Locker 0.40-D,locker,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S040,Locker room 0.40,0.40,locker_room,52.64,-4.68,0.9,0.5,180.0
+proc-factory-dev-008-A00215,Locker 0.40-E,locker,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S040,Locker room 0.40,0.40,locker_room,48.629,-4.68,0.9,0.5,180.0
+proc-factory-dev-008-A00216,Locker 0.40-F,locker,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S040,Locker room 0.40,0.40,locker_room,48.4,-1.287,0.9,0.5,90.0
+proc-factory-dev-008-A00217,Locker 0.40-G,locker,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S040,Locker room 0.40,0.40,locker_room,51.435,-0.32,0.9,0.5,0.0
+proc-factory-dev-008-A00218,Locker 0.40-H,locker,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S040,Locker room 0.40,0.40,locker_room,48.902,-0.32,0.9,0.5,0.0
+proc-factory-dev-008-A00219,Locker 0.40-I,locker,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S040,Locker room 0.40,0.40,locker_room,52.695,-0.32,0.9,0.5,0.0
+proc-factory-dev-008-A00220,Locker 0.40-J,locker,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S040,Locker room 0.40,0.40,locker_room,52.95,-2.452,0.9,0.5,270.0
+proc-factory-dev-008-A00221,Bench 0.40-A,bench,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S040,Locker room 0.40,0.40,locker_room,51.944,-1.423,1.5,0.4,180.0
+proc-factory-dev-008-A00222,Bench 0.40-B,bench,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S040,Locker room 0.40,0.40,locker_room,50.607,-2.503,1.5,0.4,180.0
+proc-factory-dev-008-A00223,Desk 0.41-A,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S041,Office 0.41,0.41,office,56.65,-1.863,1.4,0.7,270.0
+proc-factory-dev-008-A00224,Desk 0.41-B,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S041,Office 0.41,0.41,office,53.69,-3.103,1.4,0.7,90.0
+proc-factory-dev-008-A00225,Office chair 0.41-A,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S041,Office 0.41,0.41,office,55.167,-2.182,0.6,0.6,180.0
+proc-factory-dev-008-A00226,Office chair 0.41-B,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S041,Office 0.41,0.41,office,54.112,-0.639,0.6,0.6,90.0
+proc-factory-dev-008-A00227,Vending machine 0.42,vending_machine,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S042,Hall access 0.42,0.42,lobby,57.54,-1.981,0.9,0.8,90.0
+proc-factory-dev-008-A00228,Plant 0.42,plant,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S042,Hall access 0.42,0.42,lobby,57.34,-0.447,0.4,0.4,90.0
+proc-factory-dev-008-A00229,Meeting table 0.43,meeting_table,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S043,Meeting room 0.43,0.43,meeting_room,8.913,-9.842,2.4,1.1,90.0
+proc-factory-dev-008-A00230,Chair 0.43-A,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S043,Meeting room 0.43,0.43,meeting_room,7.039,-7.85,0.5,0.5,180.0
+proc-factory-dev-008-A00231,Chair 0.43-B,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S043,Meeting room 0.43,0.43,meeting_room,7.672,-7.391,0.5,0.5,180.0
+proc-factory-dev-008-A00232,Chair 0.43-C,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S043,Meeting room 0.43,0.43,meeting_room,7.875,-10.439,0.5,0.5,90.0
+proc-factory-dev-008-A00233,Chair 0.43-D,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S043,Meeting room 0.43,0.43,meeting_room,7.445,-10.944,0.5,0.5,90.0
+proc-factory-dev-008-A00234,Chair 0.43-E,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S043,Meeting room 0.43,0.43,meeting_room,7.325,-9.388,0.5,0.5,180.0
+proc-factory-dev-008-A00235,Chair 0.43-F,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S043,Meeting room 0.43,0.43,meeting_room,9.798,-9.931,0.5,0.5,90.0
+proc-factory-dev-008-A00236,Chair 0.43-G,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S043,Meeting room 0.43,0.43,meeting_room,8.567,-8.161,0.5,0.5,90.0
+proc-factory-dev-008-A00237,Chair 0.43-H,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S043,Meeting room 0.43,0.43,meeting_room,7.498,-11.545,0.5,0.5,180.0
+proc-factory-dev-008-A00238,Chair 0.43-I,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S043,Meeting room 0.43,0.43,meeting_room,10.54,-11.442,0.5,0.5,180.0
+proc-factory-dev-008-A00239,Display screen 0.43,display_screen,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S043,Meeting room 0.43,0.43,meeting_room,10.65,-9.868,1.6,0.3,270.0
+proc-factory-dev-008-A00240,Whiteboard 0.43,whiteboard,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S043,Meeting room 0.43,0.43,meeting_room,9.867,-11.88,1.8,0.1,180.0
+proc-factory-dev-008-A00241,Meeting table 0.44,meeting_table,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S044,Meeting room 0.44,0.44,meeting_room,13.189,-10.202,2.4,1.1,90.0
+proc-factory-dev-008-A00242,Chair 0.44-A,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S044,Meeting room 0.44,0.44,meeting_room,15.617,-8.622,0.5,0.5,90.0
+proc-factory-dev-008-A00243,Chair 0.44-B,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S044,Meeting room 0.44,0.44,meeting_room,11.971,-10.776,0.5,0.5,90.0
+proc-factory-dev-008-A00244,Chair 0.44-C,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S044,Meeting room 0.44,0.44,meeting_room,15.123,-10.162,0.5,0.5,90.0
+proc-factory-dev-008-A00245,Chair 0.44-D,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S044,Meeting room 0.44,0.44,meeting_room,14.179,-9.497,0.5,0.5,90.0
+proc-factory-dev-008-A00246,Chair 0.44-E,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S044,Meeting room 0.44,0.44,meeting_room,12.902,-8.551,0.5,0.5,90.0
+proc-factory-dev-008-A00247,Chair 0.44-F,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S044,Meeting room 0.44,0.44,meeting_room,12.101,-11.406,0.5,0.5,180.0
+proc-factory-dev-008-A00248,Chair 0.44-G,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S044,Meeting room 0.44,0.44,meeting_room,14.469,-7.647,0.5,0.5,180.0
+proc-factory-dev-008-A00249,Chair 0.44-H,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S044,Meeting room 0.44,0.44,meeting_room,12.369,-9.928,0.5,0.5,180.0
+proc-factory-dev-008-A00250,Chair 0.44-I,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S044,Meeting room 0.44,0.44,meeting_room,15.439,-9.497,0.5,0.5,180.0
+proc-factory-dev-008-A00251,Chair 0.44-J,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S044,Meeting room 0.44,0.44,meeting_room,14.046,-8.659,0.5,0.5,180.0
+proc-factory-dev-008-A00252,Display screen 0.44,display_screen,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S044,Meeting room 0.44,0.44,meeting_room,11.09,-9.038,1.6,0.3,90.0
+proc-factory-dev-008-A00253,Meeting table 0.45,meeting_table,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S045,Meeting room 0.45,0.45,meeting_room,18.003,-9.957,2.4,1.1,180.0
+proc-factory-dev-008-A00254,Chair 0.45-A,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S045,Meeting room 0.45,0.45,meeting_room,18.543,-11.034,0.5,0.5,180.0
+proc-factory-dev-008-A00255,Chair 0.45-B,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S045,Meeting room 0.45,0.45,meeting_room,19.459,-9.709,0.5,0.5,90.0
+proc-factory-dev-008-A00256,Chair 0.45-C,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S045,Meeting room 0.45,0.45,meeting_room,19.551,-8.805,0.5,0.5,180.0
+proc-factory-dev-008-A00257,Chair 0.45-D,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S045,Meeting room 0.45,0.45,meeting_room,18.539,-11.695,0.5,0.5,180.0
+proc-factory-dev-008-A00258,Chair 0.45-E,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S045,Meeting room 0.45,0.45,meeting_room,16.92,-8.113,0.5,0.5,90.0
+proc-factory-dev-008-A00259,Chair 0.45-F,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S045,Meeting room 0.45,0.45,meeting_room,16.342,-11.356,0.5,0.5,180.0
+proc-factory-dev-008-A00260,Chair 0.45-G,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S045,Meeting room 0.45,0.45,meeting_room,17.761,-8.269,0.5,0.5,90.0
+proc-factory-dev-008-A00261,Chair 0.45-H,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S045,Meeting room 0.45,0.45,meeting_room,18.387,-8.822,0.5,0.5,180.0
+proc-factory-dev-008-A00262,Chair 0.45-I,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S045,Meeting room 0.45,0.45,meeting_room,17.672,-8.851,0.5,0.5,180.0
+proc-factory-dev-008-A00263,Display screen 0.45,display_screen,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S045,Meeting room 0.45,0.45,meeting_room,16.21,-7.91,1.6,0.3,90.0
+proc-factory-dev-008-A00264,Whiteboard 0.45,whiteboard,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S045,Meeting room 0.45,0.45,meeting_room,16.997,-11.88,1.8,0.1,180.0
+proc-factory-dev-008-A00265,Desk 0.46-A,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S046,Office 0.46,0.46,office,23.8,-9.928,1.4,0.7,270.0
+proc-factory-dev-008-A00266,Desk 0.46-B,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S046,Office 0.46,0.46,office,20.81,-9.309,1.4,0.7,90.0
+proc-factory-dev-008-A00267,Office chair 0.46-A,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S046,Office 0.46,0.46,office,21.056,-7.824,0.6,0.6,180.0
+proc-factory-dev-008-A00268,Office chair 0.46-B,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S046,Office 0.46,0.46,office,21.505,-8.552,0.6,0.6,90.0
+proc-factory-dev-008-A00269,Filing cabinet 0.46-A,filing_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S046,Office 0.46,0.46,office,20.76,-10.797,0.5,0.6,90.0
+proc-factory-dev-008-A00270,Filing cabinet 0.46-B,filing_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S046,Office 0.46,0.46,office,23.85,-8.226,0.5,0.6,270.0
+proc-factory-dev-008-A00271,Bookshelf 0.46,bookshelf,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S046,Office 0.46,0.46,office,22.412,-11.755,0.9,0.35,180.0
+proc-factory-dev-008-A00272,Desk 0.47-A,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S047,Office 0.47,0.47,office,25.656,-11.58,1.4,0.7,180.0
+proc-factory-dev-008-A00273,Desk 0.47-B,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S047,Office 0.47,0.47,office,28.24,-11.58,1.4,0.7,180.0
+proc-factory-dev-008-A00274,Office chair 0.47-A,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S047,Office 0.47,0.47,office,29.504,-9.233,0.6,0.6,180.0
+proc-factory-dev-008-A00275,Office chair 0.47-B,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S047,Office 0.47,0.47,office,28.915,-10.909,0.6,0.6,90.0
+proc-factory-dev-008-A00276,Bookshelf 0.47,bookshelf,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S047,Office 0.47,0.47,office,24.465,-8.945,0.9,0.35,90.0
+proc-factory-dev-008-A00277,Desk 0.48-A,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S048,Office 0.48,0.48,office,30.36,-8.225,1.4,0.7,90.0
+proc-factory-dev-008-A00278,Desk 0.48-B,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S048,Office 0.48,0.48,office,32.928,-11.58,1.4,0.7,180.0
+proc-factory-dev-008-A00279,Office chair 0.48-A,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S048,Office 0.48,0.48,office,31.85,-11.153,0.6,0.6,180.0
+proc-factory-dev-008-A00280,Office chair 0.48-B,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S048,Office 0.48,0.48,office,30.518,-9.578,0.6,0.6,90.0
+proc-factory-dev-008-A00281,Filing cabinet 0.48-A,filing_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S048,Office 0.48,0.48,office,34.923,-7.37,0.5,0.6,0.0
+proc-factory-dev-008-A00282,Filing cabinet 0.48-B,filing_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S048,Office 0.48,0.48,office,30.31,-11.336,0.5,0.6,90.0
+proc-factory-dev-008-A00283,Plant 0.48,plant,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S048,Office 0.48,0.48,office,35.28,-10.87,0.4,0.4,270.0
+proc-factory-dev-008-A00284,Desk 0.49-A,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S049,Office 0.49,0.49,office,35.97,-9.962,1.4,0.7,90.0
+proc-factory-dev-008-A00285,Desk 0.49-B,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S049,Office 0.49,0.49,office,38.166,-11.58,1.4,0.7,180.0
+proc-factory-dev-008-A00286,Office chair 0.49-A,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S049,Office 0.49,0.49,office,37.575,-9.342,0.6,0.6,90.0
+proc-factory-dev-008-A00287,Office chair 0.49-B,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S049,Office 0.49,0.49,office,38.808,-10.365,0.6,0.6,0.0
+proc-factory-dev-008-A00288,Desk 0.50,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S050,Office 0.50,0.50,office,44.01,-9.392,1.4,0.7,270.0
+proc-factory-dev-008-A00289,Office chair 0.50,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S050,Office 0.50,0.50,office,42.214,-10.447,0.6,0.6,90.0
+proc-factory-dev-008-A00290,Filing cabinet 0.50,filing_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S050,Office 0.50,0.50,office,41.25,-8.151,0.5,0.6,90.0
+proc-factory-dev-008-A00291,Bookshelf 0.50,bookshelf,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S050,Office 0.50,0.50,office,41.125,-9.572,0.9,0.35,90.0
+proc-factory-dev-008-A00292,Plant 0.50,plant,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S050,Office 0.50,0.50,office,44.16,-10.397,0.4,0.4,270.0
+proc-factory-dev-008-A00293,Toilet 0.51-A,toilet,fixture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S051,Toilet 0.51,0.51,toilet,44.85,-9.955,0.4,0.7,90.0
+proc-factory-dev-008-A00294,Toilet 0.51-B,toilet,fixture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S051,Toilet 0.51,0.51,toilet,47.463,-11.58,0.4,0.7,180.0
+proc-factory-dev-008-A00295,Toilet 0.51-C,toilet,fixture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S051,Toilet 0.51,0.51,toilet,47.987,-11.58,0.4,0.7,180.0
+proc-factory-dev-008-A00296,Toilet 0.51-D,toilet,fixture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S051,Toilet 0.51,0.51,toilet,46.524,-11.58,0.4,0.7,180.0
+proc-factory-dev-008-A00297,Sink 0.51-A,sink,fixture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S051,Toilet 0.51,0.51,toilet,44.725,-8.089,0.6,0.45,90.0
+proc-factory-dev-008-A00298,Sink 0.51-B,sink,fixture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S051,Toilet 0.51,0.51,toilet,48.954,-11.705,0.6,0.45,180.0
+proc-factory-dev-008-A00299,Hand dryer 0.51,hand_dryer,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S051,Toilet 0.51,0.51,toilet,45.498,-7.17,0.3,0.2,0.0
+proc-factory-dev-008-A00300,Meeting table 0.52,meeting_table,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S052,Meeting room 0.52,0.52,meeting_room,51.95,-10.198,2.4,1.1,90.0
+proc-factory-dev-008-A00301,Chair 0.52-A,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S052,Meeting room 0.52,0.52,meeting_room,53.57,-9.689,0.5,0.5,90.0
+proc-factory-dev-008-A00302,Chair 0.52-B,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S052,Meeting room 0.52,0.52,meeting_room,53.007,-11.558,0.5,0.5,90.0
+proc-factory-dev-008-A00303,Chair 0.52-C,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S052,Meeting room 0.52,0.52,meeting_room,54.31,-8.514,0.5,0.5,90.0
+proc-factory-dev-008-A00304,Chair 0.52-D,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S052,Meeting room 0.52,0.52,meeting_room,49.929,-8.853,0.5,0.5,90.0
+proc-factory-dev-008-A00305,Chair 0.52-E,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S052,Meeting room 0.52,0.52,meeting_room,50.432,-10.174,0.5,0.5,180.0
+proc-factory-dev-008-A00306,Chair 0.52-F,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S052,Meeting room 0.52,0.52,meeting_room,50.547,-9.398,0.5,0.5,180.0
+proc-factory-dev-008-A00307,Chair 0.52-G,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S052,Meeting room 0.52,0.52,meeting_room,53.234,-10.41,0.5,0.5,180.0
+proc-factory-dev-008-A00308,Chair 0.52-H,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S052,Meeting room 0.52,0.52,meeting_room,54.42,-11.023,0.5,0.5,180.0
+proc-factory-dev-008-A00309,Chair 0.52-I,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S052,Meeting room 0.52,0.52,meeting_room,49.795,-10.804,0.5,0.5,180.0
+proc-factory-dev-008-A00310,Chair 0.52-J,chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S052,Meeting room 0.52,0.52,meeting_room,54.259,-9.975,0.5,0.5,90.0
+proc-factory-dev-008-A00311,Display screen 0.52,display_screen,equipment,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S052,Meeting room 0.52,0.52,meeting_room,50.669,-11.78,1.6,0.3,180.0
+proc-factory-dev-008-A00312,Desk 0.53-A,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S053,Office 0.53,0.53,office,57.341,-11.58,1.4,0.7,180.0
+proc-factory-dev-008-A00313,Desk 0.53-B,desk,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S053,Office 0.53,0.53,office,55.717,-11.58,1.4,0.7,180.0
+proc-factory-dev-008-A00314,Office chair 0.53-A,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S053,Office 0.53,0.53,office,59.885,-9.458,0.6,0.6,180.0
+proc-factory-dev-008-A00315,Office chair 0.53-B,office_chair,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S053,Office 0.53,0.53,office,56.723,-10.005,0.6,0.6,180.0
+proc-factory-dev-008-A00316,Filing cabinet 0.53,filing_cabinet,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S053,Office 0.53,0.53,office,55.685,-7.37,0.5,0.6,0.0
+proc-factory-dev-008-A00317,Plant 0.53,plant,furniture,generated,proc-factory-dev-008,0,Ground floor,proc-factory-dev-008-F0-S053,Office 0.53,0.53,office,55.04,-10.747,0.4,0.4,90.0
+proc-factory-dev-008-A00318,Fire extinguisher 1.02,fire_extinguisher,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S002,Staircase 1.02,1.02,stairwell,0.22,-7.39,0.3,0.3,90.0
+proc-factory-dev-008-A00319,Desk 1.04,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S004,Office 1.04,1.04,office,1.287,-0.42,1.4,0.7,0.0
+proc-factory-dev-008-A00320,Office chair 1.04,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S004,Office 1.04,1.04,office,2.64,-2.836,0.6,0.6,180.0
+proc-factory-dev-008-A00321,Plant 1.04,plant,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S004,Office 1.04,1.04,office,3.22,-2.969,0.4,0.4,270.0
+proc-factory-dev-008-A00322,Desk 1.05-A,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S005,Office 1.05,1.05,office,7.81,-1.897,1.4,0.7,270.0
+proc-factory-dev-008-A00323,Desk 1.05-B,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S005,Office 1.05,1.05,office,4.589,-0.42,1.4,0.7,0.0
+proc-factory-dev-008-A00324,Office chair 1.05-A,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S005,Office 1.05,1.05,office,6.974,-1.55,0.6,0.6,90.0
+proc-factory-dev-008-A00325,Office chair 1.05-B,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S005,Office 1.05,1.05,office,6.932,-0.795,0.6,0.6,180.0
+proc-factory-dev-008-A00326,Plant 1.05,plant,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S005,Office 1.05,1.05,office,7.8,-0.27,0.4,0.4,0.0
+proc-factory-dev-008-A00327,Toilet 1.06-A,toilet,fixture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S006,Toilet 1.06,1.06,toilet,11.093,-0.42,0.4,0.7,0.0
+proc-factory-dev-008-A00328,Toilet 1.06-B,toilet,fixture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S006,Toilet 1.06,1.06,toilet,8.65,-4.627,0.4,0.7,90.0
+proc-factory-dev-008-A00329,Toilet 1.06-C,toilet,fixture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S006,Toilet 1.06,1.06,toilet,12.97,-3.14,0.4,0.7,270.0
+proc-factory-dev-008-A00330,Toilet 1.06-D,toilet,fixture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S006,Toilet 1.06,1.06,toilet,10.484,-0.42,0.4,0.7,0.0
+proc-factory-dev-008-A00331,Sink 1.06,sink,fixture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S006,Toilet 1.06,1.06,toilet,8.525,-3.34,0.6,0.45,90.0
+proc-factory-dev-008-A00332,Meeting table 1.07,meeting_table,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S007,Meeting room 1.07,1.07,meeting_room,15.026,-2.734,2.4,1.1,180.0
+proc-factory-dev-008-A00333,Chair 1.07-A,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S007,Meeting room 1.07,1.07,meeting_room,16.007,-0.45,0.5,0.5,90.0
+proc-factory-dev-008-A00334,Chair 1.07-B,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S007,Meeting room 1.07,1.07,meeting_room,14.308,-4.564,0.5,0.5,180.0
+proc-factory-dev-008-A00335,Chair 1.07-C,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S007,Meeting room 1.07,1.07,meeting_room,13.767,-4.072,0.5,0.5,180.0
+proc-factory-dev-008-A00336,Chair 1.07-D,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S007,Meeting room 1.07,1.07,meeting_room,16.848,-1.845,0.5,0.5,180.0
+proc-factory-dev-008-A00337,Chair 1.07-E,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S007,Meeting room 1.07,1.07,meeting_room,15.351,-0.481,0.5,0.5,180.0
+proc-factory-dev-008-A00338,Chair 1.07-F,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S007,Meeting room 1.07,1.07,meeting_room,14.55,-3.805,0.5,0.5,90.0
+proc-factory-dev-008-A00339,Chair 1.07-G,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S007,Meeting room 1.07,1.07,meeting_room,16.843,-2.595,0.5,0.5,180.0
+proc-factory-dev-008-A00340,Chair 1.07-H,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S007,Meeting room 1.07,1.07,meeting_room,16.835,-3.105,0.5,0.5,180.0
+proc-factory-dev-008-A00341,Display screen 1.07,display_screen,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S007,Meeting room 1.07,1.07,meeting_room,13.61,-1.924,1.6,0.3,90.0
+proc-factory-dev-008-A00342,Server rack 1.08-A,server_rack,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S008,Server room 1.08,1.08,server_room,18.278,-0.424,0.6,1.2,90.0
+proc-factory-dev-008-A00343,Server rack 1.08-B,server_rack,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S008,Server room 1.08,1.08,server_room,19.151,-1.243,0.6,1.2,90.0
+proc-factory-dev-008-A00344,Server rack 1.08-C,server_rack,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S008,Server room 1.08,1.08,server_room,18.897,-3.902,0.6,1.2,90.0
+proc-factory-dev-008-A00345,Server rack 1.08-D,server_rack,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S008,Server room 1.08,1.08,server_room,19.05,-2.858,0.6,1.2,90.0
+proc-factory-dev-008-A00346,Server rack 1.08-E,server_rack,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S008,Server room 1.08,1.08,server_room,20.233,-2.28,0.6,1.2,180.0
+proc-factory-dev-008-A00347,UPS unit 1.08,ups_unit,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S008,Server room 1.08,1.08,server_room,20.19,-0.608,0.6,0.8,270.0
+proc-factory-dev-008-A00348,Fire extinguisher 1.08,fire_extinguisher,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S008,Server room 1.08,1.08,server_room,20.44,-1.165,0.3,0.3,270.0
+proc-factory-dev-008-A00349,Desk 1.09,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S009,Office 1.09,1.09,office,23.98,-1.89,1.4,0.7,270.0
+proc-factory-dev-008-A00350,Office chair 1.09,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S009,Office 1.09,1.09,office,22.884,-2.541,0.6,0.6,90.0
+proc-factory-dev-008-A00351,Bookshelf 1.09,bookshelf,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S009,Office 1.09,1.09,office,20.905,-4.085,0.9,0.35,90.0
+proc-factory-dev-008-A00352,Kitchen counter 1.10,kitchen_counter,fixture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S010,Kitchen 1.10,1.10,kitchen,26.471,-0.37,2.4,0.6,0.0
+proc-factory-dev-008-A00353,Fridge 1.10,fridge,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S010,Kitchen 1.10,1.10,kitchen,24.795,-3.55,0.6,0.65,90.0
+proc-factory-dev-008-A00354,Stove 1.10,stove,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S010,Kitchen 1.10,1.10,kitchen,28.51,-0.43,0.6,0.6,270.0
+proc-factory-dev-008-A00355,Dishwasher 1.10,dishwasher,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S010,Kitchen 1.10,1.10,kitchen,28.51,-2.437,0.6,0.6,270.0
+proc-factory-dev-008-A00356,Microwave 1.10,microwave,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S010,Kitchen 1.10,1.10,kitchen,28.61,-4.306,0.5,0.4,270.0
+proc-factory-dev-008-A00357,Coffee machine 1.10,coffee_machine,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S010,Kitchen 1.10,1.10,kitchen,24.67,-1.741,0.4,0.4,90.0
+proc-factory-dev-008-A00358,Desk 1.11-A,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S011,Office 1.11,1.11,office,32.76,-3.895,1.4,0.7,270.0
+proc-factory-dev-008-A00359,Desk 1.11-B,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S011,Office 1.11,1.11,office,29.3,-1.81,1.4,0.7,90.0
+proc-factory-dev-008-A00360,Office chair 1.11-A,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S011,Office 1.11,1.11,office,29.412,-3.071,0.6,0.6,90.0
+proc-factory-dev-008-A00361,Office chair 1.11-B,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S011,Office 1.11,1.11,office,31.74,-1.749,0.6,0.6,180.0
+proc-factory-dev-008-A00362,Bookshelf 1.11,bookshelf,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S011,Office 1.11,1.11,office,29.125,-3.924,0.9,0.35,90.0
+proc-factory-dev-008-A00363,Plant 1.11,plant,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S011,Office 1.11,1.11,office,30.94,-0.27,0.4,0.4,0.0
+proc-factory-dev-008-A00364,Desk 1.12,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S012,Office 1.12,1.12,office,35.93,-3.419,1.4,0.7,270.0
+proc-factory-dev-008-A00365,Office chair 1.12,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S012,Office 1.12,1.12,office,35.92,-0.596,0.6,0.6,90.0
+proc-factory-dev-008-A00366,Desk 1.13-A,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S013,Office 1.13,1.13,office,41.02,-3.806,1.4,0.7,270.0
+proc-factory-dev-008-A00367,Desk 1.13-B,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S013,Office 1.13,1.13,office,37.956,-0.42,1.4,0.7,0.0
+proc-factory-dev-008-A00368,Office chair 1.13-A,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S013,Office 1.13,1.13,office,38.616,-3.284,0.6,0.6,90.0
+proc-factory-dev-008-A00369,Office chair 1.13-B,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S013,Office 1.13,1.13,office,39.641,-0.363,0.6,0.6,180.0
+proc-factory-dev-008-A00370,Filing cabinet 1.13-A,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S013,Office 1.13,1.13,office,36.72,-3.993,0.5,0.6,90.0
+proc-factory-dev-008-A00371,Filing cabinet 1.13-B,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S013,Office 1.13,1.13,office,37.637,-4.63,0.5,0.6,180.0
+proc-factory-dev-008-A00372,Plant 1.13,plant,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S013,Office 1.13,1.13,office,36.62,-2.622,0.4,0.4,90.0
+proc-factory-dev-008-A00373,Desk 1.14,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S014,Office 1.14,1.14,office,41.86,-4.037,1.4,0.7,90.0
+proc-factory-dev-008-A00374,Office chair 1.14,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S014,Office 1.14,1.14,office,43.129,-2.314,0.6,0.6,90.0
+proc-factory-dev-008-A00375,Filing cabinet 1.14,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S014,Office 1.14,1.14,office,41.986,-0.37,0.5,0.6,0.0
+proc-factory-dev-008-A00376,Bookshelf 1.14,bookshelf,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S014,Office 1.14,1.14,office,42.774,-0.245,0.9,0.35,0.0
+proc-factory-dev-008-A00377,Desk 1.15,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S015,Office 1.15,1.15,office,46.173,-0.42,1.4,0.7,0.0
+proc-factory-dev-008-A00378,Office chair 1.15,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S015,Office 1.15,1.15,office,45.505,-3.529,0.6,0.6,180.0
+proc-factory-dev-008-A00379,Filing cabinet 1.15-A,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S015,Office 1.15,1.15,office,45.4,-1.482,0.5,0.6,90.0
+proc-factory-dev-008-A00380,Filing cabinet 1.15-B,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S015,Office 1.15,1.15,office,45.4,-2.291,0.5,0.6,90.0
+proc-factory-dev-008-A00381,Desk 1.16-A,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S016,Office 1.16,1.16,office,48.5,-1.262,1.4,0.7,90.0
+proc-factory-dev-008-A00382,Desk 1.16-B,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S016,Office 1.16,1.16,office,52.191,-0.42,1.4,0.7,0.0
+proc-factory-dev-008-A00383,Office chair 1.16-A,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S016,Office 1.16,1.16,office,51.495,-2.821,0.6,0.6,90.0
+proc-factory-dev-008-A00384,Office chair 1.16-B,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S016,Office 1.16,1.16,office,51.149,-1.838,0.6,0.6,90.0
+proc-factory-dev-008-A00385,Filing cabinet 1.16,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S016,Office 1.16,1.16,office,48.45,-4.488,0.5,0.6,90.0
+proc-factory-dev-008-A00386,Bookshelf 1.16,bookshelf,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S016,Office 1.16,1.16,office,48.325,-3.097,0.9,0.35,90.0
+proc-factory-dev-008-A00387,Meeting table 1.17,meeting_table,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S017,Meeting room 1.17,1.17,meeting_room,55.424,-2.205,2.4,1.1,90.0
+proc-factory-dev-008-A00388,Chair 1.17-A,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S017,Meeting room 1.17,1.17,meeting_room,53.601,-3.32,0.5,0.5,90.0
+proc-factory-dev-008-A00389,Chair 1.17-B,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S017,Meeting room 1.17,1.17,meeting_room,56.339,-3.596,0.5,0.5,180.0
+proc-factory-dev-008-A00390,Chair 1.17-C,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S017,Meeting room 1.17,1.17,meeting_room,56.208,-4.385,0.5,0.5,90.0
+proc-factory-dev-008-A00391,Chair 1.17-D,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S017,Meeting room 1.17,1.17,meeting_room,54.077,-0.969,0.5,0.5,180.0
+proc-factory-dev-008-A00392,Chair 1.17-E,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S017,Meeting room 1.17,1.17,meeting_room,53.578,-4.153,0.5,0.5,180.0
+proc-factory-dev-008-A00393,Chair 1.17-F,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S017,Meeting room 1.17,1.17,meeting_room,56.354,-2.808,0.5,0.5,90.0
+proc-factory-dev-008-A00394,Chair 1.17-G,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S017,Meeting room 1.17,1.17,meeting_room,53.719,-1.957,0.5,0.5,90.0
+proc-factory-dev-008-A00395,Chair 1.17-H,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S017,Meeting room 1.17,1.17,meeting_room,54.206,-2.86,0.5,0.5,180.0
+proc-factory-dev-008-A00396,Display screen 1.17,display_screen,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S017,Meeting room 1.17,1.17,meeting_room,56.85,-0.923,1.6,0.3,270.0
+proc-factory-dev-008-A00397,Desk 1.18,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S018,Office 1.18,1.18,office,59.623,-0.42,1.4,0.7,0.0
+proc-factory-dev-008-A00398,Office chair 1.18,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S018,Office 1.18,1.18,office,59.805,-3.65,0.6,0.6,90.0
+proc-factory-dev-008-A00399,Filing cabinet 1.18,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S018,Office 1.18,1.18,office,60.33,-2.991,0.5,0.6,270.0
+proc-factory-dev-008-A00400,Plant 1.18,plant,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S018,Office 1.18,1.18,office,57.441,-0.27,0.4,0.4,0.0
+proc-factory-dev-008-A00401,Desk 1.19-A,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S019,Office 1.19,1.19,office,6.92,-8.318,1.4,0.7,90.0
+proc-factory-dev-008-A00402,Desk 1.19-B,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S019,Office 1.19,1.19,office,7.532,-11.58,1.4,0.7,180.0
+proc-factory-dev-008-A00403,Office chair 1.19-A,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S019,Office 1.19,1.19,office,9.067,-11.245,0.6,0.6,90.0
+proc-factory-dev-008-A00404,Office chair 1.19-B,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S019,Office 1.19,1.19,office,7.99,-8.26,0.6,0.6,180.0
+proc-factory-dev-008-A00405,Filing cabinet 1.19-A,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S019,Office 1.19,1.19,office,10.5,-10.993,0.5,0.6,270.0
+proc-factory-dev-008-A00406,Filing cabinet 1.19-B,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S019,Office 1.19,1.19,office,6.87,-9.567,0.5,0.6,90.0
+proc-factory-dev-008-A00407,Bookshelf 1.19,bookshelf,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S019,Office 1.19,1.19,office,10.625,-8.096,0.9,0.35,270.0
+proc-factory-dev-008-A00408,Plant 1.19,plant,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S019,Office 1.19,1.19,office,10.6,-10.266,0.4,0.4,270.0
+proc-factory-dev-008-A00409,Desk 1.20-A,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S020,Office 1.20,1.20,office,15.032,-7.42,1.4,0.7,0.0
+proc-factory-dev-008-A00410,Desk 1.20-B,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S020,Office 1.20,1.20,office,11.29,-8.572,1.4,0.7,90.0
+proc-factory-dev-008-A00411,Office chair 1.20-A,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S020,Office 1.20,1.20,office,14.355,-9.011,0.6,0.6,180.0
+proc-factory-dev-008-A00412,Office chair 1.20-B,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S020,Office 1.20,1.20,office,14.273,-9.955,0.6,0.6,180.0
+proc-factory-dev-008-A00413,Filing cabinet 1.20,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S020,Office 1.20,1.20,office,14.037,-11.63,0.5,0.6,180.0
+proc-factory-dev-008-A00414,Bookshelf 1.20,bookshelf,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S020,Office 1.20,1.20,office,11.115,-10.023,0.9,0.35,90.0
+proc-factory-dev-008-A00415,Desk 1.21-A,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S021,Office 1.21,1.21,office,19.97,-10.806,1.4,0.7,270.0
+proc-factory-dev-008-A00416,Desk 1.21-B,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S021,Office 1.21,1.21,office,16.41,-10.701,1.4,0.7,90.0
+proc-factory-dev-008-A00417,Office chair 1.21-A,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S021,Office 1.21,1.21,office,19.997,-8.579,0.6,0.6,180.0
+proc-factory-dev-008-A00418,Office chair 1.21-B,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S021,Office 1.21,1.21,office,17.245,-10.157,0.6,0.6,90.0
+proc-factory-dev-008-A00419,Kitchen counter 1.22,kitchen_counter,fixture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S022,Kitchen 1.22,1.22,kitchen,23.85,-9.863,2.4,0.6,270.0
+proc-factory-dev-008-A00420,Fridge 1.22,fridge,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S022,Kitchen 1.22,1.22,kitchen,21.286,-11.605,0.6,0.65,180.0
+proc-factory-dev-008-A00421,Stove 1.22,stove,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S022,Kitchen 1.22,1.22,kitchen,20.76,-7.618,0.6,0.6,90.0
+proc-factory-dev-008-A00422,Dishwasher 1.22,dishwasher,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S022,Kitchen 1.22,1.22,kitchen,23.85,-7.586,0.6,0.6,270.0
+proc-factory-dev-008-A00423,Microwave 1.22,microwave,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S022,Kitchen 1.22,1.22,kitchen,22.141,-11.73,0.5,0.4,180.0
+proc-factory-dev-008-A00424,Coffee machine 1.22,coffee_machine,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S022,Kitchen 1.22,1.22,kitchen,23.52,-11.73,0.4,0.4,180.0
+proc-factory-dev-008-A00425,Meeting table 1.23,meeting_table,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S023,Meeting room 1.23,1.23,meeting_room,26.938,-9.991,2.4,1.1,180.0
+proc-factory-dev-008-A00426,Chair 1.23-A,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S023,Meeting room 1.23,1.23,meeting_room,27.36,-11.647,0.5,0.5,90.0
+proc-factory-dev-008-A00427,Chair 1.23-B,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S023,Meeting room 1.23,1.23,meeting_room,28.84,-8.597,0.5,0.5,180.0
+proc-factory-dev-008-A00428,Chair 1.23-C,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S023,Meeting room 1.23,1.23,meeting_room,26.639,-8.551,0.5,0.5,180.0
+proc-factory-dev-008-A00429,Chair 1.23-D,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S023,Meeting room 1.23,1.23,meeting_room,25.993,-7.631,0.5,0.5,180.0
+proc-factory-dev-008-A00430,Chair 1.23-E,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S023,Meeting room 1.23,1.23,meeting_room,28.172,-8.219,0.5,0.5,90.0
+proc-factory-dev-008-A00431,Chair 1.23-F,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S023,Meeting room 1.23,1.23,meeting_room,28.699,-10.276,0.5,0.5,90.0
+proc-factory-dev-008-A00432,Chair 1.23-G,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S023,Meeting room 1.23,1.23,meeting_room,24.959,-8.818,0.5,0.5,180.0
+proc-factory-dev-008-A00433,Chair 1.23-H,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S023,Meeting room 1.23,1.23,meeting_room,29.264,-10.576,0.5,0.5,180.0
+proc-factory-dev-008-A00434,Chair 1.23-I,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S023,Meeting room 1.23,1.23,meeting_room,28.689,-11.271,0.5,0.5,180.0
+proc-factory-dev-008-A00435,Chair 1.23-J,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S023,Meeting room 1.23,1.23,meeting_room,26.873,-9.176,0.5,0.5,90.0
+proc-factory-dev-008-A00436,Display screen 1.23,display_screen,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S023,Meeting room 1.23,1.23,meeting_room,24.44,-10.242,1.6,0.3,90.0
+proc-factory-dev-008-A00437,Desk 1.24-A,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S024,Office 1.24,1.24,office,35.13,-7.982,1.4,0.7,270.0
+proc-factory-dev-008-A00438,Desk 1.24-B,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S024,Office 1.24,1.24,office,35.13,-11.072,1.4,0.7,270.0
+proc-factory-dev-008-A00439,Office chair 1.24-A,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S024,Office 1.24,1.24,office,32.644,-9.9,0.6,0.6,180.0
+proc-factory-dev-008-A00440,Office chair 1.24-B,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S024,Office 1.24,1.24,office,31.598,-10.598,0.6,0.6,180.0
+proc-factory-dev-008-A00441,Filing cabinet 1.24,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S024,Office 1.24,1.24,office,30.767,-7.37,0.5,0.6,0.0
+proc-factory-dev-008-A00442,Bookshelf 1.24,bookshelf,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S024,Office 1.24,1.24,office,30.185,-8.012,0.9,0.35,90.0
+proc-factory-dev-008-A00443,Desk 1.25-A,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S025,Office 1.25,1.25,office,37.891,-11.58,1.4,0.7,180.0
+proc-factory-dev-008-A00444,Desk 1.25-B,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S025,Office 1.25,1.25,office,40.46,-8.549,1.4,0.7,270.0
+proc-factory-dev-008-A00445,Office chair 1.25-A,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S025,Office 1.25,1.25,office,37.395,-9.316,0.6,0.6,0.0
+proc-factory-dev-008-A00446,Office chair 1.25-B,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S025,Office 1.25,1.25,office,35.956,-10.003,0.6,0.6,90.0
+proc-factory-dev-008-A00447,Filing cabinet 1.25-A,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S025,Office 1.25,1.25,office,39.777,-11.63,0.5,0.6,180.0
+proc-factory-dev-008-A00448,Filing cabinet 1.25-B,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S025,Office 1.25,1.25,office,35.92,-8.681,0.5,0.6,90.0
+proc-factory-dev-008-A00449,Bookshelf 1.25,bookshelf,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S025,Office 1.25,1.25,office,36.442,-11.755,0.9,0.35,180.0
+proc-factory-dev-008-A00450,Plant 1.25,plant,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S025,Office 1.25,1.25,office,39.693,-7.27,0.4,0.4,0.0
+proc-factory-dev-008-A00451,Kitchen counter 1.26,kitchen_counter,fixture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S026,Kitchen 1.26,1.26,kitchen,44.06,-8.632,2.4,0.6,270.0
+proc-factory-dev-008-A00452,Fridge 1.26,fridge,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S026,Kitchen 1.26,1.26,kitchen,41.887,-11.605,0.6,0.65,180.0
+proc-factory-dev-008-A00453,Stove 1.26,stove,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S026,Kitchen 1.26,1.26,kitchen,43.068,-11.63,0.6,0.6,180.0
+proc-factory-dev-008-A00454,Dishwasher 1.26,dishwasher,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S026,Kitchen 1.26,1.26,kitchen,41.393,-7.37,0.6,0.6,0.0
+proc-factory-dev-008-A00455,Coffee machine 1.26,coffee_machine,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S026,Kitchen 1.26,1.26,kitchen,41.15,-10.591,0.4,0.4,90.0
+proc-factory-dev-008-A00456,Meeting table 1.27,meeting_table,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,46.546,-9.066,2.4,1.1,90.0
+proc-factory-dev-008-A00457,Chair 1.27-A,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,45.432,-10.782,0.5,0.5,180.0
+proc-factory-dev-008-A00458,Chair 1.27-B,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,47.703,-9.891,0.5,0.5,180.0
+proc-factory-dev-008-A00459,Chair 1.27-C,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,45.551,-7.903,0.5,0.5,90.0
+proc-factory-dev-008-A00460,Chair 1.27-D,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,47.924,-9.178,0.5,0.5,180.0
+proc-factory-dev-008-A00461,Chair 1.27-E,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,49.026,-7.491,0.5,0.5,180.0
+proc-factory-dev-008-A00462,Chair 1.27-F,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,48.937,-10.211,0.5,0.5,180.0
+proc-factory-dev-008-A00463,Chair 1.27-G,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,48.494,-9.493,0.5,0.5,180.0
+proc-factory-dev-008-A00464,Chair 1.27-H,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,48.455,-11.664,0.5,0.5,180.0
+proc-factory-dev-008-A00465,Chair 1.27-I,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,45.397,-8.902,0.5,0.5,90.0
+proc-factory-dev-008-A00466,Chair 1.27-J,chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,49.097,-8.332,0.5,0.5,90.0
+proc-factory-dev-008-A00467,Display screen 1.27,display_screen,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,46.141,-11.78,1.6,0.3,180.0
+proc-factory-dev-008-A00468,Whiteboard 1.27,whiteboard,equipment,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S027,Meeting room 1.27,1.27,meeting_room,44.55,-9.016,1.8,0.1,90.0
+proc-factory-dev-008-A00469,Desk 1.28-A,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S028,Office 1.28,1.28,office,49.89,-10.882,1.4,0.7,90.0
+proc-factory-dev-008-A00470,Desk 1.28-B,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S028,Office 1.28,1.28,office,54.013,-11.58,1.4,0.7,180.0
+proc-factory-dev-008-A00471,Office chair 1.28-A,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S028,Office 1.28,1.28,office,51.831,-9.186,0.6,0.6,90.0
+proc-factory-dev-008-A00472,Office chair 1.28-B,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S028,Office 1.28,1.28,office,51.367,-10.038,0.6,0.6,180.0
+proc-factory-dev-008-A00473,Filing cabinet 1.28,filing_cabinet,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S028,Office 1.28,1.28,office,54.4,-7.884,0.5,0.6,270.0
+proc-factory-dev-008-A00474,Bookshelf 1.28,bookshelf,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S028,Office 1.28,1.28,office,49.715,-7.611,0.9,0.35,90.0
+proc-factory-dev-008-A00475,Desk 1.29-A,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S029,Office 1.29,1.29,office,60.28,-10.44,1.4,0.7,270.0
+proc-factory-dev-008-A00476,Desk 1.29-B,desk,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S029,Office 1.29,1.29,office,57.764,-11.58,1.4,0.7,180.0
+proc-factory-dev-008-A00477,Office chair 1.29-A,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S029,Office 1.29,1.29,office,55.43,-7.654,0.6,0.6,90.0
+proc-factory-dev-008-A00478,Office chair 1.29-B,office_chair,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S029,Office 1.29,1.29,office,58.853,-7.602,0.6,0.6,180.0
+proc-factory-dev-008-A00479,Bookshelf 1.29,bookshelf,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S029,Office 1.29,1.29,office,55.692,-11.755,0.9,0.35,180.0
+proc-factory-dev-008-A00480,Plant 1.29,plant,furniture,generated,proc-factory-dev-008,1,Floor 1,proc-factory-dev-008-F1-S029,Office 1.29,1.29,office,60.43,-8.427,0.4,0.4,270.0
