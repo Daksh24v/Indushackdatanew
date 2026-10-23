@@ -1,4 +1,4 @@
-# Track 01 — Talk to Your Building: Agent-First Indoor Navigation
+# Talk to Your Building: Agent-First Indoor Navigation
 
 **Industrial Agents Hackathon 2026**, in cooperation with UVC Partners and Anthropic. This is the student kit for Track 01.
 
