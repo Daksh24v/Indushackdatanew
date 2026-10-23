@@ -1,18 +1,40 @@
-# Track 01 — Google Maps for Every Building: student kit
+# Track 01 — Talk to Your Building: Agent-First Indoor Navigation
 
-Build a conversational agent that knows a building as well as its facility manager does. You give it a building, and people just ask it things:
+**Industrial Agents Hackathon 2026**, in cooperation with UVC Partners and Anthropic. This is the student kit for Track 01.
 
-- *"Where is the 3D printer?"*
-- *"How do I get from the lobby to the CNC mill on floor 2 without stairs?"*
-- *"The east lift is closed for maintenance. What changes?"*
-- *"Add a door between rooms 2.03 and 2.04."*
+## The story
 
-This kit has everything you need to start:
+You have walked into an office complex or a factory hall and had no idea where to go. Outdoors we solved this long ago: type where you want to be, and a map shows the way. Indoors, floor plans are PDFs, machines live in spreadsheets, and the one person who knows where the 3D printer is has gone home.
+
+**Your mission:** give any building its own map you can talk to. Feed your system a floor plan and it learns the building. Then anyone can just talk to it.
+
+A factory hall is a building that never stops changing. Machines move, aisles get blocked, deliveries arrive every hour. Think of the people who ask:
+
+- **Service technician:** *"Which of the three presses is line 4, and how do I get there?"*
+- **Forklift driver:** *"Aisle 4 is blocked. Fastest route to dock B?"*
+- **Logistics:** *"Where is the steel drum delivered yesterday?"*
+
+Questions your agent should answer:
+
+- **Find:** *"Where is the 3D printer?"*
+- **Route:** *"How do I get from the lobby to the CNC mill on floor 2 without stairs?"*
+- **Edit:** *"Add a door between rooms 2.03 and 2.04."*
+- **React:** *"The east lift is closed for maintenance. What changes?"*
+
+## What you build
+
+An app you talk to. It shows 2D or 3D views of buildings and floors, animated routes, and the things inside: rooms, desks, machines, equipment. It works for an existing building and can set up a new one quickly from floor plans.
+
+The **agent** is the interaction layer: you say what you want and the system does it. The **core** underneath is mostly deterministic: a graph of rooms, doors, corridors, stairs and lifts, and a search that finds the best route.
+
+This kit has everything you need to start. No company data and no NDA; everything is public or generated.
 
 - **Data:** 280 buildings with floor plans, equipment lists and plan images.
 - **Questions:** train and dev questions with answers, and the test questions you are scored on (without answers).
 - **A working starter agent** built on the Claude API.
 - **A scorer**, so you can measure yourself on dev before you submit.
+
+Credits for Claude, Lovable and ElevenLabs come via the organizers. UX and voice can play a real role: a voice-in, voice-out agent counts towards Interaction.
 
 ---
 
@@ -20,24 +42,74 @@ This kit has everything you need to start:
 
 ### Levels (each builds on the previous)
 
-1. **Locate:** one floor; find things and show them.
-2. **Route:** A to B on one floor, step-free routes, closed areas, multi-stop tours.
-3. **Scale:** several floors, then several buildings, with stairs, lifts and walkways.
-4. **Build:** create or update a building from floor plans, by conversation, in minutes.
-5. **Extend (optional, pick one and do it well):** moving assets, several users, industrial logistics (forklift routes, blocked aisles), capture on site with a phone, accessibility routing, presentation (isometric floors, animated routes, voice), or an AR overlay.
+Every level earns points and builds on the one before, so a team that stops early still has something that works. This is the floor, not the ceiling: hit it first, then surprise us.
 
-The brief recommends this architecture. The **agent** is the conversation layer: it understands the person and calls tools. The **core** should be deterministic: a graph of rooms, doors, corridors, stairs and lifts, plus locatable assets, and a shortest-path search. Agree on your data model early, and get one question working end to end before you build any 3D or a pretty UI.
+1. **Locate:** on one floor, talk to the agent, find things and see them on a view.
+2. **Route:** A to B on one floor, with step-free routes, closed areas and multi-stop tours.
+3. **Scale:** several floors, then several buildings, with stairs, lifts and walkways between them.
+4. **Build:** create or update a building from floor plans, by conversation. A new building should take minutes, not days.
+5. **Extend (optional, pick one and do it well rather than three badly):**
+   - **Make things move:** tools or machines that change place via barcode, RFID or "this is now here", so the map stays current.
+   - **Several users:** colleagues update the building while others ask questions.
+   - **Industrial logistics:** route forklifts and materials through a hall with blocked aisles and delivery points.
+   - **Capture on site:** build a new building by walking through it with a phone instead of starting from a floor plan.
+   - **Accessibility:** wider doors, step-free and quiet routes.
+   - **Presentation:** isometric stacked floors, animated routes, voice in and out.
+   - **AR:** the route as an overlay on your phone. The hard part is knowing where you are (QR codes at doors, WiFi, other tricks).
+
+   Or surprise us.
+
+### Directions, not instructions
+
+How you get there is up to you. A few directions that save hours:
+
+- **Think in a graph.** Rooms and junctions are nodes; doors, corridors, stairs and lifts are edges; Dijkstra or A* finds the route. Agree on the data model in your first hour.
+- **One floor first.** Make one question work end to end before 3D or a pretty interface. A flat 2D plan with the route drawn on it is a fine start; three.js gets you extruded floors later.
+- **Spend your time on decisions.** AI writes most of the code, so think about the user: what should the agent ask when a request is vague? How does it show what it understood before it changes a plan? "Turn left at the printers" or room numbers?
+
+### Put yourself in their shoes
+
+Design for people, not for the jury. Would you trust this agent in a building you have never been in?
+
+| Who | What they need |
+|---|---|
+| First day at work | Knows no room names. Asks "where do I get coffee?" |
+| Wheelchair user | Step-free routes and wide doors, every time, without asking twice. |
+| Service technician | Hands full, phone in pocket. Wants voice and "turn left at the press". |
+| Facility manager | Moves a machine, closes a lift, adds a door. The map must keep up. |
+
+Use what is possible today: voice in and out, an agent that asks back, showing what it understood, live updates from a scan, AR on the phone, directions people can follow.
 
 ### Judging
 
+Three things count, in this order: does it work, is it a pleasure to use, and what did you add that we did not ask for.
+
 | Part | Points | What counts |
 |---|---|---|
-| Does it work | 55 | An automatic check on unseen buildings and questions (levels 1–4): correct answers, valid routes, route length vs. the optimum, buildings built correctly from plans. **Your test-set submission (section 6) is part of this.** |
-| Interaction | 25 | A scripted conversation with tricky users. The agent asks only what it needs, shows what it understood, and gives directions people can follow. |
-| Creativity | 10 | Level 5 and add-ins. |
-| Pitch and demo | 10 | A 3–5 minute live demo that works without a restart. |
+| Does it work | 55 | The Sunday benchmark plus automatic checks on buildings and questions you have not seen (levels 1–4): correct answers, valid routes, route length vs. the best route, buildings built correctly from plans. **Your test-set submission (section 6) is part of this.** |
+| Interaction | 25 | A short scripted conversation with tricky users, rated on a rubric. Does it ask only what it needs, show what it understood, and give directions a person can follow? Voice counts here. |
+| Creativity | 10 | Level 5 and add-ins: anything that makes the product better in a way we did not think of. |
+| Submission demo | 10 | Your demo video and technical explanation: clear, convincing, and showing the real product. |
 
-Shortly before code freeze on Sunday, a new, unseen building is released, and your agent has to find optimal routes in it. Don't tune to the test buildings. Build something that works on any building in this format.
+### Sunday benchmark
+
+Shortly before code freeze, we release one new building nobody has seen, plus a question file. Your agent has to answer them, including the best routes. Don't tune to the test buildings. Build something that works on any building in this format.
+
+- **Your run:** a single command in your repo, documented in `BENCHMARK.md`, with no manual steps between input and output.
+- **Submission:** you run it yourselves and submit the output with your project. We may re-run your command on the same input to verify.
+- **Scoring:** correct answers, valid routes and route length against the best route.
+
+The exact release time and the file format for the Sunday building will be announced with the release.
+
+### Submission and judging process
+
+There are no pitch rooms. All teams submit online by code freeze through the organizers' platform:
+
+1. A demo video of your app in action.
+2. A short technical explanation (architecture and tech stack).
+3. Your repository, including `BENCHMARK.md` and your answers file.
+
+We review all Track 01 submissions and pick four finalists. Finalists present at the joint final pitch session at Tacto: 3 minutes plus 1 minute Q&A per team.
 
 ---
 
