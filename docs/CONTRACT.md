@@ -158,6 +158,7 @@ cd web && npm run dev        # http://localhost:5173, proxies /api, /ws, /storag
 
 ## Changelog
 - v1: initial contract (lead).
+- v1.1 (A, additive only): `find_route(..., closed=set())` adds per-call closures on top of `bm.closed` and returns `SiteRoute` (a `RouteResult` plus `nodes`, `min_width_m`). `route_payload(route, *, blocking=None, raw=False)`: `route=None` gives an unreachable Route, `blocking` fills `blocking_openings`, and `raw=True` keeps every anchor point (by default, pass-through corridors are drawn door to door). Each connector entry also has a `name`. `blocking_openings` lists doors only, not stairs. Extra helpers: `bm.distances_from`, `bm.entrance_distances`, `bm.element_path`, `bm.spaces_on_floor`, and in geometry `centroid_3d`, `distance_3d`, `stacked_candidates`, `shared_wall_midpoint`, `asset_footprint`. `footprint_fits` takes optional `clearance_m` and `ignore_asset_ids`. `shared_walls` also leaves out `outdoor` spaces (balconies), which matches every labelled question. Benchmark solvers are in `core/solvers.py`.
 
 ## Cross-owned React components (props are fixed; owners fill in the bodies)
 
