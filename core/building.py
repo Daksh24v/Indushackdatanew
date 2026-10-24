@@ -211,6 +211,16 @@ class Building(BuildingMap):
         partial = [s["id"] for s in pool if low and low in s["name"].lower()]
         if len(partial) == 1:
             return partial[0]
+        # an item ("cnc mill", "coffee machine", "CNC mill H-A1-A"): the room that holds it
+        words = low.replace("_", " ").split()
+        items = [a for a in self.assets.values() if (floor_id is None or a["floor_id"] == floor_id)
+                 and all(w in f"{a['name']} {a['type'].replace('_', ' ')}".lower() for w in words)]
+        item_spaces = sorted({a["space_id"] for a in items})
+        if len(item_spaces) == 1:
+            return item_spaces[0]
+        if item_spaces:
+            shown = "; ".join(f"{a['name']} in {self.spaces[a['space_id']]['name']} ({self.floor_name(a['floor_id'])})" for a in items[:MAX_CANDIDATES])
+            raise MapError(f"There are {len(items)} items matching '{reference}' in {len(item_spaces)} rooms: {shown}. Say which one.")
         candidates = [item["id"] for item in self.search(ref) if item["kind"] == "space"][:MAX_CANDIDATES]
         if not candidates and not partial:
             raise MapError(f"No place matches '{reference}'. Try search_building with fewer words.")
