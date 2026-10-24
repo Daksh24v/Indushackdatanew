@@ -50,8 +50,14 @@ def answer_line(building: Building, question: dict) -> str:
 
 
 def warmup_correct(building: Building, question: dict) -> bool:
-    """Route model check: the warm-up route kinds through Building.route."""
+    """Warm-up questions: routes through Building.route, item names through resolve_space, counts through assets_of_type."""
     answer, kind = question["answer"], question["kind"]
+    if kind == "locate":
+        # the item's name must resolve to the room the dataset says it is in
+        asset = building.assets.get(answer["asset_id"])
+        return asset is not None and building.resolve_space(asset["name"]) == answer["space_id"]
+    if kind == "count":
+        return len(building.assets_of_type(answer["asset_type"], answer["floor_level"])) == answer["count"]
     building.closed.clear()
     if "closed_element_id" in answer:
         building.set_closed(answer["closed_element_id"], True)
@@ -95,7 +101,7 @@ def run(directory: Path, kinds: list[str] | None, warmup: bool, max_failures: in
             kind = question["kind"]
             try:
                 if warmup:
-                    if kind not in {"route", "route_step_free", "route_with_closure", "tour"}:
+                    if kind not in {"route", "route_step_free", "route_with_closure", "tour", "locate", "count"}:
                         results[(kind, "skipped")] += 1
                         continue
                     correct, detail = warmup_correct(building, question), ""
