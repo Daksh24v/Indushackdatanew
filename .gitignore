@@ -1,0 +1,16 @@
+# secrets
+.env
+.env.*
+!.env.example
+# local environments and tools
+.venv/
+.tools/
+__pycache__/
+*.pyc
+# outputs
+agent_output/
+# frontend
+node_modules/
+ui/dist/
+# os
+.DS_Store

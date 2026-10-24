@@ -161,6 +161,8 @@ interruptions; it is part of their job this weekend.
 ## 4. Contracts (change only after telling the whole team)
 
 ### 4.1 Core → Agent: Python API in `core/building.py`
+**Status: done, 100% on train and dev. The authoritative method list and the exact Answer-line shapes are in `core/README.md`; the list below was the kickoff draft.**
+
 `class Building(starter_agent.building_map.BuildingMap)`. Every method returns plain dicts/lists (JSON-able).
 Every method accepts human references: a space id, an asset id, an exact name (`"Office 1.12"`), a ref
 (`"1.12"`), or a unique substring. `floor` arguments accept an int level (`1`), a floor id, or words
