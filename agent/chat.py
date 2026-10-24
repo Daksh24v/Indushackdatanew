@@ -122,6 +122,7 @@ def run_turn(session: ChatSession, message: str, emit: Emit) -> None:
         except Exception as error:  # noqa: BLE001 - auth/network/API trouble → rules
             log.warning("LLM turn failed, using rules: %s", error)
             emit("delta", {"text": f"(Claude is unavailable right now: {type(error).__name__}. Using built-in rules.) "})
+            session.note_given = True
     fallback_turn(session, message, emit)
 
 
@@ -208,7 +209,7 @@ def _best_place(tools: TwinTools, phrase: str) -> str:
         except (MapError, KeyError):
             pass
     cleaned = _clean(raw)
-    deliveries = tools.find_delivery(cleaned, emit=False)["matches"]
+    deliveries = tools.find_delivery(cleaned, emit=False, strict=True)["matches"]
     if deliveries:
         return deliveries[0]["space_id"]
     bm = tools.bm
@@ -370,8 +371,10 @@ def _rules(session: ChatSession, text: str, lowered: str) -> str:
             return f"The {delivery['label']} is in {delivery['where']}, delivered {when}. Want me to take you there?"
         first = result["results"][0]
         where = tools.space_label(first["space_id"] if first["kind"] == "asset" else first["id"])
-        more = f" I highlighted {result['matches']} matches." if result["matches"] > 1 else ""
-        return f"{first['name']} is in {where}.{more} Want a route there?"
+        away = f", about {first['walk_m_from_person']:.0f} m from you" if first.get("walk_m_from_person") else ""
+        if result["matches"] > 1:
+            return f"The nearest is {first['name']} in {where}{away}. I highlighted all {result['matches']}. Want a route there?"
+        return f"{first['name']} is in {where}{away}. Want a route there?"
 
     # bare place name → locate it
     try:

@@ -5,9 +5,10 @@ import type { BookableRoom, Booking, Building, Delivery, Site, SiteEvent, SiteSt
 import { hashString, indexBuilding, polygonArea } from '../twin/geom'
 import { mockRoute } from './mockRouter'
 
-type Loader = () => Promise<string>
+type Loader = () => Promise<Building>
+// Dev only (tree-shaken from production builds): building.json files as lazily imported JSON modules.
 const buildingUrls: Record<string, Loader> = import.meta.env.DEV
-  ? (import.meta.glob('../../../data/dev/*/building.json', { query: '?url', import: 'default' }) as Record<string, Loader>)
+  ? (import.meta.glob('../../../data/dev/*/building.json', { import: 'default' }) as Record<string, Loader>)
   : {}
 
 const SITE_SEEDS: [id: string, name: string | null, lat: number, lon: number, kind: Site['kind']][] = [
@@ -36,7 +37,7 @@ async function loadBuilding(id: string): Promise<Building> {
   if (!buildings.has(id)) {
     const loader = buildingUrls[`../../../data/dev/${id}/building.json`]
     if (!loader) throw new MockError(404, `unknown site ${id}`)
-    buildings.set(id, loader().then((url) => fetchReal(url).then((r) => r.json() as Promise<Building>)))
+    buildings.set(id, loader())
   }
   return buildings.get(id)!
 }

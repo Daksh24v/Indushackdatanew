@@ -42,6 +42,8 @@ class PhotoMeasurement:
     bbox_px: BBox | None = None
     marker: dict | None = None
     focal_source: str | None = None
+    _det: MarkerDetection | None = field(default=None, repr=False)
+    _params: np.ndarray | None = field(default=None, repr=False)
 
 
 @dataclass
@@ -54,13 +56,14 @@ class MeasureResult:
     photos: list[PhotoMeasurement] = field(default_factory=list)
     crop: np.ndarray | None = None        # BGR crop of the item from the best photo (for textures)
     label_hint: str | None = None
+    overlay: np.ndarray | None = None     # best photo with the marker and the fitted box drawn on it
 
     def to_json(self) -> dict:
         return {
             "ok": self.ok, "dims": self.dims, "tolerance_m": self.tolerance_m, "method": self.method,
             "message": self.message,
             "photos": [
-                {k: v for k, v in p.__dict__.items()} for p in self.photos
+                {k: v for k, v in p.__dict__.items() if not k.startswith("_")} for p in self.photos
             ],
         }
 
@@ -280,6 +283,26 @@ def fit_box(det: MarkerDetection, mask: np.ndarray) -> tuple[np.ndarray, float] 
 # ---------------------------------------------------------------- public API
 
 
+def draw_overlay(image: np.ndarray, det: MarkerDetection, params: np.ndarray, dims: dict, tolerance: float) -> np.ndarray:
+    out = image.copy()
+    cv2.polylines(out, [det.corners.round().astype(np.int32)], True, (80, 220, 255), 3, cv2.LINE_AA)
+    corners = _box_corners(params)
+    pixels, depth = det.project(corners)
+    if (depth > 0).all():
+        p = pixels.round().astype(np.int32)
+        for a, b in [(0, 1), (1, 2), (2, 3), (3, 0), (4, 5), (5, 6), (6, 7), (7, 4), (0, 4), (1, 5), (2, 6), (3, 7)]:
+            cv2.line(out, tuple(p[a]), tuple(p[b]), (153, 211, 52), 3, cv2.LINE_AA)
+        text = f"{dims['w']:.2f} x {dims['d']:.2f} x {dims['h']:.2f} m  +/-{round(tolerance * 100)} cm"
+        anchor = tuple(p[4:].min(axis=0) - np.array([0, 14]))
+        scale = max(0.7, out.shape[1] / 1600)
+        (tw, th), _ = cv2.getTextSize(text, cv2.FONT_HERSHEY_SIMPLEX, scale, 2)
+        x, y = max(4, anchor[0]), max(th + 8, anchor[1])
+        cv2.rectangle(out, (x - 6, y - th - 8), (x + tw + 6, y + 8), (20, 11, 7), -1)
+        cv2.putText(out, text, (x, y), cv2.FONT_HERSHEY_SIMPLEX, scale, (153, 211, 52), 2, cv2.LINE_AA)
+    return out
+
+
+
 def measure_photo(index: int, data: bytes, bbox_norm: list[float] | None = None) -> tuple[PhotoMeasurement, np.ndarray | None]:
     image, focal = load_image(data)
     height, width = image.shape[:2]
@@ -306,6 +329,7 @@ def measure_photo(index: int, data: bytes, bbox_norm: list[float] | None = None)
         index, iou > 0.75, f"silhouette IoU {iou:.2f}" if iou > 0.75 else f"poor silhouette fit (IoU {iou:.2f})",
         dims=(w, d, h), center=(float(params[0]), float(params[1])), yaw_deg=(yaw + 90) % 180 - 90,
         iou=float(iou), bbox_px=bbox_px, marker=det.to_json(), focal_source=det.focal_source,
+        _det=det, _params=params,
     ), image
 
 
@@ -374,12 +398,13 @@ def measure_photos(
         if image is not None and best.bbox_px:
             x0, y0, x1, y1 = (int(v) for v in best.bbox_px)
             crop = image[max(0, y0):y1 + 1, max(0, x0):x1 + 1].copy()
+        overlay = draw_overlay(image, best._det, best._params, dims, tolerance) if image is not None and best._det is not None else None
         ok = bool(good)
         message = (
             f"Measured from {len(usable)} of {len(results)} photo(s) with the 150 mm marker"
             + ("" if ok else " (low-confidence silhouette)")
         )
-        return MeasureResult(ok, dims, tolerance, "marker+silhouette", message, results, crop, label_hint)
+        return MeasureResult(ok, dims, tolerance, "marker+silhouette", message, results, crop, label_hint, overlay)
 
     # No usable photo: fall back honestly.
     first_image = next((image for image in images if image is not None), None)

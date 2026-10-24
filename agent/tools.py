@@ -91,7 +91,7 @@ class TwinTools:
 
     def locate(self, query: str, floor_level: int | None = None) -> dict:
         bm = self.bm
-        deliveries = self.find_delivery(query, emit=False)["matches"] if query else []
+        deliveries = self.find_delivery(query, emit=False, strict=True)["matches"] if query else []
         results = bm.search(query, floor_level)
         if not results and not deliveries:
             # retry with the longest word, people say "the big press" for "press"
@@ -102,6 +102,15 @@ class TwinTools:
                     break
         if not results and not deliveries:
             raise MapError(f"Nothing matches '{query}'. Try a shorter or more general word.")
+        # Nearest first: "where do I get coffee" should answer with the closest coffee machine.
+        try:
+            distances = bm.distances_from(self.here) if hasattr(bm, "distances_from") else {}
+        except Exception:  # noqa: BLE001
+            distances = {}
+        if distances:
+            def space_of(result: dict) -> str:
+                return result["id"] if result["kind"] == "space" else bm.assets[result["id"]]["space_id"]
+            results.sort(key=lambda result: distances.get(space_of(result), float("inf")))
         ids = [d["id"] for d in deliveries] + [r["id"] for r in results][:MAX_RESULTS]
         first_space = deliveries[0]["space_id"] if deliveries else (
             results[0]["id"] if results[0]["kind"] == "space" else bm.assets[results[0]["id"]]["space_id"])
@@ -110,20 +119,24 @@ class TwinTools:
         self._focus_space(first_space)
         enriched = []
         for result in results[:MAX_RESULTS]:
+            space_id = result["id"] if result["kind"] == "space" else bm.assets[result["id"]]["space_id"]
             if result["kind"] == "asset":
                 asset = bm.assets[result["id"]]
                 result = {**result, "space_id": asset["space_id"], "position": asset["position"]}
+            if space_id in distances:
+                result = {**result, "walk_m_from_person": round(distances[space_id], 1)}
             enriched.append(result)
         return {"matches": len(results) + len(deliveries), "deliveries": deliveries[:5], "results": enriched,
                 "highlighted": ids[:MAX_RESULTS]}
 
-    def find_delivery(self, description: str = "", emit: bool = True) -> dict:
+    def find_delivery(self, description: str = "", emit: bool = True, strict: bool = False) -> dict:
         words = [w for w in description.lower().replace("_", " ").split() if len(w) > 1 and w not in {"the", "a", "of"}]
         matches = []
         for delivery in twin.list_deliveries(self.site_id):
             text = f"{delivery.get('label', '')} {delivery.get('note', '')} {delivery.get('id')}".lower()
             score = sum(word in text for word in words) if words else 1
-            if score and (not words or score >= max(1, len(words) // 2)):
+            needed = len(words) if strict else max(1, len(words) // 2)
+            if score and (not words or score >= needed):
                 matches.append((score, delivery))
         matches.sort(key=lambda pair: pair[1].get("ts", ""), reverse=True)  # newest first...
         matches.sort(key=lambda pair: -pair[0])  # ...then best match (stable sort keeps newest among ties)

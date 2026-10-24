@@ -24,7 +24,7 @@ def storage_dir() -> Path:
 
 
 def now_iso() -> str:
-    return datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
+    return datetime.now(UTC).isoformat(timespec="milliseconds").replace("+00:00", "Z")
 
 
 def new_id(prefix: str) -> str:

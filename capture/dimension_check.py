@@ -122,9 +122,11 @@ def _narrow_openings(bm, route, width: float) -> list[dict]:
 
 def _first_new_space(bm, alternative, direct) -> str | None:
     direct_spaces = set(direct.space_path) if direct is not None else set()
-    for space_id in alternative.space_path[1:-1]:
-        if space_id not in direct_spaces:
-            return space_label(bm, space_id)
+    new = [s for s in alternative.space_path[1:-1] if s not in direct_spaces]
+    if new:
+        gates = [s for s in new if bm.spaces[s].get("room_type") == "lobby"
+                 or re.search(r"gate|tor|access|lobby|foyer", bm.spaces[s].get("name", ""), re.I)]
+        return space_label(bm, (gates or new)[-1])
     for node in alternative.nodes:
         if node.startswith(DOOR_PREFIX) and node not in (direct.nodes if direct is not None else []):
             return opening_label(bm, bm.openings[node[len(DOOR_PREFIX):]])

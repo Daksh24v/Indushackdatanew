@@ -7,7 +7,7 @@ import { useTwin } from '../lib/store'
 import { polygonFill, polygonOutline } from './buildFloor'
 import { Beam, PulseRing } from './Effects'
 import { FloorAnchor } from './FloorAnchor'
-import { indexBuilding, locate } from './geom'
+import { indexBuilding, locate, openingWallAngle } from './geom'
 import { useLayout } from './layout'
 import { COLORS } from './palette'
 import { type RoomGlow, useTwinUi } from './uiStore'
@@ -59,7 +59,7 @@ export function OpeningAlerts({ building }: { building: Building }) {
   const layout = useLayout()
   const items = useMemo(() => {
     const idx = indexBuilding(building)
-    const out = new Map<string, { id: string; floor_id: string; point: XY; width: number; mode: 'closed' | 'blocking' }>()
+    const out = new Map<string, { id: string; floor_id: string; point: XY; width: number; mode: 'closed' | 'blocking'; label?: string }>()
     for (const id of snap.closed) {
       const o = idx.openings.get(id)
       if (o) out.set(id, { id, floor_id: o.floor_id, point: o.position, width: o.width_m, mode: 'closed' })
@@ -69,21 +69,21 @@ export function OpeningAlerts({ building }: { building: Building }) {
       ...snap.deliveries.filter((d) => d.status === 'blocked').flatMap((d) => d.check?.route_fit?.blocking_openings ?? []),
       ...flashIds.map((id) => idx.openings.get(id)).filter((o) => !!o).map((o) => ({ id: o!.id, width_m: o!.width_m, position: o!.position, floor_id: o!.floor_id })),
     ]
-    for (const b of blocking) if (!out.has(b.id)) out.set(b.id, { id: b.id, floor_id: b.floor_id, point: b.position, width: b.width_m, mode: 'blocking' })
+    for (const b of blocking as (typeof blocking[number] & { label?: string })[]) if (!out.has(b.id)) out.set(b.id, { id: b.id, floor_id: b.floor_id, point: b.position, width: b.width_m, mode: 'blocking', label: b.label })
     return [...out.values()].filter((x) => layout.byId.has(x.floor_id))
   }, [snap, route, flashIds, building, layout])
   return (
     <>
       {items.map((it) => (
         <FloorAnchor key={it.id} floorId={it.floor_id}>
-          <AlertMarker point={it.point} width={it.width} mode={it.mode} />
+          <AlertMarker point={it.point} width={it.width} mode={it.mode} angle={openingWallAngle(building, it.id)} label={it.mode === 'blocking' ? `${it.label ?? 'Door'} · ${it.width.toFixed(2)} m too narrow` : undefined} />
         </FloorAnchor>
       ))}
     </>
   )
 }
 
-function AlertMarker({ point, width, mode }: { point: XY; width: number; mode: 'closed' | 'blocking' }) {
+function AlertMarker({ point, width, mode, angle, label }: { point: XY; width: number; mode: 'closed' | 'blocking'; angle: number; label?: string }) {
   const layout = useLayout()
   const [x, z] = layout.toXZ(point)
   const mat = useMemo(() => new THREE.MeshBasicMaterial({ color: COLORS.danger, toneMapped: false, transparent: true }), [])
@@ -96,10 +96,18 @@ function AlertMarker({ point, width, mode }: { point: XY; width: number; mode: '
   })
   return (
     <group>
-      <mesh material={mat} position={[x, 1.1, z]}>
-        <boxGeometry args={[Math.max(0.6, width) * 0.9, 2.2, Math.max(0.6, width) * 0.9]} />
+      {/* building angle a → three rotation.y = a (z is flipped) */}
+      <mesh material={mat} position={[x, 1.1, z]} rotation-y={angle}>
+        <boxGeometry args={[Math.max(0.6, width), 2.2, 0.18]} />
       </mesh>
-      <PulseRing x={x} z={z} radius={Math.max(1.4, width * 1.6)} color={COLORS.danger} speed={mode === 'blocking' ? 2 : 1} />
+      <PulseRing x={x} z={z} radius={Math.min(4, Math.max(1.6, width * 1.2))} color={COLORS.danger} speed={mode === 'blocking' ? 2 : 1} />
+      {label && (
+        <Html position={[x, 2.9, z]} center zIndexRange={[29, 0]} style={{ pointerEvents: 'none' }}>
+          <div className="whitespace-nowrap rounded-full border border-rose-300/50 bg-rose-500/25 px-2.5 py-0.5 text-[11px] font-semibold text-rose-50 shadow-[0_0_20px_rgba(244,63,94,0.5)] backdrop-blur">
+            {label}
+          </div>
+        </Html>
+      )}
     </group>
   )
 }

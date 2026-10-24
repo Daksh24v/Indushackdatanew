@@ -289,3 +289,13 @@ def chat(site_id: str, body: ChatBody) -> StreamingResponse:
         raise HTTPException(status_code=400, detail="Empty message.")
     return StreamingResponse(stream_chat(site_id, body.session_id, body.message), media_type="text/event-stream",
                              headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
+
+
+# ------------------------------------------------------------------ admin
+
+@app.post("/api/admin/reload")
+def reload_cache() -> dict:
+    """Drop cached maps (after scripts/seed_demo_events.py wrote to the DB) and re-read sites.json."""
+    twin.invalidate()
+    added = twin.seed_sites()
+    return {"ok": True, "sites_added": added}

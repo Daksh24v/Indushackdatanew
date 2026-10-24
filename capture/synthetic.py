@@ -129,7 +129,7 @@ def render_scene(
 
 
 def sample_jpeg(dims: tuple[float, float, float] = (1.32, 1.05, 1.40), seed: int = 3) -> bytes:
-    scene = render_scene(dims=dims, box_center=(0.15, 1.25), box_yaw_deg=8, camera=(1.1, -2.6, 1.75), seed=seed)
+    scene = render_scene(dims=dims, box_center=(0.15, 1.25), box_yaw_deg=15, camera=(2.2, -2.0, 2.0), seed=seed)
     ok, data = cv2.imencode(".jpg", scene["image"], [cv2.IMWRITE_JPEG_QUALITY, 90])
     assert ok
     return data.tobytes()

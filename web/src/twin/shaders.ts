@@ -5,6 +5,7 @@ export function makeFlowMaterial(color: THREE.Color, opts: { offset: number; len
   return new THREE.ShaderMaterial({
     transparent: true,
     depthWrite: false,
+    depthTest: false, // x-ray: the route stays visible through walls and machines
     blending: THREE.AdditiveBlending,
     toneMapped: false,
     uniforms: {
@@ -31,12 +32,13 @@ export function makeFlowMaterial(color: THREE.Color, opts: { offset: number; len
       varying float vDist; varying vec3 vN; varying vec3 vView;
       void main() {
         if (vDist > uReveal) discard;
-        float rim = pow(1.0 - abs(dot(vN, vView)), 1.5);
+        float rim = pow(clamp(1.0 - abs(dot(normalize(vN), vView)), 0.0, 1.0), 1.5);
         float dash = fract((vDist - uTime * 6.0) / 3.0);
         float d = smoothstep(0.0, 0.15, dash) * (1.0 - smoothstep(0.45, 0.6, dash));
         float head = exp(-abs(vDist - uHead) * 0.5);
         vec3 col = uColor * (0.55 + 1.9 * d + 0.6 * rim) + vec3(1.0) * head * 3.0;
         float a = clamp(0.35 + 0.65 * d + rim * 0.4 + head, 0.0, 1.0);
+        if (any(isnan(col)) || isnan(a)) discard; // NaN would smear across the whole frame via bloom
         gl_FragColor = vec4(col, a);
       }`,
   })
@@ -92,8 +94,8 @@ export function makeBeamMaterial(color: THREE.Color) {
     fragmentShader: /* glsl */ `
       uniform float uTime; uniform vec3 uColor; uniform float uStrength; varying vec2 vUv; varying vec3 vN; varying vec3 vView;
       void main() {
-        float edge = 1.0 - abs(dot(vN, vView));
-        float fade = pow(1.0 - vUv.y, 1.6);
+        float edge = clamp(1.0 - abs(dot(normalize(vN), vView)), 0.0, 1.0);
+        float fade = pow(clamp(1.0 - vUv.y, 0.0, 1.0), 1.6);
         float flicker = 0.85 + 0.15 * sin(uTime * 6.0 + vUv.y * 20.0);
         float a = fade * (0.25 + edge * 0.9) * flicker * uStrength;
         gl_FragColor = vec4(uColor * 2.2, a);

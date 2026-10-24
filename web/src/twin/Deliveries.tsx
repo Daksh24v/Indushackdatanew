@@ -36,6 +36,8 @@ function DeliveryItem({ delivery, delay }: { delivery: Delivery; delay: number }
   const [shown, setShown] = useState(false)
   const ringRef = useRef<THREE.Group>(null)
   const focus = useTwin((s) => s.focusFloorId)
+  const highlighted = useTwin((s) => !!s.highlight?.ids.includes(delivery.id))
+  const recent = Date.now() - Date.parse(delivery.ts) < 6 * 3600_000
   const [x, z] = layout.toXZ(delivery.position)
   const { w, d, h } = delivery.dims_m
   const color = STATUS[delivery.status] ?? COLORS.ok
@@ -58,7 +60,7 @@ function DeliveryItem({ delivery, delay }: { delivery: Delivery; delay: number }
     if (ringRef.current) ringRef.current.visible = landed.current
   })
 
-  const showLabel = shown && (focus == null || focus === delivery.floor_id)
+  const showLabel = shown && (highlighted || focus === delivery.floor_id || (focus == null && recent))
   return (
     <group position={[x, 0, z]}>
       <group ref={ref} visible={false}>

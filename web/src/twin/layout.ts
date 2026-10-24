@@ -40,7 +40,7 @@ export class TwinLayout {
     this.cx = all.cx
     this.cy = all.cy
     this.extent = Math.max(all.w, all.h, 10)
-    this.gap = Math.min(16, Math.max(4.5, this.extent * 0.09))
+    this.gap = Math.min(22, Math.max(5, this.extent * 0.13))
     const sorted = sortedFloors(building)
     const groundIdx = Math.max(0, sorted.findIndex((f) => f.level >= 0))
     this.floors = sorted.map((floor, index) => {
@@ -83,7 +83,7 @@ export class TwinLayout {
     return Math.min(0, ...this.floors.map((f) => this.stackY(f, this.explodeTarget))) - 0.6
   }
 
-  update(dt: number, exploded: boolean, focusFloorId: string | null) {
+  update(dt: number, exploded: boolean, focusFloorId: string | null, routeFloors: Set<string> | null = null) {
     dt = Math.min(dt, 1 / 20)
     this.time += dt
     const n = this.floors.length
@@ -110,7 +110,7 @@ export class TwinLayout {
       const y = this.stackY(f, this.explode) - (1 - e) * RISE_DEPTH
       if (Math.abs(y - f.y) > 1e-4) moved = true
       f.y = y
-      f.dimTarget = focusFloorId == null || focusFloorId === f.floor.id ? 1 : 0.12
+      f.dimTarget = focusFloorId != null ? (focusFloorId === f.floor.id ? 1 : 0.12) : routeFloors && !routeFloors.has(f.floor.id) ? 0.3 : 1
       const rise = Math.min(1, f.rise * 1.6)
       const d = f.dim + (f.dimTarget - f.dim) * Math.min(1, dt * 6)
       f.dim = Math.min(d, rise)

@@ -5,6 +5,8 @@ from __future__ import annotations
 import json
 from collections import Counter
 
+MAX_DIRECTORY = 600
+
 SYSTEM_PROMPT = """You are SiteTwin, the voice guide and facility assistant for one site: "{name}". \
 People talk to you (often by voice, hands full, phone in pocket) while a live 3D twin of the building is \
 on screen next to you. Your tools change what the 3D view shows: locate highlights things, find_route \
@@ -39,7 +41,10 @@ Site overview:
 {overview}
 
 Room types per floor:
-{rooms}"""
+{rooms}
+
+Room directory (name → id; ask the tools for anything else):
+{directory}"""
 
 
 def build_system_prompt(site: dict, bm) -> str:
@@ -55,10 +60,18 @@ def build_system_prompt(site: dict, bm) -> str:
         )
         rooms.append(f"- {floor['name']} (level {floor['level']}): "
                      + ", ".join(f"{count} {kind}" for kind, count in counts.most_common(14)))
+    directory = []
+    named = [space for space in bm.spaces.values() if space.get("type") != "corridor" or "aisle" in space["name"].lower()]
+    named.sort(key=lambda space: (bm.floors[space["floor_id"]]["level"], space["name"]))
+    for space in named[:MAX_DIRECTORY]:
+        directory.append(f"{space['name']} → {space['id']}")
+    if len(named) > MAX_DIRECTORY:
+        directory.append(f"... and {len(named) - MAX_DIRECTORY} more (use locate)")
     return SYSTEM_PROMPT.format(
         name=site.get("name", bm.data["building"]["name"]),
         overview=json.dumps(overview, ensure_ascii=False, sort_keys=True),
         rooms="\n".join(rooms),
+        directory="; ".join(directory),
     )
 
 

@@ -172,3 +172,26 @@ export function hashString(s: string): number {
   }
   return h >>> 0
 }
+
+/** Direction (radians, building frame) of the wall an opening sits in: nearest edge of its spaces. */
+export function openingWallAngle(b: Building, openingId: string): number {
+  const idx = indexBuilding(b)
+  const o = idx.openings.get(openingId)
+  if (!o) return 0
+  let best = Infinity
+  let angle = 0
+  for (const sid of o.space_ids) {
+    const poly = idx.spaces.get(sid)?.polygon
+    if (!poly) continue
+    for (let i = 0; i < poly.length; i++) {
+      const a = poly[i]
+      const c = poly[(i + 1) % poly.length]
+      const pr = projectOnSegment(o.position, a, c)
+      if (pr.dist < best) {
+        best = pr.dist
+        angle = Math.atan2(c[1] - a[1], c[0] - a[0])
+      }
+    }
+  }
+  return angle
+}
