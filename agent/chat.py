@@ -83,7 +83,7 @@ def sse(event: str, data: dict) -> str:
     return f"event: {event}\ndata: {json.dumps(data, ensure_ascii=False, default=str)}\n\n"
 
 
-def stream_chat(site_id: str, session_id: str, message: str) -> Iterator[str]:
+def stream_chat(site_id: str, session_id: str, message: str, *, here: str | None = None) -> Iterator[str]:
     """Run one user turn in a worker thread and yield SSE frames as they are produced."""
     session = get_session(site_id, session_id)
     frames: queue.Queue = queue.Queue()
@@ -98,12 +98,18 @@ def stream_chat(site_id: str, session_id: str, message: str) -> Iterator[str]:
         try:
             with session.lock:
                 session.tools.emit = lambda action: emit("action", action)
-                run_turn(session, message, emit)
+                try:
+                    if here is not None:
+                        session.tools.here = session.tools.bm.resolve_space(here)
+                        session.tools.here_is_default = False
+                    run_turn(session, message, emit)
+                    emit("action", {"type": "set_location", "space_id": session.tools.here})
+                finally:
+                    session.tools.emit = lambda action: None
         except Exception as error:  # noqa: BLE001 - always finish the stream
             log.exception("chat turn failed")
             emit("delta", {"text": f"Sorry, something went wrong: {error}"})
         finally:
-            session.tools.emit = lambda action: None
             frames.put(("done", {"reply": "".join(parts).strip()}))
 
     threading.Thread(target=worker, daemon=True).start()

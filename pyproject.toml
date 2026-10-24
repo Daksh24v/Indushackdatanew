@@ -31,3 +31,6 @@ packages = ["starter_agent", "benchmark", "core", "agent", "server", "capture"]
 dev = [
     "pytest>=9.1.1",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

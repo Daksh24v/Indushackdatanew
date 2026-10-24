@@ -103,7 +103,7 @@ def sites() -> list[dict]:
 @app.post("/api/sites")
 async def create_site(name: str = Form(...), lat: float = Form(...), lon: float = Form(...),
                       file: UploadFile = File(...), kind: str | None = Form(None),
-                      width_m: float | None = Form(None)) -> dict:
+                      width_m: float | None = Form(None), preview: bool = Form(False)) -> dict:
     """Create a site from a building.json or a floor-plan image/PDF (Claude vision)."""
     _ensure_seeded()
     name = name.strip()
@@ -139,7 +139,9 @@ async def create_site(name: str = Form(...), lat: float = Form(...), lon: float 
             raise HTTPException(status_code=422, detail=str(error)) from error
         source = "floor_plan"
     building, warnings = sanity_fix(building)
-    folder = STORAGE / "sites" / site_id
+    if preview:
+        return {"building": building, "warnings": warnings}
+    folder = db.storage_dir() / "sites" / site_id
     folder.mkdir(parents=True, exist_ok=True)
     (folder / "building.json").write_text(json.dumps(building, indent=1, ensure_ascii=False), encoding="utf-8")
     if source == "floor_plan":
@@ -277,6 +279,7 @@ def book(site_id: str, body: BookingBody) -> dict:
 class ChatBody(BaseModel):
     session_id: str = "default"
     message: str
+    here: str | None = None
 
 
 @app.post("/api/sites/{site_id}/chat")
@@ -287,7 +290,8 @@ def chat(site_id: str, body: ChatBody) -> StreamingResponse:
     twin.get_site(site_id)
     if not body.message.strip():
         raise HTTPException(status_code=400, detail="Empty message.")
-    return StreamingResponse(stream_chat(site_id, body.session_id, body.message), media_type="text/event-stream",
+    here = twin.get_map(site_id).resolve_space(body.here) if body.here else None
+    return StreamingResponse(stream_chat(site_id, body.session_id, body.message, here=here), media_type="text/event-stream",
                              headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
 
 

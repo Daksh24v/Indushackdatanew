@@ -96,7 +96,7 @@ RoomScan = { id, site_id, space_id, splat_url: string, transform: number[] /* 4x
 | Method | Path | Body / query | Returns |
 |---|---|---|---|
 | GET | `/api/sites` | | `Site[]` |
-| POST | `/api/sites` | multipart: `name, lat, lon`, `file` (building.json or floor-plan PNG/PDF) | `Site` (plan images parsed by Claude vision) |
+| POST | `/api/sites` | multipart: `name, lat, lon`, `file` (building.json or floor-plan PNG/PDF), optional `preview=true` | `Site`; preview returns `{building, warnings}` without saving |
 | GET | `/api/sites/{id}/building` | | raw `building.json` (with added doors) |
 | GET | `/api/sites/{id}/state` | | `SiteState` |
 | POST | `/api/sites/{id}/route` | `{from, to, step_free?, min_width_m?, via?}` (ids, refs or names) | `Route` |
@@ -105,7 +105,7 @@ RoomScan = { id, site_id, space_id, splat_url: string, transform: number[] /* 4x
 | GET | `/api/sites/{id}/events` | `?since=ISO&limit=` | `Event[]` newest first |
 | GET | `/api/sites/{id}/rooms/bookable` | `?start=ISO&end=ISO&people=` | `BookableRoom[]` |
 | GET/POST | `/api/sites/{id}/bookings` | POST `{space_id, start, end, who, title}` | `Booking[]` / `Booking` (+ `booking` event) |
-| POST | `/api/sites/{id}/chat` | `{session_id, message}` | `text/event-stream`, see below |
+| POST | `/api/sites/{id}/chat` | `{session_id, message, here?: space_id}` | `text/event-stream`, see below |
 | POST | `/api/voice/stt` | multipart `audio` | `{text}`; **501** without `ELEVENLABS_API_KEY` |
 | POST | `/api/voice/tts` | `{text}` | `audio/mpeg`; **501** without key (frontend falls back to Web Speech) |
 | POST | `/api/capture/delivery` | multipart: `site_id, photos[]`, optional `declared_w, declared_d, declared_h, target_space, label, note` | `CaptureJob` |
@@ -119,6 +119,7 @@ Errors: `{"detail": "human readable"}` with 4xx.
 ### Chat stream (`text/event-stream`)
 
 ```
+event: action    data: {"type": "set_location", "space_id": "..."} // sync the viewer after each turn
 event: delta     data: {"text": "partial reply text"}
 event: action    data: {"type": "show_route", "route": Route}
 event: action    data: {"type": "highlight", "ids": ["...asset/space ids"], "label"?: string}
@@ -168,3 +169,12 @@ cd web && npm run dev        # http://localhost:5173, proxies /api, /ws, /storag
 | `web/src/sites/AddSiteDialog.tsx` | D | `{ lat, lon, onClose, onCreated(site) }` | MapPage (B) |
 | `web/src/capture/CaptureQR.tsx` | C | `{ siteId: string }` | SitePage (B) |
 | `web/src/capture/DeliveryCard.tsx` | C | `{ delivery: Delivery }` | SitePage (B) |
+
+### v1.2 — integration completion
+
+- Chat accepts optional `here` (validated before streaming). A `set_location` action returns the session's current space after each turn, including spoken location changes. The viewer and chat share the same default origin.
+- Route responses retain `from_space_id`, `to_space_id`, and resolved `via` on both success and failure. Replanning after live changes preserves constraints and waypoints and retries previously blocked routes.
+- Site upload supports `preview=true`. The UI reviews the returned geometry and warnings, then submits the reviewed building JSON to create the site. Image plans can be overlaid using `building.scale`; PDF plans show the extracted layout.
+- Room scans use the existing optional `ts` to respect the timeline. GPU resources are created and disposed within effects, including StrictMode remounts.
+- Booking search refreshes on live booking events. Added-door events refresh the building geometry.
+- `SITETWIN_API_URL` optionally overrides the Vite development/preview proxy target (default `http://localhost:8000`).

@@ -5,25 +5,17 @@ import type { Building } from '../lib/types'
 import { indexBuilding } from './geom'
 import { useTwinUi } from './uiStore'
 
-/** The default "you are here": a lobby/space next to a step-free entrance on the ground floor. */
+/** Match the server's default: upstairs office for the demo, otherwise a lobby/entrance. */
 export function defaultOrigin(b: Building): string | null {
   const idx = indexBuilding(b)
-  const entrances = b.openings.filter((o) => o.space_ids.includes('outside'))
-  const ranked = entrances
-    .map((o) => {
-      const sid = o.space_ids.find((s) => s !== 'outside')!
-      const s = idx.spaces.get(sid)
-      const f = s ? idx.floors.get(s.floor_id) : undefined
-      let score = 0
-      if (f && f.level === 0) score += 4
-      if (o.step_free) score += 2
-      if (s?.room_type === 'lobby' || s?.type === 'hall') score += 2
-      if (s?.type === 'corridor') score += 1
-      return { sid, score }
-    })
-    .filter((x) => idx.spaces.has(x.sid))
-    .sort((a, b) => b.score - a.score)
-  return ranked[0]?.sid ?? b.spaces[0]?.id ?? null
+  if (b.building.id === 'proc-factory-dev-003') {
+    const office = b.spaces.find((s) => s.name === 'Office 1.04')
+    if (office) return office.id
+  }
+  const lobby = b.spaces.find((s) => s.room_type === 'lobby' && idx.floors.get(s.floor_id)?.level === 0)
+  if (lobby) return lobby.id
+  const entrance = b.openings.find((o) => o.space_ids.includes('outside') && o.step_free !== false)
+  return entrance?.space_ids.find((id) => id !== 'outside') ?? b.spaces[0]?.id ?? null
 }
 
 export function originOf(b: Building): string | null {
@@ -42,26 +34,34 @@ export async function navigate(
   if (opts.step_free) body.step_free = true
   if (opts.min_width_m) body.min_width_m = opts.min_width_m
   const route = await api.route(siteId, body)
-  useTwin.getState().setRoute(route)
-  useTwin.getState().setFocusFloor(null)
+  if (useTwin.getState().siteId === siteId) {
+    useTwin.getState().setRoute(route)
+    useTwin.getState().setFocusFloor(null)
+  }
   return route
 }
 
 export async function toggleClosed(siteId: string, id: string, closed: boolean) {
   const state = await api.setClosed(siteId, id, closed)
-  useTwin.getState().setState(state)
-  // Re-plan the visible route around the change.
-  const route = useTwin.getState().route
-  if (route?.reachable && route.space_path.length > 1) {
-    try {
-      const next = await api.route(siteId, {
-        from: route.space_path[0], to: route.space_path[route.space_path.length - 1],
-        step_free: route.step_free || undefined, min_width_m: route.min_width_m ?? undefined,
-      })
-      useTwin.getState().setRoute(next)
-    } catch {
-      /* keep the old route */
-    }
-  }
+  if (useTwin.getState().siteId === siteId) useTwin.getState().setState(state)
+  await refreshRoute(siteId)
   return state
+}
+
+/** Keep the requested endpoints and waypoints even while a closure makes the route unreachable. */
+let refreshVersion = 0
+export async function refreshRoute(siteId: string) {
+  const version = ++refreshVersion
+  const store = useTwin.getState()
+  const route = store.route
+  if (store.siteId !== siteId || !route || route.space_path.length < 2) return
+  const next = await api.route(siteId, {
+    from: route.from_space_id ?? route.space_path[0],
+    to: route.to_space_id ?? route.space_path[route.space_path.length - 1],
+    step_free: route.step_free, min_width_m: route.min_width_m ?? undefined, via: route.via,
+  })
+  // A slow request must not replace a newer route or another site's view.
+  if (version === refreshVersion && useTwin.getState().siteId === siteId && useTwin.getState().route === route) {
+    useTwin.getState().setRoute(next)
+  }
 }

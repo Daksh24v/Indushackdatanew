@@ -19,6 +19,10 @@ const json = (body: unknown): RequestInit => ({
 
 export const api = {
   sites: () => request<Site[]>('/api/sites'),
+  previewSite: (form: FormData) => {
+    form.set('preview', 'true')
+    return request<{ building: Building; warnings: string[] }>('/api/sites', { method: 'POST', body: form })
+  },
   createSite: (form: FormData) => request<Site>('/api/sites', { method: 'POST', body: form }),
   building: (siteId: string) => request<Building>(`/api/sites/${siteId}/building`),
   state: (siteId: string) => request<SiteState>(`/api/sites/${siteId}/state`),
@@ -45,8 +49,9 @@ export async function streamChat(
   sessionId: string,
   message: string,
   handlers: { onDelta?: (text: string) => void; onAction?: (action: ChatAction) => void; onDone?: (reply: string) => void },
+  here?: string | null,
 ): Promise<void> {
-  const response = await fetch(`/api/sites/${siteId}/chat`, json({ session_id: sessionId, message }))
+  const response = await fetch(`/api/sites/${siteId}/chat`, json({ session_id: sessionId, message, here }))
   if (!response.ok || !response.body) throw new Error(`chat failed: ${response.status}`)
   const reader = response.body.getReader()
   const decoder = new TextDecoder()

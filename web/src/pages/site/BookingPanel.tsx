@@ -1,3 +1,4 @@
+import { useQuery } from '@tanstack/react-query'
 import clsx from 'clsx'
 import { CalendarCheck, Navigation, Search, Users } from 'lucide-react'
 import { useEffect, useState } from 'react'
@@ -24,7 +25,20 @@ export function BookingPanel({ siteId }: { siteId: string }) {
   const [start, setStart] = useState(nextHourLocal)
   const [minutes, setMinutes] = useState(60)
   const [people, setPeople] = useState(6)
-  const [rooms, setRooms] = useState<Room[] | null>(null)
+  const [search, setSearch] = useState<{ s: string; e: string; people: number; near: string | null } | null>(null)
+  const bookingRevision = useTwin((s) => s.events.find((e) => e.type === 'booking')?.id)
+  const result = useQuery({
+    queryKey: ['bookableRooms', siteId, search, bookingRevision],
+    enabled: search !== null,
+    queryFn: async (): Promise<Room[]> => {
+      const { s, e, people, near } = search!
+      const r = await fetch(`/api/sites/${siteId}/rooms/bookable?start=${encodeURIComponent(s)}&end=${encodeURIComponent(e)}&people=${people}${near ? `&near=${encodeURIComponent(near)}` : ''}`)
+      if (!r.ok) throw new Error((await r.json()).detail ?? 'Could not load rooms')
+      return r.json()
+    },
+  })
+  const currentSearch = search && search.people === people && Date.parse(start) === Date.parse(search.s) && Date.parse(search.e) - Date.parse(search.s) === minutes * 60_000
+  const rooms = currentSearch ? result.data : undefined
   const [booked, setBooked] = useState<Set<string>>(new Set())
   const [busy, setBusy] = useState(false)
   const [err, setErr] = useState<string | null>(null)
@@ -35,30 +49,25 @@ export function BookingPanel({ siteId }: { siteId: string }) {
     return { s: s.toISOString(), e: new Date(s.getTime() + minutes * 60_000).toISOString() }
   }
 
-  const find = async () => {
-    setBusy(true)
+  const find = () => {
     setErr(null)
     try {
       const { s, e } = range()
-      // `near` (server extra) sorts by walking distance from "you are here" and adds distance_m.
       const b = useTwin.getState().building
-      const near = b ? originOf(b) : null
-      const r = await fetch(`/api/sites/${siteId}/rooms/bookable?start=${encodeURIComponent(s)}&end=${encodeURIComponent(e)}&people=${people}${near ? `&near=${encodeURIComponent(near)}` : ''}`)
-      const list: Room[] = r.ok ? await r.json() : await api.bookableRooms(siteId, s, e, people)
-      setRooms(list)
-      paint(list, booked)
+      setBooked(new Set())
+      const next = { s, e, people, near: b ? originOf(b) : null }
+      if (JSON.stringify(next) === JSON.stringify(search)) void result.refetch()
+      else setSearch(next)
     } catch (e) {
       setErr(String((e as Error).message))
-    } finally {
-      setBusy(false)
     }
   }
 
-  const paint = (list: BookableRoom[], bookedSet: Set<string>) => {
+  useEffect(() => {
     const glow: Record<string, RoomGlow> = {}
-    for (const r of list) glow[r.space_id] = bookedSet.has(r.space_id) ? 'booked' : r.free ? 'free' : 'busy'
+    for (const r of rooms ?? []) glow[r.space_id] = booked.has(r.space_id) && !r.free ? 'booked' : r.free ? 'free' : 'busy'
     setRoomGlow(glow)
-  }
+  }, [rooms, booked, setRoomGlow])
 
   // Clear glows when leaving the panel.
   useEffect(() => () => setRoomGlow({}), [setRoomGlow])
@@ -67,11 +76,12 @@ export function BookingPanel({ siteId }: { siteId: string }) {
     setBusy(true)
     setErr(null)
     try {
-      const { s, e } = range()
-      await api.book(siteId, { space_id: r.space_id, start: s, end: e, who: 'SiteTwin demo', title: `Meeting (${people} people)` })
+      if (!search) return
+      const { s, e } = search
+      await api.book(siteId, { space_id: r.space_id, start: s, end: e, who: 'SiteTwin demo', title: `Meeting (${search.people} people)` })
       const next = new Set(booked).add(r.space_id)
       setBooked(next)
-      paint(rooms ?? [], next)
+      await result.refetch()
       useTwin.getState().setHighlight({ ids: [r.space_id], label: `Booked: ${r.name}` })
     } catch (e) {
       setErr(String((e as Error).message))
@@ -102,15 +112,15 @@ export function BookingPanel({ siteId }: { siteId: string }) {
           <input type="number" min={1} max={200} value={people} onChange={(e) => setPeople(Number(e.target.value))} className={inputCls} />
         </Field>
       </div>
-      <Btn tone="accent" onClick={find} disabled={busy}>
+      <Btn tone="accent" onClick={find} disabled={busy || result.isFetching}>
         <Search size={14} /> Find free rooms
       </Btn>
-      {err && <div className="text-xs text-rose-300">{err}</div>}
+      {(err || result.error) && <div className="text-xs text-rose-300">{err ?? result.error?.message}</div>}
       {rooms && !rooms.length && <Empty>No room fits {people} people.</Empty>}
       {rooms && rooms.length > 0 && (
         <ul className="flex flex-col gap-1">
           {rooms.map((r) => {
-            const isBooked = booked.has(r.space_id)
+            const isBooked = booked.has(r.space_id) && !r.free
             return (
               <li
                 key={r.space_id}
@@ -133,7 +143,7 @@ export function BookingPanel({ siteId }: { siteId: string }) {
                   </span>
                 </span>
                 {r.free && !isBooked && (
-                  <Btn tone="ok" disabled={busy} onClick={(e) => { e.stopPropagation(); void book(r) }}>
+                  <Btn tone="ok" disabled={busy || result.isFetching} onClick={(e) => { e.stopPropagation(); void book(r) }}>
                     <CalendarCheck size={13} /> Book
                   </Btn>
                 )}

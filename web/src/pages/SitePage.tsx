@@ -12,6 +12,7 @@ import { api } from '../lib/api'
 import { useTwin } from '../lib/store'
 import type { Delivery, SiteEvent, WsMessage } from '../lib/types'
 import { useLive } from '../lib/ws'
+import { refreshRoute } from '../twin/actions'
 import { TwinLayout } from '../twin/layout'
 import { ROOM_LEGEND } from '../twin/palette'
 import { useTwinUi } from '../twin/uiStore'
@@ -78,20 +79,16 @@ export default function SitePage() {
     refetchTimer.current = window.setTimeout(async () => {
       try {
         const st = await api.state(siteId)
+        if (useTwin.getState().siteId !== siteId) return
         useTwin.getState().setState(st)
-        const route = useTwin.getState().route
-        if (route?.reachable && route.space_path.length > 1) {
-          const next = await api.route(siteId, {
-            from: route.space_path[0], to: route.space_path[route.space_path.length - 1],
-            step_free: route.step_free || undefined, min_width_m: route.min_width_m ?? undefined,
-          })
-          useTwin.getState().setRoute(next)
-        }
+        await refreshRoute(siteId)
       } catch {
         /* server hiccup: keep the old state */
       }
     }, 150)
   }, [siteId])
+
+  useEffect(() => () => window.clearTimeout(refetchTimer.current), [siteId])
 
   const showToast = useCallback((text: string, tone: 'info' | 'ok' | 'warn' = 'info') => {
     setToast({ text, tone })
@@ -103,10 +100,15 @@ export default function SitePage() {
       if (m.type === 'event' && m.event.site_id === siteId) {
         useTwin.getState().pushEvent(m.event)
         refetchState()
+        if (m.event.type === 'door_added') {
+          void api.building(siteId).then((next) => {
+            if (useTwin.getState().siteId === siteId) useTwin.setState({ building: next })
+          }).catch(() => undefined)
+        }
         if (m.event.type === 'delivery' && m.event.payload?.id) {
           const d = m.event.payload as Delivery
           showToast(m.event.title, d.status === 'ok' ? 'ok' : 'warn')
-          window.setTimeout(() => focusDelivery(d), 400)
+          window.setTimeout(() => { if (useTwin.getState().siteId === siteId) focusDelivery(d) }, 400)
           setTab('deliveries')
         } else showToast(m.event.title)
       } else if (m.type === 'capture_progress' && m.job.site_id === siteId) {
@@ -204,7 +206,7 @@ export default function SitePage() {
               <button onClick={() => setChatOpen(false)} className="absolute -left-3 top-1/2 z-10 grid size-6 -translate-y-1/2 place-items-center rounded-full border border-white/10 bg-slate-900 text-slate-400 hover:text-white" title="Hide chat">
                 <ChevronRight size={14} />
               </button>
-              <div className="min-h-0 flex-1 overflow-hidden">{siteId && <ChatPanel siteId={siteId} />}</div>
+              <div className="min-h-0 flex-1 overflow-hidden">{siteId && <ChatPanel key={siteId} siteId={siteId} />}</div>
             </Glass>
           </motion.div>
         ) : (
@@ -284,7 +286,7 @@ export default function SitePage() {
       <motion.div
         className="pointer-events-none absolute inset-0 bg-[#05070d]"
         initial={{ opacity: 1 }}
-        animate={{ opacity: building ? 0 : 1 }}
+        animate={{ opacity: building || error ? 0 : 1 }}
         transition={{ duration: 1.1, ease: 'easeOut' }}
       >
         {!building && !error && (

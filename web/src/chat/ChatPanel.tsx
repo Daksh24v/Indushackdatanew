@@ -1,3 +1,5 @@
+import { originOf } from '../twin/actions'
+import { useTwinUi } from '../twin/uiStore'
 // Owner: agent D. Chat + voice panel, rendered by SitePage.
 // Streams /api/sites/{id}/chat (SSE), shows "what I understood" chips, dispatches actions into useTwin,
 // push-to-talk (ElevenLabs STT via the server, Web Speech fallback) and spoken replies (TTS, fallback speechSynthesis).
@@ -197,8 +199,13 @@ export default function ChatPanel({ siteId }: { siteId: string }) {
 
   const handleAction = useCallback(
     (action: ChatAction, messageId: string) => {
+      if (useTwin.getState().siteId !== siteId) return
       switch (action.type) {
+        case 'set_location':
+          useTwinUi.getState().setOrigin(action.space_id)
+          break
         case 'show_route':
+          setFocusFloor(null)
           setRoute(action.route)
           break
         case 'highlight':
@@ -214,7 +221,7 @@ export default function ChatPanel({ siteId }: { siteId: string }) {
           )
           break
         case 'state_changed':
-          api.state(siteId).then(setTwinState).catch(() => undefined)
+          api.state(siteId).then((state) => { if (useTwin.getState().siteId === siteId) setTwinState(state) }).catch(() => undefined)
           break
       }
     },
@@ -233,6 +240,7 @@ export default function ChatPanel({ siteId }: { siteId: string }) {
       setMessages((list) => [...list, userMessage, reply])
       let finalText = ''
       try {
+        const building = useTwin.getState().building
         await streamChat(siteId, sessionId, text, {
           onDelta: (delta) => {
             finalText += delta
@@ -243,7 +251,7 @@ export default function ChatPanel({ siteId }: { siteId: string }) {
             finalText = full || finalText
             setMessages((list) => list.map((m) => (m.id === reply.id ? { ...m, text: finalText, pending: false } : m)))
           },
-        })
+        }, building ? originOf(building) : null)
         setMessages((list) => list.map((m) => (m.id === reply.id ? { ...m, pending: false } : m)))
         speak(finalText)
       } catch (error) {

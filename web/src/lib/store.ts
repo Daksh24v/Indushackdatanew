@@ -43,7 +43,7 @@ export const useTwin = create<TwinStore>((set) => ({
   understood: [],
 
   setSite: (siteId, building) =>
-    set({ siteId, building, state: null, route: null, highlight: null, focusFloorId: null, events: [], selectedId: null }),
+    set({ siteId, building, state: null, route: null, highlight: null, focusFloorId: null, events: [], selectedId: null, understood: [], timelineTs: null }),
   setState: (state) => set({ state }),
   setRoute: (route) => set({ route }),
   setHighlight: (highlight) => set({ highlight }),

@@ -2,7 +2,7 @@
 import { Html } from '@react-three/drei'
 import { useFrame, useThree } from '@react-three/fiber'
 import { SparkRenderer, SplatMesh } from '@sparkjsdev/spark'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import * as THREE from 'three'
 import type { RoomScan, XY } from '../lib/types'
 import { useTwin } from '../lib/store'
@@ -12,6 +12,7 @@ import { type TwinLayout, useLayout } from './layout'
 
 export type Scan = Omit<RoomScan, 'deviations'> & {
   floor_id?: string
+  ts?: string
   deviations: { wall_index: number; offset_m: number; segment: [XY, XY]; direction?: string }[]
 }
 
@@ -20,7 +21,7 @@ const DEMO_SCAN_URL = '/demo/room_scan.json'
 /** GET /api/capture/rooms?site_id=, falling back to the bundled demo scan for its site. */
 export function useRoomScans(siteId: string): Scan[] {
   const [scans, setScans] = useState<Scan[]>([])
-  const captureEvents = useTwin((s) => s.events.filter((e) => e.type === 'capture').length)
+  const captureEvents = useTwin((s) => s.events.find((e) => e.type === 'capture')?.id)
   useEffect(() => {
     let cancelled = false
     const load = async () => {
@@ -56,11 +57,13 @@ export function RoomScans({ siteId }: { siteId: string }) {
   const scans = useRoomScans(siteId)
   const building = useTwin((s) => s.building)
   const layout = useLayout()
-  if (!building || !scans.length) return null
+  const timelineTs = useTwin((s) => s.timelineTs)
+  const visibleScans = scans.filter((s) => !timelineTs || !s.ts || Date.parse(s.ts) <= Date.parse(timelineTs))
+  if (!building || !visibleScans.length) return null
   const idx = indexBuilding(building)
   // Newest scan per room only.
   const perRoom = new Map<string, Scan>()
-  for (const s of scans) if (!perRoom.has(s.space_id)) perRoom.set(s.space_id, s)
+  for (const s of visibleScans) if (!perRoom.has(s.space_id)) perRoom.set(s.space_id, s)
   return (
     <>
       <SparkHost />
@@ -96,9 +99,15 @@ function ScanView({ scan, floorId, layout }: { scan: Scan; floorId: string; layo
   const elevation = layout.byId.get(floorId)!.floor.elevation_m
   const building = useTwin((s) => s.building)!
   const focus = useTwin((s) => s.focusFloorId)
-  const splat = useMemo(() => {
+  const host = useRef<THREE.Group>(null)
+  const activeMesh = useRef<SplatMesh | null>(null)
+  const [status, setStatus] = useState('Loading scan…')
+  useEffect(() => {
+    const parent = host.current!
+    let cancelled = false
+    // GPU resources belong to the effect. React StrictMode runs setup/cleanup/setup;
+    // a memoized mesh would be disposed by the first cleanup and reused empty.
     const mesh = new SplatMesh({ url: scan.splat_url })
-    // transform: splat file → building frame (x, y, z-up, absolute metres). Then building → floor-local three.js.
     const toBuilding = new THREE.Matrix4().fromArray(scan.transform)
     const toLocal = new THREE.Matrix4().set(
       1, 0, 0, -layout.cx,
@@ -108,23 +117,38 @@ function ScanView({ scan, floorId, layout }: { scan: Scan; floorId: string; layo
     )
     mesh.matrixAutoUpdate = false
     mesh.matrix.multiplyMatrices(toLocal, toBuilding)
-    return mesh
+    parent.add(mesh)
+    activeMesh.current = mesh
+    mesh.initialized.then(() => {
+      if (!cancelled) setStatus('')
+    }).catch(() => {
+      if (!cancelled) setStatus('Scan could not load. Wall measurements are shown below.')
+    })
+    return () => {
+      cancelled = true
+      activeMesh.current = null
+      parent.remove(mesh)
+      // Loading is asynchronous; release any allocations made after unmount as well.
+      void mesh.initialized.then(() => mesh.dispose(), () => mesh.dispose())
+    }
   }, [scan.splat_url, scan.transform, layout, elevation])
-  useEffect(() => () => splat.dispose(), [splat])
+  useFrame(() => {
+    if (activeMesh.current) activeMesh.current.opacity = layout.byId.get(floorId)?.dim ?? 1
+  })
 
   const anchor = indexBuilding(building).anchors.get(scan.space_id)
   const [ax, az] = anchor ? layout.toXZ(anchor) : [0, 0]
   return (
     <group>
-      <primitive object={splat} />
+      <group ref={host} />
       {scan.deviations.map((d) => (
         <DeviationWall key={d.wall_index} seg={d.segment} offset={d.offset_m} direction={d.direction} layout={layout} showLabel={focus == null || focus === floorId} />
       ))}
       {(focus == null || focus === floorId) && (
-        <Html position={[ax, 3.6, az]} center zIndexRange={[28, 0]} style={{ pointerEvents: 'none' }}>
+        <Html position={[ax, 6, az]} center zIndexRange={[55, 51]} style={{ pointerEvents: 'none' }}>
           <div className="w-64 rounded-lg border border-violet-300/40 bg-slate-950/75 px-2.5 py-1.5 text-[11px] leading-snug text-violet-50 shadow-[0_0_24px_rgba(167,139,250,0.35)] backdrop-blur">
             <div className="mb-0.5 text-[10px] font-semibold uppercase tracking-wider text-violet-300">Room scan</div>
-            {scan.summary}
+            {status || scan.summary}
           </div>
         </Html>
       )}

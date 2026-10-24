@@ -3,7 +3,8 @@ import { useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import { AlertTriangle, Building2, FileJson, ImageIcon, Loader2, Upload, X } from 'lucide-react'
 import { api } from '../lib/api'
-import type { Site } from '../lib/types'
+import PlanReview from './PlanReview'
+import type { Building, Site } from '../lib/types'
 
 type Phase = 'idle' | 'uploading' | 'parsing' | 'done' | 'error'
 const KINDS: Site['kind'][] = ['factory', 'campus', 'office', 'airport', 'mall', 'other']
@@ -15,6 +16,7 @@ export default function AddSiteDialog(props: { lat: number; lon: number; onClose
   const [widthM, setWidthM] = useState('')
   const [phase, setPhase] = useState<Phase>('idle')
   const [error, setError] = useState<string | null>(null)
+  const [review, setReview] = useState<{ building: Building; warnings: string[] } | null>(null)
   const [created, setCreated] = useState<(Site & { warnings?: string[] }) | null>(null)
   const [dragging, setDragging] = useState(false)
   const [elapsed, setElapsed] = useState(0)
@@ -57,6 +59,26 @@ export default function AddSiteDialog(props: { lat: number; lon: number; onClose
     form.append('file', file)
     if (isPlan && widthM.trim()) form.append('width_m', widthM.trim())
     try {
+      const draft = await api.previewSite(form)
+      setReview(draft)
+      setPhase('idle')
+    } catch (err) {
+      setPhase('error')
+      setError((err as Error).message)
+    }
+  }
+
+  const confirm = async () => {
+    if (!review) return
+    setPhase('uploading')
+    setError(null)
+    const form = new FormData()
+    form.append('name', name.trim())
+    form.append('lat', String(props.lat))
+    form.append('lon', String(props.lon))
+    form.append('kind', kind)
+    form.append('file', new File([JSON.stringify(review.building)], 'building.json', { type: 'application/json' }))
+    try {
       const site = (await api.createSite(form)) as Site & { warnings?: string[] }
       setCreated(site)
       setPhase('done')
@@ -74,7 +96,7 @@ export default function AddSiteDialog(props: { lat: number; lon: number; onClose
         animate={{ opacity: 1, y: 0, scale: 1 }}
         transition={{ duration: 0.18 }}
         onClick={(event) => event.stopPropagation()}
-        className="w-full max-w-md rounded-2xl border border-white/10 bg-slate-950/85 p-5 text-slate-100 shadow-2xl shadow-black/50 backdrop-blur-xl"
+        className="max-h-[90vh] w-full max-w-xl overflow-y-auto rounded-2xl border border-white/10 bg-slate-950/85 p-5 text-slate-100 shadow-2xl shadow-black/50 backdrop-blur-xl"
       >
         <div className="mb-4 flex items-start gap-3">
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-sky-400 to-violet-400 text-slate-950">
@@ -91,7 +113,16 @@ export default function AddSiteDialog(props: { lat: number; lon: number; onClose
           </button>
         </div>
 
-        {created && created.warnings?.length ? (
+        {review && !created ? (
+          <div className="space-y-3">
+            <PlanReview building={review.building} file={file} warnings={review.warnings} />
+            {error && <p className="text-sm text-red-300">{error}</p>}
+            <div className="flex gap-2">
+              <button type="button" disabled={busy} onClick={() => { setReview(null); setError(null) }} className="flex-1 rounded-xl border border-white/10 py-2 text-sm disabled:opacity-40">Back</button>
+              <button type="button" disabled={busy} onClick={confirm} className="flex-1 rounded-xl bg-sky-500 py-2 text-sm font-medium disabled:opacity-40">{busy ? 'Saving…' : 'Confirm & create site'}</button>
+            </div>
+          </div>
+        ) : created && created.warnings?.length ? (
           <div className="space-y-3">
             <p className="text-sm text-emerald-300">“{created.name}” is ready. A few things were fixed automatically:</p>
             <ul className="max-h-40 list-disc space-y-1 overflow-y-auto pl-5 text-xs text-amber-200">
@@ -225,7 +256,7 @@ export default function AddSiteDialog(props: { lat: number; lon: number; onClose
                 className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-sky-500 py-2 text-sm font-medium text-white hover:bg-sky-400 disabled:opacity-40"
               >
                 {busy && <Loader2 size={14} className="animate-spin" />}
-                {busy ? 'Creating…' : 'Create site'}
+                {busy ? 'Reading…' : 'Review layout'}
               </button>
             </div>
           </div>

@@ -1,4 +1,10 @@
-# Plan: "SiteTwin": a living 3D twin for every Standort (Track 01)
+# SiteTwin: a living 3D twin for every Standort (Track 01)
+
+The interrupted integration is now completed and checked against the real local backend. See [integration status and demo steps](docs/INTEGRATION.md) for verified features, commands, and the external services that still need live validation.
+
+Quick start: `uv run uvicorn server.main:app --reload --port 8000`, then `cd web && npm run dev`. The application works without API keys using its labelled fallback paths.
+
+The original project plan follows.
 
 ## First step (housekeeping)
 - `git mv README.md outdated_organizer_info.md`, so the organizers' brief and the data format reference are kept.
@@ -190,7 +196,7 @@ BENCHMARK.md
 
 - **Image-to-3D quality or latency.** Pre-generate hero models for the demo items. The live run is a bonus.
 - **Splat training time on stage.** Show a pre-trained scan and say how long the live pipeline takes.
-- **Scale accuracy.** Show dimensions as "±3 cm (marker-based)" and keep the marker in every shot.
+- **Scale accuracy.** Show the measured tolerance returned by the pipeline and keep the marker in every shot. A single photo is typically ±8–10 cm; tighter estimates need several views.
 - **OSM licence.** Keep the ODbL attribution in the map footer and the 3D view (`ATTRIBUTION.md`).
 - **Swiss Dwellings floors are not aligned.** Stack them by centroid in the viewer only. The core and benchmark keep the raw coordinates.
 

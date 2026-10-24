@@ -209,3 +209,63 @@ def test_deliveries_in_state(client):
     frames = chat(client, "Where's the steel drum that came in yesterday?", session="d1")
     assert any(event == "action" and data["type"] == "highlight" and data["ids"] == ["dl-test"] for event, data in frames)
     assert "Logistics zone H-C5" in frames[-1][1]["reply"]
+
+
+def test_chat_uses_viewer_location_and_returns_spoken_location(client):
+    origin = f"{HERO}-F0-S030"
+    response = client.post(f"/api/sites/{HERO}/chat", json={
+        "session_id": "location", "message": "Take me to Quality lab 0.21", "here": origin})
+    frames = sse_frames(response.text)
+    route = next(d["route"] for e, d in frames if e == "action" and d["type"] == "show_route")
+    assert route["space_path"][0] == origin
+    assert not route["connectors"]
+    response = client.post(f"/api/sites/{HERO}/chat", json={
+        "session_id": "location", "message": "I'm in Office 1.04", "here": origin})
+    frames = sse_frames(response.text)
+    location = next(d for e, d in frames if e == "action" and d["type"] == "set_location")
+    assert location["space_id"] == f"{HERO}-F1-S004"
+    frames = chat(client, "Take me to Quality lab 0.21 without stairs", session="location")
+    route = next(d["route"] for e, d in frames if e == "action" and d["type"] == "show_route")
+    assert route["space_path"][0] == location["space_id"]
+    assert route["connectors"][0]["kind"] == "lift"
+
+
+def test_chat_rejects_invalid_viewer_location_before_streaming(client):
+    response = client.post(f"/api/sites/{HERO}/chat", json={"message": "Take me there", "here": "missing-room"})
+    assert response.status_code == 400
+    assert "detail" in response.json()
+
+
+def test_blocked_route_retains_request_for_reopening(client):
+    body = {"from": "Office 1.04", "to": "Quality lab 0.21", "via": ["Office 0.30"], "step_free": True}
+    client.post(f"/api/sites/{HERO}/closures", json={"element_id": "Office lift", "closed": True})
+    blocked = client.post(f"/api/sites/{HERO}/route", json=body).json()
+    assert not blocked["reachable"]
+    assert blocked["from_space_id"] == f"{HERO}-F1-S004"
+    assert blocked["to_space_id"] == f"{HERO}-F0-S021"
+    assert blocked["via"] == [f"{HERO}-F0-S030"]
+    client.post(f"/api/sites/{HERO}/closures", json={"element_id": "Office lift", "closed": False})
+    reopened = client.post(f"/api/sites/{HERO}/route", json={
+        "from": blocked["from_space_id"], "to": blocked["to_space_id"],
+        "via": blocked["via"], "step_free": blocked["step_free"]}).json()
+    assert reopened["reachable"]
+    assert reopened["via"][0] in reopened["space_path"]
+
+
+def test_site_preview_does_not_save_until_confirmed(client):
+    building = client.get(f"/api/sites/{HERO}/building").json()
+    before = client.get('/api/sites').json()
+    response = client.post('/api/sites', data={
+        'name': 'Review Test', 'lat': '48.1', 'lon': '11.5', 'preview': 'true'},
+        files={'file': ('building.json', json.dumps(building).encode(), 'application/json')})
+    assert response.status_code == 200
+    draft = response.json()
+    assert draft['building']['spaces'] and isinstance(draft['warnings'], list)
+    assert client.get('/api/sites').json() == before
+    from server import db
+    assert not (db.storage_dir() / 'sites').exists()
+    saved = client.post('/api/sites', data={'name': 'Review Test', 'lat': '48.1', 'lon': '11.5'},
+                        files={'file': ('building.json', json.dumps(draft['building']).encode(), 'application/json')})
+    assert saved.status_code == 200
+    assert len(client.get('/api/sites').json()) == len(before) + 1
+    assert client.get(f"/api/sites/{saved.json()['id']}/building").status_code == 200

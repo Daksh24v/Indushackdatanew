@@ -32,7 +32,7 @@ export interface Asset {
   position: XY; footprint?: { width_m: number; depth_m: number; rotation_deg: number }; source?: string
 }
 export interface Building {
-  building: { id: string; name: string; source: string; license: string; attribution: string; units: string }
+  building: { id: string; name: string; source: string; license: string; attribution: string; units: string; scale?: { plan_width_m: number; plan_height_m: number; user_supplied: boolean } }
   floors: Floor[]
   spaces: Space[]
   openings: Opening[]
@@ -43,6 +43,10 @@ export interface Building {
 export interface RouteFloorSegment { floor_id: string; level: number; elevation_m: number; points: XY[] }
 export interface BlockingOpening { id: string; width_m: number; position: XY; floor_id: string }
 export interface Route {
+  from_space_id?: string
+  to_space_id?: string
+  via?: string[]
+  message?: string
   reachable: boolean
   length_m: number
   step_free: boolean
@@ -98,6 +102,7 @@ export interface CaptureJob {
 }
 
 export type ChatAction =
+  | { type: 'set_location'; space_id: string }
   | { type: 'show_route'; route: Route }
   | { type: 'highlight'; ids: string[]; label?: string }
   | { type: 'focus_floor'; floor_id: string }

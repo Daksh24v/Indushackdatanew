@@ -35,12 +35,11 @@ export function RoutePanel({ building, siteId }: { building: Building; siteId: s
     setBusy(true)
     setErr(null)
     try {
-      const r = await navigate(siteId, resolve(to), {
+      await navigate(siteId, resolve(to), {
         from: from.trim() ? resolve(from) : undefined,
         step_free: stepFree,
         min_width_m: minWidth ? Number(minWidth) : undefined,
       })
-      if (!r.reachable) setErr((r as { message?: string }).message ?? r.steps[0] ?? 'Not reachable')
     } catch (e) {
       setErr(String((e as Error).message))
     } finally {
@@ -87,6 +86,7 @@ export function RoutePanel({ building, siteId }: { building: Building; siteId: s
         )}
       </div>
       {err && <div className="text-xs text-rose-300">{err}</div>}
+      {route && !route.reachable && <div className="text-xs text-rose-300">{route.message ?? 'No route is available with these constraints.'}</div>}
       {route?.reachable && (
         <div className="rounded-xl border border-white/10 bg-white/[0.03] p-3">
           <div className="flex items-baseline gap-2">

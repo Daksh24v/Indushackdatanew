@@ -445,9 +445,11 @@ def compute_route(site_id: str, start: str, destination: str, *, step_free: bool
             blocking = _blocking(bm, start_id, destination_id, min_width_m) if min_width_m else None
             payload = bm.route_payload(None, blocking=blocking) if HAVE_CORE else _empty_route()
             payload.update(step_free=step_free or min_width_m is not None, min_width_m=min_width_m,
-                           message=str(error), space_path=[start_id, destination_id])
+                           message=str(error), space_path=[start_id, destination_id],
+                           from_space_id=start_id, to_space_id=destination_id, via=via_ids)
             return payload
         payload = bm.route_payload(route)
+        payload["via"] = via_ids
         payload["steps"] = landmark_steps(bm, route)
         payload["from_space_id"], payload["to_space_id"] = start_id, destination_id
         return payload
