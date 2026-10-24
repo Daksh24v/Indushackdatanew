@@ -1,40 +1,18 @@
-# Talk to Your Building: Agent-First Indoor Navigation
+# Track 01 — Google Maps for Every Building: student kit
 
-**Industrial Agents Hackathon 2026**, in cooperation with UVC Partners and Anthropic. This is the student kit for Track 01.
+Build a conversational agent that knows a building as well as its facility manager does. You give it a building, and people just ask it things:
 
-## The story
+- *"Where is the 3D printer?"*
+- *"How do I get from the lobby to the CNC mill on floor 2 without stairs?"*
+- *"The east lift is closed for maintenance. What changes?"*
+- *"Add a door between rooms 2.03 and 2.04."*
 
-You have walked into an office complex or a factory hall and had no idea where to go. Outdoors we solved this long ago: type where you want to be, and a map shows the way. Indoors, floor plans are PDFs, machines live in spreadsheets, and the one person who knows where the 3D printer is has gone home.
-
-**Your mission:** give any building its own map you can talk to. Feed your system a floor plan and it learns the building. Then anyone can just talk to it.
-
-A factory hall is a building that never stops changing. Machines move, aisles get blocked, deliveries arrive every hour. Think of the people who ask:
-
-- **Service technician:** *"Which of the three presses is line 4, and how do I get there?"*
-- **Forklift driver:** *"Aisle 4 is blocked. Fastest route to dock B?"*
-- **Logistics:** *"Where is the steel drum delivered yesterday?"*
-
-Questions your agent should answer:
-
-- **Find:** *"Where is the 3D printer?"*
-- **Route:** *"How do I get from the lobby to the CNC mill on floor 2 without stairs?"*
-- **Edit:** *"Add a door between rooms 2.03 and 2.04."*
-- **React:** *"The east lift is closed for maintenance. What changes?"*
-
-## What you build
-
-An app you talk to. It shows 2D or 3D views of buildings and floors, animated routes, and the things inside: rooms, desks, machines, equipment. It works for an existing building and can set up a new one quickly from floor plans.
-
-The **agent** is the interaction layer: you say what you want and the system does it. The **core** underneath is mostly deterministic: a graph of rooms, doors, corridors, stairs and lifts, and a search that finds the best route.
-
-This kit has everything you need to start. No company data and no NDA; everything is public or generated.
+This kit has everything you need to start:
 
 - **Data:** 280 buildings with floor plans, equipment lists and plan images.
 - **Questions:** train and dev questions with answers, and the test questions you are scored on (without answers).
 - **A working starter agent** built on the Claude API.
 - **A scorer**, so you can measure yourself on dev before you submit.
-
-Credits for Claude, Lovable and ElevenLabs come via the organizers. UX and voice can play a real role: a voice-in, voice-out agent counts towards Interaction.
 
 ---
 
@@ -42,74 +20,24 @@ Credits for Claude, Lovable and ElevenLabs come via the organizers. UX and voice
 
 ### Levels (each builds on the previous)
 
-Every level earns points and builds on the one before, so a team that stops early still has something that works. This is the floor, not the ceiling: hit it first, then surprise us.
+1. **Locate:** one floor; find things and show them.
+2. **Route:** A to B on one floor, step-free routes, closed areas, multi-stop tours.
+3. **Scale:** several floors, then several buildings, with stairs, lifts and walkways.
+4. **Build:** create or update a building from floor plans, by conversation, in minutes.
+5. **Extend (optional, pick one and do it well):** moving assets, several users, industrial logistics (forklift routes, blocked aisles), capture on site with a phone, accessibility routing, presentation (isometric floors, animated routes, voice), or an AR overlay.
 
-1. **Locate:** on one floor, talk to the agent, find things and see them on a view.
-2. **Route:** A to B on one floor, with step-free routes, closed areas and multi-stop tours.
-3. **Scale:** several floors, then several buildings, with stairs, lifts and walkways between them.
-4. **Build:** create or update a building from floor plans, by conversation. A new building should take minutes, not days.
-5. **Extend (optional, pick one and do it well rather than three badly):**
-   - **Make things move:** tools or machines that change place via barcode, RFID or "this is now here", so the map stays current.
-   - **Several users:** colleagues update the building while others ask questions.
-   - **Industrial logistics:** route forklifts and materials through a hall with blocked aisles and delivery points.
-   - **Capture on site:** build a new building by walking through it with a phone instead of starting from a floor plan.
-   - **Accessibility:** wider doors, step-free and quiet routes.
-   - **Presentation:** isometric stacked floors, animated routes, voice in and out.
-   - **AR:** the route as an overlay on your phone. The hard part is knowing where you are (QR codes at doors, WiFi, other tricks).
-
-   Or surprise us.
-
-### Directions, not instructions
-
-How you get there is up to you. A few directions that save hours:
-
-- **Think in a graph.** Rooms and junctions are nodes; doors, corridors, stairs and lifts are edges; Dijkstra or A* finds the route. Agree on the data model in your first hour.
-- **One floor first.** Make one question work end to end before 3D or a pretty interface. A flat 2D plan with the route drawn on it is a fine start; three.js gets you extruded floors later.
-- **Spend your time on decisions.** AI writes most of the code, so think about the user: what should the agent ask when a request is vague? How does it show what it understood before it changes a plan? "Turn left at the printers" or room numbers?
-
-### Put yourself in their shoes
-
-Design for people, not for the jury. Would you trust this agent in a building you have never been in?
-
-| Who | What they need |
-|---|---|
-| First day at work | Knows no room names. Asks "where do I get coffee?" |
-| Wheelchair user | Step-free routes and wide doors, every time, without asking twice. |
-| Service technician | Hands full, phone in pocket. Wants voice and "turn left at the press". |
-| Facility manager | Moves a machine, closes a lift, adds a door. The map must keep up. |
-
-Use what is possible today: voice in and out, an agent that asks back, showing what it understood, live updates from a scan, AR on the phone, directions people can follow.
+The brief recommends this architecture. The **agent** is the conversation layer: it understands the person and calls tools. The **core** should be deterministic: a graph of rooms, doors, corridors, stairs and lifts, plus locatable assets, and a shortest-path search. Agree on your data model early, and get one question working end to end before you build any 3D or a pretty UI.
 
 ### Judging
 
-Three things count, in this order: does it work, is it a pleasure to use, and what did you add that we did not ask for.
-
 | Part | Points | What counts |
 |---|---|---|
-| Does it work | 55 | The Sunday benchmark plus automatic checks on buildings and questions you have not seen (levels 1–4): correct answers, valid routes, route length vs. the best route, buildings built correctly from plans. **Your test-set submission (section 6) is part of this.** |
-| Interaction | 25 | A short scripted conversation with tricky users, rated on a rubric. Does it ask only what it needs, show what it understood, and give directions a person can follow? Voice counts here. |
-| Creativity | 10 | Level 5 and add-ins: anything that makes the product better in a way we did not think of. |
-| Submission demo | 10 | Your demo video and technical explanation: clear, convincing, and showing the real product. |
+| Does it work | 55 | An automatic check on unseen buildings and questions (levels 1–4): correct answers, valid routes, route length vs. the optimum, buildings built correctly from plans. **Your test-set submission (section 6) is part of this.** |
+| Interaction | 25 | A scripted conversation with tricky users. The agent asks only what it needs, shows what it understood, and gives directions people can follow. |
+| Creativity | 10 | Level 5 and add-ins. |
+| Pitch and demo | 10 | A 3–5 minute live demo that works without a restart. |
 
-### Sunday benchmark
-
-Shortly before code freeze, we release one new building nobody has seen, plus a question file. Your agent has to answer them, including the best routes. Don't tune to the test buildings. Build something that works on any building in this format.
-
-- **Your run:** a single command in your repo, documented in `BENCHMARK.md`, with no manual steps between input and output.
-- **Submission:** you run it yourselves and submit the output with your project. We may re-run your command on the same input to verify.
-- **Scoring:** correct answers, valid routes and route length against the best route.
-
-The exact release time and the file format for the Sunday building will be announced with the release.
-
-### Submission and judging process
-
-There are no pitch rooms. All teams submit online by code freeze through the organizers' platform:
-
-1. A demo video of your app in action.
-2. A short technical explanation (architecture and tech stack).
-3. Your repository, including `BENCHMARK.md` and your answers file.
-
-We review all Track 01 submissions and pick four finalists. Finalists present at the joint final pitch session at Tacto: 3 minutes plus 1 minute Q&A per team.
+Shortly before code freeze on Sunday, a new, unseen building is released, and your agent has to find optimal routes in it. Don't tune to the test buildings. Build something that works on any building in this format.
 
 ---
 
@@ -117,6 +45,7 @@ We review all Track 01 submissions and pick four finalists. Finalists present at
 
 ```
 README.md                  this file
+CHANGELOG.md               what changed between kit versions (1.1.0: stair and lift costs)
 ATTRIBUTION.md             data sources and licences (read before you share anything)
 pyproject.toml             Python project for the starter agent and the scorer (uv or pip)
 .env.example               copy to .env and add your ANTHROPIC_API_KEY
@@ -206,7 +135,7 @@ Notes:
 - **Room types** include: `bedroom`, `living_room`, `kitchen`, `bathroom`, `toilet`, `storage`, `corridor`, `balcony`, `stairwell`, `lift`, `office`, `meeting_room`, `seminar_room`, `lecture_hall`, `lab`, `makerspace`, `library`, `server_room`, `technical_room`, `lobby`, `canteen`, `shop`, `print_room`, `locker_room`, `production_zone`, `additive_zone`, `assembly_zone`, `warehouse_zone`, `logistics_zone`, `quality_lab` and `generic_room` (an OSM room with no type tag).
 - **Door widths:** `width_m` matters for moving wide loads such as trolleys, pallets or beds. Swiss Dwellings and ResPlan widths come from the drawings. Procedural doors are 0.9 m for offices, 1.1 m for lifts, 1.2 m for labs, seminar rooms, meeting rooms, libraries, toilets and stairwells, and 1.6 m double doors for halls, storage, server and technical rooms. OSM doors default to 0.9 m.
 - **Step-free:** `step_free: false` means steps, such as a stair connector or an entrance with steps.
-- **Stairs and lifts:** a connector joins its stop spaces floor to floor in the order of their levels.
+- **Stairs and lifts:** stairs join their stop spaces floor to floor in the order of their levels. A lift joins every pair of its stops, because you ride it without getting out on the floors in between.
 - **Asset names** are unique within a building, e.g. `Desk 2.03-B` is the second desk in room 2.03.
 
 ### `equipment.csv`
@@ -219,14 +148,18 @@ Notes:
 
 ### The route model behind the expected answers
 
-Route lengths in the answers come from this graph, so your router reproduces them if you build the same one:
+Route lengths in the answers follow the same rules the judges grade with, so your router reproduces them if you build the same graph:
 
-- **Nodes:** one per space, anchored at shapely's `Polygon(space.polygon).representative_point()`, plus one node per opening at its `position`.
-- **Edges:** each space connects to each of its openings, weighted by the straight-line distance from the anchor to the opening.
-- **Stairs:** 12 m per floor between consecutive stops. **Lifts:** a 15 m wait plus 6 m per floor.
-- **Step-free routing** drops every edge with `step_free: false`.
-- **Parallel connections:** a stair and a lift can join the same two spaces. Keep both; a simple graph would drop one.
-- **Outside:** all entrances meet at one `"outside"` node at zero cost, so a route may go out one entrance and back in another for free. The benchmark questions only use cases where this shortcut makes no difference.
+- **Nodes:** one per space, at shapely's `representative_point()` of its polygon (repaired with `buffer(0)` if invalid), plus one per opening at its `position`.
+- **Walking inside a space:** every pair of the space's nodes (its centre point and each of its openings) is joined by the shortest walk inside the space that stays **15 cm off the walls** and goes **round corners, never through them**. That walk is computed on `polygon.buffer(-0.15)`, through a visibility graph of the start, the end and the corners of that shrunken outline (a segment counts as clear if `buffer(0.02)` of the shrunken outline covers it). An opening "lands" 30 cm inside each space (the nearest point of `polygon.buffer(-0.30)`), and the step from the opening to its landing is added. So a corridor you only pass through is walked door to door, not via its centre. Edge lengths are rounded to 3 decimals.
+- **Furniture and machines** are not obstacles. A route to an item ends in the room or bay that holds it.
+- **Stairs:** 2 m of walking per metre climbed. **Lifts:** 15 m for waiting and doors, once per ride however many floors it passes, plus 1 m per metre climbed. The height is the difference between the two floors' `elevation_m`. Stairs and lifts join the spaces' centre points.
+- **Step-free routing** drops every stair and every opening with `step_free: false`.
+- **Closures:** a closed stair, lift, opening or room can't be used at all.
+- **No way round the outside:** an entrance leads out of the building, not into another part of it. If two parts of a building only meet outside, there is no route between them, and the expected answer is `reachable: false`.
+- **Parallel connections:** a stair and a lift can join the same two spaces, and two doors the same two rooms. Keep both; a simple graph would drop one.
+
+These rules changed in 1.1.0; see `CHANGELOG.md`.
 
 `starter_agent/building_map.py` implements exactly this model.
 
@@ -242,10 +175,10 @@ One search or one route each. Every line is `{"id", "building_id", "kind", "ques
 |---|---|---|
 | `locate` | "Where is the coordinate measuring machine?" | `asset_id`, `space_id`, `space_name`, `floor_level`, `position` |
 | `count` | "How many chair items are on the floor 2?" | `count`, `asset_type`, `floor_level` |
-| `route` | "How do I get from Office 0.30 (Ground floor) to Office 0.46 (Ground floor)?" | `from_space_id`, `to_space_id`, `optimal_length_m`, `space_path`, `element_path` |
+| `route` | "How do I get from Office 0.30 (Ground floor) to Office 0.46 (Ground floor)?" | `from_space_id`, `to_space_id`, `optimal_length_m`, `space_path` (every space passed through, in order), `element_path` (the openings, stairs and lifts used), or `reachable: false` |
 | `route_step_free` | "Is there a step-free route from … to …?" | Same as route, or `reachable: false` |
 | `route_with_closure` | "Lift 1 is closed for maintenance. How do I get from … to …?" | Route fields plus `closed_element_id`, or `reachable: false` |
-| `tour` | "Starting at …, visit … then … in this order." | `stops`, `optimal_length_m`, `legs` |
+| `tour` | "Starting at …, visit … then … in this order." | `stops`, `optimal_length_m`, `legs` (one route per leg), or `reachable: false` |
 
 ### Benchmark questions (`questions.jsonl`; this is what is scored)
 
