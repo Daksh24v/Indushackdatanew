@@ -3,6 +3,7 @@
 The agent (agent.py) is only the conversation layer; every fact it states comes from this module.
 The route cost model matches the one used to compute the dataset's expected answers."""
 
+import copy
 import itertools
 import json
 import math
@@ -11,7 +12,6 @@ from pathlib import Path
 
 import networkx as nx
 from shapely.geometry import Polygon
-from shapely.ops import nearest_points
 
 OUTSIDE = "outside"
 DOOR_PREFIX = "door:"
@@ -37,6 +37,7 @@ class RouteResult:
     steps: list[str]
     step_free: bool
     closed: list[str] = field(default_factory=list)
+    node_path: list[str] = field(default_factory=list)
 
 
 class BuildingMap:
@@ -50,6 +51,12 @@ class BuildingMap:
         self.closed: set[str] = set()
         self.last_route: RouteResult | None = None
         self.located_asset_ids: list[str] = []
+
+    def copy(self) -> "BuildingMap":
+        """A deep copy, including closures, so a what-if edit cannot leak into later routes."""
+        clone = BuildingMap(copy.deepcopy(self.data))
+        clone.closed = set(self.closed)
+        return clone
 
     @classmethod
     def load(cls, path: Path) -> "BuildingMap":
@@ -176,13 +183,15 @@ class BuildingMap:
         point = Polygon(self.spaces[space_id]["polygon"]).representative_point()
         return (point.x, point.y)
 
-    def graph(self, step_free: bool) -> nx.MultiGraph:
+    def graph(self, step_free: bool, min_width: float | None = None) -> nx.MultiGraph:
         # MultiGraph: a stair and a lift may join the same two spaces; both edges must be kept.
         graph = nx.MultiGraph()
         anchors = {space_id: self.anchor(space_id) for space_id in self.spaces if space_id not in self.closed}
         graph.add_nodes_from(anchors)
         for opening in self.openings.values():
             if opening["id"] in self.closed or (step_free and not opening["step_free"]):
+                continue
+            if min_width is not None and float(opening.get("width_m") or 0.0) < min_width:
                 continue
             door = DOOR_PREFIX + opening["id"]
             for space_id in opening["space_ids"]:
@@ -211,15 +220,30 @@ class BuildingMap:
                 graph.add_edge(low_space, high_space, weight=cost, via=connector["id"])
         return graph
 
+    def distances_from(
+        self, start: str, step_free: bool = False, min_width: float | None = None
+    ) -> dict[str, float]:
+        """Shortest-path length from start to every reachable graph node."""
+        start_id = start if start in self.spaces or start == OUTSIDE else self.resolve_space(start)
+        graph = self.graph(step_free, min_width)
+        if start_id not in graph:
+            return {}
+        return dict(nx.single_source_dijkstra_path_length(graph, start_id, weight="weight"))
+
     def route(
-        self, start: str, destination: str, step_free: bool = False, via: list[str] | None = None
+        self,
+        start: str,
+        destination: str,
+        step_free: bool = False,
+        via: list[str] | None = None,
+        min_width: float | None = None,
     ) -> RouteResult:
         stops = [
             self.resolve_space(start),
             *[self.resolve_space(stop) for stop in via or []],
             self.resolve_space(destination),
         ]
-        graph = self.graph(step_free)
+        graph = self.graph(step_free, min_width)
         nodes: list[str] = []
         length = 0.0
         for leg_start, leg_end in itertools.pairwise(stops):
@@ -241,6 +265,7 @@ class BuildingMap:
             steps=self.directions(graph, nodes),
             step_free=step_free,
             closed=sorted(self.closed),
+            node_path=list(nodes),
         )
         self.last_route = result
         return result
@@ -304,14 +329,30 @@ class BuildingMap:
         first_polygon, second_polygon = Polygon(first_space["polygon"]), Polygon(second_space["polygon"])
         if first_polygon.distance(second_polygon) > ADJACENT_DISTANCE_M:
             raise MapError(f"{first_space['name']} and {second_space['name']} do not share a wall.")
-        point_a, point_b = nearest_points(first_polygon, second_polygon)
+        # Same midpoint the what-if skill uses, so a chat edit and a scored edit land in one place.
+        from nav.geometry import door_position
+
+        return self.insert_door(first_id, second_id, door_position(first_polygon, second_polygon), step_free)
+
+    def insert_door(
+        self,
+        first_id: str,
+        second_id: str,
+        position: tuple[float, float],
+        step_free: bool = True,
+        width_m: float = NEW_DOOR_WIDTH_M,
+    ) -> dict:
+        """Insert a door at an explicit position. The caller has already checked the two spaces."""
+        first_space = self.spaces[first_id]
+        if first_space["floor_id"] != self.spaces[second_id]["floor_id"]:
+            raise MapError("A door can only join two spaces on the same floor.")
         opening = {
             "id": f"{first_space['floor_id']}-O-new{len(self.openings) + 1}",
             "floor_id": first_space["floor_id"],
             "space_ids": [first_id, second_id],
             "kind": "door",
-            "position": [round((point_a.x + point_b.x) / 2, 3), round((point_a.y + point_b.y) / 2, 3)],
-            "width_m": NEW_DOOR_WIDTH_M,
+            "position": [round(position[0], 3), round(position[1], 3)],
+            "width_m": width_m,
             "step_free": step_free,
             "synthetic": True,
         }

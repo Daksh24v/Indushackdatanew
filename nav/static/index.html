@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Building guide</title>
+  <style>
+    :root {
+      --ink: #1c1915;
+      --paper: #f3efe6;
+      --panel: #221f1b;
+      --cream: #f6f1e7;
+      --line: #cfc6b8;
+      --route: #c4372f;
+      --muted: #8a8175;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      background: var(--paper);
+      color: var(--ink);
+      font: 15px/1.4 "Iowan Old Style", Palatino, Georgia, serif;
+    }
+    header {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+    h1 { font-size: 20px; margin: 0; font-weight: 600; }
+    #floors, #modes { display: flex; gap: 6px; flex-wrap: wrap; }
+    button, input, select {
+      font: inherit;
+      color: inherit;
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 6px 10px;
+    }
+    button { cursor: pointer; }
+    button.active, button:hover { border-color: var(--ink); }
+    main { display: flex; flex-direction: column; min-width: 0; }
+    #stage { position: relative; flex: 1; min-height: 0; }
+    canvas { width: 100%; height: 100%; display: block; }
+    #hover {
+      position: absolute;
+      left: 12px;
+      bottom: 12px;
+      background: rgba(255, 253, 248, 0.92);
+      border: 1px solid var(--line);
+      padding: 4px 8px;
+      border-radius: 6px;
+      min-height: 1.4em;
+    }
+    aside {
+      background: var(--panel);
+      color: var(--cream);
+      overflow: auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    aside h2 { font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; margin: 0; color: #c8bfb2; }
+    aside button, aside input, aside select { background: #2c2824; color: var(--cream); border-color: #4a433c; width: 100%; }
+    .row { display: flex; gap: 6px; }
+    .row > * { flex: 1; }
+    label { display: flex; gap: 8px; align-items: center; }
+    #results, #steps, #chatlog { display: flex; flex-direction: column; gap: 6px; }
+    .hit, .step, .bubble { background: #2c2824; border-radius: 6px; padding: 6px 8px; }
+    .bubble.you { background: #3a332c; }
+    #status { color: #e7b2ae; min-height: 1.2em; }
+    @media (max-width: 800px) {
+      body { grid-template-columns: 1fr; grid-template-rows: 55vh 1fr; height: auto; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1 id="title">Building</h1>
+      <div id="floors"></div>
+      <div id="modes">
+        <button id="stack" type="button">Stack floors</button>
+        <button id="plan" type="button">Plan image</button>
+      </div>
+    </header>
+    <div id="stage">
+      <canvas id="map"></canvas>
+      <div id="hover"></div>
+    </div>
+  </main>
+  <aside>
+    <section>
+      <h2>Find</h2>
+      <div class="row">
+        <input id="query" placeholder="printer, 0.21, toilet" aria-label="Search">
+        <button id="search" type="button">Search</button>
+      </div>
+      <div id="results"></div>
+    </section>
+    <section>
+      <h2>Route</h2>
+      <input id="start" placeholder="From" aria-label="Route start">
+      <input id="destination" placeholder="To" aria-label="Route destination">
+      <label><input id="stepfree" type="checkbox"> Step-free</label>
+      <button id="go" type="button">Show the way</button>
+      <div id="steps"></div>
+    </section>
+    <section>
+      <h2>Change the building</h2>
+      <select id="closure" aria-label="Lift or stair"></select>
+      <div class="row">
+        <button id="close" type="button">Close</button>
+        <button id="reopen" type="button">Reopen</button>
+      </div>
+      <input id="door-a" placeholder="First room" aria-label="First room for a new door">
+      <input id="door-b" placeholder="Second room" aria-label="Second room for a new door">
+      <button id="door" type="button">Add door on the shared wall</button>
+    </section>
+    <section>
+      <h2>Talk</h2>
+      <div id="chatlog"></div>
+      <div class="row">
+        <input id="message" placeholder="Where is the printer?" aria-label="Message">
+        <button id="send" type="button">Send</button>
+      </div>
+      <div class="row">
+        <button id="mic" type="button">Voice</button>
+        <button id="sample" type="button">Sample question</button>
+      </div>
+      <p id="status"></p>
+    </section>
+  </aside>
+  <script>
+    const canvas = document.getElementById("map")
+    const ctx = canvas.getContext("2d")
+    let state = null
+    let floorId = null
+    let stacked = false
+    let showPlan = false
+    let planImage = null
+    let anim = 1
+    let hover = ""
+
+    const colours = {
+      room: "#fffdf8",
+      hall: "#d5e3ea",
+      corridor: "#e6e0d4",
+      stair: "#ddd4c4",
+      lift: "#d7dbe3",
+      outdoor: "#e3ead5",
+      closed: "#f0c2be",
+      route: "#c4372f"
+    }
+
+    async function api(path, body) {
+      const response = await fetch(path, body ? {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body)
+      } : undefined)
+      const payload = await response.json()
+      if (!response.ok) throw new Error(payload.error || response.statusText)
+      return payload
+    }
+
+    function setStatus(text) { document.getElementById("status").textContent = text || "" }
+
+    async function reload() {
+      state = await api("/api/state")
+      document.getElementById("title").textContent = state.name
+      if (!floorId) floorId = state.floors[0]?.id
+      renderFloors()
+      renderClosures()
+      renderSteps()
+      if (state.route) anim = 0
+      draw()
+      if (anim < 1) requestAnimationFrame(tick)
+    }
+
+    function renderFloors() {
+      const bar = document.getElementById("floors")
+      bar.innerHTML = ""
+      for (const floor of state.floors) {
+        const button = document.createElement("button")
+        button.type = "button"
+        button.textContent = floor.name
+        button.className = floor.id === floorId ? "active" : ""
+        button.onclick = () => { floorId = floor.id; planImage = null; renderFloors(); draw() }
+        bar.appendChild(button)
+      }
+    }
+
+    function renderClosures() {
+      const select = document.getElementById("closure")
+      const previous = select.value
+      select.innerHTML = ""
+      for (const connector of state.connectors) {
+        const option = document.createElement("option")
+        option.value = connector.name
+        option.textContent = `${connector.name}${connector.closed ? " (closed)" : ""}`
+        select.appendChild(option)
+      }
+      if (previous) select.value = previous
+    }
+
+    function renderSteps() {
+      const box = document.getElementById("steps")
+      box.innerHTML = ""
+      if (!state.route) return
+      const title = document.createElement("div")
+      title.className = "step"
+      title.textContent = `${state.route.length_m} m${state.route.step_free ? " · step-free" : ""}`
+      box.appendChild(title)
+      for (const step of state.route.steps) {
+        const line = document.createElement("div")
+        line.className = "step"
+        line.textContent = step
+        box.appendChild(line)
+      }
+    }
+
+    function visibleSpaces() {
+      return state.spaces.filter(space => stacked || space.floor_id === floorId)
+    }
+
+    function floorIndex(id) {
+      return state.floors.findIndex(floor => floor.id === id)
+    }
+
+    function bounds() {
+      let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity
+      for (const space of state.spaces) {
+        for (const [x, y] of space.polygon) {
+          minX = Math.min(minX, x); minY = Math.min(minY, y)
+          maxX = Math.max(maxX, x); maxY = Math.max(maxY, y)
+        }
+      }
+      return { minX, minY, maxX, maxY }
+    }
+
+    function resize() {
+      const rect = canvas.getBoundingClientRect()
+      const width = Math.max(1, Math.floor(rect.width * devicePixelRatio))
+      const height = Math.max(1, Math.floor(rect.height * devicePixelRatio))
+      if (canvas.width !== width || canvas.height !== height) {
+        canvas.width = width
+        canvas.height = height
+      }
+    }
+
+    function projector() {
+      const box = bounds()
+      const pad = 28 * devicePixelRatio
+      const extra = stacked ? (state.floors.length - 1) * 42 * devicePixelRatio : 0
+      const width = Math.max(box.maxX - box.minX, 1)
+      const height = Math.max(box.maxY - box.minY, 1)
+      const scale = Math.min((canvas.width - pad * 2 - extra) / width, (canvas.height - pad * 2 - extra) / height)
+      return (x, y, index) => {
+        const sx = pad + (x - box.minX) * scale + (stacked ? index * 36 * devicePixelRatio : 0)
+        const sy = pad + extra + (box.maxY - y) * scale - (stacked ? index * 28 * devicePixelRatio : 0)
+        return [sx, sy]
+      }
+    }
+
+    function drawPolygon(project, space) {
+      const index = floorIndex(space.floor_id)
+      ctx.beginPath()
+      space.polygon.forEach(([x, y], i) => {
+        const [sx, sy] = project(x, y, index)
+        if (i === 0) ctx.moveTo(sx, sy)
+        else ctx.lineTo(sx, sy)
+      })
+      ctx.closePath()
+      ctx.fillStyle = space.closed ? colours.closed : (colours[space.type] || colours.room)
+      ctx.strokeStyle = stacked && space.floor_id !== floorId ? "#b7ad9f" : "#5c564e"
+      ctx.lineWidth = 1
+      ctx.fill()
+      ctx.stroke()
+    }
+
+    function draw() {
+      if (!state) return
+      resize()
+      const project = projector()
+      ctx.clearRect(0, 0, canvas.width, canvas.height)
+      ctx.fillStyle = "#f7f3ea"
+      ctx.fillRect(0, 0, canvas.width, canvas.height)
+      if (showPlan && planImage) {
+        ctx.globalAlpha = 0.35
+        ctx.drawImage(planImage, 0, 0, canvas.width, canvas.height)
+        ctx.globalAlpha = 1
+      }
+      for (const space of visibleSpaces()) drawPolygon(project, space)
+      for (const asset of state.assets) {
+        if (!stacked && asset.floor_id !== floorId) continue
+        const [sx, sy] = project(asset.position[0], asset.position[1], floorIndex(asset.floor_id))
+        ctx.fillStyle = "#2f5d50"
+        ctx.fillRect(sx - 3, sy - 3, 6, 6)
+      }
+      for (const opening of state.openings) {
+        if (!opening.synthetic || (!stacked && opening.floor_id !== floorId)) continue
+        const [sx, sy] = project(opening.position[0], opening.position[1], floorIndex(opening.floor_id))
+        ctx.fillStyle = "#1d4e89"
+        ctx.beginPath()
+        ctx.arc(sx, sy, 5, 0, Math.PI * 2)
+        ctx.fill()
+      }
+      if (state.route) {
+        const points = state.route.points.filter(point => stacked || point.floor_id === floorId)
+        const count = Math.max(1, Math.ceil(anim * points.length))
+        ctx.strokeStyle = colours.route
+        ctx.lineWidth = 3 * devicePixelRatio
+        ctx.lineJoin = "round"
+        ctx.beginPath()
+        points.slice(0, count).forEach((point, i) => {
+          const [sx, sy] = project(point.x, point.y, floorIndex(point.floor_id))
+          if (i === 0) ctx.moveTo(sx, sy)
+          else ctx.lineTo(sx, sy)
+        })
+        ctx.stroke()
+      }
+    }
+
+    function tick() {
+      anim = Math.min(1, anim + 0.02)
+      draw()
+      if (anim < 1) requestAnimationFrame(tick)
+    }
+
+    function pointInPolygon(x, y, polygon) {
+      let inside = false
+      for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
+        const [xi, yi] = polygon[i]
+        const [xj, yj] = polygon[j]
+        const intersect = ((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / ((yj - yi) || 1e-9) + xi)
+        if (intersect) inside = !inside
+      }
+      return inside
+    }
+
+    canvas.addEventListener("mousemove", event => {
+      if (!state) return
+      const rect = canvas.getBoundingClientRect()
+      const px = (event.clientX - rect.left) * devicePixelRatio
+      const py = (event.clientY - rect.top) * devicePixelRatio
+      const project = projector()
+      let found = ""
+      for (const space of visibleSpaces()) {
+        const index = floorIndex(space.floor_id)
+        const polygon = space.polygon.map(([x, y]) => project(x, y, index))
+        if (pointInPolygon(px, py, polygon)) found = `${space.name} · ${space.room_type.replaceAll("_", " ")}`
+      }
+      if (found !== hover) {
+        hover = found
+        document.getElementById("hover").textContent = found
+      }
+    })
+
+    function addResult(item) {
+      const row = document.createElement("div")
+      row.className = "hit"
+      const label = item.kind === "asset" ? `${item.name} — ${item.in}` : `${item.name} · ${item.floor}`
+      row.textContent = label
+      const actions = document.createElement("div")
+      actions.className = "row"
+      for (const [field, title] of [["start", "From"], ["destination", "To"]]) {
+        const button = document.createElement("button")
+        button.type = "button"
+        button.textContent = title
+        button.onclick = () => { document.getElementById(field).value = item.name }
+        actions.appendChild(button)
+      }
+      row.appendChild(actions)
+      document.getElementById("results").appendChild(row)
+    }
+
+    document.getElementById("search").onclick = async () => {
+      setStatus("")
+      const query = document.getElementById("query").value
+      const payload = await api("/api/search", { query })
+      const box = document.getElementById("results")
+      box.innerHTML = ""
+      if (!payload.results.length) {
+        box.textContent = `Nothing matches “${query}”.`
+        return
+      }
+      payload.results.forEach(addResult)
+      if (payload.total > 1) {
+        const extra = payload.total > payload.results.length ? ` Showing ${payload.results.length} of ${payload.total}.` : ""
+        setStatus("Several matches. Pick From or To." + extra)
+      }
+    }
+
+    document.getElementById("go").onclick = async () => {
+      try {
+        setStatus("")
+        await api("/api/route", {
+          start: document.getElementById("start").value,
+          destination: document.getElementById("destination").value,
+          step_free: document.getElementById("stepfree").checked
+        })
+        await reload()
+      } catch (error) { setStatus(error.message) }
+    }
+
+    async function closure(closed) {
+      try {
+        await api("/api/closed", { element: document.getElementById("closure").value, closed })
+        await reload()
+        setStatus(closed ? "Closed. Routes avoid it." : "Reopened.")
+      } catch (error) { setStatus(error.message) }
+    }
+    document.getElementById("close").onclick = () => closure(true)
+    document.getElementById("reopen").onclick = () => closure(false)
+
+    document.getElementById("door").onclick = async () => {
+      try {
+        const payload = await api("/api/door", {
+          first: document.getElementById("door-a").value,
+          second: document.getElementById("door-b").value
+        })
+        await reload()
+        setStatus(`Door added at ${payload.added.position.join(", ")} m.`)
+      } catch (error) { setStatus(error.message) }
+    }
+
+    function bubble(text, mine) {
+      const line = document.createElement("div")
+      line.className = mine ? "bubble you" : "bubble"
+      line.textContent = text
+      document.getElementById("chatlog").appendChild(line)
+    }
+
+    async function sendText(text) {
+      bubble(text, true)
+      const payload = await api("/api/chat", { text })
+      bubble(payload.reply, false)
+      await reload()
+      return payload.reply
+    }
+
+    document.getElementById("send").onclick = async () => {
+      const input = document.getElementById("message")
+      const text = input.value.trim()
+      if (!text) return
+      input.value = ""
+      try { await sendText(text) } catch (error) { setStatus(error.message) }
+    }
+    document.getElementById("message").addEventListener("keydown", event => {
+      if (event.key === "Enter") document.getElementById("send").click()
+    })
+
+    document.getElementById("sample").onclick = () => {
+      document.getElementById("message").value = "Which is the largest kitchen on the floor 1, and how big is it in m²? Finish with a line 'Answer: <room name or number>, <area> m²'."
+    }
+
+    document.getElementById("stack").onclick = () => {
+      stacked = !stacked
+      document.getElementById("stack").classList.toggle("active", stacked)
+      draw()
+    }
+    document.getElementById("plan").onclick = async () => {
+      showPlan = !showPlan
+      document.getElementById("plan").classList.toggle("active", showPlan)
+      if (showPlan && !planImage) {
+        const floor = state.floors.find(item => item.id === floorId)
+        planImage = new Image()
+        planImage.onload = draw
+        planImage.onerror = () => { showPlan = false; setStatus("This floor has no plan image.") }
+        planImage.src = floor.plan
+      }
+      draw()
+    }
+
+    let recorder = null
+    document.getElementById("mic").onclick = async () => {
+      if (!state.voice) { setStatus("Voice needs ELEVENLABS_API_KEY."); return }
+      if (recorder) { recorder.stop(); return }
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
+      const chunks = []
+      recorder = new MediaRecorder(stream)
+      recorder.ondataavailable = event => chunks.push(event.data)
+      recorder.onstop = async () => {
+        stream.getTracks().forEach(track => track.stop())
+        recorder = null
+        const blob = new Blob(chunks, { type: "audio/webm" })
+        const bytes = new Uint8Array(await blob.arrayBuffer())
+        let binary = ""
+        bytes.forEach(byte => { binary += String.fromCharCode(byte) })
+        try {
+          const heard = await api("/api/transcribe", { audio_base64: btoa(binary), mime: blob.type })
+          const reply = await sendText(heard.text)
+          const spoken = await api("/api/speak", { text: reply })
+          new Audio("data:audio/mpeg;base64," + spoken.audio_base64).play()
+        } catch (error) { setStatus(error.message) }
+      }
+      recorder.start()
+      setStatus("Listening. Click Voice again to send.")
+    }
+
+    window.addEventListener("resize", draw)
+    reload().catch(error => setStatus(error.message))
+  </script>
+</body>
+</html>

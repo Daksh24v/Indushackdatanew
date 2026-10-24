@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+"""Run the guide on one building. See BENCHMARK.md."""
+
+from nav.benchmark import main
+
+if __name__ == "__main__":
+    main()
