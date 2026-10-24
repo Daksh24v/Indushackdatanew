@@ -11,7 +11,7 @@ Coordinates are always the building's local metres (x right, y up) from `buildin
 | Core geometry, routing, benchmark | A | `core/`, `agent/answer.py`, `tests/`, `BENCHMARK.md` |
 | Map + 3D twin | B | `web/src/map/`, `web/src/twin/`, `web/src/pages/` |
 | Capture (phone → 3D → checks) | C | `capture/`, `web/src/capture/`, `scripts/print_marker.py` |
-| Server, chat agent, voice, seed data | D | `server/`, `agent/tools.py`, `agent/prompts.py`, `agent/chat.py`, `scripts/geocode_sites.py`, `scripts/seed_demo_events.py`, `web/src/chat/` |
+| Server, chat agent, voice, seed data | D | `server/`, `agent/tools.py`, `agent/prompts.py`, `agent/chat.py`, `scripts/geocode_sites.py`, `scripts/seed_demo_events.py`, `web/src/chat/`, `web/src/sites/` |
 | Shared (lead; ask before changing) | lead | `docs/CONTRACT.md`, `web/src/lib/`, `web/src/App.tsx`, `web/src/main.tsx`, `pyproject.toml`, `web/package.json` |
 
 Dependencies: if you need a new package, add it with `uv add` / `npm install` and mention it in your final report.
@@ -158,3 +158,12 @@ cd web && npm run dev        # http://localhost:5173, proxies /api, /ws, /storag
 
 ## Changelog
 - v1: initial contract (lead).
+
+## Cross-owned React components (props are fixed; owners fill in the bodies)
+
+| Component | Owner | Props | Rendered by |
+|---|---|---|---|
+| `web/src/chat/ChatPanel.tsx` | D | `{ siteId: string }`; dispatches chat actions into `useTwin` | SitePage (B) |
+| `web/src/sites/AddSiteDialog.tsx` | D | `{ lat, lon, onClose, onCreated(site) }` | MapPage (B) |
+| `web/src/capture/CaptureQR.tsx` | C | `{ siteId: string }` | SitePage (B) |
+| `web/src/capture/DeliveryCard.tsx` | C | `{ delivery: Delivery }` | SitePage (B) |
